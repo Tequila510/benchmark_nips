@@ -1,0 +1,649 @@
+{
+    "app": "weipinhui",
+    "testcases": [
+        {
+            "testcase_id": 1,
+            "testcase_desc": "在首页推荐页浏览女装频道，分类中选择连衣裙，筛选价格 200 元以内，查看第一个商品详情并加入购物车。",
+            "clean": {
+                "trace": [
+                    {  
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./weipinhui_tc1_b_1.png",
+                        "xml_path": "./weipinhui_tc1_b_1.xml",
+                        "action": "click",
+                        "bbox": [289,148,361,232]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./weipinhui_tc1_b_2.png",
+                        "xml_path": "./weipinhui_tc1_b_2.xml",
+                        "action": "click",
+                        "bbox": [26,937,148,1095]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./weipinhui_tc1_b_3.png",
+                        "xml_path": "./weipinhui_tc1_b_3.xml",
+                        "action": "click",
+                        "bbox": [608,357,688,429]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./weipinhui_tc1_b_4.png",
+                        "xml_path": "./weipinhui_tc1_b_4.xml",
+                        "action": "click",
+                        "bbox": [96,335,280,395]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./weipinhui_tc1_b_5.png",
+                        "xml_path": "./weipinhui_tc1_b_5.xml",
+                        "action": "click",
+                        "bbox": [375,1392,696,1488]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./weipinhui_tc1_b_6.png",
+                        "xml_path": "./weipinhui_tc1_b_6.xml",
+                        "action": "click",
+                        "bbox": [16,232,352,812]
+                    },
+                    {
+                        "checkpoint_id": 7,
+                        "screenshot_path": "./weipinhui_tc1_b_7.png",
+                        "xml_path": "./weipinhui_tc1_b_7.xml",
+                        "action": "click",
+                        "bbox": [172,1384,288,1512]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 2,
+            "testcase_desc": "从首页进入“今日特卖”入口，订阅后从个人中心重新进入。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./weipinhui_tc2_b_1.png",
+                        "xml_path": "./weipinhui_tc2_b_1.xml",
+                        "action": "click",
+                        "bbox": [0,849,720,1160]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./weipinhui_tc2_b_2.png",
+                        "xml_path": "./weipinhui_tc2_b_2.xml",
+                        "action": "click",
+                        "bbox": [510,77,550,138]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./weipinhui_tc2_b_3.png",
+                        "xml_path": "./weipinhui_tc2_b_3.xml",
+                        "action": "click",
+                        "bbox": [24,84,72,132]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./weipinhui_tc2_b_4.png",
+                        "xml_path": "./weipinhui_tc2_b_4.xml",
+                        "action": "click",
+                        "bbox": [576,1414,720,1512]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./weipinhui_tc2_b_5.png",
+                        "xml_path": "./weipinhui_tc2_b_5.xml",
+                        "action": "click",
+                        "bbox": [577,609,704,737]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./weipinhui_tc2_b_6.png",
+                        "xml_path": "./weipinhui_tc2_b_6.xml",
+                        "action": "click",
+                        "bbox": [16,579,153,707]
+                    },
+                    {
+                        "checkpoint_id": 7,
+                        "screenshot_path": "./weipinhui_tc2_b_7.png",
+                        "xml_path": "./weipinhui_tc2_b_7.xml",
+                        "action": "click",
+                        "bbox": [0,238,122,348]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 3,
+            "testcase_desc": "在首页搜索栏搜索“牛仔裤”，切换为单列展示，再使用筛选功能选择“男士休闲裤”“L 码”。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./weipinhui_tc3_b_1.png",
+                        "xml_path": "./weipinhui_tc3_b_1.xml",
+                        "action": "click",
+                        "bbox": [10,74,564,139]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./weipinhui_tc3_b_2.png",
+                        "xml_path": "./weipinhui_tc3_b_2.xml",
+                        "action": "input",
+                        "bbox": [88,77,512,137],
+                        "input_value": "牛仔裤"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./weipinhui_tc3_b_3.png",
+                        "xml_path": "./weipinhui_tc3_b_3.xml",
+                        "action": "click",
+                        "bbox": [527,459,559,531]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./weipinhui_tc3_b_4.png",
+                        "xml_path": "./weipinhui_tc3_b_4.xml",
+                        "action": "click",
+                        "bbox": [96,785,280,845]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./weipinhui_tc3_b_5.png",
+                        "xml_path": "./weipinhui_tc3_b_5.xml",
+                        "action": "click",
+                        "bbox": [96,1006,280,1062]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./weipinhui_tc3_b_6.png",
+                        "xml_path": "./weipinhui_tc3_b_6.xml",
+                        "action": "click",
+                        "bbox": [375,1392,696,1488]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 4,
+            "testcase_desc": "进入列表中第一个商品，下滑至能看到评价，再分享该商品到微信好友。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./weipinhui_tc4_b_1.png",
+                        "xml_path": "./weipinhui_tc4_b_1.xml",
+                        "action": "click",
+                        "bbox": [0,224,720,512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./weipinhui_tc4_b_2.png",
+                        "xml_path": "./weipinhui_tc4_b_2.xml",
+                        "action": "scroll",
+                        "bbox": [0,0,720,1512],
+                        "input_value": "up"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./weipinhui_tc4_b_3.png",
+                        "xml_path": "./weipinhui_tc4_b_3.xml",
+                        "action": "click",
+                        "bbox": [542,75,606,139]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./weipinhui_tc4_b_4.png",
+                        "xml_path": "./weipinhui_tc4_b_4.xml",
+                        "action": "click",
+                        "bbox": [35,1184,175,1353]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 5,
+            "testcase_desc": "在首页更多分类中，查看更多品牌活动，并预约4月17日的第一款预告商品。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./weipinhui_tc5_b_1.png",
+                        "xml_path": "./weipinhui_tc5_b_1.xml",
+                        "action": "click",
+                        "bbox": [588,674,696,782]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./weipinhui_tc5_b_2.png",
+                        "xml_path": "./weipinhui_tc5_b_2.xml",
+                        "action": "click",
+                        "bbox": [502,970,694,1008]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./weipinhui_tc5_b_3.png",
+                        "xml_path": "./weipinhui_tc5_b_3.xml",
+                        "action": "click",
+                        "bbox": [432,168,524,260]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./weipinhui_tc5_b_4.png",
+                        "xml_path": "./weipinhui_tc5_b_4.xml",
+                        "action": "click",
+                        "bbox": [533,694,678,740]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 6,
+            "testcase_desc": "从首页进入大牌寻宝，查看运动分类中的第一款商品并添加收藏。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./weipinhui_tc6_b_1.png",
+                        "xml_path": "./weipinhui_tc6_b_1.xml",
+                        "action": "click",
+                        "bbox": [288,1414,432,1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./weipinhui_tc6_b_2.png",
+                        "xml_path": "./weipinhui_tc6_b_2.xml",
+                        "action": "click",
+                        "bbox": [580,172,704,268]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./weipinhui_tc6_b_3.png",
+                        "xml_path": "./weipinhui_tc6_b_3.xml",
+                        "action": "click",
+                        "bbox": [15,258,353,744]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./weipinhui_tc6_b_4.png",
+                        "xml_path": "./weipinhui_tc6_b_4.xml",
+                        "action": "click",
+                        "bbox": [458,75,522,139]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 7,
+            "testcase_desc": "浏览足迹中的第一款商品。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./weipinhui_tc7_b_1.png",
+                        "xml_path": "./weipinhui_tc7_b_1.xml",
+                        "action": "click",
+                        "bbox": [576,1414,720,1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./weipinhui_tc7_b_2.png",
+                        "xml_path": "./weipinhui_tc7_b_2.xml",
+                        "action": "click",
+                        "bbox": [245,416,473,488]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./weipinhui_tc7_b_3.png",
+                        "xml_path": "./weipinhui_tc7_b_3.xml",
+                        "action": "click",
+                        "bbox": [12,334,236,756]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 8,
+            "testcase_desc": "在首页切换到“男装”频道，进入“工装裤”分类，进入列表中第一个商品，查看详情后从底部浮层直接加入购物车。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./weipinhui_tc8_b_1.png",
+                        "xml_path": "./weipinhui_tc8_b_1.xml",
+                        "action": "click",
+                        "bbox": [289,148,361,232]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./weipinhui_tc8_b_2.png",
+                        "xml_path": "./weipinhui_tc8_b_2.xml",
+                        "action": "click",
+                        "bbox": [164,680,425,838]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./weipinhui_tc8_b_3.png",
+                        "xml_path": "./weipinhui_tc8_b_3.xml",
+                        "action": "click",
+                        "bbox": [16,438,352,1030]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./weipinhui_tc8_b_4.png",
+                        "xml_path": "./weipinhui_tc8_b_4.xml",
+                        "action": "click",
+                        "bbox": [172,1384,288,1512]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 9,
+            "testcase_desc": "在首页切换到“女装”频道，切换“裙装”分类，查看“公主裙”分类，按销量单列展示。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./weipinhui_tc9_b_1.png",
+                        "xml_path": "./weipinhui_tc9_b_1.xml",
+                        "action": "click",
+                        "bbox": [109,148,181,232]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./weipinhui_tc9_b_2.png",
+                        "xml_path": "./weipinhui_tc9_b_2.xml",
+                        "action": "click",
+                        "bbox": [495,232,630,319]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./weipinhui_tc9_b_3.png",
+                        "xml_path": "./weipinhui_tc9_b_3.xml",
+                        "action": "click",
+                        "bbox": [441,319,556,434]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./weipinhui_tc9_b_4.png",
+                        "xml_path": "./weipinhui_tc9_b_4.xml",
+                        "action": "click",
+                        "bbox": [112,357,216,429]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./weipinhui_tc9_b_5.png",
+                        "xml_path": "./weipinhui_tc9_b_5.xml",
+                        "action": "click",
+                        "bbox": [527,151,559,223]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./weipinhui_tc9_b_6.png",
+                        "xml_path": "./weipinhui_tc9_b_6.xml",
+                        "action": "finish"
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 10,
+            "testcase_desc": "在首页通过“家居”频道进入床垫类目，使用筛选选择材质羊毛，查看第一个商品详情。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./weipinhui_tc10_b_1.png",
+                        "xml_path": "./weipinhui_tc10_b_1.xml",
+                        "action": "click",
+                        "bbox": [207,148,279,232]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./weipinhui_tc10_b_2.png",
+                        "xml_path": "./weipinhui_tc10_b_2.xml",
+                        "action": "click",
+                        "bbox": [441,488,556,603]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./weipinhui_tc10_b_3.png",
+                        "xml_path": "./weipinhui_tc10_b_3.xml",
+                        "action": "click",
+                        "bbox": [608,459,688,531]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./weipinhui_tc10_b_4.png",
+                        "xml_path": "./weipinhui_tc10_b_4.xml",
+                        "action": "click",
+                        "bbox": [96,1003,280,1059]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./weipinhui_tc10_b_5.png",
+                        "xml_path": "./weipinhui_tc10_b_5.xml",
+                        "action": "click",
+                        "bbox": [375,1392,696,1488]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./weipinhui_tc10_b_6.png",
+                        "xml_path": "./weipinhui_tc10_b_6.xml",
+                        "action": "click",
+                        "bbox": [16,232,352,724]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 11,
+            "testcase_desc": "在设置中切换深浅外观为深色外观。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./weipinhui_tc11_b_1.png",
+                        "xml_path": "./weipinhui_tc11_b_1.xml",
+                        "action": "click",
+                        "bbox": [576,1414,720,1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./weipinhui_tc11_b_2.png",
+                        "xml_path": "./weipinhui_tc11_b_2.xml",
+                        "action": "click",
+                        "bbox": [544,75,584,139]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./weipinhui_tc11_b_3.png",
+                        "xml_path": "./weipinhui_tc11_b_3.xml",
+                        "action": "click",
+                        "bbox": [0,1044,720,1148]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./weipinhui_tc11_b_4.png",
+                        "xml_path": "./weipinhui_tc11_b_4.xml",
+                        "action": "click",
+                        "bbox": [40,735,680,839]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 12,
+            "testcase_desc": "在首页搜索“男裤”，查看第一条商品信息，并询问客服：“175cm70kg怎么买”，等待客服回答后返回。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./weipinhui_tc12_b_1.png",
+                        "xml_path": "./weipinhui_tc12_b_1.xml",
+                        "action": "click",
+                        "bbox": [10,74,564,139]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./weipinhui_tc12_b_2.png",
+                        "xml_path": "./weipinhui_tc12_b_2.xml",
+                        "action": "input",
+                        "bbox": [88,77,512,137],
+                        "input_value": "男裤"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./weipinhui_tc12_b_3.png",
+                        "xml_path": "./weipinhui_tc12_b_3.xml",
+                        "action": "click",
+                        "bbox": [16,540,352,1132]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./weipinhui_tc12_b_4.png",
+                        "xml_path": "./weipinhui_tc12_b_4.xml",
+                        "action": "click",
+                        "bbox": [88,1384,172,1512]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./weipinhui_tc12_b_5.png",
+                        "xml_path": "./weipinhui_tc12_b_5.xml",
+                        "action": "click",
+                        "bbox": [108,1410,528,1482]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./weipinhui_tc12_b_6.png",
+                        "xml_path": "./weipinhui_tc12_b_6.xml",
+                        "action": "input",
+                        "bbox": [108,900,528,972],
+                        "input_value": "175cm70kg怎么买"
+                    },
+                    {
+                        "checkpoint_id": 7,
+                        "screenshot_path": "./weipinhui_tc12_b_7.png",
+                        "xml_path": "./weipinhui_tc12_b_7.xml",
+                        "action": "click",
+                        "bbox": [0,65,118,149]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 13,
+            "testcase_desc": "在首页搜索“男裤”，查看第一条商品信息，滑动商品图片展示区至第三张图片。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./weipinhui_tc13_b_1.png",
+                        "xml_path": "./weipinhui_tc13_b_1.xml",
+                        "action": "click",
+                        "bbox": [10,74,564,139]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./weipinhui_tc13_b_2.png",
+                        "xml_path": "./weipinhui_tc13_b_2.xml",
+                        "action": "input",
+                        "bbox": [88,77,512,137],
+                        "input_value": "男裤"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./weipinhui_tc13_b_3.png",
+                        "xml_path": "./weipinhui_tc13_b_3.xml",
+                        "action": "click",
+                        "bbox": [16,540,352,1132]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./weipinhui_tc13_b_4.png",
+                        "xml_path": "./weipinhui_tc13_b_4.xml",
+                        "action": "scroll",
+                        "bbox": [0,64,720,784],
+                        "input_value": "left"
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./weipinhui_tc13_b_5.png",
+                        "xml_path": "./weipinhui_tc13_b_5.xml",
+                        "action": "scroll",
+                        "bbox": [0,64,720,784],
+                        "input_value": "left"
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 14,
+            "testcase_desc": "删除购物车中的所有商品。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./weipinhui_tc14_b_1.png",
+                        "xml_path": "./weipinhui_tc14_b_1.xml",
+                        "action": "click",
+                        "bbox": [432,1414,576,1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./weipinhui_tc14_b_2.png",
+                        "xml_path": "./weipinhui_tc14_b_2.xml",
+                        "action": "click",
+                        "bbox": [616,64,716,150]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./weipinhui_tc14_b_3.png",
+                        "xml_path": "./weipinhui_tc14_b_3.xml",
+                        "action": "click",
+                        "bbox": [322,1321,498,1385]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 15,
+            "testcase_desc": "在首页进入“今日大牌”的第二个推荐的大牌，并进入浮窗直播间查看直播规则。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./weipinhui_tc15_b_1.png",
+                        "xml_path": "./weipinhui_tc15_b_1.xml",
+                        "action": "click",
+                        "bbox": [15,743,704,1081]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./weipinhui_tc15_b_2.png",
+                        "xml_path": "./weipinhui_tc15_b_2.xml",
+                        "action": "click",
+                        "bbox": [550,960,700,1228]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./weipinhui_tc15_b_3.png",
+                        "xml_path": "./weipinhui_tc15_b_3.xml",
+                        "action": "click",
+                        "bbox": [312,1430,384,1502]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./weipinhui_tc15_b_4.png",
+                        "xml_path": "./weipinhui_tc15_b_4.xml",
+                        "action": "click",
+                        "bbox": [360,1013,530,1189]
+                    }
+                ]
+            }
+        }
+    ]
+}

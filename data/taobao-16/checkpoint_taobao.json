@@ -1,0 +1,902 @@
+{
+    "app": "taobao",
+    "testcases": [
+        {
+            "testcase_id": 1,
+            "testcase_desc": "在推荐页搜索“潮服”，查看第一个商品信息并且加入购物车。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./taobao_tc1_b_1.png",
+                        "xml_path": "./taobao_tc1_b_1.xml",
+                        "action": "click",
+                        "bbox": [122, 144, 504, 205]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./taobao_tc1_b_2.png",
+                        "xml_path": "./taobao_tc1_b_2.xml",
+                        "action": "input",
+                        "bbox": [16, 166, 537, 226],
+                        "input_value": "潮服"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./taobao_tc1_b_3.png",
+                        "xml_path": "./taobao_tc1_b_3.xml",
+                        "action": "click",
+                        "bbox": [14, 392, 353, 1124]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./taobao_tc1_b_4.png",
+                        "xml_path": "./taobao_tc1_b_4.xml",
+                        "action": "click",
+                        "bbox": [580, 79, 638, 137]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./taobao_tc1_b_1.png",
+                            "xml_path": "./taobao_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [122, 144, 504, 205]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./taobao_tc1_b_2.png",
+                            "xml_path": "./taobao_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [16, 166, 537, 226],
+                            "input_value": "潮服"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./taobao_tc1_EO_3.png",
+                            "xml_path": "./taobao_tc1_EO_3.xml",
+                            "action": "click",
+                            "bbox": [300, 1080, 420, 1140]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./taobao_tc1_b_3.png",
+                            "xml_path": "./taobao_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [14, 392, 353, 1124]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./taobao_tc1_b_4.png",
+                            "xml_path": "./taobao_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [580, 79, 638, 137]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./taobao_tc1_b_1.png",
+                            "xml_path": "./taobao_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [122, 144, 504, 205]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./taobao_tc1_b_2.png",
+                            "xml_path": "./taobao_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [16, 166, 537, 226],
+                            "input_value": "潮服"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./taobao_tc1_EA_3.png",
+                            "xml_path": "./taobao_tc1_EA_3.xml",
+                            "action": "click",
+                            "bbox": [14, 392, 353, 1124]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./taobao_tc1_b_4.png",
+                            "xml_path": "./taobao_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [580, 79, 638, 137]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./taobao_tc1_b_1.png",
+                            "xml_path": "./taobao_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [122, 144, 504, 205]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./taobao_tc1_b_2.png",
+                            "xml_path": "./taobao_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [16, 166, 537, 226],
+                            "input_value": "潮服"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./taobao_tc1_EA-T_3.png",
+                            "xml_path": "./taobao_tc1_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./taobao_tc1_b_3.png",
+                            "xml_path": "./taobao_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [14, 392, 353, 1124]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./taobao_tc1_b_4.png",
+                            "xml_path": "./taobao_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [580, 79, 638, 137]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 2,
+            "testcase_desc": "在推荐页搜索“潮服”，先筛选店铺评分为5分的店铺，最后查看第一个商品的评价部分。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./taobao_tc2_b_1.png",
+                        "xml_path": "./taobao_tc2_b_1.xml",
+                        "action": "click",
+                        "bbox": [122, 144, 504, 205]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./taobao_tc2_b_2.png",
+                        "xml_path": "./taobao_tc2_b_2.xml",
+                        "action": "input",
+                        "bbox": [16, 166, 537, 226],
+                        "input_value": "潮服"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./taobao_tc2_b_3.png",
+                        "xml_path": "./taobao_tc2_b_3.xml",
+                        "action": "click",
+                        "bbox": [626, 233, 720, 287]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./taobao_tc2_b_4.png",
+                        "xml_path": "./taobao_tc2_b_4.xml",
+                        "action": "click",
+                        "bbox": [169, 996, 342, 1076]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./taobao_tc2_b_5.png",
+                        "xml_path": "./taobao_tc2_b_5.xml",
+                        "action": "click",
+                        "bbox": [368, 1356, 705, 1433]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./taobao_tc2_b_6.png",
+                        "xml_path": "./taobao_tc2_b_6.xml",
+                        "action": "click",
+                        "bbox": [14, 392, 353, 1124]
+                    },
+                    {
+                        "checkpoint_id": 7,
+                        "screenshot_path": "./taobao_tc2_b_7.png",
+                        "xml_path": "./taobao_tc2_b_7.xml",
+                        "action": "click",
+                        "bbox": [144, 152, 288, 220]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 3,
+            "testcase_desc": "在推荐页搜索“潮服”，先切换到天猫，再以价格从低到高排序。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./taobao_tc3_b_1.png",
+                        "xml_path": "./taobao_tc3_b_1.xml",
+                        "action": "click",
+                        "bbox": [122, 144, 504, 205]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./taobao_tc3_b_2.png",
+                        "xml_path": "./taobao_tc3_b_2.xml",
+                        "action": "input",
+                        "bbox": [16, 166, 537, 226],
+                        "input_value": "潮服"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./taobao_tc3_b_3.png",
+                        "xml_path": "./taobao_tc3_b_3.xml",
+                        "action": "click",
+                        "bbox": [331, 164, 387, 227]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./taobao_tc3_b_4.png",
+                        "xml_path": "./taobao_tc3_b_4.xml",
+                        "action": "click",
+                        "bbox": [23, 164, 95, 227]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./taobao_tc3_b_5.png",
+                        "xml_path": "./taobao_tc3_b_5.xml",
+                        "action": "click",
+                        "bbox": [0, 396, 720, 481]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 4,
+            "testcase_desc": "在推荐页进入有好券，再抢美妆洗护模块中的第一个商品。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./taobao_tc4_b_1.png",
+                        "xml_path": "./taobao_tc4_b_1.xml",
+                        "action": "click",
+                        "bbox": [443, 337, 560, 460]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./taobao_tc4_b_2.png",
+                        "xml_path": "./taobao_tc4_b_2.xml",
+                        "action": "click",
+                        "bbox": [202, 766, 370, 844]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./taobao_tc4_b_3.png",
+                        "xml_path": "./taobao_tc4_b_3.xml",
+                        "action": "click",
+                        "bbox": [605, 1020, 690, 1120]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 5,
+            "testcase_desc": "进入推荐页第一个正在直播的店铺直播间，查看礼物展馆规则，再查看红包规则。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./taobao_tc5_b_1.png",
+                        "xml_path": "./taobao_tc5_b_1.xml",
+                        "action": "click",
+                        "bbox": [367, 728, 705, 1325]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./taobao_tc5_b_2.png",
+                        "xml_path": "./taobao_tc5_b_2.xml",
+                        "action": "click",
+                        "bbox": [24, 226, 197, 295]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./taobao_tc5_b_3.png",
+                        "xml_path": "./taobao_tc5_b_3.xml",
+                        "action": "click",
+                        "bbox": [654, 501, 690, 537]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./taobao_tc5_b_4.png",
+                        "xml_path": "./taobao_tc5_b_4.xml",
+                        "action": "click",
+                        "bbox": [0, 18, 74, 74]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./taobao_tc5_b_5.png",
+                        "xml_path": "./taobao_tc5_b_5.xml",
+                        "action": "click",
+                        "bbox": [258, 1404, 354, 1500]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./taobao_tc5_b_6.png",
+                        "xml_path": "./taobao_tc5_b_6.xml",
+                        "action": "click",
+                        "bbox": [16, 1083, 127, 1237]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 6,
+            "testcase_desc": "切换app为长辈模式后，在主页进入居家模块。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./taobao_tc6_b_1.png",
+                        "xml_path": "./taobao_tc6_b_1.xml",
+                        "action": "click",
+                        "bbox": [576, 1400, 720, 1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./taobao_tc6_b_2.png",
+                        "xml_path": "./taobao_tc6_b_2.xml",
+                        "action": "click",
+                        "bbox": [655, 92, 697, 165]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./taobao_tc6_b_3.png",
+                        "xml_path": "./taobao_tc6_b_3.xml",
+                        "action": "click",
+                        "bbox": [0, 900, 720, 977]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./taobao_tc6_b_4.png",
+                        "xml_path": "./taobao_tc6_b_4.xml",
+                        "action": "click",
+                        "bbox": [41, 508, 680, 770]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./taobao_tc6_b_5.png",
+                        "xml_path": "./taobao_tc6_b_5.xml",
+                        "action": "click",
+                        "bbox": [0, 64, 112, 160]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./taobao_tc6_b_6.png",
+                        "xml_path": "./taobao_tc6_b_6.xml",
+                        "action": "click",
+                        "bbox": [0, 1400, 144, 1512]
+                    },
+                    {
+                        "checkpoint_id": 7,
+                        "screenshot_path": "./taobao_tc6_b_7.png",
+                        "xml_path": "./taobao_tc6_b_7.xml",
+                        "action": "click",
+                        "bbox": [475, 64, 565, 125]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 7,
+            "testcase_desc": "在闪购中搜索“蜜雪冰城”并点4杯柠檬水（做法全部默认）的外卖。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./taobao_tc7_b_1.png",
+                        "xml_path": "./taobao_tc7_b_1.xml",
+                        "action": "click",
+                        "bbox": [225, 64, 359, 133]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./taobao_tc7_b_2.png",
+                        "xml_path": "./taobao_tc7_b_2.xml",
+                        "action": "click",
+                        "bbox": [166, 144, 504, 205]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./taobao_tc7_b_3.png",
+                        "xml_path": "./taobao_tc7_b_3.xml",
+                        "action": "input",
+                        "bbox": [210, 87, 573, 128],
+                        "input_value": "蜜雪冰城"
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./taobao_tc7_b_4.png",
+                        "xml_path": "./taobao_tc7_b_4.xml",
+                        "action": "click",
+                        "bbox": [0, 336, 720, 760]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./taobao_tc7_b_5.png",
+                        "xml_path": "./taobao_tc7_b_5.xml",
+                        "action": "click",
+                        "bbox": [0, 1040, 140, 1120]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./taobao_tc7_b_6.png",
+                        "xml_path": "./taobao_tc7_b_6.xml",
+                        "action": "click",
+                        "bbox": [140, 315, 720, 550]
+                    },
+                    {
+                        "checkpoint_id": 7,
+                        "screenshot_path": "./taobao_tc7_b_7.png",
+                        "xml_path": "./taobao_tc7_b_7.xml",
+                        "action": "click",
+                        "bbox": [0, 1400, 720, 1512]
+                    },
+                    {
+                        "checkpoint_id": 8,
+                        "screenshot_path": "./taobao_tc7_b_8.png",
+                        "xml_path": "./taobao_tc7_b_8.xml",
+                        "action": "click",
+                        "bbox": [460, 1400, 720, 1512]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 8,
+            "testcase_desc": "在推荐页的阿里药房中查看健康卡余额明细，再充值100元。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./taobao_tc8_b_1.png",
+                        "xml_path": "./taobao_tc8_b_1.xml",
+                        "action": "click",
+                        "bbox": [301, 337, 418, 460]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./taobao_tc8_b_2.png",
+                        "xml_path": "./taobao_tc8_b_2.xml",
+                        "action": "click",
+                        "bbox": [158, 1414, 256, 1512]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./taobao_tc8_b_3.png",
+                        "xml_path": "./taobao_tc8_b_3.xml",
+                        "action": "click",
+                        "bbox": [608, 170, 660, 202]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./taobao_tc8_b_4.png",
+                        "xml_path": "./taobao_tc8_b_4.xml",
+                        "action": "click",
+                        "bbox": [0, 0, 86, 88]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./taobao_tc8_b_5.png",
+                        "xml_path": "./taobao_tc8_b_5.xml",
+                        "action": "click",
+                        "bbox": [0, 664, 720, 784]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 9,
+            "testcase_desc": "在推荐页搜索“七彩虹显卡旗舰店”，进入店铺，在分类中购买一张RTX5080系列显卡，型号为Ultra White，并带有OC。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./taobao_tc9_b_1.png",
+                        "xml_path": "./taobao_tc9_b_1.xml",
+                        "action": "click",
+                        "bbox": [122, 144, 504, 205]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./taobao_tc9_b_2.png",
+                        "xml_path": "./taobao_tc9_b_2.xml",
+                        "action": "input",
+                        "bbox": [16, 166, 537, 226],
+                        "input_value": "七彩虹显卡旗舰店"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./taobao_tc9_b_3.png",
+                        "xml_path": "./taobao_tc9_b_3.xml",
+                        "action": "click",
+                        "bbox": [0, 226, 720, 637]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./taobao_tc9_b_4.png",
+                        "xml_path": "./taobao_tc9_b_4.xml",
+                        "action": "click",
+                        "bbox": [360, 320, 690, 397]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./taobao_tc9_b_5.png",
+                        "xml_path": "./taobao_tc9_b_5.xml",
+                        "action": "click",
+                        "bbox": [0, 614, 160, 724]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./taobao_tc9_b_6.png",
+                        "xml_path": "./taobao_tc9_b_6.xml",
+                        "action": "click",
+                        "bbox": [360, 484, 518, 680]
+                    },
+                    {
+                        "checkpoint_id": 7,
+                        "screenshot_path": "./taobao_tc9_b_7.png",
+                        "xml_path": "./taobao_tc9_b_7.xml",
+                        "action": "click",
+                        "bbox": [0, 242, 720, 534]
+                    },
+                    {
+                        "checkpoint_id": 8,
+                        "screenshot_path": "./taobao_tc9_b_8.png",
+                        "xml_path": "./taobao_tc9_b_8.xml",
+                        "action": "click",
+                        "bbox": [485, 1408, 705, 1496]
+                    },
+                    {
+                        "checkpoint_id": 9,
+                        "screenshot_path": "./taobao_tc9_b_9.png",
+                        "xml_path": "./taobao_tc9_b_9.xml",
+                        "action": "click",
+                        "bbox": [20, 1100, 690, 1160]
+                    },
+                    {
+                        "checkpoint_id": 10,
+                        "screenshot_path": "./taobao_tc9_b_10.png",
+                        "xml_path": "./taobao_tc9_b_10.xml",
+                        "action": "click",
+                        "bbox": [25, 1400, 690, 1490]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 10,
+            "testcase_desc": "删除购物车中的第一个商品。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./taobao_tc10_b_1.png",
+                        "xml_path": "./taobao_tc10_b_1.xml",
+                        "action": "click",
+                        "bbox": [432, 1400, 576, 1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./taobao_tc10_b_2.png",
+                        "xml_path": "./taobao_tc10_b_2.xml",
+                        "action": "click",
+                        "bbox": [615, 70, 720, 140]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./taobao_tc10_b_3.png",
+                        "xml_path": "./taobao_tc10_b_3.xml",
+                        "action": "click",
+                        "bbox": [650, 318, 700, 370]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 11,
+            "testcase_desc": "查看推荐页第一个商品信息，并询问客服：“175cm70kg怎么买”，等待客服回答后评价客服很满意。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./taobao_tc11_b_1.png",
+                        "xml_path": "./taobao_tc11_b_1.xml",
+                        "action": "click",
+                        "bbox": [15, 728, 353, 1324]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./taobao_tc11_b_2.png",
+                        "xml_path": "./taobao_tc11_b_2.xml",
+                        "action": "click",
+                        "bbox": [91, 1392, 174, 1512]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./taobao_tc11_b_3.png",
+                        "xml_path": "./taobao_tc11_b_3.xml",
+                        "action": "input",
+                        "bbox": [120, 1425, 439, 1479],
+                        "input_value": "175cm70kg怎么买"
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./taobao_tc11_b_4.png",
+                        "xml_path": "./taobao_tc11_b_4.xml",
+                        "action": "click",
+                        "bbox": [15, 1342, 184, 1400]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./taobao_tc11_b_5.png",
+                        "xml_path": "./taobao_tc11_b_5.xml",
+                        "action": "click",
+                        "bbox": [549, 1140, 675, 1279]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 12,
+            "testcase_desc": "在飞猪上搜索2026年5月10日从上海到北京的航班。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./taobao_tc12_b_1.png",
+                        "xml_path": "./taobao_tc12_b_1.xml",
+                        "action": "click",
+                        "bbox": [585, 64, 667, 133]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./taobao_tc12_b_2.png",
+                        "xml_path": "./taobao_tc12_b_2.xml",
+                        "action": "click",
+                        "bbox": [139, 290, 278, 425]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./taobao_tc12_b_3.png",
+                        "xml_path": "./taobao_tc12_b_3.xml",
+                        "action": "click",
+                        "bbox": [50, 474, 312, 532]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./taobao_tc12_b_4.png",
+                        "xml_path": "./taobao_tc12_b_4.xml",
+                        "action": "click",
+                        "bbox": [182, 758, 336, 828]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./taobao_tc12_b_5.png",
+                        "xml_path": "./taobao_tc12_b_5.xml",
+                        "action": "click",
+                        "bbox": [408, 474, 670, 532]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./taobao_tc12_b_6.png",
+                        "xml_path": "./taobao_tc12_b_6.xml",
+                        "action": "click",
+                        "bbox": [16, 790, 172, 862]
+                    },
+                    {
+                        "checkpoint_id": 7,
+                        "screenshot_path": "./taobao_tc12_b_7.png",
+                        "xml_path": "./taobao_tc12_b_7.xml",
+                        "action": "click",
+                        "bbox": [50, 572, 236, 626]
+                    },
+                    {
+                        "checkpoint_id": 8,
+                        "screenshot_path": "./taobao_tc12_b_8.png",
+                        "xml_path": "./taobao_tc12_b_8.xml",
+                        "action": "click",
+                        "bbox": [22, 1356, 116, 1468]
+                    },
+                    {
+                        "checkpoint_id": 9,
+                        "screenshot_path": "./taobao_tc12_b_9.png",
+                        "xml_path": "./taobao_tc12_b_9.xml",
+                        "action": "click",
+                        "bbox": [50, 858, 670, 940]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 13,
+            "testcase_desc": "在2026年5月10日的上海到北京的所有航班中，先筛选吉祥航空公司的航班，再订一张航班中起飞时间最早的机票。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./taobao_tc13_b_1.png",
+                        "xml_path": "./taobao_tc13_b_1.xml",
+                        "action": "click",
+                        "bbox": [10, 356, 124, 416]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./taobao_tc13_b_2.png",
+                        "xml_path": "./taobao_tc13_b_2.xml",
+                        "action": "click",
+                        "bbox": [454, 938, 704, 1028]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./taobao_tc13_b_3.png",
+                        "xml_path": "./taobao_tc13_b_3.xml",
+                        "action": "click",
+                        "bbox": [368, 1362, 698, 1444]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./taobao_tc13_b_4.png",
+                        "xml_path": "./taobao_tc13_b_4.xml",
+                        "action": "click",
+                        "bbox": [0, 426, 720, 598]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./taobao_tc13_b_5.png",
+                        "xml_path": "./taobao_tc13_b_5.xml",
+                        "action": "click",
+                        "bbox": [598, 586, 680, 668]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./taobao_tc13_b_6.png",
+                        "xml_path": "./taobao_tc13_b_6.xml",
+                        "action": "click",
+                        "bbox": [520, 1416, 698, 1500]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 14,
+            "testcase_desc": "在视频专区中连续滑动查看并点赞三个视频。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./taobao_tc14_b_1.png",
+                        "xml_path": "./taobao_tc14_b_1.xml",
+                        "action": "click",
+                        "bbox": [144, 1400, 288, 1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./taobao_tc14_b_2.png",
+                        "xml_path": "./taobao_tc14_b_2.xml",
+                        "action": "click",
+                        "bbox": [640, 1150, 720, 1230]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./taobao_tc14_b_3.png",
+                        "xml_path": "./taobao_tc14_b_3.xml",
+                        "action": "scroll",
+                        "bbox": [0, 64, 720, 1485],
+                        "input_value": "up"
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./taobao_tc14_b_4.png",
+                        "xml_path": "./taobao_tc14_b_4.xml",
+                        "action": "click",
+                        "bbox": [640, 1150, 720, 1230]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./taobao_tc14_b_5.png",
+                        "xml_path": "./taobao_tc14_b_5.xml",
+                        "action": "scroll",
+                        "bbox": [0, 64, 720, 1485],
+                        "input_value": "up"
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./taobao_tc14_b_6.png",
+                        "xml_path": "./taobao_tc14_b_6.xml",
+                        "action": "click",
+                        "bbox": [640, 1150, 720, 1230]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 15,
+            "testcase_desc": "在消息设置中，关闭服务提醒类型的平台消息。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./taobao_tc15_b_1.png",
+                        "xml_path": "./taobao_tc15_b_1.xml",
+                        "action": "click",
+                        "bbox": [288, 1400, 432, 1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./taobao_tc15_b_2.png",
+                        "xml_path": "./taobao_tc15_b_2.xml",
+                        "action": "click",
+                        "bbox": [651, 87, 689, 125]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./taobao_tc15_b_3.png",
+                        "xml_path": "./taobao_tc15_b_3.xml",
+                        "action": "click",
+                        "bbox": [444, 554, 694, 654]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./taobao_tc15_b_4.png",
+                        "xml_path": "./taobao_tc15_b_4.xml",
+                        "action": "click",
+                        "bbox": [0, 880, 720, 970]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./taobao_tc15_b_5.png",
+                        "xml_path": "./taobao_tc15_b_5.xml",
+                        "action": "click",
+                        "bbox": [587, 670, 720, 760]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 16,
+            "testcase_desc": "在超级88领券中心查看品类加补券的攻略。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./taobao_tc16_b_1.png",
+                        "xml_path": "./taobao_tc16_b_1.xml",
+                        "action": "click",
+                        "bbox": [576, 1400, 720, 1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./taobao_tc16_b_2.png",
+                        "xml_path": "./taobao_tc16_b_2.xml",
+                        "action": "click",
+                        "bbox": [0, 969, 720, 1207]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./taobao_tc16_b_3.png",
+                        "xml_path": "./taobao_tc16_b_3.xml",
+                        "action": "click",
+                        "bbox": [356, 824, 416, 850]
+                    }
+                ]
+            }
+        }
+    ]
+}
