@@ -1,0 +1,666 @@
+{
+    "app": "wangyiyun",
+    "testcases": [
+        {
+            "testcase_id": 1,
+            "testcase_desc": "在首页搜索“周杰伦”，先关注歌手，再播放他的第一首歌。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./wangyiyun_tc1_b_1.png",
+                        "xml_path": "./wangyiyun_tc1_b_1.xml",
+                        "action": "click",
+                        "bbox": [640,92,688,140]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./wangyiyun_tc1_b_2.png",
+                        "xml_path": "./wangyiyun_tc1_b_2.xml",
+                        "action": "input",
+                        "bbox": [150,72,592,144],
+                        "input_value": "周杰伦"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./wangyiyun_tc1_b_3.png",
+                        "xml_path": "./wangyiyun_tc1_b_3.xml",
+                        "action": "click",
+                        "bbox": [568,282,688,338]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./wangyiyun_tc1_b_4.png",
+                        "xml_path": "./wangyiyun_tc1_b_4.xml",
+                        "action": "click",
+                        "bbox": [0,583,720,845]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./wangyiyun_tc1_b_5.png",
+                        "xml_path": "./wangyiyun_tc1_b_5.xml",
+                        "action": "finish"
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 2,
+            "testcase_desc": "查看当前播放歌曲的评论部分，按最新排序，并点赞第一条评论。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./wangyiyun_tc2_b_1.png",
+                        "xml_path": "./wangyiyun_tc2_b_1.xml",
+                        "action": "click",
+                        "bbox": [0,1306,720,1404]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./wangyiyun_tc2_b_2.png",
+                        "xml_path": "./wangyiyun_tc2_b_2.xml",
+                        "action": "click",
+                        "bbox": [606,1006,686,1086]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./wangyiyun_tc2_b_3.png",
+                        "xml_path": "./wangyiyun_tc2_b_3.xml",
+                        "action": "click",
+                        "bbox": [616,333,708,363]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./wangyiyun_tc2_b_4.png",
+                        "xml_path": "./wangyiyun_tc2_b_4.xml",
+                        "action": "click",
+                        "bbox": [620,420,708,468]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 3,
+            "testcase_desc": "进入热歌榜，播放第一首歌，再分享榜单到微信好友。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./wangyiyun_tc3_b_1.png",
+                        "xml_path": "./wangyiyun_tc3_b_1.xml",
+                        "action": "click",
+                        "bbox": [32,190,291,546]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./wangyiyun_tc3_b_2.png",
+                        "xml_path": "./wangyiyun_tc3_b_2.xml",
+                        "action": "click",
+                        "bbox": [0,622,720,742]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./wangyiyun_tc3_b_3.png",
+                        "xml_path": "./wangyiyun_tc3_b_3.xml",
+                        "action": "click",
+                        "bbox": [0,64,112,168]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./wangyiyun_tc3_b_4.png",
+                        "xml_path": "./wangyiyun_tc3_b_4.xml",
+                        "action": "click",
+                        "bbox": [624,68,720,164]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./wangyiyun_tc3_b_5.png",
+                        "xml_path": "./wangyiyun_tc3_b_5.xml",
+                        "action": "click",
+                        "bbox": [166,1280,316,1502]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 4,
+            "testcase_desc": "在首页“心动”频道收听歌曲，先收藏到歌单“我喜欢的音乐”，再轻触唱片查看歌词。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./wangyiyun_tc4_b_1.png",
+                        "xml_path": "./wangyiyun_tc4_b_1.xml",
+                        "action": "click",
+                        "bbox": [90,64,186,168]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./wangyiyun_tc4_b_2.png",
+                        "xml_path": "./wangyiyun_tc4_b_2.xml",
+                        "action": "click",
+                        "bbox": [56,1250,664,1346]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./wangyiyun_tc4_b_3.png",
+                        "xml_path": "./wangyiyun_tc4_b_3.xml",
+                        "action": "click",
+                        "bbox": [606,1006,686,1086]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./wangyiyun_tc4_b_4.png",
+                        "xml_path": "./wangyiyun_tc4_b_4.xml",
+                        "action": "click",
+                        "bbox": [10,613,130,787]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./wangyiyun_tc4_b_5.png",
+                        "xml_path": "./wangyiyun_tc4_b_5.xml",
+                        "action": "click",
+                        "bbox": [0,1310,720,1450]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./wangyiyun_tc4_b_6.png",
+                        "xml_path": "./wangyiyun_tc4_b_6.xml",
+                        "action": "click",
+                        "bbox": [0,168,720,1404] 
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 5,
+            "testcase_desc": "在首页搜索“张惠妹”，查看歌手的专辑内容。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./wangyiyun_tc5_b_1.png",
+                        "xml_path": "./wangyiyun_tc5_b_1.xml",
+                        "action": "click",
+                        "bbox": [640,92,688,140]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./wangyiyun_tc5_b_2.png",
+                        "xml_path": "./wangyiyun_tc5_b_2.xml",
+                        "action": "input",
+                        "bbox": [150,72,592,144],
+                        "input_value": "张惠妹"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./wangyiyun_tc5_b_3.png",
+                        "xml_path": "./wangyiyun_tc5_b_3.xml",
+                        "action": "click",
+                        "bbox": [0,252,720,370]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./wangyiyun_tc5_b_4.png",
+                        "xml_path": "./wangyiyun_tc5_b_4.xml",
+                        "action": "click",
+                        "bbox": [236,639,352,719]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 6,
+            "testcase_desc": "查看笔记中推荐的第一条内容，滑动查看评论，并点赞第一条评论。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./wangyiyun_tc6_b_1.png",
+                        "xml_path": "./wangyiyun_tc6_b_1.xml",
+                        "action": "click",
+                        "bbox": [360,1404,540,1505]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./wangyiyun_tc6_b_2.png",
+                        "xml_path": "./wangyiyun_tc6_b_2.xml",
+                        "action": "click",
+                        "bbox": [10,170,354,809]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./wangyiyun_tc6_b_3.png",
+                        "xml_path": "./wangyiyun_tc6_b_3.xml",
+                        "action": "scroll",
+                        "bbox": [0,152,720,1440],
+                        "input_value": "up"
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./wangyiyun_tc6_b_4.png",
+                        "xml_path": "./wangyiyun_tc6_b_4.xml",
+                        "action": "click",
+                        "bbox": [620,728,688,776]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 7,
+            "testcase_desc": "在首页进入“听书”频道，在新品榜收听第一部作品的第十集。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./wangyiyun_tc7_b_1.png",
+                        "xml_path": "./wangyiyun_tc7_b_1.xml",
+                        "action": "click",
+                        "bbox": [474,64,570,168]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./wangyiyun_tc7_b_2.png",
+                        "xml_path": "./wangyiyun_tc7_b_2.xml",
+                        "action": "click",
+                        "bbox": [336,495,432,538]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./wangyiyun_tc7_b_3.png",
+                        "xml_path": "./wangyiyun_tc7_b_3.xml",
+                        "action": "click",
+                        "bbox": [0,558,656,738]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./wangyiyun_tc7_b_4.png",
+                        "xml_path": "./wangyiyun_tc7_b_4.xml",
+                        "action": "scroll",
+                        "bbox": [0,400,720,1360],
+                        "input_value": "up"
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./wangyiyun_tc7_b_5.png",
+                        "xml_path": "./wangyiyun_tc7_b_5.xml",
+                        "action": "click",
+                        "bbox": [0,841,720,961]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 8,
+            "testcase_desc": "在首页进入“听书”频道，选择男生小说中的玄幻大陆类别，订阅最近上架的第一部作品。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./wangyiyun_tc8_b_1.png",
+                        "xml_path": "./wangyiyun_tc8_b_1.xml",
+                        "action": "click",
+                        "bbox": [474,64,570,168]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./wangyiyun_tc8_b_2.png",
+                        "xml_path": "./wangyiyun_tc8_b_2.xml",
+                        "action": "click",
+                        "bbox": [17,354,178,430]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./wangyiyun_tc8_b_3.png",
+                        "xml_path": "./wangyiyun_tc8_b_3.xml",
+                        "action": "click",
+                        "bbox": [188,160,324,212]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./wangyiyun_tc8_b_4.png",
+                        "xml_path": "./wangyiyun_tc8_b_4.xml",
+                        "action": "click",
+                        "bbox": [488,246,640,278]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./wangyiyun_tc8_b_5.png",
+                        "xml_path": "./wangyiyun_tc8_b_5.xml",
+                        "action": "click",
+                        "bbox": [0,296,720,496]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./wangyiyun_tc8_b_6.png",
+                        "xml_path": "./wangyiyun_tc8_b_6.xml",
+                        "action": "click",
+                        "bbox": [32,780,312,872]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 9,
+            "testcase_desc": "在设置中开启消息免打扰模式。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./wangyiyun_tc9_b_1.png",
+                        "xml_path": "./wangyiyun_tc9_b_1.xml",
+                        "action": "click",
+                        "bbox": [32,1396,272,1480]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./wangyiyun_tc9_b_2.png",
+                        "xml_path": "./wangyiyun_tc9_b_2.xml",
+                        "action": "click",
+                        "bbox": [32,600,688,696]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./wangyiyun_tc9_b_3.png",
+                        "xml_path": "./wangyiyun_tc9_b_3.xml",
+                        "action": "click",
+                        "bbox": [556,318,660,382]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 10,
+            "testcase_desc": "从首页进入“音乐”频道，将甄选歌单中第一个歌单的第一首歌设置为铃声。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./wangyiyun_tc10_b_1.png",
+                        "xml_path": "./wangyiyun_tc10_b_1.xml",
+                        "action": "click",
+                        "bbox": [282,64,378,168]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./wangyiyun_tc10_b_2.png",
+                        "xml_path": "./wangyiyun_tc10_b_2.xml",
+                        "action": "click",
+                        "bbox": [32,901,231,1234]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./wangyiyun_tc10_b_3.png",
+                        "xml_path": "./wangyiyun_tc10_b_3.xml",
+                        "action": "click",
+                        "bbox": [644,830,688,874]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./wangyiyun_tc10_b_4.png",
+                        "xml_path": "./wangyiyun_tc10_b_4.xml",
+                        "action": "scroll",
+                        "bbox": [0,573,720,1472],
+                        "input_value": "up"
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./wangyiyun_tc10_b_5.png",
+                        "xml_path": "./wangyiyun_tc10_b_5.xml",
+                        "action": "click",
+                        "bbox": [0,1175,720,1271]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 11,
+            "testcase_desc": "查看欧美男歌手分类中的第一个热门歌手，查看他主页第一条视频。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./wangyiyun_tc11_b_1.png",
+                        "xml_path": "./wangyiyun_tc11_b_1.xml",
+                        "action": "click",
+                        "bbox": [124,208,248,246]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./wangyiyun_tc11_b_2.png",
+                        "xml_path": "./wangyiyun_tc11_b_2.xml",
+                        "action": "click",
+                        "bbox": [0,286,124,324]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./wangyiyun_tc11_b_3.png",
+                        "xml_path": "./wangyiyun_tc11_b_3.xml",
+                        "action": "click",
+                        "bbox": [0,421,720,549]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./wangyiyun_tc11_b_4.png",
+                        "xml_path": "./wangyiyun_tc11_b_4.xml",
+                        "action": "click",
+                        "bbox": [576,1097,720,1177]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./wangyiyun_tc11_b_5.png",
+                        "xml_path": "./wangyiyun_tc11_b_5.xml",
+                        "action": "click",
+                        "bbox": [22,956,698,1138]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 12,
+            "testcase_desc": "将最近听过的所有歌曲下载到本地。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./wangyiyun_tc12_b_1.png",
+                        "xml_path": "./wangyiyun_tc12_b_1.xml",
+                        "action": "click",
+                        "bbox": [540,1404,720,1505]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./wangyiyun_tc12_b_2.png",
+                        "xml_path": "./wangyiyun_tc12_b_2.xml",
+                        "action": "click",
+                        "bbox": [32,602,159,670]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./wangyiyun_tc12_b_3.png",
+                        "xml_path": "./wangyiyun_tc12_b_3.xml",
+                        "action": "click",
+                        "bbox": [632,248,720,348]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./wangyiyun_tc12_b_4.png",
+                        "xml_path": "./wangyiyun_tc12_b_4.xml",
+                        "action": "click",
+                        "bbox": [624,68,720,164]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./wangyiyun_tc12_b_5.png",
+                        "xml_path": "./wangyiyun_tc12_b_5.xml",
+                        "action": "click",
+                        "bbox": [360,1384,540,1512]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 13,
+            "testcase_desc": "在首页的滑动栏中进入“雷达歌曲”，滑动找到歌曲名为“罗生门（Follow）”的歌播放，然后查看歌曲百科。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./wangyiyun_tc13_b_1.png",
+                        "xml_path": "./wangyiyun_tc13_b_1.xml",
+                        "action": "click",
+                        "bbox": [355,190,614,546]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./wangyiyun_tc13_b_2.png",
+                        "xml_path": "./wangyiyun_tc13_b_2.xml",
+                        "action": "scroll",
+                        "bbox": [0,152,720,1380],
+                        "input_value": "up"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./wangyiyun_tc13_b_3.png",
+                        "xml_path": "./wangyiyun_tc13_b_3.xml",
+                        "action": "click",
+                        "bbox": [0,920,720,1044]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./wangyiyun_tc13_b_4.png",
+                        "xml_path": "./wangyiyun_tc13_b_4.xml",
+                        "action": "click",
+                        "bbox": [422,1407,490,1475]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 14,
+            "testcase_desc": "查看自己拥有的徽章数量，并且分享自己的徽章界面。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./wangyiyun_tc14_b_1.png",
+                        "xml_path": "./wangyiyun_tc14_b_1.xml",
+                        "action": "click",
+                        "bbox": [540,1404,720,1505]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./wangyiyun_tc14_b_2.png",
+                        "xml_path": "./wangyiyun_tc14_b_2.xml",
+                        "action": "click",
+                        "bbox": [308,462,412,490]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./wangyiyun_tc14_b_3.png",
+                        "xml_path": "./wangyiyun_tc14_b_3.xml",
+                        "action": "click",
+                        "bbox": [634,88,690,144]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 15,
+            "testcase_desc": "进入底部“搜索”专区，在摇滚类目中直接播放摇滚时刻的第一个音乐卡片。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./wangyiyun_tc15_b_1.png",
+                        "xml_path": "./wangyiyun_tc15_b_1.xml",
+                        "action": "click",
+                        "bbox": [180,1404,360,1505]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./wangyiyun_tc15_b_2.png",
+                        "xml_path": "./wangyiyun_tc15_b_2.xml",
+                        "action": "click",
+                        "bbox": [368,1034,696,1252]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./wangyiyun_tc15_b_3.png",
+                        "xml_path": "./wangyiyun_tc15_b_3.xml",
+                        "action": "click",
+                        "bbox": [179,382,227,430]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 16,
+            "testcase_desc": "在首页搜索“Justin Bieber”，播放他的第一首歌，并查看评论的笔记部分，连续点赞两条视频。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./wangyiyun_tc16_b_1.png",
+                        "xml_path": "./wangyiyun_tc16_b_1.xml",
+                        "action": "click",
+                        "bbox": [640,92,688,140]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./wangyiyun_tc16_b_2.png",
+                        "xml_path": "./wangyiyun_tc16_b_2.xml",
+                        "action": "input",
+                        "bbox": [150,72,592,144],
+                        "input_value": "Justin Bieber"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./wangyiyun_tc16_b_3.png",
+                        "xml_path": "./wangyiyun_tc16_b_3.xml",
+                        "action": "click",
+                        "bbox": [0,699,720,961]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./wangyiyun_tc16_b_4.png",
+                        "xml_path": "./wangyiyun_tc16_b_4.xml",
+                        "action": "click",
+                        "bbox": [606,1006,686,1086]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./wangyiyun_tc16_b_5.png",
+                        "xml_path": "./wangyiyun_tc16_b_5.xml",
+                        "action": "click",
+                        "bbox": [362,64,486,168]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./wangyiyun_tc16_b_6.png",
+                        "xml_path": "./wangyiyun_tc16_b_6.xml",
+                        "action": "click",
+                        "bbox": [298,1400,426,1500]
+                    },
+                    {
+                        "checkpoint_id": 7,
+                        "screenshot_path": "./wangyiyun_tc16_b_7.png",
+                        "xml_path": "./wangyiyun_tc16_b_7.xml",
+                        "action": "scroll",
+                        "bbox": [0,168,720,1400],
+                        "input_value": "up"
+                    },
+                    {
+                        "checkpoint_id": 8,
+                        "screenshot_path": "./wangyiyun_tc16_b_8.png",
+                        "xml_path": "./wangyiyun_tc16_b_8.xml",
+                        "action": "click",
+                        "bbox": [343,1400,463,1500]
+                    }
+                ]
+            }
+        }
+    ]
+}
+
