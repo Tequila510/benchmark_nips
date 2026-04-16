@@ -1,0 +1,633 @@
+{
+    "app": "douyu",
+    "testcases": [
+        {
+            "testcase_id": 1,
+            "testcase_desc": "在首页的“今日必看”中进入第一个直播间，关注主播，再发送“真不错”的弹幕文字。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./douyu_tc1_b_1.png",
+                        "xml_path": "./douyu_tc1_b_1.xml",
+                        "action": "click",
+                        "bbox": [16,547,354,842]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./douyu_tc1_b_2.png",
+                        "xml_path": "./douyu_tc1_b_2.xml",
+                        "action": "click",
+                        "bbox": [292,98,370,150]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./douyu_tc1_b_3.png",
+                        "xml_path": "./douyu_tc1_b_3.xml",
+                        "action": "click",
+                        "bbox": [94,1416,364,1488]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./douyu_tc1_b_4.png",
+                        "xml_path": "./douyu_tc1_b_4.xml",
+                        "action": "input",
+                        "bbox": [140,931,598,969],
+                        "input_text": "真不错"
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 2,
+            "testcase_desc": "切换到推荐页，进入第一个推荐的直播间，给主播送一个“办卡”礼物。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./douyu_tc2_b_1.png",
+                        "xml_path": "./douyu_tc2_b_1.xml",
+                        "action": "click",
+                        "bbox": [288,74,392,150]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./douyu_tc2_b_2.png",
+                        "xml_path": "./douyu_tc2_b_2.xml",
+                        "action": "click",
+                        "bbox": [16,641,355,937]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./douyu_tc2_b_3.png",
+                        "xml_path": "./douyu_tc2_b_3.xml",
+                        "action": "click",
+                        "bbox": [628,1416,700,1488]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./douyu_tc2_b_4.png",
+                        "xml_path": "./douyu_tc2_b_4.xml",
+                        "action": "click",
+                        "bbox": [530,866,700,1076]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./douyu_tc2_b_5.png",
+                        "xml_path": "./douyu_tc2_b_5.xml",
+                        "action": "click",
+                        "bbox": [516,1426,700,1492]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 3,
+            "testcase_desc": "在底部切换娱乐玩法，进入户外直播栏目中第一个直播间，查看热议中第一条讨论。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./douyu_tc3_b_1.png",
+                        "xml_path": "./douyu_tc3_b_1.xml",
+                        "action": "click",
+                        "bbox": [144,1414,288,1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./douyu_tc3_b_2.png",
+                        "xml_path": "./douyu_tc3_b_2.xml",
+                        "action": "click",
+                        "bbox": [520,74,624,150]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./douyu_tc3_b_3.png",
+                        "xml_path": "./douyu_tc3_b_3.xml",
+                        "action": "click",
+                        "bbox": [16,598,355,894]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./douyu_tc3_b_4.png",
+                        "xml_path": "./douyu_tc3_b_4.xml",
+                        "action": "click",
+                        "bbox": [256,469,384,555]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./douyu_tc3_b_5.png",
+                        "xml_path": "./douyu_tc3_b_5.xml",
+                        "action": "click",
+                        "bbox": [6,857,714,1512]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 4,
+            "testcase_desc": "在推荐页中搜索“王纪超”，从直播间进入主播主页。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./douyu_tc4_b_1.png",
+                        "xml_path": "./douyu_tc4_b_1.xml",
+                        "action": "click",
+                        "bbox": [0,150,720,230]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./douyu_tc4_b_2.png",
+                        "xml_path": "./douyu_tc4_b_2.xml",
+                        "action": "input",
+                        "bbox": [92,90,610,128],
+                        "input_value": "王纪超"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./douyu_tc4_b_3.png",
+                        "xml_path": "./douyu_tc4_b_3.xml",
+                        "action": "click",
+                        "bbox": [32,363,688,816]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./douyu_tc4_b_4.png",
+                        "xml_path": "./douyu_tc4_b_4.xml",
+                        "action": "click",
+                        "bbox": [68,89,144,159]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./douyu_tc4_b_5.png",
+                        "xml_path": "./douyu_tc4_b_5.xml",
+                        "action": "click",
+                        "bbox": [32,793,154,915]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 5,
+            "testcase_desc": "在推荐页中搜索“王纪超”，切换搜索结果为“用户”，进入该主播主页，筛选并查看动态中图片部分。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./douyu_tc5_b_1.png",
+                        "xml_path": "./douyu_tc5_b_1.xml",
+                        "action": "click",
+                        "bbox": [0,150,720,230]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./douyu_tc5_b_2.png",
+                        "xml_path": "./douyu_tc5_b_2.xml",
+                        "action": "input",
+                        "bbox": [92,90,610,128],
+                        "input_value": "王纪超"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./douyu_tc5_b_3.png",
+                        "xml_path": "./douyu_tc5_b_3.xml",
+                        "action": "click",
+                        "bbox": [152,154,212,226]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./douyu_tc5_b_4.png",
+                        "xml_path": "./douyu_tc5_b_4.xml",
+                        "action": "click",
+                        "bbox": [30,315,690,469]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./douyu_tc5_b_5.png",
+                        "xml_path": "./douyu_tc5_b_5.xml",
+                        "action": "click",
+                        "bbox": [656,788,688,820]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./douyu_tc5_b_6.png",
+                        "xml_path": "./douyu_tc5_b_6.xml",
+                        "action": "click",
+                        "bbox": [544,903,704,969]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 6,
+            "testcase_desc": "查看我的荣耀头衔中的弹幕皮肤。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./douyu_tc6_b_1.png",
+                        "xml_path": "./douyu_tc6_b_1.xml",
+                        "action": "click",
+                        "bbox": [576,1414,720,1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./douyu_tc6_b_2.png",
+                        "xml_path": "./douyu_tc6_b_2.xml",
+                        "action": "click",
+                        "bbox": [16,705,188,845]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./douyu_tc6_b_3.png",
+                        "xml_path": "./douyu_tc6_b_3.xml",
+                        "action": "click",
+                        "bbox": [326,154,485,223]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 7,
+            "testcase_desc": "在所有分类中选择“穿越火线”，进入第一个带有“生化狂魔”标签的直播间。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./douyu_tc7_b_1.png",
+                        "xml_path": "./douyu_tc7_b_1.xml",
+                        "action": "click",
+                        "bbox": [640,72,720,152]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./douyu_tc7_b_2.png",
+                        "xml_path": "./douyu_tc7_b_2.xml",
+                        "action": "click",
+                        "bbox": [540,1031,720,1179]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./douyu_tc7_b_3.png",
+                        "xml_path": "./douyu_tc7_b_3.xml",
+                        "action": "click",
+                        "bbox": [365,443,704,739]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 8,
+            "testcase_desc": "在动态中进入第二个陪玩店，查看陪玩价目表。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./douyu_tc8_b_1.png",
+                        "xml_path": "./douyu_tc8_b_1.xml",
+                        "action": "click",
+                        "bbox": [432,1414,576,1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./douyu_tc8_b_2.png",
+                        "xml_path": "./douyu_tc8_b_2.xml",
+                        "action": "click",
+                        "bbox": [336,72,440,152]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./douyu_tc8_b_3.png",
+                        "xml_path": "./douyu_tc8_b_3.xml",
+                        "action": "click",
+                        "bbox": [24,304,112,392]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./douyu_tc8_b_4.png",
+                        "xml_path": "./douyu_tc8_b_4.xml",
+                        "action": "click",
+                        "bbox": [152,808,692,928]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 9,
+            "testcase_desc": "在赛事中查看“2026EWC 英雄联盟预选赛”赛事的全部回放，并回放4月14日17:00的比赛。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./douyu_tc9_b_1.png",
+                        "xml_path": "./douyu_tc9_b_1.xml",
+                        "action": "click",
+                        "bbox": [360,74,464,150]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./douyu_tc9_b_2.png",
+                        "xml_path": "./douyu_tc9_b_2.xml",
+                        "action": "click",
+                        "bbox": [452,162,564,216]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./douyu_tc9_b_3.png",
+                        "xml_path": "./douyu_tc9_b_3.xml",
+                        "action": "click",
+                        "bbox": [16,649,704,739]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./douyu_tc9_b_4.png",
+                        "xml_path": "./douyu_tc9_b_4.xml",
+                        "action": "click",
+                        "bbox": [590,1206,690,1250]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 10,
+            "testcase_desc": "在所有分类中选择“穿越火线”，选择职业选手，观看第一条直播，屏蔽所有特效。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./douyu_tc10_b_1.png",
+                        "xml_path": "./douyu_tc10_b_1.xml",
+                        "action": "click",
+                        "bbox": [640,72,720,152]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./douyu_tc10_b_2.png",
+                        "xml_path": "./douyu_tc10_b_2.xml",
+                        "action": "click",
+                        "bbox": [540,1031,720,1179]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./douyu_tc10_b_3.png",
+                        "xml_path": "./douyu_tc10_b_3.xml",
+                        "action": "click",
+                        "bbox": [388,361,516,441]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./douyu_tc10_b_4.png",
+                        "xml_path": "./douyu_tc10_b_4.xml",
+                        "action": "click",
+                        "bbox": [652,100,700,148]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./douyu_tc10_b_5.png",
+                        "xml_path": "./douyu_tc10_b_5.xml",
+                        "action": "click",
+                        "bbox": [180,940,360,1084]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./douyu_tc10_b_6.png",
+                        "xml_path": "./douyu_tc10_b_6.xml",
+                        "action": "click",
+                        "bbox": [594,972,690,1020]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 11,
+            "testcase_desc": "删除我的所有浏览记录。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./douyu_tc11_b_1.png",
+                        "xml_path": "./douyu_tc11_b_1.xml",
+                        "action": "click",
+                        "bbox": [576,1414,720,1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./douyu_tc11_b_2.png",
+                        "xml_path": "./douyu_tc11_b_2.xml",
+                        "action": "click",
+                        "bbox": [16,471,188,611]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./douyu_tc11_b_3.png",
+                        "xml_path": "./douyu_tc11_b_3.xml",
+                        "action": "click",
+                        "bbox": [616,74,704,144]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./douyu_tc11_b_4.png",
+                        "xml_path": "./douyu_tc11_b_4.xml",
+                        "action": "click",
+                        "bbox": [24,1424,210,1491]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./douyu_tc11_b_5.png",
+                        "xml_path": "./douyu_tc11_b_5.xml",
+                        "action": "click",
+                        "bbox": [360,814,632,907]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 12,
+            "testcase_desc": "在底部切换娱乐玩法，进入户外直播栏目中第一个直播间，查看直播间观众贵宾中第一个人的勋章。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./douyu_tc12_b_1.png",
+                        "xml_path": "./douyu_tc12_b_1.xml",
+                        "action": "click",
+                        "bbox": [144,1414,288,1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./douyu_tc12_b_2.png",
+                        "xml_path": "./douyu_tc12_b_2.xml",
+                        "action": "click",
+                        "bbox": [520,74,624,150]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./douyu_tc12_b_3.png",
+                        "xml_path": "./douyu_tc12_b_3.xml",
+                        "action": "click",
+                        "bbox": [16,598,355,894]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./douyu_tc12_b_4.png",
+                        "xml_path": "./douyu_tc12_b_4.xml",
+                        "action": "click",
+                        "bbox": [420,92,635,156]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./douyu_tc12_b_5.png",
+                        "xml_path": "./douyu_tc12_b_5.xml",
+                        "action": "click",
+                        "bbox": [174,477,298,561]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./douyu_tc12_b_6.png",
+                        "xml_path": "./douyu_tc12_b_6.xml",
+                        "action": "click",
+                        "bbox": [110,586,192,668]
+                    },
+                    {
+                        "checkpoint_id": 7,
+                        "screenshot_path": "./douyu_tc12_b_7.png",
+                        "xml_path": "./douyu_tc12_b_7.xml",
+                        "action": "click",
+                        "bbox": [32,1388,246,1488]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 13,
+            "testcase_desc": "从直播间进入主播主页，查看相册中2月份的第一章图片/视频。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./douyu_tc13_b_1.png",
+                        "xml_path": "./douyu_tc13_b_1.xml",
+                        "action": "click",
+                        "bbox": [68,89,144,159]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./douyu_tc13_b_2.png",
+                        "xml_path": "./douyu_tc13_b_2.xml",
+                        "action": "click",
+                        "bbox": [32,822,154,944]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./douyu_tc13_b_3.png",
+                        "xml_path": "./douyu_tc13_b_3.xml",
+                        "action": "click",
+                        "bbox": [134,662,198,758]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./douyu_tc13_b_4.png",
+                        "xml_path": "./douyu_tc13_b_4.xml",
+                        "action": "click",
+                        "bbox": [96,910,286,1100]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 14,
+            "testcase_desc": "在动态中搜索主播“王纪超”，在主播主页筛选“点评”的动态。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./douyu_tc14_b_1.png",
+                        "xml_path": "./douyu_tc14_b_1.xml",
+                        "action": "click",
+                        "bbox": [432,1414,576,1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./douyu_tc14_b_2.png",
+                        "xml_path": "./douyu_tc14_b_2.xml",
+                        "action": "click",
+                        "bbox": [554,72,618,152]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./douyu_tc14_b_3.png",
+                        "xml_path": "./douyu_tc14_b_3.xml",
+                        "action": "input",
+                        "bbox": [24,82,616,142],
+                        "input_value": "王纪超"
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./douyu_tc14_b_4.png",
+                        "xml_path": "./douyu_tc14_b_4.xml",
+                        "action": "click",
+                        "bbox": [0,293,720,453]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./douyu_tc14_b_5.png",
+                        "xml_path": "./douyu_tc14_b_5.xml",
+                        "action": "click",
+                        "bbox": [656,788,688,820]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./douyu_tc14_b_6.png",
+                        "xml_path": "./douyu_tc14_b_6.xml",
+                        "action": "click",
+                        "bbox": [544,1037,704,1103]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 15,
+            "testcase_desc": "进入推荐页第一个直播间，查看该直播间在游戏榜的名次，然后进入第一名的直播间，并关注。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./douyu_tc15_b_1.png",
+                        "xml_path": "./douyu_tc15_b_1.xml",
+                        "action": "click",
+                        "bbox": [16,641,355,937]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./douyu_tc15_b_2.png",
+                        "xml_path": "./douyu_tc15_b_2.xml",
+                        "action": "click",
+                        "bbox": [32,171,142,237]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./douyu_tc15_b_3.png",
+                        "xml_path": "./douyu_tc15_b_3.xml",
+                        "action": "click",
+                        "bbox": [260,469,390,544]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./douyu_tc15_b_4.png",
+                        "xml_path": "./douyu_tc15_b_4.xml",
+                        "action": "click",
+                        "bbox": [36,701,215,781]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./douyu_tc15_b_5.png",
+                        "xml_path": "./douyu_tc15_b_5.xml",
+                        "action": "click",
+                        "bbox": [292,98,370,150]
+                    }
+                ]
+            }
+        }
+    ]
+}
