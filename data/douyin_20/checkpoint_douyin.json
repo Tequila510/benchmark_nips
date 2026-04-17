@@ -2705,65 +2705,65 @@
                     "trace": [
                         {
                             "checkpoint_id": 1,
-                            "screenshot_path": "./industry_tc13_b_1.png",
-                            "xml_path": "./industry_tc13_b_1.xml",
+                            "screenshot_path": "./douyin_tc13_b_1.png",
+                            "xml_path": "./douyin_tc13_b_1.xml",
                             "action": "click",
                             "bbox": [288, 1415, 432, 1512]
                         },
                         {
                             "checkpoint_id": 2,
-                            "screenshot_path": "./industry_tc13_b_2.png",
-                            "xml_path": "./industry_tc13_b_2.xml",
+                            "screenshot_path": "./douyin_tc13_b_2.png",
+                            "xml_path": "./douyin_tc13_b_2.xml",
                             "action": "click",
                             "bbox": [540, 1400, 660, 1512]
                         },
                         {
                             "checkpoint_id": 3,
-                            "screenshot_path": "./industry_tc13_b_3.png",
-                            "xml_path": "./industry_tc13_b_3.xml",
+                            "screenshot_path": "./douyin_tc13_b_3.png",
+                            "xml_path": "./douyin_tc13_b_3.xml",
                             "action": "click",
                             "bbox": [320, 948, 416, 1062]
                         },
                         {
                             "checkpoint_id": 4,
-                            "screenshot_path": "./industry_tc13_VE_4.png",
-                            "xml_path": "./industry_tc13_VE_4.xml",
+                            "screenshot_path": "./douyin_tc13_VE_4.png",
+                            "xml_path": "./douyin_tc13_VE_4.xml",
                             "action": "scroll",
                             "bbox": [129, 894, 720, 974],
                             "input_value": "right"
                         },
                         {
                             "checkpoint_id": 5,
-                            "screenshot_path": "./industry_tc13_VE_5.png",
-                            "xml_path": "./industry_tc13_VE_5.xml",
+                            "screenshot_path": "./douyin_tc13_VE_5.png",
+                            "xml_path": "./douyin_tc13_VE_5.xml",
                             "action": "click",
                             "bbox": [129, 894, 225, 974]
                         },
                         {
                             "checkpoint_id": 6,
-                            "screenshot_path": "./industry_tc13_VE_6.png",
-                            "xml_path": "./industry_tc13_VE_6.xml",
+                            "screenshot_path": "./douyin_tc13_VE_6.png",
+                            "xml_path": "./douyin_tc13_VE_6.xml",
                             "action": "click",
                             "bbox": [40, 1166, 160, 1219]
                         },
                         {
                             "checkpoint_id": 7,
-                            "screenshot_path": "./industry_tc13_VE_7.png",
-                            "xml_path": "./industry_tc13_VE_7.xml",
+                            "screenshot_path": "./douyin_tc13_VE_7.png",
+                            "xml_path": "./douyin_tc13_VE_7.xml",
                             "action": "click",
                             "bbox": [0, 1114, 144, 1274]
                         },
                         {
                             "checkpoint_id": 8,
-                            "screenshot_path": "./industry_tc13_VE_8.png",
-                            "xml_path": "./industry_tc13_VE_8.xml",
+                            "screenshot_path": "./douyin_tc13_VE_8.png",
+                            "xml_path": "./douyin_tc13_VE_8.xml",
                             "action": "click",
                             "bbox": [0, 64, 720, 894]
                         },
                         {
                             "checkpoint_id": 9,
-                            "screenshot_path": "./industry_tc13_b_6.png",
-                            "xml_path": "./industry_tc13_b_6.xml",
+                            "screenshot_path": "./douyin_tc13_b_6.png",
+                            "xml_path": "./douyin_tc13_b_6.xml",
                             "action": "click",
                             "bbox": [101, 1256, 619, 1352]
                         }
@@ -3260,7 +3260,7 @@
                         {
                             "checkpoint_id": 1,
                             "screenshot_path": "./douyin_tc15_b_1.png",
-                            "xml_path": "./industry_tc15_b_1.xml",
+                            "xml_path": "./douyin_tc15_b_1.xml",
                             "action": "click",
                             "bbox": [616, 64, 720, 152]
                         },
