@@ -24,6 +24,7 @@ venv/
 ENV/
 env/
 .venv/
+.env
 
 # IDE
 .idea/
@@ -36,6 +37,7 @@ env/
 Thumbs.db
 
 # Data files (根据需要调整)
+.data_merge/
 
 # Jupyter
 .ipynb_checkpoints/
