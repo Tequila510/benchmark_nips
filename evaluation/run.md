@@ -1,0 +1,8 @@
+# Evaluation Instructions
+
+1. run AppAgent-v1
+```shell
+cd <your_path>/evaluation/agents/AppAgent
+python ./scripts/task_executor_offline.py --dataset ../../../data/douyin_20/checkpoint_douyin.json --output ../../results/appagent-v1.json
+```
+2. run UI-TARS

@@ -1,0 +1,2774 @@
+{
+    "agent_name": "AppAgent",
+    "results": [
+        {
+            "app_tested": "douyin",
+            "task_1": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [428,162,548,234]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [96,72,596,144]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [58,512,688,638]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [256,1423,332,1463]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [498,166,720,286]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [65,627,655,963]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "都挺好"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [32,1321,688,1409]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [192,64,284,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [428,162,548,234]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360,392,688,464]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [58,512,688,638]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,1330,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [498,166,720,286]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [65,627,655,963]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "都挺好"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [32,1321,688,1409]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [330,1195,390,1255]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [428,162,548,234]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360,392,688,464]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [58,512,688,638]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,1330,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [498,166,720,286]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,600,720,900]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "都挺好"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [32,1321,688,1409]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [156,64,248,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [428,162,548,234]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "冰淇淋"
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,1330,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [498,166,720,286]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,600,720,900]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "都挺好"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [32,1321,688,1409]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [428,162,548,234]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [365,858,705,1198]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360,392,688,464]
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,1330,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [498,166,720,286]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,600,720,900]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "都挺好"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [32,1321,688,1409]
+                        }
+                    ]
+                }
+            ],
+            "task_2": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [576,1415,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [15,858,355,1198]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,1415,156,1492]
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [394,1367,472,1399]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [576,1415,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,246,720,350]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360,152,524,232]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,76,88,140]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [192,64,284,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [15,858,355,1198]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,1415,156,1492]
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [230,1401,373,1433]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [576,1415,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,246,720,350]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360,152,524,232]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,1415,185,1492]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [330,1195,390,1255]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [340,64,432,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,1415,156,1492]
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [0,166,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [548,152,632,234]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,246,720,350]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360,152,524,232]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,1415,185,1492]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [576,1415,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [15,858,355,1198]
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [6,1206,714,1288]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [15,858,355,1198]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,246,720,1600]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,355,212,527]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,76,88,140]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [420,140,690,270]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [340,64,432,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,1415,156,1492]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [543,344,607,408]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [488,92,552,156]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,246,720,350]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360,152,524,232]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,76,88,140]
+                        }
+                    ]
+                }
+            ],
+            "task_3": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [16,162,548,234]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "台球"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [32,506,160,680]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [488,92,552,156]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [330,1195,390,1255]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [16,162,548,234]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "台球"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [32,506,160,680]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [488,92,552,156]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [192,64,284,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [16,162,548,234]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "台球"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [32,506,160,680]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [488,92,552,156]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [420,140,690,270]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [16,162,548,234]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "台球"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [32,506,160,680]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [520,380,688,452]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [16,162,548,234]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "台球"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [540,92,572,124]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [488,92,552,156]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [16,162,548,234]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "台球"
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [32,506,160,680]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [520,380,688,452]
+                        }
+                    ]
+                }
+            ],
+            "task_4": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [632,152,704,234]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,350,720,454]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [0,64,88,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [632,152,704,234]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,246,720,350]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [0,64,88,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [330,1195,390,1255]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,603,336,633]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,350,720,454]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [248,64,340,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [192,64,284,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [632,152,704,234]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,350,720,454]
+                        }
+                    ]
+                }
+            ],
+            "task_5": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [96,72,596,144]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [596,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,1374,680,1462]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [46,311,240,380]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "短剧"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [596,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,1374,680,1462]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [46,311,240,380]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [32,84,80,132]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [596,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [32,152,137,240]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [46,311,240,380]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "短剧"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [596,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [32,152,137,240]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,1374,680,1462]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [46,311,240,380]
+                        }
+                    ]
+                }
+            ],
+            "task_6": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [17,583,360,766]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,454,720,558]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [616,460,688,508]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [484,250,604,348]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [156,64,248,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [192,64,284,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [632,152,704,234]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,454,720,558]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [616,460,688,508]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [484,250,604,348]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [0,64,88,152]
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [632,152,704,234]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,454,720,558]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [616,460,688,508]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [484,250,604,348]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [576,1415,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [600,350,720,418]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,454,720,558]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [616,460,688,508]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [484,250,604,348]
+                        }
+                    ]
+                }
+            ],
+            "task_7": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [0,64,88,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [365,686,705,1123]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [232,88,330,144]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [0,64,88,152]
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [0,234,720,596]
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [15,455,355,795]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [15,721,355,1146]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [232,88,330,144]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [0,64,88,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [192,64,284,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [232,88,330,144]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [0,64,88,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [192,64,284,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [365,686,705,1123]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [232,88,330,144]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [0,64,88,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [330,1195,390,1255]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [365,686,705,1123]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [232,88,330,144]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [420,140,690,270]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [156,64,248,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [365,686,705,1123]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [232,88,330,144]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [340,152,432,240]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [365,686,705,1123]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [232,88,330,144]
+                        }
+                    ]
+                }
+            ],
+            "task_8": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [248,64,340,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [575,633,703,742]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [278,274,689,350]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [543,76,607,140]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [248,64,340,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [330,1195,390,1255]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [575,633,703,742]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [278,274,689,350]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [543,76,607,140]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [248,64,340,152]
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [384,431,680,461]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [575,633,703,742]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [278,274,689,350]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [543,76,607,140]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [248,64,340,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [575,633,703,742]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [278,274,689,350]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [600,150,720,240]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [248,64,340,152]
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [0,0,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [278,274,689,350]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [632,76,696,140]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [248,64,340,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [548,152,632,234]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [575,633,703,742]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [278,274,689,350]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [543,76,607,140]
+                        }
+                    ]
+                }
+            ],
+            "task_9": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "短剧"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [540,92,572,124]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,1088,720,1304]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "短剧"
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [0,242,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,242,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,1088,720,1304]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [96,72,596,144]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,242,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,1088,720,1304]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [96,72,596,144]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,983,679,1051]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,1088,720,1304]
+                        }
+                    ]
+                }
+            ],
+            "task_10": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "短剧"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [375,350,520,410]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [545,527,690,587]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [545,704,690,764]
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [96,72,596,144]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "短剧"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [375,350,520,410]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [545,527,690,587]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [545,704,690,764]
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [235,923,340,978]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "短剧"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [638,152,720,240]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [375,350,520,410]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [545,527,690,587]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [545,704,690,764]
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [96,72,596,144]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [638,152,720,240]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [375,350,520,410]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [545,527,690,587]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [545,704,690,764]
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [235,923,340,978]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace_output": [
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [96,72,596,144]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [375,350,520,410]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [375,350,520,410]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [545,527,690,587]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [545,704,690,764]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [638,152,720,240]
+                        }
+                    ]
+                }
+            ],
+            "task_11": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [340,64,432,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [189,938,531,1018]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [340,1422,420,1494]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [340,64,432,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [189,938,531,1018]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [340,1422,420,1494]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [248,152,340,200]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [189,938,531,1018]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [340,1422,420,1494]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [248,64,340,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [253,180,467,276]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [340,1422,420,1494]
+                        }
+                    ]
+                }
+            ],
+            "task_12": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [340,64,432,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [430,350,571,452]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [15,502,352,994]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [340,64,432,152]
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [23,755,83,786]
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [524,64,616,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [15,502,352,994]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [432,64,524,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [67,170,249,216]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [15,502,352,994]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [432,64,524,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,160,720,233]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [430,350,571,452]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [15,502,352,994]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [446,129,510,172]
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [499,968,615,995]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [15,502,352,994]
+                        }
+                    ]
+                }
+            ],
+            "task_13": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [288,1415,432,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [540,1400,660,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [320,948,416,1062]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [42,1100,102,1128]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,64,720,894]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [101,1256,619,1352]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [288,1315,432,1412]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [540,1400,660,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [320,948,416,1062]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [42,1100,102,1128]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [16,782,112,878]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [101,1256,619,1352]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [288,1415,432,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [540,1400,660,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [320,948,416,1062]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [42,1100,102,1128]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,64,720,894]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [101,1256,619,1352]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [288,1415,432,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [540,1400,660,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [320,948,416,1062]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,974,144,1134]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [101,1256,619,1352]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [288,1415,432,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [540,1400,660,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [540,1400,660,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [320,948,416,1062]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [42,1100,102,1128]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,974,144,1134]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [101,1256,619,1352]
+                        }
+                    ]
+                }
+            ],
+            "task_14": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "scroll",
+                            "bbox": [524,64,616,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [340,64,432,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [565,65,635,142]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [369,1358,689,1446]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [23,81,69,127]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "scroll",
+                            "bbox": [524,64,616,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [192,64,284,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,431,336,461]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [635,65,710,142]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [369,1358,689,1446]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [23,81,69,127]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "scroll",
+                            "bbox": [524,64,616,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [330,1195,390,1255]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,431,336,461]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [490,65,565,142]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [369,1358,689,1446]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [23,81,69,127]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [248,64,340,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,431,336,461]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [565,65,635,142]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "scroll",
+                            "bbox": [524,64,616,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [248,64,340,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [565,65,635,142]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [369,1358,689,1446]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [23,81,69,127]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "scroll",
+                            "bbox": [524,64,616,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [340,64,432,152]
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [565,65,635,142]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [633,604,689,660]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [23,81,69,127]
+                        }
+                    ]
+                }
+            ],
+            "task_15": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [96,72,596,144]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [596,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,1374,680,1462]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,176,352,725]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [96,72,596,144]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [596,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,1374,680,1462]
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [368,418,696,967]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,564,136,597]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "短剧"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [596,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,1374,680,1462]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,176,352,725]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "短剧"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [596,64,720,152]
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [0,242,720,1512]
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [16,160,704,1600]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [420,140,690,270]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "短剧"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [596,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,1374,680,1462]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,176,352,725]
+                        }
+                    ]
+                }
+            ],
+            "task_16": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "短剧"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,1155,679,1223]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360,1410,688,1498]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "input",
+                            "bbox": null,
+                            "input_value": "短剧"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360,1098,536,1146]
+                        },
+                        {
+                            "action": "finish",
+                            "bbox": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,1155,679,1223]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360,1410,688,1498]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [96,72,596,144]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [540,92,572,124]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360,1410,688,1498]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [96,72,596,144]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [540,92,572,124]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,1155,679,1223]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360,1410,688,1498]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [616,64,720,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [96,72,596,144]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40,1155,679,1223]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360,1410,688,1498]
+                        }
+                    ]
+                }
+            ],
+            "task_17": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [432,64,524,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [67,170,249,216]
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [8,402,356,954]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "scroll",
+                            "bbox": [524,64,616,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [192,64,284,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [67,170,249,216]
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [8,402,356,954]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [432,64,524,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,160,720,233]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [67,170,249,216]
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [8,402,356,954]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [340,64,432,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [67,170,249,216]
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null
+                        }
+                    ]
+                }
+            ],
+            "task_18": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [432,64,524,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [10,809,355,1295]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [23,1390,81,1489]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [593,261,697,307]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,84,72,132]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [0,64,88,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [192,64,284,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [10,809,355,1295]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [23,1390,81,1489]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [593,261,697,307]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,84,72,132]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [432,64,524,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [330,985,390,1050]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [10,809,355,1295]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [23,1390,81,1489]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [593,261,697,307]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,84,72,132]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [432,64,524,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [10,809,355,1295]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [546,776,683,811]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,84,72,132]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [432,64,524,152]
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [10,245,710,354]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,1389,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [593,261,697,307]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,84,72,132]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [432,64,524,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [432,64,524,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [10,809,355,1295]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,1389,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [593,261,697,307]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [24,84,72,132]
+                        }
+                    ]
+                }
+            ],
+            "task_19": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [248,64,340,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [156,544,272,600]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,0,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [189,938,531,1018]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [248,64,340,152]
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [314,64,406,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [156,544,272,600]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,560,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [189,938,531,1018]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [248,152,340,190]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [156,544,272,600]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,624,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [189,938,531,1018]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [248,64,340,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [222,64,314,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,624,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [189,938,531,1018]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [156,64,248,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [222,64,314,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,0,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,0,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [189,938,531,1018]
+                        }
+                    ]
+                }
+            ],
+            "task_20": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [156,64,248,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [349,226,506,362]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [388,626,469,665]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [31,898,689,933]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [622,607,668,653]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "scroll",
+                            "bbox": [0,64,720,1414]
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [0,64,720,1414]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [349,226,506,362]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [388,626,469,665]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [31,898,689,933]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [622,607,668,653]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [156,152,248,190]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [349,226,506,362]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [388,626,469,665]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [31,898,689,933]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [622,607,668,653]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [248,64,340,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [349,226,506,362]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [19,536,246,574]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [31,898,689,933]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,250,720,801]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [100,64,156,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [349,226,506,362]
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [0,0,720,1512]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [388,626,469,665]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [31,898,689,933]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [0,250,720,801]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [420,140,690,270]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [248,64,340,152]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [349,226,506,362]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [388,626,469,665]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [31,898,689,933]
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [622,607,668,653]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
