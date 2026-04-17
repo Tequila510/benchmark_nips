@@ -1,24 +1,13 @@
 """
-评估指标计算模块
+评估指标计算模块 - 多App综合版本
 实现四个核心指标：AAR、PSSR、TCR、RDR
+支持统计所有app的综合结果
 
 公式定义：
 - AAR = (1 / Σ T_i) * Σ I[â_t = a_t]
 - PSSR_d = (1 / |S_d|) * Σ I[â_t = a_t]
 - TCR = (1 / N) * Σ I[Π I[â_t = a_t] = 1]
 - RDR_TCR = (TCR_standard - TCR_perturbed) / TCR_standard * 100%
-
-结果格式：
-{
-  "agent_name": "xxx",
-  "results": [
-    {
-      "app_tested": "App Name",
-      "task_1": [{"type": "clean", "trace_output": [...]}, {"type": "VE", "trace_output": [...]}],
-      "task_2": [...]
-    }
-  ]
-}
 """
 
 from dataclasses import dataclass, field
@@ -26,6 +15,7 @@ from typing import List, Dict, Optional, Set
 import json
 from collections import defaultdict
 import argparse
+import os
 
 
 @dataclass
@@ -57,15 +47,11 @@ class TraceResult:
 # ============================================================
 # Metric 1: AAR (Action Accuracy Rate) - 动作准确率
 # ============================================================
+
 def calculate_aar(results: List[TraceResult]) -> float:
     """
     Metric 1: Action Accuracy Rate (AAR) - 动作准确率
-
     公式：AAR = (1 / Σ T_i) * Σ I[â_t = a_t]
-
-    含义：
-    - Σ T_i: 所有trace的checkpoint总数
-    - Σ I[â_t = a_t]: 预测正确的checkpoint数
     """
     total_checkpoints = 0
     correct_predictions = 0
@@ -88,7 +74,6 @@ def calculate_aar_by_group(
 ) -> Dict[str, float]:
     """
     按指定维度分组计算AAR
-
     Args:
         results: Trace结果列表
         group_by: 分组维度，可选 "noise_type", "testcase_id", "app_name"
@@ -116,10 +101,10 @@ def calculate_aar_by_group(
 # ============================================================
 # Metric 2: PSSR (Perturbation-Specific Success Rate) - 扰动特定成功率
 # ============================================================
+
 def calculate_pssr(results: List[TraceResult]) -> Dict[str, float]:
     """
     Metric 2: Perturbation-Specific Success Rate (PSSR) - 扰动特定成功率
-
     公式：PSSR_d = (1 / |S_d|) * Σ I[â_t = a_t]
     """
     perturbation_stats = defaultdict(lambda: {"correct": 0, "total": 0})
@@ -144,10 +129,10 @@ def calculate_pssr(results: List[TraceResult]) -> Dict[str, float]:
 # ============================================================
 # Metric 3: TCR (Task Completion Rate) - 任务完成率
 # ============================================================
+
 def calculate_tcr(results: List[TraceResult]) -> float:
     """
     Metric 3: Task Completion Rate (TCR) - 任务完成率
-
     公式：TCR = (1 / N) * Σ I[Π I[â_t = a_t] = 1]
     """
     total_traces = len(results)
@@ -191,13 +176,13 @@ def calculate_tcr_by_group(
 # ============================================================
 # Metric 4: RDR (Robustness Degradation Rate) - 鲁棒性下降度
 # ============================================================
+
 def calculate_rdr(
     clean_results: List[TraceResult],
     perturbed_results: List[TraceResult]
 ) -> Dict[str, float]:
     """
     Metric 4: Robustness Degradation Rate (RDR) - 鲁棒性下降度
-
     公式：RDR_TCR = (TCR_standard - TCR_perturbed) / TCR_standard * 100%
     """
     tcr_clean = calculate_tcr(clean_results)
@@ -225,64 +210,31 @@ def calculate_rdr(
     return rdr_results
 
 
-def calculate_rdr_by_testcase(
-    clean_results: List[TraceResult],
-    perturbed_results: List[TraceResult]
-) -> Dict[int, Dict[str, float]]:
-    """按testcase分组计算RDR"""
-    clean_by_tc = defaultdict(list)
-    for trace in clean_results:
-        clean_by_tc[trace.testcase_id].append(trace)
-
-    perturbed_by_tc = defaultdict(lambda: defaultdict(list))
-    for trace in perturbed_results:
-        perturbed_by_tc[trace.testcase_id][trace.noise_type].append(trace)
-
-    rdr_by_testcase = {}
-    for testcase_id in clean_by_tc:
-        tcr_clean = calculate_tcr(clean_by_tc[testcase_id])
-
-        if tcr_clean == 0:
-            rdr_by_testcase[testcase_id] = {"error": "Clean TCR is 0"}
-            continue
-
-        rdr_by_testcase[testcase_id] = {}
-        for noise_type, traces in perturbed_by_tc[testcase_id].items():
-            tcr_perturbed = calculate_tcr(traces)
-            rdr = (tcr_clean - tcr_perturbed) / tcr_clean * 100
-            rdr_by_testcase[testcase_id][noise_type] = rdr
-
-    return rdr_by_testcase
-
-
 # ============================================================
 # 综合评估函数
 # ============================================================
-def evaluate_results(
+
+def evaluate_all_apps(
     agent_name: str,
-    ground_truth_path: str,
+    ground_truth_files: List[str],
     prediction_path: str,
     metrics: Optional[Set[str]] = None,
     group_by: Optional[str] = None
 ) -> Dict:
     """
-    读取预测结果和ground truth，计算指定指标
+    读取所有app的ground truth和预测结果，计算综合指标
 
     Args:
         agent_name: Agent名称
-        ground_truth_path: ground truth JSON文件路径
-        prediction_path: 预测结果JSON文件路径（新格式）
+        ground_truth_files: 所有app的ground truth JSON文件路径列表
+        prediction_path: 预测结果JSON文件路径
         metrics: 要计算的指标集合，如 {"AAR", "PSSR", "TCR", "RDR"}
         group_by: 分组维度，可选 "noise_type", "testcase_id", "app_name"
     """
     if metrics is None:
         metrics = {"AAR", "PSSR", "TCR", "RDR"}
 
-    # 读取ground truth (格式: {"app": "xxx", "testcases": [...]})
-    with open(ground_truth_path, 'r', encoding='utf-8') as f:
-        gt_data = json.load(f)
-
-    # 读取预测结果 (新格式)
+    # 读取预测结果
     with open(prediction_path, 'r', encoding='utf-8') as f:
         pred_data = json.load(f)
 
@@ -292,42 +244,51 @@ def evaluate_results(
     # 构建结果列表
     clean_results = []
     perturbed_results = []
+    app_names = []
 
-    # 获取app名称
-    app_name = gt_data.get("app", "unknown")
+    # 处理每个app的ground truth
+    for gt_path in ground_truth_files:
+        if not os.path.exists(gt_path):
+            print(f"Warning: Ground truth file not found: {gt_path}")
+            continue
 
-    # 处理每个testcase
-    for testcase in gt_data.get("testcases", []):
-        testcase_id = testcase["testcase_id"]
-        testcase_desc = testcase["testcase_desc"]
+        with open(gt_path, 'r', encoding='utf-8') as f:
+            gt_data = json.load(f)
 
-        # 处理clean trace
-        if "clean" in testcase:
-            clean_trace = testcase["clean"]["trace"]
-            # 查找对应预测: task_{testcase_id}, type="clean"
-            pred_key = (app_name, f"task_{testcase_id}", "clean")
-            pred_trace = pred_index.get(pred_key, [])
+        app_name = gt_data.get("app", "unknown")
+        app_names.append(app_name)
 
-            trace_result = _process_trace(
-                agent_name, app_name, testcase_id, testcase_desc,
-                "clean", clean_trace, pred_trace
-            )
-            clean_results.append(trace_result)
+        # 处理每个testcase
+        for testcase in gt_data.get("testcases", []):
+            testcase_id = testcase["testcase_id"]
+            testcase_desc = testcase["testcase_desc"]
 
-        # 处理noise traces
-        if "noise" in testcase:
-            for noise_item in testcase["noise"]:
-                noise_type = noise_item["type"]
-                noise_trace = noise_item["trace"]
-                # 查找对应预测
-                pred_key = (app_name, f"task_{testcase_id}", noise_type)
+            # 处理clean trace
+            if "clean" in testcase:
+                clean_trace = testcase["clean"]["trace"]
+                pred_key = (app_name, f"task_{testcase_id}", "clean")
                 pred_trace = pred_index.get(pred_key, [])
 
                 trace_result = _process_trace(
                     agent_name, app_name, testcase_id, testcase_desc,
-                    noise_type, noise_trace, pred_trace
+                    "clean", clean_trace, pred_trace
                 )
-                perturbed_results.append(trace_result)
+                clean_results.append(trace_result)
+
+            # 处理noise traces
+            if "noise" in testcase:
+                for noise_item in testcase["noise"]:
+                    noise_type = noise_item["type"]
+                    noise_trace = noise_item["trace"]
+
+                    pred_key = (app_name, f"task_{testcase_id}", noise_type)
+                    pred_trace = pred_index.get(pred_key, [])
+
+                    trace_result = _process_trace(
+                        agent_name, app_name, testcase_id, testcase_desc,
+                        noise_type, noise_trace, pred_trace
+                    )
+                    perturbed_results.append(trace_result)
 
     # 合并所有结果
     all_results = clean_results + perturbed_results
@@ -335,7 +296,8 @@ def evaluate_results(
     # 根据参数计算指标
     result = {
         "agent_name": agent_name,
-        "app": app_name,
+        "apps_evaluated": app_names,
+        "total_apps": len(app_names),
         "total_traces": len(all_results),
         "total_checkpoints": sum(len(t.checkpoints) for t in all_results),
     }
@@ -361,8 +323,6 @@ def evaluate_results(
     # RDR
     if "RDR" in metrics:
         result["RDR"] = calculate_rdr(clean_results, perturbed_results)
-        if group_by == "testcase_id":
-            result["RDR_by_testcase"] = calculate_rdr_by_testcase(clean_results, perturbed_results)
 
     return result
 
@@ -370,19 +330,6 @@ def evaluate_results(
 def _build_prediction_index(pred_data: Dict) -> Dict:
     """
     构建预测结果索引
-
-    输入格式:
-    {
-      "agent_name": "xxx",
-      "results": [
-        {
-          "app_tested": "App Name",
-          "task_1": [{"type": "clean", "trace_output": [...]}, {"type": "VE", "trace_output": [...]}],
-          "task_2": [...]
-        }
-      ]
-    }
-
     输出: {(app_name, task_key, noise_type): trace_output}
     """
     index = {}
@@ -424,6 +371,7 @@ def _process_trace(
 
     # 处理每个checkpoint
     all_correct = True
+
     for i, gt_checkpoint in enumerate(gt_trace):
         checkpoint_id = gt_checkpoint["checkpoint_id"]
         gt_action = gt_checkpoint["action"]
@@ -432,9 +380,11 @@ def _process_trace(
         # 获取预测结果
         pred_action = None
         pred_bbox = None
+
         if i < len(pred_trace):
             pred_item = pred_trace[i]
             pred_action = pred_item.get("action")
+
             # bbox可能是字符串或list
             pred_bbox_raw = pred_item.get("bbox")
             if isinstance(pred_bbox_raw, str):
@@ -471,13 +421,14 @@ def _process_trace(
 
 def print_metrics(metrics: Dict):
     """打印指标结果"""
-    print("\n" + "="*60)
+    print("\n" + "="*70)
     print(f"评估结果 - {metrics['agent_name']}")
-    print(f"App: {metrics.get('app', 'N/A')}")
-    print("="*60)
+    print(f"评估的App数量: {metrics['total_apps']}")
+    print(f"App列表: {', '.join(metrics['apps_evaluated'])}")
+    print("="*70)
     print(f"总Trace数: {metrics['total_traces']}")
     print(f"总Checkpoint数: {metrics['total_checkpoints']}")
-    print("-"*60)
+    print("-"*70)
 
     if "AAR" in metrics:
         print(f"AAR (动作准确率): {metrics['AAR']:.4f} ({metrics['AAR']*100:.2f}%)")
@@ -488,19 +439,19 @@ def print_metrics(metrics: Dict):
                     print(f"    {k}: {v:.4f} ({v*100:.2f}%)")
 
     if "PSSR" in metrics:
-        print("-"*60)
+        print("-"*70)
         print("PSSR (扰动特定成功率):")
         for noise_type, pssr in metrics['PSSR'].items():
             print(f"  {noise_type}: {pssr:.4f} ({pssr*100:.2f}%)")
 
     if "TCR_clean" in metrics:
-        print("-"*60)
+        print("-"*70)
         print(f"TCR_clean (标准环境任务完成率): {metrics['TCR_clean']:.4f} ({metrics['TCR_clean']*100:.2f}%)")
         print(f"TCR_perturbed (扰动环境任务完成率): {metrics['TCR_perturbed']:.4f} ({metrics['TCR_perturbed']*100:.2f}%)")
         print(f"TCR_all (全部任务完成率): {metrics['TCR_all']:.4f} ({metrics['TCR_all']*100:.2f}%)")
 
     if "RDR" in metrics:
-        print("-"*60)
+        print("-"*70)
         print("RDR (鲁棒性下降度):")
         if isinstance(metrics['RDR'], dict):
             for key, value in metrics['RDR'].items():
@@ -509,51 +460,60 @@ def print_metrics(metrics: Dict):
                 else:
                     print(f"  {key}: {value}")
 
-    print("="*60 + "\n")
+    print("="*70 + "\n")
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="计算评估指标")
-    parser.add_argument("ground_truth", help="Ground truth JSON文件路径")
+    parser = argparse.ArgumentParser(description="计算所有App的综合评估指标")
     parser.add_argument("prediction", help="预测结果JSON文件路径")
     parser.add_argument("--agent", "-a", default=None, help="Agent名称（默认从预测文件读取）")
-    parser.add_argument("--metrics", "-m", nargs="+",
-                        choices=["AAR", "PSSR", "TCR", "RDR"],
-                        help="要计算的指标（默认全部）")
-    parser.add_argument("--group-by", "-g",
-                        choices=["noise_type", "testcase_id", "app_name"],
-                        help="分组维度")
+    parser.add_argument("--metrics", "-m", nargs="+", choices=["AAR", "PSSR", "TCR", "RDR"],
+                       help="要计算的指标（默认全部）")
+    parser.add_argument("--group-by", "-g", choices=["noise_type", "testcase_id", "app_name"],
+                       help="分组维度")
+    parser.add_argument("--output", "-o", default="metrics_results.txt", help="输出文件路径")
 
     args = parser.parse_args()
+
+    # ============================================================
+    # 在这里写死所有app的ground truth文件路径
+    # ============================================================
+    GROUND_TRUTH_FILES = [
+        # 示例：
+        "../data/douyin-20/checkpoint_douyin.json",
+        "../data/taobao-16/checkpoint_taobao.json"
+    ]
 
     # 从预测文件读取agent_name
     if args.agent is None:
         with open(args.prediction, 'r', encoding='utf-8') as f:
             pred_data = json.load(f)
-            agent_name = pred_data.get("agent_name", "Unknown_Agent")
+        agent_name = pred_data.get("agent_name", "Unknown_Agent")
     else:
         agent_name = args.agent
 
     metrics_set = set(args.metrics) if args.metrics else None
 
-    metrics = evaluate_results(
+    metrics = evaluate_all_apps(
         agent_name,
-        args.ground_truth,
+        GROUND_TRUTH_FILES,
         args.prediction,
         metrics=metrics_set,
         group_by=args.group_by
     )
+
     print_metrics(metrics)
 
-    # 保存结果到当前目录下的 metrics_results.txt
-    output_path = "metrics_results.txt"
+    # 保存结果
+    output_path = args.output
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(f"评估结果 - {metrics['agent_name']}\n")
-        f.write(f"App: {metrics.get('app', 'N/A')}\n")
-        f.write("="*60 + "\n")
+        f.write(f"评估的App数量: {metrics['total_apps']}\n")
+        f.write(f"App列表: {', '.join(metrics['apps_evaluated'])}\n")
+        f.write("="*70 + "\n")
         f.write(f"总Trace数: {metrics['total_traces']}\n")
         f.write(f"总Checkpoint数: {metrics['total_checkpoints']}\n")
-        f.write("-"*60 + "\n")
+        f.write("-"*70 + "\n")
 
         if "AAR" in metrics:
             f.write(f"AAR (动作准确率): {metrics['AAR']:.4f} ({metrics['AAR']*100:.2f}%)\n")
@@ -564,19 +524,19 @@ if __name__ == "__main__":
                         f.write(f"    {k}: {v:.4f} ({v*100:.2f}%)\n")
 
         if "PSSR" in metrics:
-            f.write("-"*60 + "\n")
+            f.write("-"*70 + "\n")
             f.write("PSSR (扰动特定成功率):\n")
             for noise_type, pssr in metrics['PSSR'].items():
                 f.write(f"  {noise_type}: {pssr:.4f} ({pssr*100:.2f}%)\n")
 
         if "TCR_clean" in metrics:
-            f.write("-"*60 + "\n")
+            f.write("-"*70 + "\n")
             f.write(f"TCR_clean (标准环境任务完成率): {metrics['TCR_clean']:.4f} ({metrics['TCR_clean']*100:.2f}%)\n")
             f.write(f"TCR_perturbed (扰动环境任务完成率): {metrics['TCR_perturbed']:.4f} ({metrics['TCR_perturbed']*100:.2f}%)\n")
             f.write(f"TCR_all (全部任务完成率): {metrics['TCR_all']:.4f} ({metrics['TCR_all']*100:.2f}%)\n")
 
         if "RDR" in metrics:
-            f.write("-"*60 + "\n")
+            f.write("-"*70 + "\n")
             f.write("RDR (鲁棒性下降度):\n")
             if isinstance(metrics['RDR'], dict):
                 for key, value in metrics['RDR'].items():
@@ -585,6 +545,6 @@ if __name__ == "__main__":
                     else:
                         f.write(f"  {key}: {value}\n")
 
-        f.write("="*60 + "\n")
+        f.write("="*70 + "\n")
 
-    print(f"\n指标结果已保存到: {output_path}")
+    print(f"指标结果已保存到: {output_path}")
