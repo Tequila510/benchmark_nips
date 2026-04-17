@@ -1,0 +1,36 @@
+{
+    "agent_name": "Example Agent",
+    "results": [
+        {
+            "app_tested": "Example App 1",
+            "task_1": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "Example agent ouput Action. [inquired]",
+                            "bbox": "Example agent output bbox. [option]",
+                            "input_value": "Example agent input value. [option]"
+                        },
+                        {
+                            "action": "Example agent ouput Action. [inquired]",
+                            "bbox": "Example agent output bbox. [option]",
+                            "input_value": "Example agent input value. [option]"
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "Example agent ouput Action. [inquired]",
+                            "bbox": "Example agent output bbox. [option]",
+                            "input_value": "Example agent input value. [option]"
+                        }
+                    ]
+                }
+            ],
+            "task_2": []
+        }
+    ]
+}
