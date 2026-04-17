@@ -42,3 +42,10 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Byte-compiled / optimized / DLL files
+
+# custom
+**/temp/*
+logs/*
+
