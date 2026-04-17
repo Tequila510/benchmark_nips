@@ -38,6 +38,7 @@ Thumbs.db
 
 # Data files (根据需要调整)
 .data_merge/
+*.zip
 
 # Jupyter
 .ipynb_checkpoints/
