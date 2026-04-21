@@ -1,0 +1,3586 @@
+{
+    "app": "bilibili",
+    "testcases": [
+        {
+            "testcase_id": 1,
+            "testcase_desc": "在首页推荐页搜索“金融量化”，观看第一条推荐视频，并发送“学到了”在评论区。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./bilibili_tc1_b_1.png",
+                        "xml_path": "./bilibili_tc1_b_1.xml",
+                        "action": "click",
+                        "bbox": [142, 86, 512, 154]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./bilibili_tc1_b_2.png",
+                        "xml_path": "./bilibili_tc1_b_2.xml",
+                        "action": "input",
+                        "bbox": [129, 84, 592, 144],
+                        "input_value": "金融量化"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./bilibili_tc1_b_3.png",
+                        "xml_path": "./bilibili_tc1_b_3.xml",
+                        "action": "click",
+                        "bbox": [0, 245, 720, 599]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./bilibili_tc1_b_4.png",
+                        "xml_path": "./bilibili_tc1_b_4.xml",
+                        "action": "click",
+                        "bbox": [108, 577, 316, 653]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./bilibili_tc1_b_5.png",
+                        "xml_path": "./bilibili_tc1_b_5.xml",
+                        "action": "click",
+                        "bbox": [24, 1438, 624, 1498]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./bilibili_tc1_b_6.png",
+                        "xml_path": "./bilibili_tc1_b_6.xml",
+                        "action": "input",
+                        "bbox": [24, 806, 664, 906],
+                        "input_value": "学到了"
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc1_EO_1.png",
+                            "xml_path": "./bilibili_tc1_EO_1.xml",
+                            "action": "click",
+                            "bbox": [120, 1012, 600, 1099]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc1_b_1.png",
+                            "xml_path": "./bilibili_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc1_b_2.png",
+                            "xml_path": "./bilibili_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [129, 84, 592, 144],
+                            "input_value": "金融量化"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc1_b_3.png",
+                            "xml_path": "./bilibili_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 245, 720, 599]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc1_b_4.png",
+                            "xml_path": "./bilibili_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [108, 577, 316, 653]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc1_b_5.png",
+                            "xml_path": "./bilibili_tc1_b_5.xml",
+                            "action": "click",
+                            "bbox": [24, 1438, 624, 1498]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc1_b_6.png",
+                            "xml_path": "./bilibili_tc1_b_6.xml",
+                            "action": "input",
+                            "bbox": [24, 806, 664, 906],
+                            "input_value": "学到了"
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc1_b_1.png",
+                            "xml_path": "./bilibili_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc1_b_2.png",
+                            "xml_path": "./bilibili_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [129, 84, 592, 144],
+                            "input_value": "金融量化"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc1_EA_3.png",
+                            "xml_path": "./bilibili_tc1_EA_3.xml",
+                            "action": "click",
+                            "bbox": [0, 245, 720, 599]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc1_b_4.png",
+                            "xml_path": "./bilibili_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [108, 577, 316, 653]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc1_b_5.png",
+                            "xml_path": "./bilibili_tc1_b_5.xml",
+                            "action": "click",
+                            "bbox": [24, 1438, 624, 1498]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc1_b_6.png",
+                            "xml_path": "./bilibili_tc1_b_6.xml",
+                            "action": "input",
+                            "bbox": [24, 806, 664, 906],
+                            "input_value": "学到了"
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc1_b_1.png",
+                            "xml_path": "./bilibili_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc1_b_2.png",
+                            "xml_path": "./bilibili_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [129, 84, 592, 144],
+                            "input_value": "金融量化"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc1_EA-T_3.png",
+                            "xml_path": "./bilibili_tc1_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc1_b_3.png",
+                            "xml_path": "./bilibili_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 245, 720, 599]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc1_b_4.png",
+                            "xml_path": "./bilibili_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [108, 577, 316, 653]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc1_b_5.png",
+                            "xml_path": "./bilibili_tc1_b_5.xml",
+                            "action": "click",
+                            "bbox": [24, 1438, 624, 1498]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc1_b_6.png",
+                            "xml_path": "./bilibili_tc1_b_6.xml",
+                            "action": "input",
+                            "bbox": [24, 806, 664, 906],
+                            "input_value": "学到了"
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc1_FO_1.png",
+                            "xml_path": "./bilibili_tc1_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc1_b_1.png",
+                            "xml_path": "./bilibili_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc1_b_2.png",
+                            "xml_path": "./bilibili_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [129, 84, 592, 144],
+                            "input_value": "金融量化"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc1_b_3.png",
+                            "xml_path": "./bilibili_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 245, 720, 599]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc1_b_4.png",
+                            "xml_path": "./bilibili_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [108, 577, 316, 653]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc1_b_5.png",
+                            "xml_path": "./bilibili_tc1_b_5.xml",
+                            "action": "click",
+                            "bbox": [24, 1438, 624, 1498]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc1_b_6.png",
+                            "xml_path": "./bilibili_tc1_b_6.xml",
+                            "action": "input",
+                            "bbox": [24, 806, 664, 906],
+                            "input_value": "学到了"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 2,
+            "testcase_desc": "在首页推荐页切换直播板块，切换直播封面为关键帧图片后进入“英雄联盟”分类，再进入第一个第一个主播间并关注博主。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./bilibili_tc2_b_1.png",
+                        "xml_path": "./bilibili_tc2_b_1.xml",
+                        "action": "click",
+                        "bbox": [0, 176, 111, 248]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./bilibili_tc2_b_2.png",
+                        "xml_path": "./bilibili_tc2_b_2.xml",
+                        "action": "click",
+                        "bbox": [265, 252, 409, 324]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./bilibili_tc2_b_3.png",
+                        "xml_path": "./bilibili_tc2_b_3.xml",
+                        "action": "click",
+                        "bbox": [608, 264, 648, 304]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./bilibili_tc2_b_4.png",
+                        "xml_path": "./bilibili_tc2_b_4.xml",
+                        "action": "click",
+                        "bbox": [16, 656, 352, 893]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./bilibili_tc2_b_5.png",
+                        "xml_path": "./bilibili_tc2_b_5.xml",
+                        "action": "click",
+                        "bbox": [264, 82, 392, 134]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc2_b_1.png",
+                            "xml_path": "./bilibili_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 176, 111, 248]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc2_LS_2.png",
+                            "xml_path": "./bilibili_tc2_LS_2.xml",
+                            "action": "click",
+                            "bbox": [276, 788, 420, 860]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc2_b_3.png",
+                            "xml_path": "./bilibili_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [608, 264, 648, 304]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc2_b_4.png",
+                            "xml_path": "./bilibili_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [16, 656, 352, 893]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc2_b_5.png",
+                            "xml_path": "./bilibili_tc2_b_5.xml",
+                            "action": "click",
+                            "bbox": [264, 82, 392, 134]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc2_b_1.png",
+                            "xml_path": "./bilibili_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 176, 111, 248]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc2_b_2.png",
+                            "xml_path": "./bilibili_tc2_b_2.xml",
+                            "action": "click",
+                            "bbox": [265, 252, 409, 324]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc2_b_3.png",
+                            "xml_path": "./bilibili_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [608, 264, 648, 304]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc2_EA_4.png",
+                            "xml_path": "./bilibili_tc2_EA_4.xml",
+                            "action": "click",
+                            "bbox": [16, 656, 352, 893]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc2_b_5.png",
+                            "xml_path": "./bilibili_tc2_b_5.xml",
+                            "action": "click",
+                            "bbox": [264, 82, 392, 134]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc2_EO_1.png",
+                            "xml_path": "./bilibili_tc2_EO_1.xml",
+                            "action": "click",
+                            "bbox": [120, 1012, 600, 1099]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc2_b_1.png",
+                            "xml_path": "./bilibili_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 176, 111, 248]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc2_b_2.png",
+                            "xml_path": "./bilibili_tc2_b_2.xml",
+                            "action": "click",
+                            "bbox": [265, 252, 409, 324]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc2_b_3.png",
+                            "xml_path": "./bilibili_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [608, 264, 648, 304]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc2_b_4.png",
+                            "xml_path": "./bilibili_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [16, 656, 352, 893]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc2_b_5.png",
+                            "xml_path": "./bilibili_tc2_b_5.xml",
+                            "action": "click",
+                            "bbox": [264, 82, 392, 134]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc2_FO_1.png",
+                            "xml_path": "./bilibili_tc2_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc2_b_1.png",
+                            "xml_path": "./bilibili_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 176, 111, 248]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc2_b_2.png",
+                            "xml_path": "./bilibili_tc2_b_2.xml",
+                            "action": "click",
+                            "bbox": [265, 252, 409, 324]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc2_b_3.png",
+                            "xml_path": "./bilibili_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [608, 264, 648, 304]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc2_b_4.png",
+                            "xml_path": "./bilibili_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [16, 656, 352, 893]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc2_b_5.png",
+                            "xml_path": "./bilibili_tc2_b_5.xml",
+                            "action": "click",
+                            "bbox": [264, 82, 392, 134]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc2_b_1.png",
+                            "xml_path": "./bilibili_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 176, 111, 248]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc2_TC_2.png",
+                            "xml_path": "./bilibili_tc2_TC_2.xml",
+                            "action": "click",
+                            "bbox": [265, 252, 409, 324]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc2_b_3.png",
+                            "xml_path": "./bilibili_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [608, 264, 648, 304]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc2_b_4.png",
+                            "xml_path": "./bilibili_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [16, 656, 352, 893]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc2_b_5.png",
+                            "xml_path": "./bilibili_tc2_b_5.xml",
+                            "action": "click",
+                            "bbox": [264, 82, 392, 134]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 3,
+            "testcase_desc": "在首页推荐页关闭正在播放视频的弹幕，再进入“人工智能”分区查看第一个视频，再查看第五个同类视频。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./bilibili_tc3_b_1.png",
+                        "xml_path": "./bilibili_tc3_b_1.xml",
+                        "action": "click",
+                        "bbox": [520, 559, 620, 649]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./bilibili_tc3_b_2.png",
+                        "xml_path": "./bilibili_tc3_b_2.xml",
+                        "action": "click",
+                        "bbox": [612, 176, 720, 248]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./bilibili_tc3_b_3.png",
+                        "xml_path": "./bilibili_tc3_b_3.xml",
+                        "action": "click",
+                        "bbox": [12, 1132, 186, 1272]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./bilibili_tc3_b_4.png",
+                        "xml_path": "./bilibili_tc3_b_4.xml",
+                        "action": "click",
+                        "bbox": [10, 373, 355, 795]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./bilibili_tc3_b_5.png",
+                        "xml_path": "./bilibili_tc3_b_5.xml",
+                        "action": "click",
+                        "bbox": [0, 1311, 720, 1495]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc3_b_1.png",
+                            "xml_path": "./bilibili_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [520, 559, 620, 649]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc3_b_2.png",
+                            "xml_path": "./bilibili_tc3_b_2.xml",
+                            "action": "click",
+                            "bbox": [612, 176, 720, 248]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc3_EA_3.png",
+                            "xml_path": "./bilibili_tc3_EA_3.xml",
+                            "action": "click",
+                            "bbox": [12, 1132, 186, 1272]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc3_b_4.png",
+                            "xml_path": "./bilibili_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 373, 355, 795]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc3_b_5.png",
+                            "xml_path": "./bilibili_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 1311, 720, 1495]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc3_b_1.png",
+                            "xml_path": "./bilibili_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [520, 559, 620, 649]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc3_b_2.png",
+                            "xml_path": "./bilibili_tc3_b_2.xml",
+                            "action": "click",
+                            "bbox": [612, 176, 720, 248]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc3_TC_3.png",
+                            "xml_path": "./bilibili_tc3_TC_3.xml",
+                            "action": "click",
+                            "bbox": [12, 1132, 186, 1272]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc3_b_4.png",
+                            "xml_path": "./bilibili_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 373, 355, 795]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc3_b_5.png",
+                            "xml_path": "./bilibili_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 1311, 720, 1495]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc3_b_1.png",
+                            "xml_path": "./bilibili_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [520, 559, 620, 649]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc3_b_2.png",
+                            "xml_path": "./bilibili_tc3_b_2.xml",
+                            "action": "click",
+                            "bbox": [612, 176, 720, 248]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc3_b_3.png",
+                            "xml_path": "./bilibili_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [12, 1132, 186, 1272]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc3_b_4.png",
+                            "xml_path": "./bilibili_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 373, 355, 795]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc3_VE_5.png",
+                            "xml_path": "./bilibili_tc3_VE_5.xml",
+                            "action": "scroll",
+                            "bbox": [0, 996, 720, 1512],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc3_b_5.png",
+                            "xml_path": "./bilibili_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 1311, 720, 1495]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc3_b_1.png",
+                            "xml_path": "./bilibili_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [520, 559, 620, 649]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc3_VA_2.png",
+                            "xml_path": "./bilibili_tc3_VA_2.xml",
+                            "action": "click",
+                            "bbox": [612, 176, 720, 248]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc3_b_3.png",
+                            "xml_path": "./bilibili_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [12, 1132, 186, 1272]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc3_b_4.png",
+                            "xml_path": "./bilibili_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 373, 355, 795]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc3_b_5.png",
+                            "xml_path": "./bilibili_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 1311, 720, 1495]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 4,
+            "testcase_desc": "进入会员购，在所有分类中选择盲盒，查看新品中的第一个商品。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./bilibili_tc4_b_1.png",
+                        "xml_path": "./bilibili_tc4_b_1.xml",
+                        "action": "click",
+                        "bbox": [432, 1416, 576, 1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./bilibili_tc4_b_2.png",
+                        "xml_path": "./bilibili_tc4_b_2.xml",
+                        "action": "click",
+                        "bbox": [584, 312, 720, 368]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./bilibili_tc4_b_3.png",
+                        "xml_path": "./bilibili_tc4_b_3.xml",
+                        "action": "click",
+                        "bbox": [208, 276, 379, 524]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./bilibili_tc4_b_4.png",
+                        "xml_path": "./bilibili_tc4_b_4.xml",
+                        "action": "click",
+                        "bbox": [282, 568, 410, 640]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./bilibili_tc4_b_5.png",
+                        "xml_path": "./bilibili_tc4_b_5.xml",
+                        "action": "click",
+                        "bbox": [22, 336, 352, 788]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc4_b_1.png",
+                            "xml_path": "./bilibili_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1416, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc4_b_2.png",
+                            "xml_path": "./bilibili_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [584, 312, 720, 368]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc4_b_3.png",
+                            "xml_path": "./bilibili_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [208, 276, 379, 524]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc4_EO_4.png",
+                            "xml_path": "./bilibili_tc4_EO_4.xml",
+                            "action": "click",
+                            "bbox": [330, 1274, 390, 1334]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc4_b_4.png",
+                            "xml_path": "./bilibili_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [282, 568, 410, 640]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc4_b_5.png",
+                            "xml_path": "./bilibili_tc4_b_5.xml",
+                            "action": "click",
+                            "bbox": [22, 336, 352, 788]
+                        }
+                    ]
+                },
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc4_b_1.png",
+                            "xml_path": "./bilibili_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1416, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc4_b_2.png",
+                            "xml_path": "./bilibili_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [584, 312, 720, 368]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc4_LS_3.png",
+                            "xml_path": "./bilibili_tc4_LS_3.xml",
+                            "action": "scroll",
+                            "bbox": [0, 276, 184, 1476],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc4_b_3.png",
+                            "xml_path": "./bilibili_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [208, 276, 379, 524]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc4_b_4.png",
+                            "xml_path": "./bilibili_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [282, 568, 410, 640]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc4_b_5.png",
+                            "xml_path": "./bilibili_tc4_b_5.xml",
+                            "action": "click",
+                            "bbox": [22, 336, 352, 788]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc4_FO_1.png",
+                            "xml_path": "./bilibili_tc4_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc4_b_1.png",
+                            "xml_path": "./bilibili_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1416, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc4_b_2.png",
+                            "xml_path": "./bilibili_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [584, 312, 720, 368]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc4_b_3.png",
+                            "xml_path": "./bilibili_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [208, 276, 379, 524]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc4_b_4.png",
+                            "xml_path": "./bilibili_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [282, 568, 410, 640]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc4_b_5.png",
+                            "xml_path": "./bilibili_tc4_b_5.xml",
+                            "action": "click",
+                            "bbox": [22, 336, 352, 788]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc4_b_1.png",
+                            "xml_path": "./bilibili_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1416, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc4_b_2.png",
+                            "xml_path": "./bilibili_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [584, 312, 720, 368]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc4_b_3.png",
+                            "xml_path": "./bilibili_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [208, 276, 379, 524]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc4_TC_4.png",
+                            "xml_path": "./bilibili_tc4_TC_4.xml",
+                            "action": "click",
+                            "bbox": [282, 568, 410, 640]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc4_b_5.png",
+                            "xml_path": "./bilibili_tc4_b_5.xml",
+                            "action": "click",
+                            "bbox": [22, 336, 352, 788]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 5,
+            "testcase_desc": "在首页推荐页搜索“洛杉矶旅游”，在结果中筛选“新发布”、“最近一周”，最后查看第一条视频。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./bilibili_tc5_b_1.png",
+                        "xml_path": "./bilibili_tc5_b_1.xml",
+                        "action": "click",
+                        "bbox": [142, 86, 512, 154]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./bilibili_tc5_b_2.png",
+                        "xml_path": "./bilibili_tc5_b_2.xml",
+                        "action": "input",
+                        "bbox": [129, 84, 592, 144],
+                        "input_value": "洛杉矶旅游"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./bilibili_tc5_b_3.png",
+                        "xml_path": "./bilibili_tc5_b_3.xml",
+                        "action": "click",
+                        "bbox": [592, 164, 720, 244]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./bilibili_tc5_b_4.png",
+                        "xml_path": "./bilibili_tc5_b_4.xml",
+                        "action": "click",
+                        "bbox": [190, 340, 350, 410]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./bilibili_tc5_b_5.png",
+                        "xml_path": "./bilibili_tc5_b_5.xml",
+                        "action": "click",
+                        "bbox": [370, 510, 540, 580]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./bilibili_tc5_b_6.png",
+                        "xml_path": "./bilibili_tc5_b_6.xml",
+                        "action": "click",
+                        "bbox": [592, 164, 720, 244]
+                    },
+                    {
+                        "checkpoint_id": 7,
+                        "screenshot_path": "./bilibili_tc5_b_7.png",
+                        "xml_path": "./bilibili_tc5_b_7.xml",
+                        "action": "click",
+                        "bbox": [0, 245, 720, 487]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc5_b_1.png",
+                            "xml_path": "./bilibili_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc5_b_2.png",
+                            "xml_path": "./bilibili_tc5_b_2.xml",
+                            "action": "input",
+                            "bbox": [129, 84, 592, 144],
+                            "input_value": "洛杉矶旅游"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc5_b_3.png",
+                            "xml_path": "./bilibili_tc5_b_3.xml",
+                            "action": "click",
+                            "bbox": [592, 164, 720, 244]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc5_AC_4.png",
+                            "xml_path": "./bilibili_tc5_AC_4.xml",
+                            "action": "click",
+                            "bbox": [592, 164, 720, 244]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc5_b_7.png",
+                            "xml_path": "./bilibili_tc5_b_7.xml",
+                            "action": "click",
+                            "bbox": [0, 245, 720, 487]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc5_EO_1.png",
+                            "xml_path": "./bilibili_tc5_EO_1.xml",
+                            "action": "click",
+                            "bbox": [120, 1012, 600, 1099]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc5_b_1.png",
+                            "xml_path": "./bilibili_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc5_b_2.png",
+                            "xml_path": "./bilibili_tc5_b_2.xml",
+                            "action": "input",
+                            "bbox": [129, 84, 592, 144],
+                            "input_value": "洛杉矶旅游"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc5_b_3.png",
+                            "xml_path": "./bilibili_tc5_b_3.xml",
+                            "action": "click",
+                            "bbox": [592, 164, 720, 244]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc5_b_4.png",
+                            "xml_path": "./bilibili_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [190, 340, 350, 410]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc5_b_5.png",
+                            "xml_path": "./bilibili_tc5_b_5.xml",
+                            "action": "click",
+                            "bbox": [370, 510, 540, 580]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc5_b_6.png",
+                            "xml_path": "./bilibili_tc5_b_6.xml",
+                            "action": "click",
+                            "bbox": [592, 164, 720, 244]
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./bilibili_tc5_b_7.png",
+                            "xml_path": "./bilibili_tc5_b_7.xml",
+                            "action": "click",
+                            "bbox": [0, 245, 720, 487]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc5_b_1.png",
+                            "xml_path": "./bilibili_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc5_b_2.png",
+                            "xml_path": "./bilibili_tc5_b_2.xml",
+                            "action": "input",
+                            "bbox": [129, 84, 592, 144],
+                            "input_value": "洛杉矶旅游"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc5_b_3.png",
+                            "xml_path": "./bilibili_tc5_b_3.xml",
+                            "action": "click",
+                            "bbox": [592, 164, 720, 244]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc5_b_4.png",
+                            "xml_path": "./bilibili_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [190, 340, 350, 410]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc5_b_5.png",
+                            "xml_path": "./bilibili_tc5_b_5.xml",
+                            "action": "click",
+                            "bbox": [370, 510, 540, 580]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc5_b_6.png",
+                            "xml_path": "./bilibili_tc5_b_6.xml",
+                            "action": "click",
+                            "bbox": [592, 164, 720, 244]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc5_EA_7.png",
+                            "xml_path": "./bilibili_tc5_EA_7.xml",
+                            "action": "click",
+                            "bbox": [0, 245, 720, 487]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc5_b_1.png",
+                            "xml_path": "./bilibili_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc5_b_2.png",
+                            "xml_path": "./bilibili_tc5_b_2.xml",
+                            "action": "input",
+                            "bbox": [129, 84, 592, 144],
+                            "input_value": "洛杉矶旅游"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc5_b_3.png",
+                            "xml_path": "./bilibili_tc5_b_3.xml",
+                            "action": "click",
+                            "bbox": [592, 164, 720, 244]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc5_b_4.png",
+                            "xml_path": "./bilibili_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [190, 340, 350, 410]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc5_b_5.png",
+                            "xml_path": "./bilibili_tc5_b_5.xml",
+                            "action": "click",
+                            "bbox": [370, 510, 540, 580]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc5_b_6.png",
+                            "xml_path": "./bilibili_tc5_b_6.xml",
+                            "action": "click",
+                            "bbox": [592, 164, 720, 244]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc5_EA-T_7.png",
+                            "xml_path": "./bilibili_tc5_EA-T_7.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./bilibili_tc5_b_7.png",
+                            "xml_path": "./bilibili_tc5_b_7.xml",
+                            "action": "click",
+                            "bbox": [0, 245, 720, 487]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 6,
+            "testcase_desc": "查看热门板块的“音乐”排行榜，观看第一条视频，并点赞。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./bilibili_tc6_b_1.png",
+                        "xml_path": "./bilibili_tc6_b_1.xml",
+                        "action": "click",
+                        "bbox": [221, 176, 327, 248]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./bilibili_tc6_b_2.png",
+                        "xml_path": "./bilibili_tc6_b_2.xml",
+                        "action": "click",
+                        "bbox": [16, 272, 155, 396]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./bilibili_tc6_b_3.png",
+                        "xml_path": "./bilibili_tc6_b_3.xml",
+                        "action": "click",
+                        "bbox": [458, 176, 562, 256]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./bilibili_tc6_b_4.png",
+                        "xml_path": "./bilibili_tc6_b_4.xml",
+                        "action": "click",
+                        "bbox": [0, 256, 720, 483]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./bilibili_tc6_b_5.png",
+                        "xml_path": "./bilibili_tc6_b_5.xml",
+                        "action": "click",
+                        "bbox": [24, 778, 158, 894]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc6_b_1.png",
+                            "xml_path": "./bilibili_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [221, 176, 327, 248]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc6_b_2.png",
+                            "xml_path": "./bilibili_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [16, 272, 155, 396]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc6_VE_3.png",
+                            "xml_path": "./bilibili_tc6_VE_3.xml",
+                            "action": "scroll",
+                            "bbox": [0, 176, 720, 256],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc6_b_3.png",
+                            "xml_path": "./bilibili_tc6_b_3.xml",
+                            "action": "click",
+                            "bbox": [458, 176, 562, 256]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc6_b_4.png",
+                            "xml_path": "./bilibili_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 256, 720, 483]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc6_b_5.png",
+                            "xml_path": "./bilibili_tc6_b_5.xml",
+                            "action": "click",
+                            "bbox": [24, 778, 158, 894]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc6_b_1.png",
+                            "xml_path": "./bilibili_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [221, 176, 327, 248]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc6_b_2.png",
+                            "xml_path": "./bilibili_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [16, 272, 155, 396]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc6_b_3.png",
+                            "xml_path": "./bilibili_tc6_b_3.xml",
+                            "action": "click",
+                            "bbox": [458, 176, 562, 256]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc6_TC_4.png",
+                            "xml_path": "./bilibili_tc6_TC_4.xml",
+                            "action": "click",
+                            "bbox": [0, 256, 720, 483]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc6_b_5.png",
+                            "xml_path": "./bilibili_tc6_b_5.xml",
+                            "action": "click",
+                            "bbox": [24, 778, 158, 894]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc6_b_1.png",
+                            "xml_path": "./bilibili_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [221, 176, 327, 248]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc6_b_2.png",
+                            "xml_path": "./bilibili_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [16, 272, 155, 396]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc6_ED_3.png",
+                            "xml_path": "./bilibili_tc6_ED_3.xml",
+                            "action": "click",
+                            "bbox": [458, 266, 562, 346]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc6_b_4.png",
+                            "xml_path": "./bilibili_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 256, 720, 483]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc6_b_5.png",
+                            "xml_path": "./bilibili_tc6_b_5.xml",
+                            "action": "click",
+                            "bbox": [24, 778, 158, 894]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc6_EO_1.png",
+                            "xml_path": "./bilibili_tc6_EO_1.xml",
+                            "action": "click",
+                            "bbox": [120, 1012, 600, 1099]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc6_b_1.png",
+                            "xml_path": "./bilibili_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [221, 176, 327, 248]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc6_b_2.png",
+                            "xml_path": "./bilibili_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [16, 272, 155, 396]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc6_b_3.png",
+                            "xml_path": "./bilibili_tc6_b_3.xml",
+                            "action": "click",
+                            "bbox": [458, 176, 562, 256]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc6_b_4.png",
+                            "xml_path": "./bilibili_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 256, 720, 483]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc6_b_5.png",
+                            "xml_path": "./bilibili_tc6_b_5.xml",
+                            "action": "click",
+                            "bbox": [24, 778, 158, 894]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc6_b_1.png",
+                            "xml_path": "./bilibili_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [221, 176, 327, 248]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc6_b_2.png",
+                            "xml_path": "./bilibili_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [16, 272, 155, 396]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc6_b_3.png",
+                            "xml_path": "./bilibili_tc6_b_3.xml",
+                            "action": "click",
+                            "bbox": [458, 176, 562, 256]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc6_EA_4.png",
+                            "xml_path": "./bilibili_tc6_EA_4.xml",
+                            "action": "click",
+                            "bbox": [0, 256, 720, 483]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc6_b_5.png",
+                            "xml_path": "./bilibili_tc6_b_5.xml",
+                            "action": "click",
+                            "bbox": [24, 778, 158, 894]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 7,
+            "testcase_desc": "查看我的关注，并进入第一个博主的主页，并查看第一条图文。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./bilibili_tc7_b_1.png",
+                        "xml_path": "./bilibili_tc7_b_1.xml",
+                        "action": "click",
+                        "bbox": [576, 1416, 720, 1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./bilibili_tc7_b_2.png",
+                        "xml_path": "./bilibili_tc7_b_2.xml",
+                        "action": "click",
+                        "bbox": [240, 352, 480, 444]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./bilibili_tc7_b_3.png",
+                        "xml_path": "./bilibili_tc7_b_3.xml",
+                        "action": "click",
+                        "bbox": [0, 420, 720, 580]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./bilibili_tc7_b_4.png",
+                        "xml_path": "./bilibili_tc7_b_4.xml",
+                        "action": "click",
+                        "bbox": [0, 817, 180, 897]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./bilibili_tc7_b_5.png",
+                        "xml_path": "./bilibili_tc7_b_5.xml",
+                        "action": "click",
+                        "bbox": [20, 1050, 700, 1512]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc7_b_1.png",
+                            "xml_path": "./bilibili_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1416, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc7_b_2.png",
+                            "xml_path": "./bilibili_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [240, 352, 480, 444]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc7_b_3.png",
+                            "xml_path": "./bilibili_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 420, 720, 580]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc7_b_4.png",
+                            "xml_path": "./bilibili_tc7_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 817, 180, 897]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc7_VE_5.png",
+                            "xml_path": "./bilibili_tc7_VE_5.xml",
+                            "action": "click",
+                            "bbox": [0, 817, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc7_b_5.png",
+                            "xml_path": "./bilibili_tc7_b_5.xml",
+                            "action": "click",
+                            "bbox": [20, 1050, 700, 1512]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc7_b_1.png",
+                            "xml_path": "./bilibili_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1416, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc7_b_2.png",
+                            "xml_path": "./bilibili_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [240, 352, 480, 444]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc7_EA_3.png",
+                            "xml_path": "./bilibili_tc7_EA_3.xml",
+                            "action": "click",
+                            "bbox": [0, 420, 720, 580]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc7_b_4.png",
+                            "xml_path": "./bilibili_tc7_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 817, 180, 897]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc7_b_5.png",
+                            "xml_path": "./bilibili_tc7_b_5.xml",
+                            "action": "click",
+                            "bbox": [20, 1050, 700, 1512]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc7_b_1.png",
+                            "xml_path": "./bilibili_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1416, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc7_EO_2.png",
+                            "xml_path": "./bilibili_tc7_EO_2.xml",
+                            "action": "click",
+                            "bbox": [120, 1012, 600, 1099]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc7_b_2.png",
+                            "xml_path": "./bilibili_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [240, 352, 480, 444]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc7_b_3.png",
+                            "xml_path": "./bilibili_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 420, 720, 580]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc7_b_4.png",
+                            "xml_path": "./bilibili_tc7_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 817, 180, 897]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc7_b_5.png",
+                            "xml_path": "./bilibili_tc7_b_5.xml",
+                            "action": "click",
+                            "bbox": [20, 1050, 700, 1512]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 8,
+            "testcase_desc": "在首页热门板块进入新车榜中的热门话题，查看第一条话题中的第一条视频，并分享到动态。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./bilibili_tc8_b_1.png",
+                        "xml_path": "./bilibili_tc8_b_1.xml",
+                        "action": "click",
+                        "bbox": [8, 272, 147, 396]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./bilibili_tc8_b_2.png",
+                        "xml_path": "./bilibili_tc8_b_2.xml",
+                        "action": "click",
+                        "bbox": [473, 152, 719, 267]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./bilibili_tc8_b_3.png",
+                        "xml_path": "./bilibili_tc8_b_3.xml",
+                        "action": "click",
+                        "bbox": [80, 335, 696, 454]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./bilibili_tc8_b_4.png",
+                        "xml_path": "./bilibili_tc8_b_4.xml",
+                        "action": "click",
+                        "bbox": [0, 430, 720, 980]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./bilibili_tc8_b_5.png",
+                        "xml_path": "./bilibili_tc8_b_5.xml",
+                        "action": "click",
+                        "bbox": [561, 778, 696, 894]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./bilibili_tc8_b_6.png",
+                        "xml_path": "./bilibili_tc8_b_6.xml",
+                        "action": "click",
+                        "bbox": [22, 1227, 154, 1360]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc8_b_1.png",
+                            "xml_path": "./bilibili_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [8, 272, 147, 396]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc8_LS_2.png",
+                            "xml_path": "./bilibili_tc8_LS_2.xml",
+                            "action": "scroll",
+                            "bbox": [0, 1038, 720, 1512],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc8_b_2.png",
+                            "xml_path": "./bilibili_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [473, 152, 719, 267]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc8_b_3.png",
+                            "xml_path": "./bilibili_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [80, 335, 696, 454]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc8_b_4.png",
+                            "xml_path": "./bilibili_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 430, 720, 980]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc8_b_5.png",
+                            "xml_path": "./bilibili_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [561, 778, 696, 894]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc8_b_6.png",
+                            "xml_path": "./bilibili_tc8_b_6.xml",
+                            "action": "click",
+                            "bbox": [22, 1227, 154, 1360]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc8_VE_1.png",
+                            "xml_path": "./bilibili_tc8_VE_1.xml",
+                            "action": "scroll",
+                            "bbox": [0, 272, 720, 396],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc8_b_1.png",
+                            "xml_path": "./bilibili_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [8, 272, 147, 396]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc8_b_2.png",
+                            "xml_path": "./bilibili_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [473, 152, 719, 267]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc8_b_3.png",
+                            "xml_path": "./bilibili_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [80, 335, 696, 454]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc8_b_4.png",
+                            "xml_path": "./bilibili_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 430, 720, 980]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc8_b_5.png",
+                            "xml_path": "./bilibili_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [561, 778, 696, 894]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc8_b_6.png",
+                            "xml_path": "./bilibili_tc8_b_6.xml",
+                            "action": "click",
+                            "bbox": [22, 1227, 154, 1360]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc8_b_1.png",
+                            "xml_path": "./bilibili_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [8, 272, 147, 396]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc8_EA_2.png",
+                            "xml_path": "./bilibili_tc8_EA_2.xml",
+                            "action": "click",
+                            "bbox": [473, 152, 719, 267]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc8_b_3.png",
+                            "xml_path": "./bilibili_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [80, 335, 696, 454]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc8_b_4.png",
+                            "xml_path": "./bilibili_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 430, 720, 980]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc8_b_5.png",
+                            "xml_path": "./bilibili_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [561, 778, 696, 894]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc8_b_6.png",
+                            "xml_path": "./bilibili_tc8_b_6.xml",
+                            "action": "click",
+                            "bbox": [22, 1227, 154, 1360]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc8_FO_1.png",
+                            "xml_path": "./bilibili_tc8_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc8_b_1.png",
+                            "xml_path": "./bilibili_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [8, 272, 147, 396]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc8_b_2.png",
+                            "xml_path": "./bilibili_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [473, 152, 719, 267]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc8_b_3.png",
+                            "xml_path": "./bilibili_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [80, 335, 696, 454]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc8_b_4.png",
+                            "xml_path": "./bilibili_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 430, 720, 980]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc8_b_5.png",
+                            "xml_path": "./bilibili_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [561, 778, 696, 894]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc8_b_6.png",
+                            "xml_path": "./bilibili_tc8_b_6.xml",
+                            "action": "click",
+                            "bbox": [22, 1227, 154, 1360]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc8_b_1.png",
+                            "xml_path": "./bilibili_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [8, 272, 147, 396]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc8_b_2.png",
+                            "xml_path": "./bilibili_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [473, 152, 719, 267]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc8_b_3.png",
+                            "xml_path": "./bilibili_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [80, 335, 696, 454]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc8_TC_4.png",
+                            "xml_path": "./bilibili_tc8_TC_4.xml",
+                            "action": "click",
+                            "bbox": [0, 430, 720, 980]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc8_b_5.png",
+                            "xml_path": "./bilibili_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [561, 778, 696, 894]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc8_b_6.png",
+                            "xml_path": "./bilibili_tc8_b_6.xml",
+                            "action": "click",
+                            "bbox": [22, 1227, 154, 1360]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 9,
+            "testcase_desc": "在分区的快捷访问中编辑添加“游戏”、“人工智能”、“科技数码”三条分区，并保存。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./bilibili_tc9_b_1.png",
+                        "xml_path": "./bilibili_tc9_b_1.xml",
+                        "action": "click",
+                        "bbox": [612, 176, 720, 248]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./bilibili_tc9_b_2.png",
+                        "xml_path": "./bilibili_tc9_b_2.xml",
+                        "action": "click",
+                        "bbox": [32, 256, 688, 356]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./bilibili_tc9_b_3.png",
+                        "xml_path": "./bilibili_tc9_b_3.xml",
+                        "action": "click",
+                        "bbox": [202, 1068, 348, 1246]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./bilibili_tc9_b_4.png",
+                        "xml_path": "./bilibili_tc9_b_4.xml",
+                        "action": "click",
+                        "bbox": [32, 1371, 178, 1512]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./bilibili_tc9_b_5.png",
+                        "xml_path": "./bilibili_tc9_b_5.xml",
+                        "action": "click",
+                        "bbox": [202, 1371, 348, 1512]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./bilibili_tc9_b_6.png",
+                        "xml_path": "./bilibili_tc9_b_6.xml",
+                        "action": "click",
+                        "bbox": [600, 64, 720, 156]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc9_FO_1.png",
+                            "xml_path": "./bilibili_tc9_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc9_b_1.png",
+                            "xml_path": "./bilibili_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [612, 176, 720, 248]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc9_b_2.png",
+                            "xml_path": "./bilibili_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 256, 688, 356]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc9_b_3.png",
+                            "xml_path": "./bilibili_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [202, 1068, 348, 1246]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc9_b_4.png",
+                            "xml_path": "./bilibili_tc9_b_4.xml",
+                            "action": "click",
+                            "bbox": [32, 1371, 178, 1512]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc9_b_5.png",
+                            "xml_path": "./bilibili_tc9_b_5.xml",
+                            "action": "click",
+                            "bbox": [202, 1371, 348, 1512]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc9_b_6.png",
+                            "xml_path": "./bilibili_tc9_b_6.xml",
+                            "action": "click",
+                            "bbox": [600, 64, 720, 156]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc9_EO_1.png",
+                            "xml_path": "./bilibili_tc9_EO_1.xml",
+                            "action": "click",
+                            "bbox": [120, 1012, 600, 1099]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc9_b_1.png",
+                            "xml_path": "./bilibili_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [612, 176, 720, 248]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc9_b_2.png",
+                            "xml_path": "./bilibili_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 256, 688, 356]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc9_b_3.png",
+                            "xml_path": "./bilibili_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [202, 1068, 348, 1246]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc9_b_4.png",
+                            "xml_path": "./bilibili_tc9_b_4.xml",
+                            "action": "click",
+                            "bbox": [32, 1371, 178, 1512]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc9_b_5.png",
+                            "xml_path": "./bilibili_tc9_b_5.xml",
+                            "action": "click",
+                            "bbox": [202, 1371, 348, 1512]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc9_b_6.png",
+                            "xml_path": "./bilibili_tc9_b_6.xml",
+                            "action": "click",
+                            "bbox": [600, 64, 720, 156]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc9_b_1.png",
+                            "xml_path": "./bilibili_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [612, 176, 720, 248]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc9_b_2.png",
+                            "xml_path": "./bilibili_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 256, 688, 356]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc9_b_3.png",
+                            "xml_path": "./bilibili_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [202, 1068, 348, 1246]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc9_b_4.png",
+                            "xml_path": "./bilibili_tc9_b_4.xml",
+                            "action": "click",
+                            "bbox": [32, 1371, 178, 1512]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc9_TC_5.png",
+                            "xml_path": "./bilibili_tc9_TC_5.xml",
+                            "action": "click",
+                            "bbox": [202, 1371, 348, 1512]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc9_b_6.png",
+                            "xml_path": "./bilibili_tc9_b_6.xml",
+                            "action": "click",
+                            "bbox": [600, 64, 720, 156]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc9_b_1.png",
+                            "xml_path": "./bilibili_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [612, 176, 720, 248]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc9_b_2.png",
+                            "xml_path": "./bilibili_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 256, 688, 356]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc9_AC_3.png",
+                            "xml_path": "./bilibili_tc9_AC_3.xml",
+                            "action": "click",
+                            "bbox": [202, 1371, 348, 1512]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc9_b_6.png",
+                            "xml_path": "./bilibili_tc9_b_6.xml",
+                            "action": "click",
+                            "bbox": [600, 64, 720, 156]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 10,
+            "testcase_desc": "在首页推荐页搜索名为“陈翔六点半”的博主，关注博主后给博主发一条私信：“我很喜欢你的作品”。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./bilibili_tc10_b_1.png",
+                        "xml_path": "./bilibili_tc10_b_1.xml",
+                        "action": "click",
+                        "bbox": [142, 86, 512, 154]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./bilibili_tc10_b_2.png",
+                        "xml_path": "./bilibili_tc10_b_2.xml",
+                        "action": "input",
+                        "bbox": [129, 84, 592, 144],
+                        "input_value": "陈翔六点半"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./bilibili_tc10_b_3.png",
+                        "xml_path": "./bilibili_tc10_b_3.xml",
+                        "action": "click",
+                        "bbox": [0, 245, 720, 397]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./bilibili_tc10_b_4.png",
+                        "xml_path": "./bilibili_tc10_b_4.xml",
+                        "action": "click",
+                        "bbox": [488, 383, 696, 443]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./bilibili_tc10_b_5.png",
+                        "xml_path": "./bilibili_tc10_b_5.xml",
+                        "action": "click",
+                        "bbox": [476, 90, 536, 150]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./bilibili_tc10_b_6.png",
+                        "xml_path": "./bilibili_tc10_b_6.xml",
+                        "action": "click",
+                        "bbox": [104, 1428, 504, 1492]
+                    },
+                    {
+                        "checkpoint_id": 7,
+                        "screenshot_path": "./bilibili_tc10_b_7.png",
+                        "xml_path": "./bilibili_tc10_b_7.xml",
+                        "action": "input",
+                        "bbox": [104, 918, 504, 982],
+                        "input_value": "我很喜欢你的作品"
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc10_EO_1.png",
+                            "xml_path": "./bilibili_tc10_EO_1.xml",
+                            "action": "click",
+                            "bbox": [120, 1012, 600, 1099]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc10_b_1.png",
+                            "xml_path": "./bilibili_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc10_b_2.png",
+                            "xml_path": "./bilibili_tc10_b_2.xml",
+                            "action": "input",
+                            "bbox": [129, 84, 592, 144],
+                            "input_value": "陈翔六点半"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc10_b_3.png",
+                            "xml_path": "./bilibili_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 245, 720, 397]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc10_b_4.png",
+                            "xml_path": "./bilibili_tc10_b_4.xml",
+                            "action": "click",
+                            "bbox": [488, 383, 696, 443]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc10_b_5.png",
+                            "xml_path": "./bilibili_tc10_b_5.xml",
+                            "action": "click",
+                            "bbox": [476, 90, 536, 150]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc10_b_6.png",
+                            "xml_path": "./bilibili_tc10_b_6.xml",
+                            "action": "click",
+                            "bbox": [104, 1428, 504, 1492]
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./bilibili_tc10_b_7.png",
+                            "xml_path": "./bilibili_tc10_b_7.xml",
+                            "action": "input",
+                            "bbox": [104, 918, 504, 982],
+                            "input_value": "我很喜欢你的作品"
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc10_b_1.png",
+                            "xml_path": "./bilibili_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc10_b_2.png",
+                            "xml_path": "./bilibili_tc10_b_2.xml",
+                            "action": "input",
+                            "bbox": [129, 84, 592, 144],
+                            "input_value": "陈翔六点半"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc10_b_3.png",
+                            "xml_path": "./bilibili_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 245, 720, 397]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc10_b_4.png",
+                            "xml_path": "./bilibili_tc10_b_4.xml",
+                            "action": "click",
+                            "bbox": [488, 383, 696, 443]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc10_TC_5.png",
+                            "xml_path": "./bilibili_tc10_TC_5.xml",
+                            "action": "click",
+                            "bbox": [476, 90, 536, 150]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc10_b_6.png",
+                            "xml_path": "./bilibili_tc10_b_6.xml",
+                            "action": "click",
+                            "bbox": [104, 1428, 504, 1492]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc10_b_7.png",
+                            "xml_path": "./bilibili_tc10_b_7.xml",
+                            "action": "input",
+                            "bbox": [104, 918, 504, 982],
+                            "input_value": "我很喜欢你的作品"
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc10_b_1.png",
+                            "xml_path": "./bilibili_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc10_b_2.png",
+                            "xml_path": "./bilibili_tc10_b_2.xml",
+                            "action": "input",
+                            "bbox": [129, 84, 592, 144],
+                            "input_value": "陈翔六点半"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc10_EA_3.png",
+                            "xml_path": "./bilibili_tc10_EA_3.xml",
+                            "action": "click",
+                            "bbox": [0, 245, 720, 397]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc10_b_4.png",
+                            "xml_path": "./bilibili_tc10_b_4.xml",
+                            "action": "click",
+                            "bbox": [488, 383, 696, 443]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc10_b_5.png",
+                            "xml_path": "./bilibili_tc10_b_5.xml",
+                            "action": "click",
+                            "bbox": [476, 90, 536, 150]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc10_b_6.png",
+                            "xml_path": "./bilibili_tc10_b_6.xml",
+                            "action": "click",
+                            "bbox": [104, 1428, 504, 1492]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc10_b_7.png",
+                            "xml_path": "./bilibili_tc10_b_7.xml",
+                            "action": "input",
+                            "bbox": [104, 918, 504, 982],
+                            "input_value": "我很喜欢你的作品"
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc10_b_1.png",
+                            "xml_path": "./bilibili_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc10_b_2.png",
+                            "xml_path": "./bilibili_tc10_b_2.xml",
+                            "action": "input",
+                            "bbox": [129, 84, 592, 144],
+                            "input_value": "陈翔六点半"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc10_EA-T_3.png",
+                            "xml_path": "./bilibili_tc10_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc10_b_3.png",
+                            "xml_path": "./bilibili_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 245, 720, 397]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc10_b_4.png",
+                            "xml_path": "./bilibili_tc10_b_4.xml",
+                            "action": "click",
+                            "bbox": [488, 383, 696, 443]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc10_b_5.png",
+                            "xml_path": "./bilibili_tc10_b_5.xml",
+                            "action": "click",
+                            "bbox": [476, 90, 536, 150]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc10_b_6.png",
+                            "xml_path": "./bilibili_tc10_b_6.xml",
+                            "action": "click",
+                            "bbox": [104, 1428, 504, 1492]
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./bilibili_tc10_b_7.png",
+                            "xml_path": "./bilibili_tc10_b_7.xml",
+                            "action": "input",
+                            "bbox": [104, 918, 504, 982],
+                            "input_value": "我很喜欢你的作品"
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc10_b_1.png",
+                            "xml_path": "./bilibili_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc10_b_2.png",
+                            "xml_path": "./bilibili_tc10_b_2.xml",
+                            "action": "input",
+                            "bbox": [129, 84, 592, 144],
+                            "input_value": "陈翔六点半"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc10_b_3.png",
+                            "xml_path": "./bilibili_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 245, 720, 397]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc10_AC_4.png",
+                            "xml_path": "./bilibili_tc10_AC_4.xml",
+                            "action": "click",
+                            "bbox": [0, 394, 720, 480]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc10_b_6.png",
+                            "xml_path": "./bilibili_tc10_b_6.xml",
+                            "action": "click",
+                            "bbox": [104, 1428, 504, 1492]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc10_b_7.png",
+                            "xml_path": "./bilibili_tc10_b_7.xml",
+                            "action": "input",
+                            "bbox": [104, 918, 504, 982],
+                            "input_value": "我很喜欢你的作品"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 11,
+            "testcase_desc": "在准备搜索时，查看bilibili热搜的完整榜单，先分享榜单到动态，再查看第一条热搜的第一条视频。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./bilibili_tc11_b_1.png",
+                        "xml_path": "./bilibili_tc11_b_1.xml",
+                        "action": "click",
+                        "bbox": [142, 86, 512, 154]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./bilibili_tc11_b_2.png",
+                        "xml_path": "./bilibili_tc11_b_2.xml",
+                        "action": "click",
+                        "bbox": [576, 181, 720, 214]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./bilibili_tc11_b_3.png",
+                        "xml_path": "./bilibili_tc11_b_3.xml",
+                        "action": "click",
+                        "bbox": [620, 80, 720, 170]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./bilibili_tc11_b_4.png",
+                        "xml_path": "./bilibili_tc11_b_4.xml",
+                        "action": "click",
+                        "bbox": [22, 1227, 154, 1360]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./bilibili_tc11_b_5.png",
+                        "xml_path": "./bilibili_tc11_b_5.xml",
+                        "action": "click",
+                        "bbox": [0, 394, 720, 480]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./bilibili_tc11_b_6.png",
+                        "xml_path": "./bilibili_tc11_b_6.xml",
+                        "action": "click",
+                        "bbox": [0, 248, 720, 490]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc11_b_1.png",
+                            "xml_path": "./bilibili_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc11_b_2.png",
+                            "xml_path": "./bilibili_tc11_b_2.xml",
+                            "action": "click",
+                            "bbox": [576, 181, 720, 214]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc11_b_3.png",
+                            "xml_path": "./bilibili_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [620, 80, 720, 170]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc11_b_4.png",
+                            "xml_path": "./bilibili_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [22, 1227, 154, 1360]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc11_VA_5.png",
+                            "xml_path": "./bilibili_tc11_VA_5.xml",
+                            "action": "click",
+                            "bbox": [0, 394, 720, 480]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc11_b_6.png",
+                            "xml_path": "./bilibili_tc11_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 248, 720, 490]
+                        }
+                    ]
+                },
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc11_b_1.png",
+                            "xml_path": "./bilibili_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc11_b_2.png",
+                            "xml_path": "./bilibili_tc11_b_2.xml",
+                            "action": "click",
+                            "bbox": [576, 181, 720, 214]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc11_b_3.png",
+                            "xml_path": "./bilibili_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [620, 80, 720, 170]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc11_b_4.png",
+                            "xml_path": "./bilibili_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [22, 1227, 154, 1360]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc11_b_5.png",
+                            "xml_path": "./bilibili_tc11_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 394, 720, 480]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc11_LS_6.png",
+                            "xml_path": "./bilibili_tc11_LS_6.xml",
+                            "action": "click",
+                            "bbox": [0, 1301, 720, 1512]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc11_b_1.png",
+                            "xml_path": "./bilibili_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc11_b_2.png",
+                            "xml_path": "./bilibili_tc11_b_2.xml",
+                            "action": "click",
+                            "bbox": [576, 181, 720, 214]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc11_TC_3.png",
+                            "xml_path": "./bilibili_tc11_TC_3.xml",
+                            "action": "click",
+                            "bbox": [620, 80, 720, 170]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc11_b_4.png",
+                            "xml_path": "./bilibili_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [22, 1227, 154, 1360]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc11_b_5.png",
+                            "xml_path": "./bilibili_tc11_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 394, 720, 480]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc11_b_6.png",
+                            "xml_path": "./bilibili_tc11_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 248, 720, 490]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 12,
+            "testcase_desc": "在首页推荐页搜索“AIGC”，在搜索结果中进入合集视频，查看第10集。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./bilibili_tc12_b_1.png",
+                        "xml_path": "./bilibili_tc12_b_1.xml",
+                        "action": "click",
+                        "bbox": [142, 86, 512, 154]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./bilibili_tc12_b_2.png",
+                        "xml_path": "./bilibili_tc12_b_2.xml",
+                        "action": "input",
+                        "bbox": [129, 84, 592, 144],
+                        "input_value": "AIGC"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./bilibili_tc12_b_3.png",
+                        "xml_path": "./bilibili_tc12_b_3.xml",
+                        "action": "click",
+                        "bbox": [0, 1150, 720, 1392]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./bilibili_tc12_b_4.png",
+                        "xml_path": "./bilibili_tc12_b_4.xml",
+                        "action": "click",
+                        "bbox": [630, 898, 720, 1014]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./bilibili_tc12_b_5.png",
+                        "xml_path": "./bilibili_tc12_b_5.xml",
+                        "action": "click",
+                        "bbox": [24, 1219, 352, 1332]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc12_EO_1.png",
+                            "xml_path": "./bilibili_tc12_EO_1.xml",
+                            "action": "click",
+                            "bbox": [120, 1012, 600, 1099]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc12_b_1.png",
+                            "xml_path": "./bilibili_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc12_b_2.png",
+                            "xml_path": "./bilibili_tc12_b_2.xml",
+                            "action": "input",
+                            "bbox": [129, 84, 592, 144],
+                            "input_value": "AIGC"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc12_b_3.png",
+                            "xml_path": "./bilibili_tc12_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 1150, 720, 1392]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc12_b_4.png",
+                            "xml_path": "./bilibili_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [630, 898, 720, 1014]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc12_b_5.png",
+                            "xml_path": "./bilibili_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [24, 1219, 352, 1332]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc12_b_1.png",
+                            "xml_path": "./bilibili_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc12_b_2.png",
+                            "xml_path": "./bilibili_tc12_b_2.xml",
+                            "action": "input",
+                            "bbox": [129, 84, 592, 144],
+                            "input_value": "AIGC"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc12_EA_3.png",
+                            "xml_path": "./bilibili_tc12_EA_3.xml",
+                            "action": "click",
+                            "bbox": [0, 1150, 720, 1392]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc12_b_4.png",
+                            "xml_path": "./bilibili_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [630, 898, 720, 1014]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc12_b_5.png",
+                            "xml_path": "./bilibili_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [24, 1219, 352, 1332]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc12_b_1.png",
+                            "xml_path": "./bilibili_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [142, 86, 512, 154]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc12_b_2.png",
+                            "xml_path": "./bilibili_tc12_b_2.xml",
+                            "action": "input",
+                            "bbox": [129, 84, 592, 144],
+                            "input_value": "AIGC"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc12_EA-T_3.png",
+                            "xml_path": "./bilibili_tc12_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc12_b_3.png",
+                            "xml_path": "./bilibili_tc12_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 1150, 720, 1392]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc12_b_4.png",
+                            "xml_path": "./bilibili_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [630, 898, 720, 1014]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc12_b_5.png",
+                            "xml_path": "./bilibili_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [24, 1219, 352, 1332]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 13,
+            "testcase_desc": "先开启夜间模式，再在设置中开启消息免打扰。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./bilibili_tc13_b_1.png",
+                        "xml_path": "./bilibili_tc13_b_1.xml",
+                        "action": "click",
+                        "bbox": [576, 1416, 720, 1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./bilibili_tc13_b_2.png",
+                        "xml_path": "./bilibili_tc13_b_2.xml",
+                        "action": "click",
+                        "bbox": [636, 66, 720, 150]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./bilibili_tc13_b_3.png",
+                        "xml_path": "./bilibili_tc13_b_3.xml",
+                        "action": "click",
+                        "bbox": [0, 1290, 720, 1386]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./bilibili_tc13_b_4.png",
+                        "xml_path": "./bilibili_tc13_b_4.xml",
+                        "action": "click",
+                        "bbox": [0, 1250, 720, 1341]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./bilibili_tc13_b_5.png",
+                        "xml_path": "./bilibili_tc13_b_5.xml",
+                        "action": "click",
+                        "bbox": [0, 371, 720, 499]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./bilibili_tc13_b_6.png",
+                        "xml_path": "./bilibili_tc13_b_6.xml",
+                        "action": "click",
+                        "bbox": [0, 208, 720, 371]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc13_b_1.png",
+                            "xml_path": "./bilibili_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1416, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc13_b_2.png",
+                            "xml_path": "./bilibili_tc13_b_2.xml",
+                            "action": "click",
+                            "bbox": [636, 66, 720, 150]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc13_VE_3.png",
+                            "xml_path": "./bilibili_tc13_VE_3.xml",
+                            "action": "scroll",
+                            "bbox": [0, 0, 720, 1512],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc13_b_3.png",
+                            "xml_path": "./bilibili_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 1290, 720, 1386]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc13_b_4.png",
+                            "xml_path": "./bilibili_tc13_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 1250, 720, 1341]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc13_b_5.png",
+                            "xml_path": "./bilibili_tc13_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 371, 720, 499]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc13_b_6.png",
+                            "xml_path": "./bilibili_tc13_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 208, 720, 371]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc13_FO_1.png",
+                            "xml_path": "./bilibili_tc13_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc13_b_1.png",
+                            "xml_path": "./bilibili_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1416, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc13_b_2.png",
+                            "xml_path": "./bilibili_tc13_b_2.xml",
+                            "action": "click",
+                            "bbox": [636, 66, 720, 150]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc13_b_3.png",
+                            "xml_path": "./bilibili_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 1290, 720, 1386]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc13_b_4.png",
+                            "xml_path": "./bilibili_tc13_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 1250, 720, 1341]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc13_b_5.png",
+                            "xml_path": "./bilibili_tc13_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 371, 720, 499]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc13_b_6.png",
+                            "xml_path": "./bilibili_tc13_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 208, 720, 371]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc13_b_1.png",
+                            "xml_path": "./bilibili_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1416, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc13_b_2.png",
+                            "xml_path": "./bilibili_tc13_b_2.xml",
+                            "action": "click",
+                            "bbox": [636, 66, 720, 150]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc13_b_3.png",
+                            "xml_path": "./bilibili_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 1290, 720, 1386]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc13_b_4.png",
+                            "xml_path": "./bilibili_tc13_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 1250, 720, 1341]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc13_TC_5.png",
+                            "xml_path": "./bilibili_tc13_TC_5.xml",
+                            "action": "click",
+                            "bbox": [0, 371, 720, 499]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc13_b_6.png",
+                            "xml_path": "./bilibili_tc13_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 208, 720, 371]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc13_b_1.png",
+                            "xml_path": "./bilibili_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1416, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc13_EA-T_2.png",
+                            "xml_path": "./bilibili_tc13_EA-T_2.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc13_b_2.png",
+                            "xml_path": "./bilibili_tc13_b_2.xml",
+                            "action": "click",
+                            "bbox": [636, 66, 720, 150]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc13_b_3.png",
+                            "xml_path": "./bilibili_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 1290, 720, 1386]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc13_b_4.png",
+                            "xml_path": "./bilibili_tc13_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 1250, 720, 1341]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./bilibili_tc13_b_5.png",
+                            "xml_path": "./bilibili_tc13_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 371, 720, 499]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./bilibili_tc13_b_6.png",
+                            "xml_path": "./bilibili_tc13_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 208, 720, 371]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 14,
+            "testcase_desc": "在首页推荐页切换到影视模块，在短剧分类中查看短剧榜，并观看第一个短剧视频。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./bilibili_tc14_b_1.png",
+                        "xml_path": "./bilibili_tc14_b_1.xml",
+                        "action": "click",
+                        "bbox": [433, 176, 539, 248]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./bilibili_tc14_b_2.png",
+                        "xml_path": "./bilibili_tc14_b_2.xml",
+                        "action": "click",
+                        "bbox": [428, 258, 528, 353]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./bilibili_tc14_b_3.png",
+                        "xml_path": "./bilibili_tc14_b_3.xml",
+                        "action": "click",
+                        "bbox": [104, 573, 232, 685]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./bilibili_tc14_b_4.png",
+                        "xml_path": "./bilibili_tc14_b_4.xml",
+                        "action": "click",
+                        "bbox": [24, 496, 696, 762]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc14_b_1.png",
+                            "xml_path": "./bilibili_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [433, 176, 539, 248]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc14_LS_2.png",
+                            "xml_path": "./bilibili_tc14_LS_2.xml",
+                            "action": "scroll",
+                            "bbox": [0, 858, 720, 953],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc14_b_3.png",
+                            "xml_path": "./bilibili_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [104, 573, 232, 685]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc14_b_4.png",
+                            "xml_path": "./bilibili_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [24, 496, 696, 762]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc14_b_1.png",
+                            "xml_path": "./bilibili_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [433, 176, 539, 248]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc14_VE_2.png",
+                            "xml_path": "./bilibili_tc14_VE_2.xml",
+                            "action": "scroll",
+                            "bbox": [0, 258, 720, 353],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc14_b_3.png",
+                            "xml_path": "./bilibili_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [104, 573, 232, 685]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc14_b_4.png",
+                            "xml_path": "./bilibili_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [24, 496, 696, 762]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc14_b_1.png",
+                            "xml_path": "./bilibili_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [433, 176, 539, 248]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc14_b_2.png",
+                            "xml_path": "./bilibili_tc14_b_2.xml",
+                            "action": "click",
+                            "bbox": [428, 258, 528, 353]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc14_EA_3.png",
+                            "xml_path": "./bilibili_tc14_EA_3.xml",
+                            "action": "click",
+                            "bbox": [104, 573, 232, 685]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc14_b_4.png",
+                            "xml_path": "./bilibili_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [24, 496, 696, 762]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc14_b_1.png",
+                            "xml_path": "./bilibili_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [433, 176, 539, 248]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc14_b_2.png",
+                            "xml_path": "./bilibili_tc14_b_2.xml",
+                            "action": "click",
+                            "bbox": [428, 258, 528, 353]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc14_EA-T_3.png",
+                            "xml_path": "./bilibili_tc14_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc14_b_3.png",
+                            "xml_path": "./bilibili_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [104, 573, 232, 685]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc14_b_4.png",
+                            "xml_path": "./bilibili_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [24, 496, 696, 762]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc14_EO_1.png",
+                            "xml_path": "./bilibili_tc14_EO_1.xml",
+                            "action": "click",
+                            "bbox": [120, 1012, 600, 1099]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc14_b_1.png",
+                            "xml_path": "./bilibili_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [433, 176, 539, 248]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc14_b_2.png",
+                            "xml_path": "./bilibili_tc14_b_2.xml",
+                            "action": "click",
+                            "bbox": [428, 258, 528, 353]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc14_b_3.png",
+                            "xml_path": "./bilibili_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [104, 573, 232, 685]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc14_b_4.png",
+                            "xml_path": "./bilibili_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [24, 496, 696, 762]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 15,
+            "testcase_desc": "在首页推荐页切换到动画模块，查看更多热门榜单，将国创榜的第一个视频添加喜欢。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./bilibili_tc15_b_1.png",
+                        "xml_path": "./bilibili_tc15_b_1.xml",
+                        "action": "click",
+                        "bbox": [327, 176, 433, 248]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./bilibili_tc15_b_2.png",
+                        "xml_path": "./bilibili_tc15_b_2.xml",
+                        "action": "click",
+                        "bbox": [560, 336, 696, 405]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./bilibili_tc15_b_3.png",
+                        "xml_path": "./bilibili_tc15_b_3.xml",
+                        "action": "click",
+                        "bbox": [160, 404, 314, 484]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./bilibili_tc15_b_4.png",
+                        "xml_path": "./bilibili_tc15_b_4.xml",
+                        "action": "click",
+                        "bbox": [626, 686, 720, 782]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc15_b_1.png",
+                            "xml_path": "./bilibili_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [327, 176, 433, 248]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc15_LS_2.png",
+                            "xml_path": "./bilibili_tc15_LS_2.xml",
+                            "action": "click",
+                            "bbox": [560, 939, 696, 1008]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc15_b_3.png",
+                            "xml_path": "./bilibili_tc15_b_3.xml",
+                            "action": "click",
+                            "bbox": [160, 404, 314, 484]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc15_b_4.png",
+                            "xml_path": "./bilibili_tc15_b_4.xml",
+                            "action": "click",
+                            "bbox": [626, 686, 720, 782]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc15_b_1.png",
+                            "xml_path": "./bilibili_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [327, 176, 433, 248]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc15_b_2.png",
+                            "xml_path": "./bilibili_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [560, 336, 696, 405]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc15_b_3.png",
+                            "xml_path": "./bilibili_tc15_b_3.xml",
+                            "action": "click",
+                            "bbox": [160, 404, 314, 484]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc15_EA-T_4.png",
+                            "xml_path": "./bilibili_tc15_EA-T_4.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./bilibili_tc15_b_4.png",
+                            "xml_path": "./bilibili_tc15_b_4.xml",
+                            "action": "click",
+                            "bbox": [626, 686, 720, 782]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./bilibili_tc15_b_1.png",
+                            "xml_path": "./bilibili_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [327, 176, 433, 248]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./bilibili_tc15_b_2.png",
+                            "xml_path": "./bilibili_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [560, 336, 696, 405]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./bilibili_tc15_TC_3.png",
+                            "xml_path": "./bilibili_tc15_TC_3.xml",
+                            "action": "click",
+                            "bbox": [160, 404, 314, 484]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./bilibili_tc15_b_4.png",
+                            "xml_path": "./bilibili_tc15_b_4.xml",
+                            "action": "click",
+                            "bbox": [626, 686, 720, 782]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -6,57 +6,288 @@
             "testcase_desc": "在首页推荐页浏览女装频道，分类中选择连衣裙，筛选价格 200 元以内，查看第一个商品详情并加入购物车。",
             "clean": {
                 "trace": [
-                    {  
+                    {
                         "checkpoint_id": 1,
                         "screenshot_path": "./weipinhui_tc1_b_1.png",
                         "xml_path": "./weipinhui_tc1_b_1.xml",
                         "action": "click",
-                        "bbox": [289,148,361,232]
+                        "bbox": [289, 148, 361, 232]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./weipinhui_tc1_b_2.png",
                         "xml_path": "./weipinhui_tc1_b_2.xml",
                         "action": "click",
-                        "bbox": [26,937,148,1095]
+                        "bbox": [26, 937, 148, 1095]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./weipinhui_tc1_b_3.png",
                         "xml_path": "./weipinhui_tc1_b_3.xml",
                         "action": "click",
-                        "bbox": [608,357,688,429]
+                        "bbox": [608, 357, 688, 429]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./weipinhui_tc1_b_4.png",
                         "xml_path": "./weipinhui_tc1_b_4.xml",
                         "action": "click",
-                        "bbox": [96,335,280,395]
+                        "bbox": [96, 335, 280, 395]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./weipinhui_tc1_b_5.png",
                         "xml_path": "./weipinhui_tc1_b_5.xml",
                         "action": "click",
-                        "bbox": [375,1392,696,1488]
+                        "bbox": [375, 1392, 696, 1488]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./weipinhui_tc1_b_6.png",
                         "xml_path": "./weipinhui_tc1_b_6.xml",
                         "action": "click",
-                        "bbox": [16,232,352,812]
+                        "bbox": [16, 232, 352, 812]
                     },
                     {
                         "checkpoint_id": 7,
                         "screenshot_path": "./weipinhui_tc1_b_7.png",
                         "xml_path": "./weipinhui_tc1_b_7.xml",
                         "action": "click",
-                        "bbox": [172,1384,288,1512]
+                        "bbox": [172, 1384, 288, 1512]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc1_b_1.png",
+                            "xml_path": "./weipinhui_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [289, 148, 361, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc1_b_2.png",
+                            "xml_path": "./weipinhui_tc1_b_2.xml",
+                            "action": "click",
+                            "bbox": [26, 937, 148, 1095]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc1_b_3.png",
+                            "xml_path": "./weipinhui_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [608, 357, 688, 429]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc1_b_4.png",
+                            "xml_path": "./weipinhui_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [96, 335, 280, 395]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc1_b_5.png",
+                            "xml_path": "./weipinhui_tc1_b_5.xml",
+                            "action": "click",
+                            "bbox": [375, 1392, 696, 1488]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc1_b_6.png",
+                            "xml_path": "./weipinhui_tc1_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 232, 352, 812]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./weipinhui_tc1_LS_7.png",
+                            "xml_path": "./weipinhui_tc1_LS_7.xml",
+                            "action": "click",
+                            "bbox": [652, 122, 700, 170]
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./weipinhui_tc1_b_7.png",
+                            "xml_path": "./weipinhui_tc1_b_7.xml",
+                            "action": "click",
+                            "bbox": [172, 1384, 288, 1512]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc1_b_1.png",
+                            "xml_path": "./weipinhui_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [289, 148, 361, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc1_b_2.png",
+                            "xml_path": "./weipinhui_tc1_b_2.xml",
+                            "action": "click",
+                            "bbox": [26, 937, 148, 1095]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc1_b_3.png",
+                            "xml_path": "./weipinhui_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [608, 357, 688, 429]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc1_b_4.png",
+                            "xml_path": "./weipinhui_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [96, 335, 280, 395]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc1_b_5.png",
+                            "xml_path": "./weipinhui_tc1_b_5.xml",
+                            "action": "click",
+                            "bbox": [375, 1392, 696, 1488]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc1_b_6.png",
+                            "xml_path": "./weipinhui_tc1_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 232, 352, 812]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./weipinhui_tc1_AC_7.png",
+                            "xml_path": "./weipinhui_tc1_AC_7.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc1_ED_1.png",
+                            "xml_path": "./weipinhui_tc1_ED_1.xml",
+                            "action": "click",
+                            "bbox": [289, 202, 361, 286]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc1_b_2.png",
+                            "xml_path": "./weipinhui_tc1_b_2.xml",
+                            "action": "click",
+                            "bbox": [26, 937, 148, 1095]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc1_b_3.png",
+                            "xml_path": "./weipinhui_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [608, 357, 688, 429]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc1_b_4.png",
+                            "xml_path": "./weipinhui_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [96, 335, 280, 395]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc1_b_5.png",
+                            "xml_path": "./weipinhui_tc1_b_5.xml",
+                            "action": "click",
+                            "bbox": [375, 1392, 696, 1488]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc1_b_6.png",
+                            "xml_path": "./weipinhui_tc1_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 232, 352, 812]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./weipinhui_tc1_b_7.png",
+                            "xml_path": "./weipinhui_tc1_b_7.xml",
+                            "action": "click",
+                            "bbox": [172, 1384, 288, 1512]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc1_EO_1.png",
+                            "xml_path": "./weipinhui_tc1_EO_1.xml",
+                            "action": "click",
+                            "bbox": [106, 955, 614, 1051]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc1_b_1.png",
+                            "xml_path": "./weipinhui_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [289, 148, 361, 232]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc1_b_2.png",
+                            "xml_path": "./weipinhui_tc1_b_2.xml",
+                            "action": "click",
+                            "bbox": [26, 937, 148, 1095]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc1_b_3.png",
+                            "xml_path": "./weipinhui_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [608, 357, 688, 429]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc1_b_4.png",
+                            "xml_path": "./weipinhui_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [96, 335, 280, 395]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc1_b_5.png",
+                            "xml_path": "./weipinhui_tc1_b_5.xml",
+                            "action": "click",
+                            "bbox": [375, 1392, 696, 1488]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./weipinhui_tc1_b_6.png",
+                            "xml_path": "./weipinhui_tc1_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 232, 352, 812]
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./weipinhui_tc1_b_7.png",
+                            "xml_path": "./weipinhui_tc1_b_7.xml",
+                            "action": "click",
+                            "bbox": [172, 1384, 288, 1512]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 2,
@@ -68,56 +299,289 @@
                         "screenshot_path": "./weipinhui_tc2_b_1.png",
                         "xml_path": "./weipinhui_tc2_b_1.xml",
                         "action": "click",
-                        "bbox": [0,849,720,1160]
+                        "bbox": [0, 849, 720, 1160]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./weipinhui_tc2_b_2.png",
                         "xml_path": "./weipinhui_tc2_b_2.xml",
                         "action": "click",
-                        "bbox": [510,77,550,138]
+                        "bbox": [510, 77, 550, 138]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./weipinhui_tc2_b_3.png",
                         "xml_path": "./weipinhui_tc2_b_3.xml",
                         "action": "click",
-                        "bbox": [24,84,72,132]
+                        "bbox": [24, 84, 72, 132]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./weipinhui_tc2_b_4.png",
                         "xml_path": "./weipinhui_tc2_b_4.xml",
                         "action": "click",
-                        "bbox": [576,1414,720,1512]
+                        "bbox": [576, 1414, 720, 1512]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./weipinhui_tc2_b_5.png",
                         "xml_path": "./weipinhui_tc2_b_5.xml",
                         "action": "click",
-                        "bbox": [577,609,704,737]
+                        "bbox": [577, 609, 704, 737]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./weipinhui_tc2_b_6.png",
                         "xml_path": "./weipinhui_tc2_b_6.xml",
                         "action": "click",
-                        "bbox": [16,579,153,707]
+                        "bbox": [16, 579, 153, 707]
                     },
                     {
                         "checkpoint_id": 7,
                         "screenshot_path": "./weipinhui_tc2_b_7.png",
                         "xml_path": "./weipinhui_tc2_b_7.xml",
                         "action": "click",
-                        "bbox": [0,238,122,348]
+                        "bbox": [0, 238, 122, 348]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc2_b_1.png",
+                            "xml_path": "./weipinhui_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 849, 720, 1160]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc2_b_2.png",
+                            "xml_path": "./weipinhui_tc2_b_2.xml",
+                            "action": "click",
+                            "bbox": [510, 77, 550, 138]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc2_EO_3.png",
+                            "xml_path": "./weipinhui_tc2_EO_3.xml",
+                            "action": "click",
+                            "bbox": [325, 1088, 395, 1155]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc2_b_3.png",
+                            "xml_path": "./weipinhui_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [24, 84, 72, 132]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc2_b_4.png",
+                            "xml_path": "./weipinhui_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [576, 1414, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc2_b_5.png",
+                            "xml_path": "./weipinhui_tc2_b_5.xml",
+                            "action": "click",
+                            "bbox": [577, 609, 704, 737]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./weipinhui_tc2_b_6.png",
+                            "xml_path": "./weipinhui_tc2_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 579, 153, 707]
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./weipinhui_tc2_b_7.png",
+                            "xml_path": "./weipinhui_tc2_b_7.xml",
+                            "action": "click",
+                            "bbox": [0, 238, 122, 348]
+                        }
+                    ]
+                },
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc2_b_1.png",
+                            "xml_path": "./weipinhui_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 849, 720, 1160]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc2_b_2.png",
+                            "xml_path": "./weipinhui_tc2_b_2.xml",
+                            "action": "click",
+                            "bbox": [510, 77, 550, 138]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc2_b_3.png",
+                            "xml_path": "./weipinhui_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [24, 84, 72, 132]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc2_b_4.png",
+                            "xml_path": "./weipinhui_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [576, 1414, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc2_b_5.png",
+                            "xml_path": "./weipinhui_tc2_b_5.xml",
+                            "action": "click",
+                            "bbox": [577, 609, 704, 737]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc2_b_6.png",
+                            "xml_path": "./weipinhui_tc2_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 579, 153, 707]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./weipinhui_tc2_LS_7.png",
+                            "xml_path": "./weipinhui_tc2_LS_7.xml",
+                            "action": "click",
+                            "bbox": [650, 193, 693, 222]
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./weipinhui_tc2_b_7.png",
+                            "xml_path": "./weipinhui_tc2_b_7.xml",
+                            "action": "click",
+                            "bbox": [0, 238, 122, 348]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc2_b_1.png",
+                            "xml_path": "./weipinhui_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 849, 720, 1160]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc2_b_2.png",
+                            "xml_path": "./weipinhui_tc2_b_2.xml",
+                            "action": "click",
+                            "bbox": [510, 77, 550, 138]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc2_b_3.png",
+                            "xml_path": "./weipinhui_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [24, 84, 72, 132]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc2_b_4.png",
+                            "xml_path": "./weipinhui_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [576, 1414, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc2_VE_5.png",
+                            "xml_path": "./weipinhui_tc2_VE_5.xml",
+                            "action": "scroll",
+                            "bbox": [16, 612, 703, 912],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc2_b_5.png",
+                            "xml_path": "./weipinhui_tc2_b_5.xml",
+                            "action": "click",
+                            "bbox": [577, 609, 704, 737]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./weipinhui_tc2_b_6.png",
+                            "xml_path": "./weipinhui_tc2_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 579, 153, 707]
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./weipinhui_tc2_b_7.png",
+                            "xml_path": "./weipinhui_tc2_b_7.xml",
+                            "action": "click",
+                            "bbox": [0, 238, 122, 348]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc2_b_1.png",
+                            "xml_path": "./weipinhui_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 849, 720, 1160]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc2_b_3.png",
+                            "xml_path": "./weipinhui_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [24, 84, 72, 132]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc2_b_4.png",
+                            "xml_path": "./weipinhui_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [576, 1414, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc2_b_5.png",
+                            "xml_path": "./weipinhui_tc2_b_5.xml",
+                            "action": "click",
+                            "bbox": [577, 609, 704, 737]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc2_b_6.png",
+                            "xml_path": "./weipinhui_tc2_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 579, 153, 707]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc2_b_7.png",
+                            "xml_path": "./weipinhui_tc2_b_7.xml",
+                            "action": "click",
+                            "bbox": [0, 238, 122, 348]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 3,
-            "testcase_desc": "在首页搜索栏搜索“牛仔裤”，切换为单列展示，再使用筛选功能选择“男士休闲裤”“L 码”。",
+            "testcase_desc": "在首页搜索栏搜索“牛仔裤”，使用筛选功能选择“男士休闲裤”“L 码”。",
             "clean": {
                 "trace": [
                     {
@@ -125,14 +589,14 @@
                         "screenshot_path": "./weipinhui_tc3_b_1.png",
                         "xml_path": "./weipinhui_tc3_b_1.xml",
                         "action": "click",
-                        "bbox": [10,74,564,139]
+                        "bbox": [10, 74, 564, 139]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./weipinhui_tc3_b_2.png",
                         "xml_path": "./weipinhui_tc3_b_2.xml",
                         "action": "input",
-                        "bbox": [88,77,512,137],
+                        "bbox": [88, 77, 512, 137],
                         "input_value": "牛仔裤"
                     },
                     {
@@ -140,31 +604,218 @@
                         "screenshot_path": "./weipinhui_tc3_b_3.png",
                         "xml_path": "./weipinhui_tc3_b_3.xml",
                         "action": "click",
-                        "bbox": [527,459,559,531]
+                        "bbox": [608, 459, 688, 531]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./weipinhui_tc3_b_4.png",
                         "xml_path": "./weipinhui_tc3_b_4.xml",
                         "action": "click",
-                        "bbox": [96,785,280,845]
+                        "bbox": [96, 785, 280, 845]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./weipinhui_tc3_b_5.png",
                         "xml_path": "./weipinhui_tc3_b_5.xml",
                         "action": "click",
-                        "bbox": [96,1006,280,1062]
+                        "bbox": [96, 1006, 280, 1062]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./weipinhui_tc3_b_6.png",
                         "xml_path": "./weipinhui_tc3_b_6.xml",
                         "action": "click",
-                        "bbox": [375,1392,696,1488]
+                        "bbox": [375, 1392, 696, 1488]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc3_b_1.png",
+                            "xml_path": "./weipinhui_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [10, 74, 564, 139]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc3_b_2.png",
+                            "xml_path": "./weipinhui_tc3_b_2.xml",
+                            "action": "input",
+                            "bbox": [88, 77, 512, 137],
+                            "input_value": "牛仔裤"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc3_TC_3.png",
+                            "xml_path": "./weipinhui_tc3_TC_3.xml",
+                            "action": "click",
+                            "bbox": [608, 459, 688, 531]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc3_b_4.png",
+                            "xml_path": "./weipinhui_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [96, 785, 280, 845]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc3_b_5.png",
+                            "xml_path": "./weipinhui_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [96, 1006, 280, 1062]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc3_b_6.png",
+                            "xml_path": "./weipinhui_tc3_b_6.xml",
+                            "action": "click",
+                            "bbox": [375, 1392, 696, 1488]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc3_b_1.png",
+                            "xml_path": "./weipinhui_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [10, 74, 564, 139]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc3_b_2.png",
+                            "xml_path": "./weipinhui_tc3_b_2.xml",
+                            "action": "input",
+                            "bbox": [88, 77, 512, 137],
+                            "input_value": "牛仔裤"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc3_b_3.png",
+                            "xml_path": "./weipinhui_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [608, 459, 688, 531]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc3_b_5.png",
+                            "xml_path": "./weipinhui_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [96, 1006, 280, 1062]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc3_b_6.png",
+                            "xml_path": "./weipinhui_tc3_b_6.xml",
+                            "action": "click",
+                            "bbox": [375, 1392, 696, 1488]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc3_b_1.png",
+                            "xml_path": "./weipinhui_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [10, 74, 564, 139]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc3_b_2.png",
+                            "xml_path": "./weipinhui_tc3_b_2.xml",
+                            "action": "input",
+                            "bbox": [88, 77, 512, 137],
+                            "input_value": "牛仔裤"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc3_b_3.png",
+                            "xml_path": "./weipinhui_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [608, 459, 688, 531]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc3_ED_4.png",
+                            "xml_path": "./weipinhui_tc3_ED_4.xml",
+                            "action": "click",
+                            "bbox": [300, 853, 491, 917]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc3_b_5.png",
+                            "xml_path": "./weipinhui_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [96, 1006, 280, 1062]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc3_b_6.png",
+                            "xml_path": "./weipinhui_tc3_b_6.xml",
+                            "action": "click",
+                            "bbox": [375, 1392, 696, 1488]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc3_b_1.png",
+                            "xml_path": "./weipinhui_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [10, 74, 564, 139]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc3_b_2.png",
+                            "xml_path": "./weipinhui_tc3_b_2.xml",
+                            "action": "input",
+                            "bbox": [88, 77, 512, 137],
+                            "input_value": "牛仔裤"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc3_VA_3.png",
+                            "xml_path": "./weipinhui_tc3_VA_3.xml",
+                            "action": "click",
+                            "bbox": [608, 459, 688, 531]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc3_b_4.png",
+                            "xml_path": "./weipinhui_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [96, 785, 280, 845]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc3_b_5.png",
+                            "xml_path": "./weipinhui_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [96, 1006, 280, 1062]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc3_b_6.png",
+                            "xml_path": "./weipinhui_tc3_b_6.xml",
+                            "action": "click",
+                            "bbox": [375, 1392, 696, 1488]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 4,
@@ -176,14 +827,14 @@
                         "screenshot_path": "./weipinhui_tc4_b_1.png",
                         "xml_path": "./weipinhui_tc4_b_1.xml",
                         "action": "click",
-                        "bbox": [0,224,720,512]
+                        "bbox": [0, 224, 720, 512]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./weipinhui_tc4_b_2.png",
                         "xml_path": "./weipinhui_tc4_b_2.xml",
                         "action": "scroll",
-                        "bbox": [0,0,720,1512],
+                        "bbox": [0, 0, 720, 1512],
                         "input_value": "up"
                     },
                     {
@@ -191,17 +842,153 @@
                         "screenshot_path": "./weipinhui_tc4_b_3.png",
                         "xml_path": "./weipinhui_tc4_b_3.xml",
                         "action": "click",
-                        "bbox": [542,75,606,139]
+                        "bbox": [542, 75, 606, 139]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./weipinhui_tc4_b_4.png",
                         "xml_path": "./weipinhui_tc4_b_4.xml",
                         "action": "click",
-                        "bbox": [35,1184,175,1353]
+                        "bbox": [35, 1184, 175, 1353]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc4_b_1.png",
+                            "xml_path": "./weipinhui_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 224, 720, 512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc4_b_3.png",
+                            "xml_path": "./weipinhui_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [542, 75, 606, 139]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc4_b_4.png",
+                            "xml_path": "./weipinhui_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [35, 1184, 175, 1353]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc4_EA_1.png",
+                            "xml_path": "./weipinhui_tc4_EA_1.xml",
+                            "action": "click",
+                            "bbox": [0, 224, 720, 512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc4_b_2.png",
+                            "xml_path": "./weipinhui_tc4_b_2.xml",
+                            "action": "scroll",
+                            "bbox": [0, 0, 720, 1512],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc4_b_3.png",
+                            "xml_path": "./weipinhui_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [542, 75, 606, 139]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc4_b_4.png",
+                            "xml_path": "./weipinhui_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [35, 1184, 175, 1353]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc4_EA-T_1.png",
+                            "xml_path": "./weipinhui_tc4_EA-T_1.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc4_b_1.png",
+                            "xml_path": "./weipinhui_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 224, 720, 512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc4_b_2.png",
+                            "xml_path": "./weipinhui_tc4_b_2.xml",
+                            "action": "scroll",
+                            "bbox": [0, 0, 720, 1512],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc4_b_3.png",
+                            "xml_path": "./weipinhui_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [542, 75, 606, 139]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc4_b_4.png",
+                            "xml_path": "./weipinhui_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [35, 1184, 175, 1353]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc4_b_1.png",
+                            "xml_path": "./weipinhui_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 224, 720, 512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc4_b_2.png",
+                            "xml_path": "./weipinhui_tc4_b_2.xml",
+                            "action": "scroll",
+                            "bbox": [0, 0, 720, 1512],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc4_VA_3.png",
+                            "xml_path": "./weipinhui_tc4_VA_3.xml",
+                            "action": "click",
+                            "bbox": [542, 75, 606, 139]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc4_b_4.png",
+                            "xml_path": "./weipinhui_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [35, 1184, 175, 1353]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 5,
@@ -213,31 +1000,180 @@
                         "screenshot_path": "./weipinhui_tc5_b_1.png",
                         "xml_path": "./weipinhui_tc5_b_1.xml",
                         "action": "click",
-                        "bbox": [588,674,696,782]
+                        "bbox": [588, 674, 696, 782]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./weipinhui_tc5_b_2.png",
                         "xml_path": "./weipinhui_tc5_b_2.xml",
                         "action": "click",
-                        "bbox": [502,970,694,1008]
+                        "bbox": [502, 970, 694, 1008]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./weipinhui_tc5_b_3.png",
                         "xml_path": "./weipinhui_tc5_b_3.xml",
                         "action": "click",
-                        "bbox": [432,168,524,260]
+                        "bbox": [432, 168, 524, 260]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./weipinhui_tc5_b_4.png",
                         "xml_path": "./weipinhui_tc5_b_4.xml",
                         "action": "click",
-                        "bbox": [533,694,678,740]
+                        "bbox": [533, 694, 678, 740]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc5_VE_1.png",
+                            "xml_path": "./weipinhui_tc5_VE_1.xml",
+                            "action": "scroll",
+                            "bbox": [16, 519, 706, 839],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc5_b_1.png",
+                            "xml_path": "./weipinhui_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [588, 674, 696, 782]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc5_b_2.png",
+                            "xml_path": "./weipinhui_tc5_b_2.xml",
+                            "action": "click",
+                            "bbox": [502, 970, 694, 1008]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc5_b_3.png",
+                            "xml_path": "./weipinhui_tc5_b_3.xml",
+                            "action": "click",
+                            "bbox": [432, 168, 524, 260]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc5_b_4.png",
+                            "xml_path": "./weipinhui_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [533, 694, 678, 740]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc5_b_1.png",
+                            "xml_path": "./weipinhui_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [588, 674, 696, 782]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc5_b_2.png",
+                            "xml_path": "./weipinhui_tc5_b_2.xml",
+                            "action": "click",
+                            "bbox": [502, 970, 694, 1008]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc5_ED_3.png",
+                            "xml_path": "./weipinhui_tc5_ED_3.xml",
+                            "action": "click",
+                            "bbox": [432, 80, 524, 172]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc5_b_4.png",
+                            "xml_path": "./weipinhui_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [533, 694, 678, 740]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc5_b_1.png",
+                            "xml_path": "./weipinhui_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [588, 674, 696, 782]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc5_b_2.png",
+                            "xml_path": "./weipinhui_tc5_b_2.xml",
+                            "action": "click",
+                            "bbox": [502, 970, 694, 1008]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc5_FO_3.png",
+                            "xml_path": "./weipinhui_tc5_FO_3.xml",
+                            "action": "click",
+                            "bbox": [0, 56, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc5_b_3.png",
+                            "xml_path": "./weipinhui_tc5_b_3.xml",
+                            "action": "click",
+                            "bbox": [432, 168, 524, 260]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc5_b_4.png",
+                            "xml_path": "./weipinhui_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [533, 694, 678, 740]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc5_b_1.png",
+                            "xml_path": "./weipinhui_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [588, 674, 696, 782]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc5_b_2.png",
+                            "xml_path": "./weipinhui_tc5_b_2.xml",
+                            "action": "click",
+                            "bbox": [502, 970, 694, 1008]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc5_b_3.png",
+                            "xml_path": "./weipinhui_tc5_b_3.xml",
+                            "action": "click",
+                            "bbox": [432, 168, 524, 260]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc5_EA_4.png",
+                            "xml_path": "./weipinhui_tc5_EA_4.xml",
+                            "action": "click",
+                            "bbox": [533, 694, 678, 740]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 6,
@@ -249,31 +1185,179 @@
                         "screenshot_path": "./weipinhui_tc6_b_1.png",
                         "xml_path": "./weipinhui_tc6_b_1.xml",
                         "action": "click",
-                        "bbox": [288,1414,432,1512]
+                        "bbox": [288, 1414, 432, 1512]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./weipinhui_tc6_b_2.png",
                         "xml_path": "./weipinhui_tc6_b_2.xml",
                         "action": "click",
-                        "bbox": [580,172,704,268]
+                        "bbox": [580, 172, 704, 268]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./weipinhui_tc6_b_3.png",
                         "xml_path": "./weipinhui_tc6_b_3.xml",
                         "action": "click",
-                        "bbox": [15,258,353,744]
+                        "bbox": [15, 258, 353, 744]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./weipinhui_tc6_b_4.png",
                         "xml_path": "./weipinhui_tc6_b_4.xml",
                         "action": "click",
-                        "bbox": [458,75,522,139]
+                        "bbox": [458, 75, 522, 139]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc6_b_1.png",
+                            "xml_path": "./weipinhui_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [288, 1414, 432, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc6_LS_2.png",
+                            "xml_path": "./weipinhui_tc6_LS_2.xml",
+                            "action": "click",
+                            "bbox": [580, 584, 704, 680]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc6_b_3.png",
+                            "xml_path": "./weipinhui_tc6_b_3.xml",
+                            "action": "click",
+                            "bbox": [15, 258, 353, 744]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc6_b_4.png",
+                            "xml_path": "./weipinhui_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [458, 75, 522, 139]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc6_b_1.png",
+                            "xml_path": "./weipinhui_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [288, 1414, 432, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc6_VE_2.png",
+                            "xml_path": "./weipinhui_tc6_VE_2.xml",
+                            "action": "scroll",
+                            "bbox": [0, 172, 720, 272],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc6_b_2.png",
+                            "xml_path": "./weipinhui_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [580, 172, 704, 268]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc6_b_3.png",
+                            "xml_path": "./weipinhui_tc6_b_3.xml",
+                            "action": "click",
+                            "bbox": [15, 258, 353, 744]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc6_b_4.png",
+                            "xml_path": "./weipinhui_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [458, 75, 522, 139]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc6_b_1.png",
+                            "xml_path": "./weipinhui_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [288, 1414, 432, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc6_b_2.png",
+                            "xml_path": "./weipinhui_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [580, 172, 704, 268]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc6_EA_3.png",
+                            "xml_path": "./weipinhui_tc6_EA_3.xml",
+                            "action": "click",
+                            "bbox": [15, 258, 353, 744]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc6_b_4.png",
+                            "xml_path": "./weipinhui_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [458, 75, 522, 139]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc6_b_1.png",
+                            "xml_path": "./weipinhui_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [288, 1414, 432, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc6_b_2.png",
+                            "xml_path": "./weipinhui_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [580, 172, 704, 268]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc6_EA-T_3.png",
+                            "xml_path": "./weipinhui_tc6_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc6_b_3.png",
+                            "xml_path": "./weipinhui_tc6_b_3.xml",
+                            "action": "click",
+                            "bbox": [15, 258, 353, 744]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc6_b_4.png",
+                            "xml_path": "./weipinhui_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [458, 75, 522, 139]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 7,
@@ -285,24 +1369,150 @@
                         "screenshot_path": "./weipinhui_tc7_b_1.png",
                         "xml_path": "./weipinhui_tc7_b_1.xml",
                         "action": "click",
-                        "bbox": [576,1414,720,1512]
+                        "bbox": [576, 1414, 720, 1512]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./weipinhui_tc7_b_2.png",
                         "xml_path": "./weipinhui_tc7_b_2.xml",
                         "action": "click",
-                        "bbox": [245,416,473,488]
+                        "bbox": [245, 416, 473, 488]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./weipinhui_tc7_b_3.png",
                         "xml_path": "./weipinhui_tc7_b_3.xml",
                         "action": "click",
-                        "bbox": [12,334,236,756]
+                        "bbox": [12, 334, 236, 756]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc7_EO_1.png",
+                            "xml_path": "./weipinhui_tc7_EO_1.xml",
+                            "action": "click",
+                            "bbox": [106, 955, 614, 1051]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc7_b_1.png",
+                            "xml_path": "./weipinhui_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1414, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc7_b_2.png",
+                            "xml_path": "./weipinhui_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [245, 416, 473, 488]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc7_b_3.png",
+                            "xml_path": "./weipinhui_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [12, 334, 236, 756]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc7_b_1.png",
+                            "xml_path": "./weipinhui_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1414, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc7_b_2.png",
+                            "xml_path": "./weipinhui_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [245, 416, 473, 488]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc7_FO_3.png",
+                            "xml_path": "./weipinhui_tc7_FO_3.xml",
+                            "action": "click",
+                            "bbox": [0, 56, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc7_b_3.png",
+                            "xml_path": "./weipinhui_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [12, 334, 236, 756]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc7_b_1.png",
+                            "xml_path": "./weipinhui_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1414, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc7_ED_2.png",
+                            "xml_path": "./weipinhui_tc7_ED_2.xml",
+                            "action": "click",
+                            "bbox": [470, 176, 702, 250]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc7_b_3.png",
+                            "xml_path": "./weipinhui_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [12, 334, 236, 756]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc7_b_1.png",
+                            "xml_path": "./weipinhui_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1414, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc7_b_2.png",
+                            "xml_path": "./weipinhui_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [245, 416, 473, 488]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc7_EA-T_3.png",
+                            "xml_path": "./weipinhui_tc7_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc7_b_3.png",
+                            "xml_path": "./weipinhui_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [12, 334, 236, 756]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 8,
@@ -314,31 +1524,171 @@
                         "screenshot_path": "./weipinhui_tc8_b_1.png",
                         "xml_path": "./weipinhui_tc8_b_1.xml",
                         "action": "click",
-                        "bbox": [289,148,361,232]
+                        "bbox": [289, 148, 361, 232]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./weipinhui_tc8_b_2.png",
                         "xml_path": "./weipinhui_tc8_b_2.xml",
                         "action": "click",
-                        "bbox": [164,680,425,838]
+                        "bbox": [164, 680, 425, 838]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./weipinhui_tc8_b_3.png",
                         "xml_path": "./weipinhui_tc8_b_3.xml",
                         "action": "click",
-                        "bbox": [16,438,352,1030]
+                        "bbox": [16, 438, 352, 1030]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./weipinhui_tc8_b_4.png",
                         "xml_path": "./weipinhui_tc8_b_4.xml",
                         "action": "click",
-                        "bbox": [172,1384,288,1512]
+                        "bbox": [172, 1384, 288, 1512]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc8_b_1.png",
+                            "xml_path": "./weipinhui_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [289, 148, 361, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc8_b_2.png",
+                            "xml_path": "./weipinhui_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [164, 680, 425, 838]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc8_b_3.png",
+                            "xml_path": "./weipinhui_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [16, 438, 352, 1030]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc8_VA_4.png",
+                            "xml_path": "./weipinhui_tc8_VA_4.xml",
+                            "action": "click",
+                            "bbox": [172, 1384, 288, 1512]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc8_b_1.png",
+                            "xml_path": "./weipinhui_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [289, 148, 361, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc8_b_2.png",
+                            "xml_path": "./weipinhui_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [164, 680, 425, 838]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc8_EA_3.png",
+                            "xml_path": "./weipinhui_tc8_EA_3.xml",
+                            "action": "click",
+                            "bbox": [16, 438, 352, 1030]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc8_b_4.png",
+                            "xml_path": "./weipinhui_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [172, 1384, 288, 1512]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc8_b_1.png",
+                            "xml_path": "./weipinhui_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [289, 148, 361, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc8_b_2.png",
+                            "xml_path": "./weipinhui_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [164, 680, 425, 838]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc8_EA-T_3.png",
+                            "xml_path": "./weipinhui_tc8_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc8_b_3.png",
+                            "xml_path": "./weipinhui_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [16, 438, 352, 1030]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc8_b_4.png",
+                            "xml_path": "./weipinhui_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [172, 1384, 288, 1512]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc8_b_1.png",
+                            "xml_path": "./weipinhui_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [289, 148, 361, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc8_ED_2.png",
+                            "xml_path": "./weipinhui_tc8_ED_2.xml",
+                            "action": "click",
+                            "bbox": [164, 766, 279, 881]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc8_b_3.png",
+                            "xml_path": "./weipinhui_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [16, 438, 352, 1030]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc8_b_4.png",
+                            "xml_path": "./weipinhui_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [172, 1384, 288, 1512]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 9,
@@ -350,35 +1700,35 @@
                         "screenshot_path": "./weipinhui_tc9_b_1.png",
                         "xml_path": "./weipinhui_tc9_b_1.xml",
                         "action": "click",
-                        "bbox": [109,148,181,232]
+                        "bbox": [109, 148, 181, 232]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./weipinhui_tc9_b_2.png",
                         "xml_path": "./weipinhui_tc9_b_2.xml",
                         "action": "click",
-                        "bbox": [495,232,630,319]
+                        "bbox": [495, 232, 630, 319]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./weipinhui_tc9_b_3.png",
                         "xml_path": "./weipinhui_tc9_b_3.xml",
                         "action": "click",
-                        "bbox": [441,319,556,434]
+                        "bbox": [441, 319, 556, 434]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./weipinhui_tc9_b_4.png",
                         "xml_path": "./weipinhui_tc9_b_4.xml",
                         "action": "click",
-                        "bbox": [112,357,216,429]
+                        "bbox": [112, 357, 216, 429]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./weipinhui_tc9_b_5.png",
                         "xml_path": "./weipinhui_tc9_b_5.xml",
                         "action": "click",
-                        "bbox": [527,151,559,223]
+                        "bbox": [527, 151, 559, 223]
                     },
                     {
                         "checkpoint_id": 6,
@@ -387,7 +1737,193 @@
                         "action": "finish"
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc9_b_1.png",
+                            "xml_path": "./weipinhui_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [109, 148, 181, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc9_b_2.png",
+                            "xml_path": "./weipinhui_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [495, 232, 630, 319]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc9_VA_3.png",
+                            "xml_path": "./weipinhui_tc9_VA_3.xml",
+                            "action": "click",
+                            "bbox": [441, 319, 556, 434]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc9_b_4.png",
+                            "xml_path": "./weipinhui_tc9_b_4.xml",
+                            "action": "click",
+                            "bbox": [112, 357, 216, 429]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc9_b_5.png",
+                            "xml_path": "./weipinhui_tc9_b_5.xml",
+                            "action": "click",
+                            "bbox": [527, 151, 559, 223]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc9_b_6.png",
+                            "xml_path": "./weipinhui_tc9_b_6.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc9_b_1.png",
+                            "xml_path": "./weipinhui_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [109, 148, 181, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc9_b_2.png",
+                            "xml_path": "./weipinhui_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [495, 232, 630, 319]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc9_b_3.png",
+                            "xml_path": "./weipinhui_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [441, 319, 556, 434]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc9_b_5.png",
+                            "xml_path": "./weipinhui_tc9_b_5.xml",
+                            "action": "click",
+                            "bbox": [527, 151, 559, 223]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc9_b_6.png",
+                            "xml_path": "./weipinhui_tc9_b_6.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc9_EO_1.png",
+                            "xml_path": "./weipinhui_tc9_EO_1.xml",
+                            "action": "click",
+                            "bbox": [106, 955, 614, 1051]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc9_b_1.png",
+                            "xml_path": "./weipinhui_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [109, 148, 181, 232]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc9_b_2.png",
+                            "xml_path": "./weipinhui_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [495, 232, 630, 319]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc9_b_3.png",
+                            "xml_path": "./weipinhui_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [441, 319, 556, 434]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc9_b_4.png",
+                            "xml_path": "./weipinhui_tc9_b_4.xml",
+                            "action": "click",
+                            "bbox": [112, 357, 216, 429]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc9_b_5.png",
+                            "xml_path": "./weipinhui_tc9_b_5.xml",
+                            "action": "click",
+                            "bbox": [527, 151, 559, 223]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./weipinhui_tc9_b_6.png",
+                            "xml_path": "./weipinhui_tc9_b_6.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc9_b_1.png",
+                            "xml_path": "./weipinhui_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [109, 148, 181, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc9_b_2.png",
+                            "xml_path": "./weipinhui_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [495, 232, 630, 319]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc9_b_3.png",
+                            "xml_path": "./weipinhui_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [441, 319, 556, 434]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc9_b_4.png",
+                            "xml_path": "./weipinhui_tc9_b_4.xml",
+                            "action": "click",
+                            "bbox": [112, 357, 216, 429]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc9_ED_5.png",
+                            "xml_path": "./weipinhui_tc9_ED_5.xml",
+                            "action": "click",
+                            "bbox": [457, 139, 494, 167]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc9_b_6.png",
+                            "xml_path": "./weipinhui_tc9_b_6.xml",
+                            "action": "finish"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 10,
@@ -399,45 +1935,243 @@
                         "screenshot_path": "./weipinhui_tc10_b_1.png",
                         "xml_path": "./weipinhui_tc10_b_1.xml",
                         "action": "click",
-                        "bbox": [207,148,279,232]
+                        "bbox": [207, 148, 279, 232]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./weipinhui_tc10_b_2.png",
                         "xml_path": "./weipinhui_tc10_b_2.xml",
                         "action": "click",
-                        "bbox": [441,488,556,603]
+                        "bbox": [441, 488, 556, 603]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./weipinhui_tc10_b_3.png",
                         "xml_path": "./weipinhui_tc10_b_3.xml",
                         "action": "click",
-                        "bbox": [608,459,688,531]
+                        "bbox": [608, 459, 688, 531]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./weipinhui_tc10_b_4.png",
                         "xml_path": "./weipinhui_tc10_b_4.xml",
                         "action": "click",
-                        "bbox": [96,1003,280,1059]
+                        "bbox": [96, 1003, 280, 1059]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./weipinhui_tc10_b_5.png",
                         "xml_path": "./weipinhui_tc10_b_5.xml",
                         "action": "click",
-                        "bbox": [375,1392,696,1488]
+                        "bbox": [375, 1392, 696, 1488]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./weipinhui_tc10_b_6.png",
                         "xml_path": "./weipinhui_tc10_b_6.xml",
                         "action": "click",
-                        "bbox": [16,232,352,724]
+                        "bbox": [16, 232, 352, 724]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc10_VE_1.png",
+                            "xml_path": "./weipinhui_tc10_VE_1.xml",
+                            "action": "scroll",
+                            "bbox": [0, 150, 720, 225],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc10_b_1.png",
+                            "xml_path": "./weipinhui_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [207, 148, 279, 232]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc10_b_2.png",
+                            "xml_path": "./weipinhui_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [441, 488, 556, 603]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc10_b_3.png",
+                            "xml_path": "./weipinhui_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [608, 459, 688, 531]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc10_b_4.png",
+                            "xml_path": "./weipinhui_tc10_b_4.xml",
+                            "action": "click",
+                            "bbox": [96, 1003, 280, 1059]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc10_b_5.png",
+                            "xml_path": "./weipinhui_tc10_b_5.xml",
+                            "action": "click",
+                            "bbox": [375, 1392, 696, 1488]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./weipinhui_tc10_b_6.png",
+                            "xml_path": "./weipinhui_tc10_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 232, 352, 724]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc10_FO_1.png",
+                            "xml_path": "./weipinhui_tc10_FO_1.xml",
+                            "action": "click",
+                            "bbox": [0, 56, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc10_b_1.png",
+                            "xml_path": "./weipinhui_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [207, 148, 279, 232]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc10_b_2.png",
+                            "xml_path": "./weipinhui_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [441, 488, 556, 603]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc10_b_3.png",
+                            "xml_path": "./weipinhui_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [608, 459, 688, 531]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc10_b_4.png",
+                            "xml_path": "./weipinhui_tc10_b_4.xml",
+                            "action": "click",
+                            "bbox": [96, 1003, 280, 1059]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc10_b_5.png",
+                            "xml_path": "./weipinhui_tc10_b_5.xml",
+                            "action": "click",
+                            "bbox": [375, 1392, 696, 1488]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./weipinhui_tc10_b_6.png",
+                            "xml_path": "./weipinhui_tc10_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 232, 352, 724]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc10_b_1.png",
+                            "xml_path": "./weipinhui_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [207, 148, 279, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc10_b_2.png",
+                            "xml_path": "./weipinhui_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [441, 488, 556, 603]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc10_b_3.png",
+                            "xml_path": "./weipinhui_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [608, 459, 688, 531]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc10_b_5.png",
+                            "xml_path": "./weipinhui_tc10_b_5.xml",
+                            "action": "click",
+                            "bbox": [375, 1392, 696, 1488]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc10_b_6.png",
+                            "xml_path": "./weipinhui_tc10_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 232, 352, 724]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc10_b_1.png",
+                            "xml_path": "./weipinhui_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [207, 148, 279, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc10_b_2.png",
+                            "xml_path": "./weipinhui_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [441, 488, 556, 603]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc10_VA_3.png",
+                            "xml_path": "./weipinhui_tc10_VA_3.xml",
+                            "action": "click",
+                            "bbox": [608, 459, 688, 531]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc10_b_4.png",
+                            "xml_path": "./weipinhui_tc10_b_4.xml",
+                            "action": "click",
+                            "bbox": [96, 1003, 280, 1059]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc10_b_5.png",
+                            "xml_path": "./weipinhui_tc10_b_5.xml",
+                            "action": "click",
+                            "bbox": [375, 1392, 696, 1488]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc10_b_6.png",
+                            "xml_path": "./weipinhui_tc10_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 232, 352, 724]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 11,
@@ -449,31 +2183,150 @@
                         "screenshot_path": "./weipinhui_tc11_b_1.png",
                         "xml_path": "./weipinhui_tc11_b_1.xml",
                         "action": "click",
-                        "bbox": [576,1414,720,1512]
+                        "bbox": [576, 1414, 720, 1512]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./weipinhui_tc11_b_2.png",
                         "xml_path": "./weipinhui_tc11_b_2.xml",
                         "action": "click",
-                        "bbox": [544,75,584,139]
+                        "bbox": [544, 75, 584, 139]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./weipinhui_tc11_b_3.png",
                         "xml_path": "./weipinhui_tc11_b_3.xml",
                         "action": "click",
-                        "bbox": [0,1044,720,1148]
+                        "bbox": [0, 1044, 720, 1148]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./weipinhui_tc11_b_4.png",
                         "xml_path": "./weipinhui_tc11_b_4.xml",
                         "action": "click",
-                        "bbox": [40,735,680,839]
+                        "bbox": [40, 735, 680, 839]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc11_TC_1.png",
+                            "xml_path": "./weipinhui_tc11_TC_1.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc11_b_1.png",
+                            "xml_path": "./weipinhui_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1414, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc11_VA_2.png",
+                            "xml_path": "./weipinhui_tc11_VA_2.xml",
+                            "action": "click",
+                            "bbox": [544, 75, 584, 139]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc11_b_3.png",
+                            "xml_path": "./weipinhui_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 1044, 720, 1148]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc11_b_4.png",
+                            "xml_path": "./weipinhui_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [40, 735, 680, 839]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc11_EO_1.png",
+                            "xml_path": "./weipinhui_tc11_EO_1.xml",
+                            "action": "click",
+                            "bbox": [106, 955, 614, 1051]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc11_b_1.png",
+                            "xml_path": "./weipinhui_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1414, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc11_b_2.png",
+                            "xml_path": "./weipinhui_tc11_b_2.xml",
+                            "action": "click",
+                            "bbox": [544, 75, 584, 139]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc11_b_3.png",
+                            "xml_path": "./weipinhui_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 1044, 720, 1148]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc11_b_4.png",
+                            "xml_path": "./weipinhui_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [40, 735, 680, 839]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc11_b_1.png",
+                            "xml_path": "./weipinhui_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1414, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc11_EA_2.png",
+                            "xml_path": "./weipinhui_tc11_EA_2.xml",
+                            "action": "click",
+                            "bbox": [544, 75, 584, 139]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc11_b_3.png",
+                            "xml_path": "./weipinhui_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 1044, 720, 1148]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc11_b_4.png",
+                            "xml_path": "./weipinhui_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [40, 735, 680, 839]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 12,
@@ -485,14 +2338,14 @@
                         "screenshot_path": "./weipinhui_tc12_b_1.png",
                         "xml_path": "./weipinhui_tc12_b_1.xml",
                         "action": "click",
-                        "bbox": [10,74,564,139]
+                        "bbox": [10, 74, 564, 139]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./weipinhui_tc12_b_2.png",
                         "xml_path": "./weipinhui_tc12_b_2.xml",
                         "action": "input",
-                        "bbox": [88,77,512,137],
+                        "bbox": [88, 77, 512, 137],
                         "input_value": "男裤"
                     },
                     {
@@ -500,28 +2353,28 @@
                         "screenshot_path": "./weipinhui_tc12_b_3.png",
                         "xml_path": "./weipinhui_tc12_b_3.xml",
                         "action": "click",
-                        "bbox": [16,540,352,1132]
+                        "bbox": [16, 540, 352, 1132]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./weipinhui_tc12_b_4.png",
                         "xml_path": "./weipinhui_tc12_b_4.xml",
                         "action": "click",
-                        "bbox": [88,1384,172,1512]
+                        "bbox": [88, 1384, 172, 1512]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./weipinhui_tc12_b_5.png",
                         "xml_path": "./weipinhui_tc12_b_5.xml",
                         "action": "click",
-                        "bbox": [108,1410,528,1482]
+                        "bbox": [108, 1410, 528, 1482]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./weipinhui_tc12_b_6.png",
                         "xml_path": "./weipinhui_tc12_b_6.xml",
                         "action": "input",
-                        "bbox": [108,900,528,972],
+                        "bbox": [108, 900, 528, 972],
                         "input_value": "175cm70kg怎么买"
                     },
                     {
@@ -529,10 +2382,249 @@
                         "screenshot_path": "./weipinhui_tc12_b_7.png",
                         "xml_path": "./weipinhui_tc12_b_7.xml",
                         "action": "click",
-                        "bbox": [0,65,118,149]
+                        "bbox": [0, 65, 118, 149]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc12_b_1.png",
+                            "xml_path": "./weipinhui_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [10, 74, 564, 139]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc12_b_2.png",
+                            "xml_path": "./weipinhui_tc12_b_2.xml",
+                            "action": "input",
+                            "bbox": [88, 77, 512, 137],
+                            "input_value": "男裤"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc12_b_3.png",
+                            "xml_path": "./weipinhui_tc12_b_3.xml",
+                            "action": "click",
+                            "bbox": [16, 540, 352, 1132]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc12_b_4.png",
+                            "xml_path": "./weipinhui_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [88, 1384, 172, 1512]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc12_EO_5.png",
+                            "xml_path": "./weipinhui_tc12_EO_5.xml",
+                            "action": "click",
+                            "bbox": [110, 511, 610, 681]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc12_b_5.png",
+                            "xml_path": "./weipinhui_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [108, 1410, 528, 1482]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./weipinhui_tc12_b_6.png",
+                            "xml_path": "./weipinhui_tc12_b_6.xml",
+                            "action": "input",
+                            "bbox": [108, 900, 528, 972],
+                            "input_value": "175cm70kg怎么买"
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./weipinhui_tc12_b_7.png",
+                            "xml_path": "./weipinhui_tc12_b_7.xml",
+                            "action": "click",
+                            "bbox": [0, 65, 118, 149]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc12_b_1.png",
+                            "xml_path": "./weipinhui_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [10, 74, 564, 139]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc12_b_2.png",
+                            "xml_path": "./weipinhui_tc12_b_2.xml",
+                            "action": "input",
+                            "bbox": [88, 77, 512, 137],
+                            "input_value": "男裤"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc12_EA_3.png",
+                            "xml_path": "./weipinhui_tc12_EA_3.xml",
+                            "action": "click",
+                            "bbox": [16, 540, 352, 1132]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc12_b_4.png",
+                            "xml_path": "./weipinhui_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [88, 1384, 172, 1512]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc12_b_5.png",
+                            "xml_path": "./weipinhui_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [108, 1410, 528, 1482]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc12_b_6.png",
+                            "xml_path": "./weipinhui_tc12_b_6.xml",
+                            "action": "input",
+                            "bbox": [108, 900, 528, 972],
+                            "input_value": "175cm70kg怎么买"
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./weipinhui_tc12_b_7.png",
+                            "xml_path": "./weipinhui_tc12_b_7.xml",
+                            "action": "click",
+                            "bbox": [0, 65, 118, 149]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc12_b_1.png",
+                            "xml_path": "./weipinhui_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [10, 74, 564, 139]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc12_b_2.png",
+                            "xml_path": "./weipinhui_tc12_b_2.xml",
+                            "action": "input",
+                            "bbox": [88, 77, 512, 137],
+                            "input_value": "男裤"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc12_EA-T_3.png",
+                            "xml_path": "./weipinhui_tc12_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc12_b_3.png",
+                            "xml_path": "./weipinhui_tc12_b_3.xml",
+                            "action": "click",
+                            "bbox": [16, 540, 352, 1132]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc12_b_4.png",
+                            "xml_path": "./weipinhui_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [88, 1384, 172, 1512]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc12_b_5.png",
+                            "xml_path": "./weipinhui_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [108, 1410, 528, 1482]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./weipinhui_tc12_b_6.png",
+                            "xml_path": "./weipinhui_tc12_b_6.xml",
+                            "action": "input",
+                            "bbox": [108, 900, 528, 972],
+                            "input_value": "175cm70kg怎么买"
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./weipinhui_tc12_b_7.png",
+                            "xml_path": "./weipinhui_tc12_b_7.xml",
+                            "action": "click",
+                            "bbox": [0, 65, 118, 149]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc12_b_1.png",
+                            "xml_path": "./weipinhui_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [10, 74, 564, 139]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc12_b_2.png",
+                            "xml_path": "./weipinhui_tc12_b_2.xml",
+                            "action": "input",
+                            "bbox": [88, 77, 512, 137],
+                            "input_value": "男裤"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc12_b_3.png",
+                            "xml_path": "./weipinhui_tc12_b_3.xml",
+                            "action": "click",
+                            "bbox": [16, 540, 352, 1132]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc12_VA_4.png",
+                            "xml_path": "./weipinhui_tc12_VA_4.xml",
+                            "action": "click",
+                            "bbox": [88, 1384, 172, 1512]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc12_b_5.png",
+                            "xml_path": "./weipinhui_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [108, 1410, 528, 1482]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc12_b_6.png",
+                            "xml_path": "./weipinhui_tc12_b_6.xml",
+                            "action": "input",
+                            "bbox": [108, 900, 528, 972],
+                            "input_value": "175cm70kg怎么买"
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./weipinhui_tc12_b_7.png",
+                            "xml_path": "./weipinhui_tc12_b_7.xml",
+                            "action": "click",
+                            "bbox": [0, 65, 118, 149]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 13,
@@ -544,14 +2636,14 @@
                         "screenshot_path": "./weipinhui_tc13_b_1.png",
                         "xml_path": "./weipinhui_tc13_b_1.xml",
                         "action": "click",
-                        "bbox": [10,74,564,139]
+                        "bbox": [10, 74, 564, 139]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./weipinhui_tc13_b_2.png",
                         "xml_path": "./weipinhui_tc13_b_2.xml",
                         "action": "input",
-                        "bbox": [88,77,512,137],
+                        "bbox": [88, 77, 512, 137],
                         "input_value": "男裤"
                     },
                     {
@@ -559,14 +2651,14 @@
                         "screenshot_path": "./weipinhui_tc13_b_3.png",
                         "xml_path": "./weipinhui_tc13_b_3.xml",
                         "action": "click",
-                        "bbox": [16,540,352,1132]
+                        "bbox": [16, 540, 352, 1132]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./weipinhui_tc13_b_4.png",
                         "xml_path": "./weipinhui_tc13_b_4.xml",
                         "action": "scroll",
-                        "bbox": [0,64,720,784],
+                        "bbox": [0, 64, 720, 784],
                         "input_value": "left"
                     },
                     {
@@ -574,11 +2666,188 @@
                         "screenshot_path": "./weipinhui_tc13_b_5.png",
                         "xml_path": "./weipinhui_tc13_b_5.xml",
                         "action": "scroll",
-                        "bbox": [0,64,720,784],
+                        "bbox": [0, 64, 720, 784],
                         "input_value": "left"
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc13_b_1.png",
+                            "xml_path": "./weipinhui_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [10, 74, 564, 139]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc13_b_2.png",
+                            "xml_path": "./weipinhui_tc13_b_2.xml",
+                            "action": "input",
+                            "bbox": [88, 77, 512, 137],
+                            "input_value": "男裤"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc13_FO_3.png",
+                            "xml_path": "./weipinhui_tc13_FO_3.xml",
+                            "action": "click",
+                            "bbox": [0, 56, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc13_b_3.png",
+                            "xml_path": "./weipinhui_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [16, 540, 352, 1132]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc13_b_4.png",
+                            "xml_path": "./weipinhui_tc13_b_4.xml",
+                            "action": "scroll",
+                            "bbox": [0, 64, 720, 784],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc13_b_5.png",
+                            "xml_path": "./weipinhui_tc13_b_5.xml",
+                            "action": "scroll",
+                            "bbox": [0, 64, 720, 784],
+                            "input_value": "left"
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc13_b_1.png",
+                            "xml_path": "./weipinhui_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [10, 74, 564, 139]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc13_b_2.png",
+                            "xml_path": "./weipinhui_tc13_b_2.xml",
+                            "action": "input",
+                            "bbox": [88, 77, 512, 137],
+                            "input_value": "男裤"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc13_b_3.png",
+                            "xml_path": "./weipinhui_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [16, 540, 352, 1132]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc13_AC_4.png",
+                            "xml_path": "./weipinhui_tc13_AC_4.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc13_b_1.png",
+                            "xml_path": "./weipinhui_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [10, 74, 564, 139]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc13_b_2.png",
+                            "xml_path": "./weipinhui_tc13_b_2.xml",
+                            "action": "input",
+                            "bbox": [88, 77, 512, 137],
+                            "input_value": "男裤"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc13_EA_3.png",
+                            "xml_path": "./weipinhui_tc13_EA_3.xml",
+                            "action": "click",
+                            "bbox": [16, 540, 352, 1132]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc13_b_4.png",
+                            "xml_path": "./weipinhui_tc13_b_4.xml",
+                            "action": "scroll",
+                            "bbox": [0, 64, 720, 784],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc13_b_5.png",
+                            "xml_path": "./weipinhui_tc13_b_5.xml",
+                            "action": "scroll",
+                            "bbox": [0, 64, 720, 784],
+                            "input_value": "left"
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc13_b_1.png",
+                            "xml_path": "./weipinhui_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [10, 74, 564, 139]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc13_b_2.png",
+                            "xml_path": "./weipinhui_tc13_b_2.xml",
+                            "action": "input",
+                            "bbox": [88, 77, 512, 137],
+                            "input_value": "男裤"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc13_EA-T_3.png",
+                            "xml_path": "./weipinhui_tc13_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc13_b_3.png",
+                            "xml_path": "./weipinhui_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [16, 540, 352, 1132]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc13_b_4.png",
+                            "xml_path": "./weipinhui_tc13_b_4.xml",
+                            "action": "scroll",
+                            "bbox": [0, 64, 720, 784],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./weipinhui_tc13_b_5.png",
+                            "xml_path": "./weipinhui_tc13_b_5.xml",
+                            "action": "scroll",
+                            "bbox": [0, 64, 720, 784],
+                            "input_value": "left"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 14,
@@ -590,24 +2859,136 @@
                         "screenshot_path": "./weipinhui_tc14_b_1.png",
                         "xml_path": "./weipinhui_tc14_b_1.xml",
                         "action": "click",
-                        "bbox": [432,1414,576,1512]
+                        "bbox": [432, 1414, 576, 1512]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./weipinhui_tc14_b_2.png",
                         "xml_path": "./weipinhui_tc14_b_2.xml",
                         "action": "click",
-                        "bbox": [616,64,716,150]
+                        "bbox": [616, 64, 716, 150]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./weipinhui_tc14_b_3.png",
                         "xml_path": "./weipinhui_tc14_b_3.xml",
                         "action": "click",
-                        "bbox": [322,1321,498,1385]
+                        "bbox": [322, 1321, 498, 1385]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc14_b_1.png",
+                            "xml_path": "./weipinhui_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1414, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc14_AC_2.png",
+                            "xml_path": "./weipinhui_tc14_AC_2.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc14_FO_1.png",
+                            "xml_path": "./weipinhui_tc14_FO_1.xml",
+                            "action": "click",
+                            "bbox": [0, 56, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc14_b_1.png",
+                            "xml_path": "./weipinhui_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1414, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc14_b_2.png",
+                            "xml_path": "./weipinhui_tc14_b_2.xml",
+                            "action": "click",
+                            "bbox": [616, 64, 716, 150]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc14_b_3.png",
+                            "xml_path": "./weipinhui_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [322, 1321, 498, 1385]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc14_b_1.png",
+                            "xml_path": "./weipinhui_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1414, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc14_ED_2.png",
+                            "xml_path": "./weipinhui_tc14_ED_2.xml",
+                            "action": "click",
+                            "bbox": [616, 150, 716, 185]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc14_b_3.png",
+                            "xml_path": "./weipinhui_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [322, 1321, 498, 1385]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc14_EO_1.png",
+                            "xml_path": "./weipinhui_tc14_EO_1.xml",
+                            "action": "click",
+                            "bbox": [106, 955, 614, 1051]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc14_b_1.png",
+                            "xml_path": "./weipinhui_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1414, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc14_b_2.png",
+                            "xml_path": "./weipinhui_tc14_b_2.xml",
+                            "action": "click",
+                            "bbox": [616, 64, 716, 150]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc14_b_3.png",
+                            "xml_path": "./weipinhui_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [322, 1321, 498, 1385]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 15,
@@ -619,31 +3000,185 @@
                         "screenshot_path": "./weipinhui_tc15_b_1.png",
                         "xml_path": "./weipinhui_tc15_b_1.xml",
                         "action": "click",
-                        "bbox": [15,743,704,1081]
+                        "bbox": [15, 743, 704, 1081]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./weipinhui_tc15_b_2.png",
                         "xml_path": "./weipinhui_tc15_b_2.xml",
                         "action": "click",
-                        "bbox": [550,960,700,1228]
+                        "bbox": [550, 960, 700, 1228]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./weipinhui_tc15_b_3.png",
                         "xml_path": "./weipinhui_tc15_b_3.xml",
                         "action": "click",
-                        "bbox": [312,1430,384,1502]
+                        "bbox": [312, 1430, 384, 1502]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./weipinhui_tc15_b_4.png",
                         "xml_path": "./weipinhui_tc15_b_4.xml",
                         "action": "click",
-                        "bbox": [360,1013,530,1189]
+                        "bbox": [360, 1013, 530, 1189]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc15_VE_1.png",
+                            "xml_path": "./weipinhui_tc15_VE_1.xml",
+                            "action": "scroll",
+                            "bbox": [0, 280, 720, 1415]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc15_b_1.png",
+                            "xml_path": "./weipinhui_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [15, 743, 704, 1081]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc15_b_2.png",
+                            "xml_path": "./weipinhui_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [550, 960, 700, 1228]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc15_b_3.png",
+                            "xml_path": "./weipinhui_tc15_b_3.xml",
+                            "action": "click",
+                            "bbox": [312, 1430, 384, 1502]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc15_b_4.png",
+                            "xml_path": "./weipinhui_tc15_b_4.xml",
+                            "action": "click",
+                            "bbox": [360, 1013, 530, 1189]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc15_b_1.png",
+                            "xml_path": "./weipinhui_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [15, 743, 704, 1081]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc15_b_2.png",
+                            "xml_path": "./weipinhui_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [550, 960, 700, 1228]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc15_FO_3.png",
+                            "xml_path": "./weipinhui_tc15_FO_3.xml",
+                            "action": "click",
+                            "bbox": [0, 56, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc15_b_3.png",
+                            "xml_path": "./weipinhui_tc15_b_3.xml",
+                            "action": "click",
+                            "bbox": [312, 1430, 384, 1502]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc15_b_4.png",
+                            "xml_path": "./weipinhui_tc15_b_4.xml",
+                            "action": "click",
+                            "bbox": [360, 1013, 530, 1189]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc15_b_1.png",
+                            "xml_path": "./weipinhui_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [15, 743, 704, 1081]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc15_b_2.png",
+                            "xml_path": "./weipinhui_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [550, 960, 700, 1228]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc15_EA-T_3.png",
+                            "xml_path": "./weipinhui_tc15_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc15_b_3.png",
+                            "xml_path": "./weipinhui_tc15_b_3.xml",
+                            "action": "click",
+                            "bbox": [312, 1430, 384, 1502]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./weipinhui_tc15_b_4.png",
+                            "xml_path": "./weipinhui_tc15_b_4.xml",
+                            "action": "click",
+                            "bbox": [360, 1013, 530, 1189]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./weipinhui_tc15_b_1.png",
+                            "xml_path": "./weipinhui_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [15, 743, 704, 1081]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./weipinhui_tc15_b_2.png",
+                            "xml_path": "./weipinhui_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [550, 960, 700, 1228]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./weipinhui_tc15_ED_3.png",
+                            "xml_path": "./weipinhui_tc15_ED_3.xml",
+                            "action": "click",
+                            "bbox": [401, 1300, 474, 1373]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./weipinhui_tc15_b_4.png",
+                            "xml_path": "./weipinhui_tc15_b_4.xml",
+                            "action": "click",
+                            "bbox": [360, 1013, 530, 1189]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

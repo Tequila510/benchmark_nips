@@ -11,14 +11,14 @@
                         "screenshot_path": "./wangyiyun_tc1_b_1.png",
                         "xml_path": "./wangyiyun_tc1_b_1.xml",
                         "action": "click",
-                        "bbox": [640,92,688,140]
+                        "bbox": [640, 92, 688, 140]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./wangyiyun_tc1_b_2.png",
                         "xml_path": "./wangyiyun_tc1_b_2.xml",
                         "action": "input",
-                        "bbox": [150,72,592,144],
+                        "bbox": [150, 72, 592, 144],
                         "input_value": "周杰伦"
                     },
                     {
@@ -26,14 +26,14 @@
                         "screenshot_path": "./wangyiyun_tc1_b_3.png",
                         "xml_path": "./wangyiyun_tc1_b_3.xml",
                         "action": "click",
-                        "bbox": [568,282,688,338]
+                        "bbox": [568, 282, 688, 338]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./wangyiyun_tc1_b_4.png",
                         "xml_path": "./wangyiyun_tc1_b_4.xml",
                         "action": "click",
-                        "bbox": [0,583,720,845]
+                        "bbox": [0, 583, 720, 845]
                     },
                     {
                         "checkpoint_id": 5,
@@ -42,7 +42,175 @@
                         "action": "finish"
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc1_b_1.png",
+                            "xml_path": "./wangyiyun_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [640, 92, 688, 140]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc1_b_2.png",
+                            "xml_path": "./wangyiyun_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [150, 72, 592, 144],
+                            "input_value": "周杰伦"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc1_b_3.png",
+                            "xml_path": "./wangyiyun_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [568, 282, 688, 338]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc1_b_4.png",
+                            "xml_path": "./wangyiyun_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 583, 720, 845]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc1_EO_5.png",
+                            "xml_path": "./wangyiyun_tc1_EO_5.xml",
+                            "action": "click",
+                            "bbox": [612, 819, 664, 871]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc1_b_5.png",
+                            "xml_path": "./wangyiyun_tc1_b_5.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc1_b_1.png",
+                            "xml_path": "./wangyiyun_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [640, 92, 688, 140]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc1_b_2.png",
+                            "xml_path": "./wangyiyun_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [150, 72, 592, 144],
+                            "input_value": "周杰伦"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc1_b_4.png",
+                            "xml_path": "./wangyiyun_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 583, 720, 845]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc1_b_5.png",
+                            "xml_path": "./wangyiyun_tc1_b_5.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc1_b_1.png",
+                            "xml_path": "./wangyiyun_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [640, 92, 688, 140]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc1_b_2.png",
+                            "xml_path": "./wangyiyun_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [150, 72, 592, 144],
+                            "input_value": "周杰伦"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc1_EA_3.png",
+                            "xml_path": "./wangyiyun_tc1_EA_3.xml",
+                            "action": "click",
+                            "bbox": [568, 282, 688, 338]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc1_b_4.png",
+                            "xml_path": "./wangyiyun_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 583, 720, 845]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc1_b_5.png",
+                            "xml_path": "./wangyiyun_tc1_b_5.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc1_b_1.png",
+                            "xml_path": "./wangyiyun_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [640, 92, 688, 140]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc1_b_2.png",
+                            "xml_path": "./wangyiyun_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [150, 72, 592, 144],
+                            "input_value": "周杰伦"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc1_EA-T_3.png",
+                            "xml_path": "./wangyiyun_tc1_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc1_b_3.png",
+                            "xml_path": "./wangyiyun_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [568, 282, 688, 338]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc1_b_4.png",
+                            "xml_path": "./wangyiyun_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 583, 720, 845]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc1_b_5.png",
+                            "xml_path": "./wangyiyun_tc1_b_5.xml",
+                            "action": "finish"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 2,
@@ -54,31 +222,172 @@
                         "screenshot_path": "./wangyiyun_tc2_b_1.png",
                         "xml_path": "./wangyiyun_tc2_b_1.xml",
                         "action": "click",
-                        "bbox": [0,1306,720,1404]
+                        "bbox": [0, 1306, 720, 1404]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./wangyiyun_tc2_b_2.png",
                         "xml_path": "./wangyiyun_tc2_b_2.xml",
                         "action": "click",
-                        "bbox": [606,1006,686,1086]
+                        "bbox": [606, 1006, 686, 1086]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./wangyiyun_tc2_b_3.png",
                         "xml_path": "./wangyiyun_tc2_b_3.xml",
                         "action": "click",
-                        "bbox": [616,333,708,363]
+                        "bbox": [616, 333, 708, 363]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./wangyiyun_tc2_b_4.png",
                         "xml_path": "./wangyiyun_tc2_b_4.xml",
                         "action": "click",
-                        "bbox": [620,420,708,468]
+                        "bbox": [620, 420, 708, 468]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc2_b_1.png",
+                            "xml_path": "./wangyiyun_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 1306, 720, 1404]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc2_b_2.png",
+                            "xml_path": "./wangyiyun_tc2_b_2.xml",
+                            "action": "click",
+                            "bbox": [606, 1006, 686, 1086]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc2_ED_3.png",
+                            "xml_path": "./wangyiyun_tc2_ED_3.xml",
+                            "action": "click",
+                            "bbox": [618, 285, 705, 320]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc2_b_4.png",
+                            "xml_path": "./wangyiyun_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [620, 420, 708, 468]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc2_b_1.png",
+                            "xml_path": "./wangyiyun_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 1306, 720, 1404]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc2_VA_2.png",
+                            "xml_path": "./wangyiyun_tc2_VA_2.xml",
+                            "action": "click",
+                            "bbox": [606, 1006, 686, 1086]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc2_b_3.png",
+                            "xml_path": "./wangyiyun_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [616, 333, 708, 363]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc2_b_4.png",
+                            "xml_path": "./wangyiyun_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [620, 420, 708, 468]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc2_FO_1.png",
+                            "xml_path": "./wangyiyun_tc2_FO_1.xml",
+                            "action": "click",
+                            "bbox": [101, 1014, 618, 1092]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc2_b_1.png",
+                            "xml_path": "./wangyiyun_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 1306, 720, 1404]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc2_b_2.png",
+                            "xml_path": "./wangyiyun_tc2_b_2.xml",
+                            "action": "click",
+                            "bbox": [606, 1006, 686, 1086]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc2_b_3.png",
+                            "xml_path": "./wangyiyun_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [616, 333, 708, 363]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc2_b_4.png",
+                            "xml_path": "./wangyiyun_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [620, 420, 708, 468]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc2_b_1.png",
+                            "xml_path": "./wangyiyun_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 1306, 720, 1404]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc2_b_2.png",
+                            "xml_path": "./wangyiyun_tc2_b_2.xml",
+                            "action": "click",
+                            "bbox": [606, 1006, 686, 1086]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc2_EA_3.png",
+                            "xml_path": "./wangyiyun_tc2_EA_3.xml",
+                            "action": "click",
+                            "bbox": [616, 333, 708, 363]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc2_b_4.png",
+                            "xml_path": "./wangyiyun_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [620, 420, 708, 468]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 3,
@@ -90,38 +399,213 @@
                         "screenshot_path": "./wangyiyun_tc3_b_1.png",
                         "xml_path": "./wangyiyun_tc3_b_1.xml",
                         "action": "click",
-                        "bbox": [32,190,291,546]
+                        "bbox": [32, 190, 291, 546]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./wangyiyun_tc3_b_2.png",
                         "xml_path": "./wangyiyun_tc3_b_2.xml",
                         "action": "click",
-                        "bbox": [0,622,720,742]
+                        "bbox": [0, 622, 720, 742]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./wangyiyun_tc3_b_3.png",
                         "xml_path": "./wangyiyun_tc3_b_3.xml",
                         "action": "click",
-                        "bbox": [0,64,112,168]
+                        "bbox": [0, 64, 112, 168]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./wangyiyun_tc3_b_4.png",
                         "xml_path": "./wangyiyun_tc3_b_4.xml",
                         "action": "click",
-                        "bbox": [624,68,720,164]
+                        "bbox": [624, 68, 720, 164]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./wangyiyun_tc3_b_5.png",
                         "xml_path": "./wangyiyun_tc3_b_5.xml",
                         "action": "click",
-                        "bbox": [166,1280,316,1502]
+                        "bbox": [166, 1280, 316, 1502]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc3_b_1.png",
+                            "xml_path": "./wangyiyun_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [32, 190, 291, 546]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc3_EA-T_2.png",
+                            "xml_path": "./wangyiyun_tc3_EA-T_2.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc3_b_2.png",
+                            "xml_path": "./wangyiyun_tc3_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 622, 720, 742]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc3_b_3.png",
+                            "xml_path": "./wangyiyun_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 64, 112, 168]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc3_b_4.png",
+                            "xml_path": "./wangyiyun_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [624, 68, 720, 164]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc3_b_5.png",
+                            "xml_path": "./wangyiyun_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [166, 1280, 316, 1502]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc3_b_1.png",
+                            "xml_path": "./wangyiyun_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [32, 190, 291, 546]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc3_b_2.png",
+                            "xml_path": "./wangyiyun_tc3_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 622, 720, 742]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc3_b_3.png",
+                            "xml_path": "./wangyiyun_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 64, 112, 168]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc3_VA_4.png",
+                            "xml_path": "./wangyiyun_tc3_VA_4.xml",
+                            "action": "click",
+                            "bbox": [624, 68, 720, 164]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc3_b_5.png",
+                            "xml_path": "./wangyiyun_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [166, 1280, 316, 1502]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc3_b_1.png",
+                            "xml_path": "./wangyiyun_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [32, 190, 291, 546]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc3_b_2.png",
+                            "xml_path": "./wangyiyun_tc3_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 622, 720, 742]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc3_b_3.png",
+                            "xml_path": "./wangyiyun_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 64, 112, 168]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc3_b_4.png",
+                            "xml_path": "./wangyiyun_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [624, 68, 720, 164]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc3_ED_5.png",
+                            "xml_path": "./wangyiyun_tc3_ED_5.xml",
+                            "action": "click",
+                            "bbox": [572, 822, 696, 973]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc3_FO_1.png",
+                            "xml_path": "./wangyiyun_tc3_FO_1.xml",
+                            "action": "click",
+                            "bbox": [101, 1014, 618, 1092]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc3_b_1.png",
+                            "xml_path": "./wangyiyun_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [32, 190, 291, 546]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc3_b_2.png",
+                            "xml_path": "./wangyiyun_tc3_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 622, 720, 742]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc3_b_3.png",
+                            "xml_path": "./wangyiyun_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 64, 112, 168]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc3_b_4.png",
+                            "xml_path": "./wangyiyun_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [624, 68, 720, 164]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc3_b_5.png",
+                            "xml_path": "./wangyiyun_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [166, 1280, 316, 1502]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 4,
@@ -133,45 +617,221 @@
                         "screenshot_path": "./wangyiyun_tc4_b_1.png",
                         "xml_path": "./wangyiyun_tc4_b_1.xml",
                         "action": "click",
-                        "bbox": [90,64,186,168]
+                        "bbox": [90, 64, 186, 168]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./wangyiyun_tc4_b_2.png",
                         "xml_path": "./wangyiyun_tc4_b_2.xml",
                         "action": "click",
-                        "bbox": [56,1250,664,1346]
+                        "bbox": [56, 1250, 664, 1346]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./wangyiyun_tc4_b_3.png",
                         "xml_path": "./wangyiyun_tc4_b_3.xml",
                         "action": "click",
-                        "bbox": [606,1006,686,1086]
+                        "bbox": [606, 1006, 686, 1086]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./wangyiyun_tc4_b_4.png",
                         "xml_path": "./wangyiyun_tc4_b_4.xml",
                         "action": "click",
-                        "bbox": [10,613,130,787]
+                        "bbox": [10, 613, 130, 787]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./wangyiyun_tc4_b_5.png",
                         "xml_path": "./wangyiyun_tc4_b_5.xml",
                         "action": "click",
-                        "bbox": [0,1310,720,1450]
+                        "bbox": [0, 1310, 720, 1450]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./wangyiyun_tc4_b_6.png",
                         "xml_path": "./wangyiyun_tc4_b_6.xml",
                         "action": "click",
-                        "bbox": [0,168,720,1404] 
+                        "bbox": [0, 168, 720, 1404]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc4_EO_1.png",
+                            "xml_path": "./wangyiyun_tc4_EO_1.xml",
+                            "action": "click",
+                            "bbox": [604, 870, 656, 922]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc4_b_1.png",
+                            "xml_path": "./wangyiyun_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [90, 64, 186, 168]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc4_b_2.png",
+                            "xml_path": "./wangyiyun_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [56, 1250, 664, 1346]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc4_b_3.png",
+                            "xml_path": "./wangyiyun_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [606, 1006, 686, 1086]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc4_b_4.png",
+                            "xml_path": "./wangyiyun_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 613, 130, 787]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc4_b_5.png",
+                            "xml_path": "./wangyiyun_tc4_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 1310, 720, 1450]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./wangyiyun_tc4_b_6.png",
+                            "xml_path": "./wangyiyun_tc4_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 168, 720, 1404]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc4_b_1.png",
+                            "xml_path": "./wangyiyun_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [90, 64, 186, 168]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc4_b_2.png",
+                            "xml_path": "./wangyiyun_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [56, 1250, 664, 1346]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc4_b_6.png",
+                            "xml_path": "./wangyiyun_tc4_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 168, 720, 1404]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc4_b_1.png",
+                            "xml_path": "./wangyiyun_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [90, 64, 186, 168]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc4_b_2.png",
+                            "xml_path": "./wangyiyun_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [56, 1250, 664, 1346]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc4_VA_3.png",
+                            "xml_path": "./wangyiyun_tc4_VA_3.xml",
+                            "action": "click",
+                            "bbox": [606, 1006, 686, 1086]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc4_b_4.png",
+                            "xml_path": "./wangyiyun_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 613, 130, 787]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc4_b_5.png",
+                            "xml_path": "./wangyiyun_tc4_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 1310, 720, 1450]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc4_b_6.png",
+                            "xml_path": "./wangyiyun_tc4_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 168, 720, 1404]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc4_ED_1.png",
+                            "xml_path": "./wangyiyun_tc4_ED_1.xml",
+                            "action": "click",
+                            "bbox": [20, 149, 80, 179]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc4_b_2.png",
+                            "xml_path": "./wangyiyun_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [56, 1250, 664, 1346]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc4_b_3.png",
+                            "xml_path": "./wangyiyun_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [606, 1006, 686, 1086]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc4_b_4.png",
+                            "xml_path": "./wangyiyun_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 613, 130, 787]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc4_b_5.png",
+                            "xml_path": "./wangyiyun_tc4_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 1310, 720, 1450]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc4_b_6.png",
+                            "xml_path": "./wangyiyun_tc4_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 168, 720, 1404]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 5,
@@ -183,14 +843,14 @@
                         "screenshot_path": "./wangyiyun_tc5_b_1.png",
                         "xml_path": "./wangyiyun_tc5_b_1.xml",
                         "action": "click",
-                        "bbox": [640,92,688,140]
+                        "bbox": [640, 92, 688, 140]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./wangyiyun_tc5_b_2.png",
                         "xml_path": "./wangyiyun_tc5_b_2.xml",
                         "action": "input",
-                        "bbox": [150,72,592,144],
+                        "bbox": [150, 72, 592, 144],
                         "input_value": "张惠妹"
                     },
                     {
@@ -198,17 +858,176 @@
                         "screenshot_path": "./wangyiyun_tc5_b_3.png",
                         "xml_path": "./wangyiyun_tc5_b_3.xml",
                         "action": "click",
-                        "bbox": [0,252,720,370]
+                        "bbox": [0, 252, 720, 370]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./wangyiyun_tc5_b_4.png",
                         "xml_path": "./wangyiyun_tc5_b_4.xml",
                         "action": "click",
-                        "bbox": [236,639,352,719]
+                        "bbox": [236, 639, 352, 719]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc5_b_1.png",
+                            "xml_path": "./wangyiyun_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [640, 92, 688, 140]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc5_b_2.png",
+                            "xml_path": "./wangyiyun_tc5_b_2.xml",
+                            "action": "input",
+                            "bbox": [150, 72, 592, 144],
+                            "input_value": "张惠妹"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc5_b_3.png",
+                            "xml_path": "./wangyiyun_tc5_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 252, 720, 370]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc5_LS_4.png",
+                            "xml_path": "./wangyiyun_tc5_LS_4.xml",
+                            "action": "scroll",
+                            "bbox": [0, 80, 720, 1375],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc5_b_4.png",
+                            "xml_path": "./wangyiyun_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [236, 639, 352, 719]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc5_b_1.png",
+                            "xml_path": "./wangyiyun_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [640, 92, 688, 140]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc5_b_2.png",
+                            "xml_path": "./wangyiyun_tc5_b_2.xml",
+                            "action": "input",
+                            "bbox": [150, 72, 592, 144],
+                            "input_value": "张惠妹"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc5_EA_3.png",
+                            "xml_path": "./wangyiyun_tc5_EA_3.xml",
+                            "action": "click",
+                            "bbox": [0, 252, 720, 370]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc5_b_4.png",
+                            "xml_path": "./wangyiyun_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [236, 639, 352, 719]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc5_b_1.png",
+                            "xml_path": "./wangyiyun_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [640, 92, 688, 140]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc5_b_2.png",
+                            "xml_path": "./wangyiyun_tc5_b_2.xml",
+                            "action": "input",
+                            "bbox": [150, 72, 592, 144],
+                            "input_value": "张惠妹"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc5_EA-T_3.png",
+                            "xml_path": "./wangyiyun_tc5_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc5_b_3.png",
+                            "xml_path": "./wangyiyun_tc5_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 252, 720, 370]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc5_b_4.png",
+                            "xml_path": "./wangyiyun_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [236, 639, 352, 719]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc5_EO_1.png",
+                            "xml_path": "./wangyiyun_tc5_EO_1.xml",
+                            "action": "click",
+                            "bbox": [604, 870, 656, 922]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc5_b_1.png",
+                            "xml_path": "./wangyiyun_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [640, 92, 688, 140]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc5_b_2.png",
+                            "xml_path": "./wangyiyun_tc5_b_2.xml",
+                            "action": "input",
+                            "bbox": [150, 72, 592, 144],
+                            "input_value": "张惠妹"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc5_b_3.png",
+                            "xml_path": "./wangyiyun_tc5_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 252, 720, 370]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc5_b_4.png",
+                            "xml_path": "./wangyiyun_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [236, 639, 352, 719]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 6,
@@ -220,21 +1039,21 @@
                         "screenshot_path": "./wangyiyun_tc6_b_1.png",
                         "xml_path": "./wangyiyun_tc6_b_1.xml",
                         "action": "click",
-                        "bbox": [360,1404,540,1505]
+                        "bbox": [360, 1404, 540, 1505]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./wangyiyun_tc6_b_2.png",
                         "xml_path": "./wangyiyun_tc6_b_2.xml",
                         "action": "click",
-                        "bbox": [10,170,354,809]
+                        "bbox": [10, 170, 354, 809]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./wangyiyun_tc6_b_3.png",
                         "xml_path": "./wangyiyun_tc6_b_3.xml",
                         "action": "scroll",
-                        "bbox": [0,152,720,1440],
+                        "bbox": [0, 152, 720, 1440],
                         "input_value": "up"
                     },
                     {
@@ -242,10 +1061,160 @@
                         "screenshot_path": "./wangyiyun_tc6_b_4.png",
                         "xml_path": "./wangyiyun_tc6_b_4.xml",
                         "action": "click",
-                        "bbox": [620,728,688,776]
+                        "bbox": [620, 728, 688, 776]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc6_b_1.png",
+                            "xml_path": "./wangyiyun_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [360, 1404, 540, 1505]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc6_b_2.png",
+                            "xml_path": "./wangyiyun_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [10, 170, 354, 809]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc6_b_3.png",
+                            "xml_path": "./wangyiyun_tc6_b_3.xml",
+                            "action": "scroll",
+                            "bbox": [0, 152, 720, 1440],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc6_AC_4.png",
+                            "xml_path": "./wangyiyun_tc6_AC_4.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc6_b_1.png",
+                            "xml_path": "./wangyiyun_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [360, 1404, 540, 1505]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc6_EA_2.png",
+                            "xml_path": "./wangyiyun_tc6_EA_2.xml",
+                            "action": "click",
+                            "bbox": [10, 170, 354, 809]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc6_b_3.png",
+                            "xml_path": "./wangyiyun_tc6_b_3.xml",
+                            "action": "scroll",
+                            "bbox": [0, 152, 720, 1440],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc6_b_4.png",
+                            "xml_path": "./wangyiyun_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [620, 728, 688, 776]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc6_b_1.png",
+                            "xml_path": "./wangyiyun_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [360, 1404, 540, 1505]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc6_EA-T_2.png",
+                            "xml_path": "./wangyiyun_tc6_EA-T_2.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc6_b_2.png",
+                            "xml_path": "./wangyiyun_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [10, 170, 354, 809]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc6_b_3.png",
+                            "xml_path": "./wangyiyun_tc6_b_3.xml",
+                            "action": "scroll",
+                            "bbox": [0, 152, 720, 1440],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc6_b_4.png",
+                            "xml_path": "./wangyiyun_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [620, 728, 688, 776]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc6_FO_1.png",
+                            "xml_path": "./wangyiyun_tc6_FO_1.xml",
+                            "action": "click",
+                            "bbox": [101, 1014, 618, 1092]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc6_b_1.png",
+                            "xml_path": "./wangyiyun_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [360, 1404, 540, 1505]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc6_b_2.png",
+                            "xml_path": "./wangyiyun_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [10, 170, 354, 809]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc6_b_3.png",
+                            "xml_path": "./wangyiyun_tc6_b_3.xml",
+                            "action": "scroll",
+                            "bbox": [0, 152, 720, 1440],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc6_b_4.png",
+                            "xml_path": "./wangyiyun_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [620, 728, 688, 776]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 7,
@@ -257,28 +1226,28 @@
                         "screenshot_path": "./wangyiyun_tc7_b_1.png",
                         "xml_path": "./wangyiyun_tc7_b_1.xml",
                         "action": "click",
-                        "bbox": [474,64,570,168]
+                        "bbox": [474, 64, 570, 168]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./wangyiyun_tc7_b_2.png",
                         "xml_path": "./wangyiyun_tc7_b_2.xml",
                         "action": "click",
-                        "bbox": [336,495,432,538]
+                        "bbox": [336, 495, 432, 538]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./wangyiyun_tc7_b_3.png",
                         "xml_path": "./wangyiyun_tc7_b_3.xml",
                         "action": "click",
-                        "bbox": [0,558,656,738]
+                        "bbox": [0, 558, 656, 738]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./wangyiyun_tc7_b_4.png",
                         "xml_path": "./wangyiyun_tc7_b_4.xml",
                         "action": "scroll",
-                        "bbox": [0,400,720,1360],
+                        "bbox": [0, 400, 720, 1360],
                         "input_value": "up"
                     },
                     {
@@ -286,10 +1255,198 @@
                         "screenshot_path": "./wangyiyun_tc7_b_5.png",
                         "xml_path": "./wangyiyun_tc7_b_5.xml",
                         "action": "click",
-                        "bbox": [0,841,720,961]
+                        "bbox": [0, 841, 720, 961]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc7_b_1.png",
+                            "xml_path": "./wangyiyun_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [474, 64, 570, 168]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc7_EO_2.png",
+                            "xml_path": "./wangyiyun_tc7_EO_2.xml",
+                            "action": "click",
+                            "bbox": [606, 895, 662, 947]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc7_b_2.png",
+                            "xml_path": "./wangyiyun_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [336, 495, 432, 538]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc7_b_3.png",
+                            "xml_path": "./wangyiyun_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 558, 656, 738]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc7_b_4.png",
+                            "xml_path": "./wangyiyun_tc7_b_4.xml",
+                            "action": "scroll",
+                            "bbox": [0, 400, 720, 1360],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc7_b_5.png",
+                            "xml_path": "./wangyiyun_tc7_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 841, 720, 961]
+                        }
+                    ]
+                },
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc7_b_1.png",
+                            "xml_path": "./wangyiyun_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [474, 64, 570, 168]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc7_b_2.png",
+                            "xml_path": "./wangyiyun_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [336, 495, 432, 538]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc7_b_3.png",
+                            "xml_path": "./wangyiyun_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 558, 656, 738]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc7_LS_4.png",
+                            "xml_path": "./wangyiyun_tc7_LS_4.xml",
+                            "action": "scroll",
+                            "bbox": [0, 900, 720, 955],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc7_b_4.png",
+                            "xml_path": "./wangyiyun_tc7_b_4.xml",
+                            "action": "scroll",
+                            "bbox": [0, 400, 720, 1360],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc7_b_5.png",
+                            "xml_path": "./wangyiyun_tc7_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 841, 720, 961]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc7_b_1.png",
+                            "xml_path": "./wangyiyun_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [474, 64, 570, 168]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc7_ED_2.png",
+                            "xml_path": "./wangyiyun_tc7_ED_2.xml",
+                            "action": "click",
+                            "bbox": [336, 435, 432, 478]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc7_b_3.png",
+                            "xml_path": "./wangyiyun_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 558, 656, 738]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc7_b_4.png",
+                            "xml_path": "./wangyiyun_tc7_b_4.xml",
+                            "action": "scroll",
+                            "bbox": [0, 400, 720, 1360],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc7_b_5.png",
+                            "xml_path": "./wangyiyun_tc7_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 841, 720, 961]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc7_FO_1.png",
+                            "xml_path": "./wangyiyun_tc7_FO_1.xml",
+                            "action": "click",
+                            "bbox": [101, 1014, 618, 1092]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc7_b_1.png",
+                            "xml_path": "./wangyiyun_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [474, 64, 570, 168]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc7_b_2.png",
+                            "xml_path": "./wangyiyun_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [336, 495, 432, 538]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc7_b_3.png",
+                            "xml_path": "./wangyiyun_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 558, 656, 738]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc7_b_4.png",
+                            "xml_path": "./wangyiyun_tc7_b_4.xml",
+                            "action": "scroll",
+                            "bbox": [0, 400, 720, 1360],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc7_b_5.png",
+                            "xml_path": "./wangyiyun_tc7_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 841, 720, 961]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 8,
@@ -301,45 +1458,248 @@
                         "screenshot_path": "./wangyiyun_tc8_b_1.png",
                         "xml_path": "./wangyiyun_tc8_b_1.xml",
                         "action": "click",
-                        "bbox": [474,64,570,168]
+                        "bbox": [474, 64, 570, 168]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./wangyiyun_tc8_b_2.png",
                         "xml_path": "./wangyiyun_tc8_b_2.xml",
                         "action": "click",
-                        "bbox": [17,354,178,430]
+                        "bbox": [17, 354, 178, 430]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./wangyiyun_tc8_b_3.png",
                         "xml_path": "./wangyiyun_tc8_b_3.xml",
                         "action": "click",
-                        "bbox": [188,160,324,212]
+                        "bbox": [188, 160, 324, 212]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./wangyiyun_tc8_b_4.png",
                         "xml_path": "./wangyiyun_tc8_b_4.xml",
                         "action": "click",
-                        "bbox": [488,246,640,278]
+                        "bbox": [488, 246, 640, 278]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./wangyiyun_tc8_b_5.png",
                         "xml_path": "./wangyiyun_tc8_b_5.xml",
                         "action": "click",
-                        "bbox": [0,296,720,496]
+                        "bbox": [0, 296, 720, 496]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./wangyiyun_tc8_b_6.png",
                         "xml_path": "./wangyiyun_tc8_b_6.xml",
                         "action": "click",
-                        "bbox": [32,780,312,872]
+                        "bbox": [32, 780, 312, 872]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc8_b_1.png",
+                            "xml_path": "./wangyiyun_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [474, 64, 570, 168]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc8_b_2.png",
+                            "xml_path": "./wangyiyun_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [17, 354, 178, 430]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc8_LS_3.png",
+                            "xml_path": "./wangyiyun_tc8_LS_3.xml",
+                            "action": "click",
+                            "bbox": [188, 160, 324, 212]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc8_b_4.png",
+                            "xml_path": "./wangyiyun_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [488, 246, 640, 278]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc8_b_5.png",
+                            "xml_path": "./wangyiyun_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 296, 720, 496]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc8_b_6.png",
+                            "xml_path": "./wangyiyun_tc8_b_6.xml",
+                            "action": "click",
+                            "bbox": [32, 780, 312, 872]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc8_b_1.png",
+                            "xml_path": "./wangyiyun_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [474, 64, 570, 168]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc8_VE_2.png",
+                            "xml_path": "./wangyiyun_tc8_VE_2.xml",
+                            "action": "click",
+                            "bbox": [237, 354, 443, 430]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc8_b_2.png",
+                            "xml_path": "./wangyiyun_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [17, 354, 178, 430]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc8_b_3.png",
+                            "xml_path": "./wangyiyun_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [188, 160, 324, 212]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc8_b_4.png",
+                            "xml_path": "./wangyiyun_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [488, 246, 640, 278]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc8_b_5.png",
+                            "xml_path": "./wangyiyun_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 296, 720, 496]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./wangyiyun_tc8_b_6.png",
+                            "xml_path": "./wangyiyun_tc8_b_6.xml",
+                            "action": "click",
+                            "bbox": [32, 780, 312, 872]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc8_b_1.png",
+                            "xml_path": "./wangyiyun_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [474, 64, 570, 168]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc8_b_2.png",
+                            "xml_path": "./wangyiyun_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [17, 354, 178, 430]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc8_b_3.png",
+                            "xml_path": "./wangyiyun_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [188, 160, 324, 212]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc8_EA_4.png",
+                            "xml_path": "./wangyiyun_tc8_EA_4.xml",
+                            "action": "click",
+                            "bbox": [488, 246, 640, 278]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc8_b_5.png",
+                            "xml_path": "./wangyiyun_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 296, 720, 496]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc8_b_6.png",
+                            "xml_path": "./wangyiyun_tc8_b_6.xml",
+                            "action": "click",
+                            "bbox": [32, 780, 312, 872]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc8_b_1.png",
+                            "xml_path": "./wangyiyun_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [474, 64, 570, 168]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc8_b_2.png",
+                            "xml_path": "./wangyiyun_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [17, 354, 178, 430]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc8_b_3.png",
+                            "xml_path": "./wangyiyun_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [188, 160, 324, 212]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc8_EA-T_4.png",
+                            "xml_path": "./wangyiyun_tc8_EA-T_4.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc8_b_4.png",
+                            "xml_path": "./wangyiyun_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [488, 246, 640, 278]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc8_b_5.png",
+                            "xml_path": "./wangyiyun_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 296, 720, 496]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./wangyiyun_tc8_b_6.png",
+                            "xml_path": "./wangyiyun_tc8_b_6.xml",
+                            "action": "click",
+                            "bbox": [32, 780, 312, 872]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 9,
@@ -351,24 +1711,143 @@
                         "screenshot_path": "./wangyiyun_tc9_b_1.png",
                         "xml_path": "./wangyiyun_tc9_b_1.xml",
                         "action": "click",
-                        "bbox": [32,1396,272,1480]
+                        "bbox": [32, 1396, 272, 1480]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./wangyiyun_tc9_b_2.png",
                         "xml_path": "./wangyiyun_tc9_b_2.xml",
                         "action": "click",
-                        "bbox": [32,600,688,696]
+                        "bbox": [32, 600, 688, 696]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./wangyiyun_tc9_b_3.png",
                         "xml_path": "./wangyiyun_tc9_b_3.xml",
                         "action": "click",
-                        "bbox": [556,318,660,382]
+                        "bbox": [556, 318, 660, 382]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc9_b_1.png",
+                            "xml_path": "./wangyiyun_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [32, 1396, 272, 1480]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc9_b_2.png",
+                            "xml_path": "./wangyiyun_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 600, 688, 696]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc9_AC_3.png",
+                            "xml_path": "./wangyiyun_tc9_AC_3.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc9_LS_1.png",
+                            "xml_path": "./wangyiyun_tc9_LS_1.xml",
+                            "action": "click",
+                            "bbox": [32, 92, 80, 140]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc9_b_1.png",
+                            "xml_path": "./wangyiyun_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [32, 1396, 272, 1480]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc9_b_2.png",
+                            "xml_path": "./wangyiyun_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 600, 688, 696]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc9_b_3.png",
+                            "xml_path": "./wangyiyun_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [556, 318, 660, 382]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc9_FO_1.png",
+                            "xml_path": "./wangyiyun_tc9_FO_1.xml",
+                            "action": "click",
+                            "bbox": [101, 1014, 618, 1092]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc9_b_1.png",
+                            "xml_path": "./wangyiyun_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [32, 1396, 272, 1480]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc9_b_2.png",
+                            "xml_path": "./wangyiyun_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 600, 688, 696]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc9_b_3.png",
+                            "xml_path": "./wangyiyun_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [556, 318, 660, 382]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc9_VA_1.png",
+                            "xml_path": "./wangyiyun_tc9_VA_1.xml",
+                            "action": "click",
+                            "bbox": [32, 1396, 272, 1480]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc9_b_2.png",
+                            "xml_path": "./wangyiyun_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 600, 688, 696]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc9_b_3.png",
+                            "xml_path": "./wangyiyun_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [556, 318, 660, 382]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 10,
@@ -380,28 +1859,28 @@
                         "screenshot_path": "./wangyiyun_tc10_b_1.png",
                         "xml_path": "./wangyiyun_tc10_b_1.xml",
                         "action": "click",
-                        "bbox": [282,64,378,168]
+                        "bbox": [282, 64, 378, 168]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./wangyiyun_tc10_b_2.png",
                         "xml_path": "./wangyiyun_tc10_b_2.xml",
                         "action": "click",
-                        "bbox": [32,901,231,1234]
+                        "bbox": [32, 901, 231, 1234]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./wangyiyun_tc10_b_3.png",
                         "xml_path": "./wangyiyun_tc10_b_3.xml",
                         "action": "click",
-                        "bbox": [644,830,688,874]
+                        "bbox": [644, 830, 688, 874]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./wangyiyun_tc10_b_4.png",
                         "xml_path": "./wangyiyun_tc10_b_4.xml",
                         "action": "scroll",
-                        "bbox": [0,573,720,1472],
+                        "bbox": [0, 573, 720, 1472],
                         "input_value": "up"
                     },
                     {
@@ -409,10 +1888,184 @@
                         "screenshot_path": "./wangyiyun_tc10_b_5.png",
                         "xml_path": "./wangyiyun_tc10_b_5.xml",
                         "action": "click",
-                        "bbox": [0,1175,720,1271]
+                        "bbox": [0, 1175, 720, 1271]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc10_b_1.png",
+                            "xml_path": "./wangyiyun_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [282, 64, 378, 168]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc10_LS_2.png",
+                            "xml_path": "./wangyiyun_tc10_LS_2.xml",
+                            "action": "scroll",
+                            "bbox": [0, 155, 720, 1305],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc10_b_2.png",
+                            "xml_path": "./wangyiyun_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 901, 231, 1234]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc10_b_3.png",
+                            "xml_path": "./wangyiyun_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [644, 830, 688, 874]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc10_b_4.png",
+                            "xml_path": "./wangyiyun_tc10_b_4.xml",
+                            "action": "scroll",
+                            "bbox": [0, 573, 720, 1472],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc10_b_5.png",
+                            "xml_path": "./wangyiyun_tc10_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 1175, 720, 1271]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc10_EO_1.png",
+                            "xml_path": "./wangyiyun_tc10_EO_1.xml",
+                            "action": "click",
+                            "bbox": [604, 870, 656, 922]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc10_b_1.png",
+                            "xml_path": "./wangyiyun_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [282, 64, 378, 168]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc10_b_2.png",
+                            "xml_path": "./wangyiyun_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 901, 231, 1234]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc10_b_3.png",
+                            "xml_path": "./wangyiyun_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [644, 830, 688, 874]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc10_b_4.png",
+                            "xml_path": "./wangyiyun_tc10_b_4.xml",
+                            "action": "scroll",
+                            "bbox": [0, 573, 720, 1472],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc10_b_5.png",
+                            "xml_path": "./wangyiyun_tc10_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 1175, 720, 1271]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc10_b_2.png",
+                            "xml_path": "./wangyiyun_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 901, 231, 1234]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc10_b_3.png",
+                            "xml_path": "./wangyiyun_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [644, 830, 688, 874]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc10_b_4.png",
+                            "xml_path": "./wangyiyun_tc10_b_4.xml",
+                            "action": "scroll",
+                            "bbox": [0, 573, 720, 1472],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc10_b_5.png",
+                            "xml_path": "./wangyiyun_tc10_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 1175, 720, 1271]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc10_b_1.png",
+                            "xml_path": "./wangyiyun_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [282, 64, 378, 168]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc10_b_2.png",
+                            "xml_path": "./wangyiyun_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 901, 231, 1234]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc10_ED_3.png",
+                            "xml_path": "./wangyiyun_tc10_ED_3.xml",
+                            "action": "click",
+                            "bbox": [0, 825, 25, 870]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc10_b_4.png",
+                            "xml_path": "./wangyiyun_tc10_b_4.xml",
+                            "action": "scroll",
+                            "bbox": [0, 573, 720, 1472],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc10_b_5.png",
+                            "xml_path": "./wangyiyun_tc10_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 1175, 720, 1271]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 11,
@@ -424,38 +2077,213 @@
                         "screenshot_path": "./wangyiyun_tc11_b_1.png",
                         "xml_path": "./wangyiyun_tc11_b_1.xml",
                         "action": "click",
-                        "bbox": [124,208,248,246]
+                        "bbox": [124, 208, 248, 246]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./wangyiyun_tc11_b_2.png",
                         "xml_path": "./wangyiyun_tc11_b_2.xml",
                         "action": "click",
-                        "bbox": [0,286,124,324]
+                        "bbox": [0, 286, 124, 324]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./wangyiyun_tc11_b_3.png",
                         "xml_path": "./wangyiyun_tc11_b_3.xml",
                         "action": "click",
-                        "bbox": [0,421,720,549]
+                        "bbox": [0, 421, 720, 549]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./wangyiyun_tc11_b_4.png",
                         "xml_path": "./wangyiyun_tc11_b_4.xml",
                         "action": "click",
-                        "bbox": [576,1097,720,1177]
+                        "bbox": [576, 1097, 720, 1177]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./wangyiyun_tc11_b_5.png",
                         "xml_path": "./wangyiyun_tc11_b_5.xml",
                         "action": "click",
-                        "bbox": [22,956,698,1138]
+                        "bbox": [22, 956, 698, 1138]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc11_b_1.png",
+                            "xml_path": "./wangyiyun_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [124, 208, 248, 246]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc11_b_2.png",
+                            "xml_path": "./wangyiyun_tc11_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 286, 124, 324]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc11_EA_3.png",
+                            "xml_path": "./wangyiyun_tc11_EA_3.xml",
+                            "action": "click",
+                            "bbox": [0, 421, 720, 549]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc11_b_4.png",
+                            "xml_path": "./wangyiyun_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [576, 1097, 720, 1177]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc11_b_5.png",
+                            "xml_path": "./wangyiyun_tc11_b_5.xml",
+                            "action": "click",
+                            "bbox": [22, 956, 698, 1138]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc11_b_1.png",
+                            "xml_path": "./wangyiyun_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [124, 208, 248, 246]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc11_b_2.png",
+                            "xml_path": "./wangyiyun_tc11_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 286, 124, 324]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc11_EA-T_3.png",
+                            "xml_path": "./wangyiyun_tc11_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc11_b_3.png",
+                            "xml_path": "./wangyiyun_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 421, 720, 549]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc11_b_4.png",
+                            "xml_path": "./wangyiyun_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [576, 1097, 720, 1177]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc11_b_5.png",
+                            "xml_path": "./wangyiyun_tc11_b_5.xml",
+                            "action": "click",
+                            "bbox": [22, 956, 698, 1138]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc11_b_1.png",
+                            "xml_path": "./wangyiyun_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [124, 208, 248, 246]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc11_b_2.png",
+                            "xml_path": "./wangyiyun_tc11_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 286, 124, 324]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc11_b_3.png",
+                            "xml_path": "./wangyiyun_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 421, 720, 549]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc11_ED_4.png",
+                            "xml_path": "./wangyiyun_tc11_ED_4.xml",
+                            "action": "click",
+                            "bbox": [534, 1204, 636, 1240]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc11_b_5.png",
+                            "xml_path": "./wangyiyun_tc11_b_5.xml",
+                            "action": "click",
+                            "bbox": [22, 956, 698, 1138]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc11_FO_1.png",
+                            "xml_path": "./wangyiyun_tc11_FO_1.xml",
+                            "action": "click",
+                            "bbox": [101, 1014, 618, 1092]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc11_b_1.png",
+                            "xml_path": "./wangyiyun_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [124, 208, 248, 246]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc11_b_2.png",
+                            "xml_path": "./wangyiyun_tc11_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 286, 124, 324]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc11_b_3.png",
+                            "xml_path": "./wangyiyun_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 421, 720, 549]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc11_b_4.png",
+                            "xml_path": "./wangyiyun_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [576, 1097, 720, 1177]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc11_b_5.png",
+                            "xml_path": "./wangyiyun_tc11_b_5.xml",
+                            "action": "click",
+                            "bbox": [22, 956, 698, 1138]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 12,
@@ -467,38 +2295,207 @@
                         "screenshot_path": "./wangyiyun_tc12_b_1.png",
                         "xml_path": "./wangyiyun_tc12_b_1.xml",
                         "action": "click",
-                        "bbox": [540,1404,720,1505]
+                        "bbox": [540, 1404, 720, 1505]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./wangyiyun_tc12_b_2.png",
                         "xml_path": "./wangyiyun_tc12_b_2.xml",
                         "action": "click",
-                        "bbox": [32,602,159,670]
+                        "bbox": [32, 602, 159, 670]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./wangyiyun_tc12_b_3.png",
                         "xml_path": "./wangyiyun_tc12_b_3.xml",
                         "action": "click",
-                        "bbox": [632,248,720,348]
+                        "bbox": [632, 248, 720, 348]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./wangyiyun_tc12_b_4.png",
                         "xml_path": "./wangyiyun_tc12_b_4.xml",
                         "action": "click",
-                        "bbox": [624,68,720,164]
+                        "bbox": [624, 68, 720, 164]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./wangyiyun_tc12_b_5.png",
                         "xml_path": "./wangyiyun_tc12_b_5.xml",
                         "action": "click",
-                        "bbox": [360,1384,540,1512]
+                        "bbox": [360, 1384, 540, 1512]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc12_b_1.png",
+                            "xml_path": "./wangyiyun_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [540, 1404, 720, 1505]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc12_b_2.png",
+                            "xml_path": "./wangyiyun_tc12_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 602, 159, 670]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc12_b_3.png",
+                            "xml_path": "./wangyiyun_tc12_b_3.xml",
+                            "action": "click",
+                            "bbox": [632, 248, 720, 348]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc12_b_4.png",
+                            "xml_path": "./wangyiyun_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [624, 68, 720, 164]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc12_VA_5.png",
+                            "xml_path": "./wangyiyun_tc12_VA_5.xml",
+                            "action": "click",
+                            "bbox": [360, 1384, 540, 1512]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc12_b_1.png",
+                            "xml_path": "./wangyiyun_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [540, 1404, 720, 1505]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc12_b_2.png",
+                            "xml_path": "./wangyiyun_tc12_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 602, 159, 670]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc12_b_3.png",
+                            "xml_path": "./wangyiyun_tc12_b_3.xml",
+                            "action": "click",
+                            "bbox": [632, 248, 720, 348]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc12_b_5.png",
+                            "xml_path": "./wangyiyun_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [360, 1384, 540, 1512]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc12_EO_1.png",
+                            "xml_path": "./wangyiyun_tc12_EO_1.xml",
+                            "action": "click",
+                            "bbox": [604, 870, 656, 922]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc12_b_1.png",
+                            "xml_path": "./wangyiyun_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [540, 1404, 720, 1505]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc12_b_2.png",
+                            "xml_path": "./wangyiyun_tc12_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 602, 159, 670]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc12_b_3.png",
+                            "xml_path": "./wangyiyun_tc12_b_3.xml",
+                            "action": "click",
+                            "bbox": [632, 248, 720, 348]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc12_b_4.png",
+                            "xml_path": "./wangyiyun_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [624, 68, 720, 164]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc12_b_5.png",
+                            "xml_path": "./wangyiyun_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [360, 1384, 540, 1512]
+                        }
+                    ]
+                },
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc12_LS_1.png",
+                            "xml_path": "./wangyiyun_tc12_LS_1.xml",
+                            "action": "click",
+                            "bbox": [577, 0, 720, 1509]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc12_b_1.png",
+                            "xml_path": "./wangyiyun_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [540, 1404, 720, 1505]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc12_b_2.png",
+                            "xml_path": "./wangyiyun_tc12_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 602, 159, 670]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc12_b_3.png",
+                            "xml_path": "./wangyiyun_tc12_b_3.xml",
+                            "action": "click",
+                            "bbox": [632, 248, 720, 348]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc12_b_4.png",
+                            "xml_path": "./wangyiyun_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [624, 68, 720, 164]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc12_b_5.png",
+                            "xml_path": "./wangyiyun_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [360, 1384, 540, 1512]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 13,
@@ -510,14 +2507,14 @@
                         "screenshot_path": "./wangyiyun_tc13_b_1.png",
                         "xml_path": "./wangyiyun_tc13_b_1.xml",
                         "action": "click",
-                        "bbox": [355,190,614,546]
+                        "bbox": [355, 190, 614, 546]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./wangyiyun_tc13_b_2.png",
                         "xml_path": "./wangyiyun_tc13_b_2.xml",
                         "action": "scroll",
-                        "bbox": [0,152,720,1380],
+                        "bbox": [0, 152, 720, 1380],
                         "input_value": "up"
                     },
                     {
@@ -525,17 +2522,169 @@
                         "screenshot_path": "./wangyiyun_tc13_b_3.png",
                         "xml_path": "./wangyiyun_tc13_b_3.xml",
                         "action": "click",
-                        "bbox": [0,920,720,1044]
+                        "bbox": [0, 920, 720, 1044]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./wangyiyun_tc13_b_4.png",
                         "xml_path": "./wangyiyun_tc13_b_4.xml",
                         "action": "click",
-                        "bbox": [422,1407,490,1475]
+                        "bbox": [422, 1407, 490, 1475]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc13_VE_1.png",
+                            "xml_path": "./wangyiyun_tc13_VE_1.xml",
+                            "action": "scroll",
+                            "bbox": [0, 175, 720, 565],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc13_b_1.png",
+                            "xml_path": "./wangyiyun_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [355, 190, 614, 546]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc13_b_2.png",
+                            "xml_path": "./wangyiyun_tc13_b_2.xml",
+                            "action": "scroll",
+                            "bbox": [0, 152, 720, 1380],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc13_b_3.png",
+                            "xml_path": "./wangyiyun_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 920, 720, 1044]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc13_b_4.png",
+                            "xml_path": "./wangyiyun_tc13_b_4.xml",
+                            "action": "click",
+                            "bbox": [422, 1407, 490, 1475]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc13_b_1.png",
+                            "xml_path": "./wangyiyun_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [355, 190, 614, 546]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc13_b_2.png",
+                            "xml_path": "./wangyiyun_tc13_b_2.xml",
+                            "action": "scroll",
+                            "bbox": [0, 152, 720, 1380],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc13_b_3.png",
+                            "xml_path": "./wangyiyun_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 920, 720, 1044]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc13_VA_4.png",
+                            "xml_path": "./wangyiyun_tc13_VA_4.xml",
+                            "action": "click",
+                            "bbox": [422, 1407, 490, 1475]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc13_b_1.png",
+                            "xml_path": "./wangyiyun_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [355, 190, 614, 546]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc13_b_2.png",
+                            "xml_path": "./wangyiyun_tc13_b_2.xml",
+                            "action": "scroll",
+                            "bbox": [0, 152, 720, 1380],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc13_EA_3.png",
+                            "xml_path": "./wangyiyun_tc13_EA_3.xml",
+                            "action": "click",
+                            "bbox": [0, 920, 720, 1044]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc13_b_4.png",
+                            "xml_path": "./wangyiyun_tc13_b_4.xml",
+                            "action": "click",
+                            "bbox": [422, 1407, 490, 1475]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc13_b_1.png",
+                            "xml_path": "./wangyiyun_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [355, 190, 614, 546]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc13_b_2.png",
+                            "xml_path": "./wangyiyun_tc13_b_2.xml",
+                            "action": "scroll",
+                            "bbox": [0, 152, 720, 1380],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc13_EA-T_3.png",
+                            "xml_path": "./wangyiyun_tc13_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc13_b_3.png",
+                            "xml_path": "./wangyiyun_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 920, 720, 1044]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc13_b_4.png",
+                            "xml_path": "./wangyiyun_tc13_b_4.xml",
+                            "action": "click",
+                            "bbox": [422, 1407, 490, 1475]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 14,
@@ -547,24 +2696,144 @@
                         "screenshot_path": "./wangyiyun_tc14_b_1.png",
                         "xml_path": "./wangyiyun_tc14_b_1.xml",
                         "action": "click",
-                        "bbox": [540,1404,720,1505]
+                        "bbox": [540, 1404, 720, 1505]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./wangyiyun_tc14_b_2.png",
                         "xml_path": "./wangyiyun_tc14_b_2.xml",
                         "action": "click",
-                        "bbox": [308,462,412,490]
+                        "bbox": [308, 462, 412, 490]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./wangyiyun_tc14_b_3.png",
                         "xml_path": "./wangyiyun_tc14_b_3.xml",
                         "action": "click",
-                        "bbox": [634,88,690,144]
+                        "bbox": [634, 88, 690, 144]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc14_EO_1.png",
+                            "xml_path": "./wangyiyun_tc14_EO_1.xml",
+                            "action": "click",
+                            "bbox": [604, 870, 656, 922]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc14_b_1.png",
+                            "xml_path": "./wangyiyun_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [540, 1404, 720, 1505]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc14_b_2.png",
+                            "xml_path": "./wangyiyun_tc14_b_2.xml",
+                            "action": "click",
+                            "bbox": [308, 462, 412, 490]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc14_b_3.png",
+                            "xml_path": "./wangyiyun_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [634, 88, 690, 144]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc14_FO_1.png",
+                            "xml_path": "./wangyiyun_tc14_FO_1.xml",
+                            "action": "click",
+                            "bbox": [101, 1014, 618, 1092]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc14_b_1.png",
+                            "xml_path": "./wangyiyun_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [540, 1404, 720, 1505]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc14_b_2.png",
+                            "xml_path": "./wangyiyun_tc14_b_2.xml",
+                            "action": "click",
+                            "bbox": [308, 462, 412, 490]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc14_b_3.png",
+                            "xml_path": "./wangyiyun_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [634, 88, 690, 144]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc14_b_1.png",
+                            "xml_path": "./wangyiyun_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [540, 1404, 720, 1505]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc14_b_2.png",
+                            "xml_path": "./wangyiyun_tc14_b_2.xml",
+                            "action": "click",
+                            "bbox": [308, 462, 412, 490]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc14_VA_3.png",
+                            "xml_path": "./wangyiyun_tc14_VA_3.xml",
+                            "action": "click",
+                            "bbox": [634, 88, 690, 144]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc14_b_1.png",
+                            "xml_path": "./wangyiyun_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [540, 1404, 720, 1505]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc14_b_2.png",
+                            "xml_path": "./wangyiyun_tc14_b_2.xml",
+                            "action": "click",
+                            "bbox": [308, 462, 412, 490]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc14_ED_3.png",
+                            "xml_path": "./wangyiyun_tc14_ED_3.xml",
+                            "action": "click",
+                            "bbox": [90, 100, 155, 140]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 15,
@@ -576,24 +2845,144 @@
                         "screenshot_path": "./wangyiyun_tc15_b_1.png",
                         "xml_path": "./wangyiyun_tc15_b_1.xml",
                         "action": "click",
-                        "bbox": [180,1404,360,1505]
+                        "bbox": [180, 1404, 360, 1505]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./wangyiyun_tc15_b_2.png",
                         "xml_path": "./wangyiyun_tc15_b_2.xml",
                         "action": "click",
-                        "bbox": [368,1034,696,1252]
+                        "bbox": [368, 1034, 696, 1252]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./wangyiyun_tc15_b_3.png",
                         "xml_path": "./wangyiyun_tc15_b_3.xml",
                         "action": "click",
-                        "bbox": [179,382,227,430]
+                        "bbox": [179, 382, 227, 430]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc15_b_1.png",
+                            "xml_path": "./wangyiyun_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [180, 1404, 360, 1505]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc15_b_2.png",
+                            "xml_path": "./wangyiyun_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [368, 1034, 696, 1252]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc15_LS_3.png",
+                            "xml_path": "./wangyiyun_tc15_LS_3.xml",
+                            "action": "click",
+                            "bbox": [179, 684, 227, 732]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc15_EO_1.png",
+                            "xml_path": "./wangyiyun_tc15_EO_1.xml",
+                            "action": "click",
+                            "bbox": [604, 870, 656, 922]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc15_b_1.png",
+                            "xml_path": "./wangyiyun_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [180, 1404, 360, 1505]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc15_b_2.png",
+                            "xml_path": "./wangyiyun_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [368, 1034, 696, 1252]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc15_b_3.png",
+                            "xml_path": "./wangyiyun_tc15_b_3.xml",
+                            "action": "click",
+                            "bbox": [179, 382, 227, 430]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc15_FO_1.png",
+                            "xml_path": "./wangyiyun_tc15_FO_1.xml",
+                            "action": "click",
+                            "bbox": [101, 1014, 618, 1092]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc15_b_1.png",
+                            "xml_path": "./wangyiyun_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [180, 1404, 360, 1505]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc15_b_2.png",
+                            "xml_path": "./wangyiyun_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [368, 1034, 696, 1252]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc15_b_3.png",
+                            "xml_path": "./wangyiyun_tc15_b_3.xml",
+                            "action": "click",
+                            "bbox": [179, 382, 227, 430]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc15_b_1.png",
+                            "xml_path": "./wangyiyun_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [180, 1404, 360, 1505]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc15_EA_2.png",
+                            "xml_path": "./wangyiyun_tc15_EA_2.xml",
+                            "action": "click",
+                            "bbox": [368, 1034, 696, 1252]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc15_b_3.png",
+                            "xml_path": "./wangyiyun_tc15_b_3.xml",
+                            "action": "click",
+                            "bbox": [179, 382, 227, 430]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 16,
@@ -605,14 +2994,14 @@
                         "screenshot_path": "./wangyiyun_tc16_b_1.png",
                         "xml_path": "./wangyiyun_tc16_b_1.xml",
                         "action": "click",
-                        "bbox": [640,92,688,140]
+                        "bbox": [640, 92, 688, 140]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./wangyiyun_tc16_b_2.png",
                         "xml_path": "./wangyiyun_tc16_b_2.xml",
                         "action": "input",
-                        "bbox": [150,72,592,144],
+                        "bbox": [150, 72, 592, 144],
                         "input_value": "Justin Bieber"
                     },
                     {
@@ -620,35 +3009,35 @@
                         "screenshot_path": "./wangyiyun_tc16_b_3.png",
                         "xml_path": "./wangyiyun_tc16_b_3.xml",
                         "action": "click",
-                        "bbox": [0,699,720,961]
+                        "bbox": [0, 699, 720, 961]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./wangyiyun_tc16_b_4.png",
                         "xml_path": "./wangyiyun_tc16_b_4.xml",
                         "action": "click",
-                        "bbox": [606,1006,686,1086]
+                        "bbox": [606, 1006, 686, 1086]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./wangyiyun_tc16_b_5.png",
                         "xml_path": "./wangyiyun_tc16_b_5.xml",
                         "action": "click",
-                        "bbox": [362,64,486,168]
+                        "bbox": [362, 64, 486, 168]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./wangyiyun_tc16_b_6.png",
                         "xml_path": "./wangyiyun_tc16_b_6.xml",
                         "action": "click",
-                        "bbox": [298,1400,426,1500]
+                        "bbox": [298, 1400, 426, 1500]
                     },
                     {
                         "checkpoint_id": 7,
                         "screenshot_path": "./wangyiyun_tc16_b_7.png",
                         "xml_path": "./wangyiyun_tc16_b_7.xml",
                         "action": "scroll",
-                        "bbox": [0,168,720,1400],
+                        "bbox": [0, 168, 720, 1400],
                         "input_value": "up"
                     },
                     {
@@ -656,11 +3045,263 @@
                         "screenshot_path": "./wangyiyun_tc16_b_8.png",
                         "xml_path": "./wangyiyun_tc16_b_8.xml",
                         "action": "click",
-                        "bbox": [343,1400,463,1500]
+                        "bbox": [343, 1400, 463, 1500]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc16_b_1.png",
+                            "xml_path": "./wangyiyun_tc16_b_1.xml",
+                            "action": "click",
+                            "bbox": [640, 92, 688, 140]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc16_b_2.png",
+                            "xml_path": "./wangyiyun_tc16_b_2.xml",
+                            "action": "input",
+                            "bbox": [150, 72, 592, 144],
+                            "input_value": "Justin Bieber"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc16_b_3.png",
+                            "xml_path": "./wangyiyun_tc16_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 699, 720, 961]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc16_b_4.png",
+                            "xml_path": "./wangyiyun_tc16_b_4.xml",
+                            "action": "click",
+                            "bbox": [606, 1006, 686, 1086]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc16_b_5.png",
+                            "xml_path": "./wangyiyun_tc16_b_5.xml",
+                            "action": "click",
+                            "bbox": [362, 64, 486, 168]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc16_VA_6.png",
+                            "xml_path": "./wangyiyun_tc16_VA_6.xml",
+                            "action": "click",
+                            "bbox": [298, 1400, 426, 1500]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./wangyiyun_tc16_b_7.png",
+                            "xml_path": "./wangyiyun_tc16_b_7.xml",
+                            "action": "scroll",
+                            "bbox": [0, 168, 720, 1400],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./wangyiyun_tc16_b_8.png",
+                            "xml_path": "./wangyiyun_tc16_b_8.xml",
+                            "action": "click",
+                            "bbox": [343, 1400, 463, 1500]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc16_b_1.png",
+                            "xml_path": "./wangyiyun_tc16_b_1.xml",
+                            "action": "click",
+                            "bbox": [640, 92, 688, 140]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc16_b_2.png",
+                            "xml_path": "./wangyiyun_tc16_b_2.xml",
+                            "action": "input",
+                            "bbox": [150, 72, 592, 144],
+                            "input_value": "Justin Bieber"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc16_b_3.png",
+                            "xml_path": "./wangyiyun_tc16_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 699, 720, 961]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc16_b_4.png",
+                            "xml_path": "./wangyiyun_tc16_b_4.xml",
+                            "action": "click",
+                            "bbox": [606, 1006, 686, 1086]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc16_b_6.png",
+                            "xml_path": "./wangyiyun_tc16_b_6.xml",
+                            "action": "click",
+                            "bbox": [298, 1400, 426, 1500]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc16_b_7.png",
+                            "xml_path": "./wangyiyun_tc16_b_7.xml",
+                            "action": "scroll",
+                            "bbox": [0, 168, 720, 1400],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./wangyiyun_tc16_b_8.png",
+                            "xml_path": "./wangyiyun_tc16_b_8.xml",
+                            "action": "click",
+                            "bbox": [343, 1400, 463, 1500]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc16_b_1.png",
+                            "xml_path": "./wangyiyun_tc16_b_1.xml",
+                            "action": "click",
+                            "bbox": [640, 92, 688, 140]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc16_b_2.png",
+                            "xml_path": "./wangyiyun_tc16_b_2.xml",
+                            "action": "input",
+                            "bbox": [150, 72, 592, 144],
+                            "input_value": "Justin Bieber"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc16_EA-T_3.png",
+                            "xml_path": "./wangyiyun_tc16_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc16_b_3.png",
+                            "xml_path": "./wangyiyun_tc16_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 699, 720, 961]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc16_b_4.png",
+                            "xml_path": "./wangyiyun_tc16_b_4.xml",
+                            "action": "click",
+                            "bbox": [606, 1006, 686, 1086]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc16_b_5.png",
+                            "xml_path": "./wangyiyun_tc16_b_5.xml",
+                            "action": "click",
+                            "bbox": [362, 64, 486, 168]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./wangyiyun_tc16_b_6.png",
+                            "xml_path": "./wangyiyun_tc16_b_6.xml",
+                            "action": "click",
+                            "bbox": [298, 1400, 426, 1500]
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./wangyiyun_tc16_b_7.png",
+                            "xml_path": "./wangyiyun_tc16_b_7.xml",
+                            "action": "scroll",
+                            "bbox": [0, 168, 720, 1400],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 9,
+                            "screenshot_path": "./wangyiyun_tc16_b_8.png",
+                            "xml_path": "./wangyiyun_tc16_b_8.xml",
+                            "action": "click",
+                            "bbox": [343, 1400, 463, 1500]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./wangyiyun_tc16_b_1.png",
+                            "xml_path": "./wangyiyun_tc16_b_1.xml",
+                            "action": "click",
+                            "bbox": [640, 92, 688, 140]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./wangyiyun_tc16_b_2.png",
+                            "xml_path": "./wangyiyun_tc16_b_2.xml",
+                            "action": "input",
+                            "bbox": [150, 72, 592, 144],
+                            "input_value": "Justin Bieber"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./wangyiyun_tc16_b_3.png",
+                            "xml_path": "./wangyiyun_tc16_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 699, 720, 961]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./wangyiyun_tc16_b_4.png",
+                            "xml_path": "./wangyiyun_tc16_b_4.xml",
+                            "action": "click",
+                            "bbox": [606, 1006, 686, 1086]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./wangyiyun_tc16_b_5.png",
+                            "xml_path": "./wangyiyun_tc16_b_5.xml",
+                            "action": "click",
+                            "bbox": [362, 64, 486, 168]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./wangyiyun_tc16_b_6.png",
+                            "xml_path": "./wangyiyun_tc16_b_6.xml",
+                            "action": "click",
+                            "bbox": [298, 1400, 426, 1500]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./wangyiyun_tc16_b_7.png",
+                            "xml_path": "./wangyiyun_tc16_b_7.xml",
+                            "action": "scroll",
+                            "bbox": [0, 168, 720, 1400],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./wangyiyun_tc16_ED_8.png",
+                            "xml_path": "./wangyiyun_tc16_ED_8.xml",
+                            "action": "click",
+                            "bbox": [470, 1327, 567, 1390]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
-
