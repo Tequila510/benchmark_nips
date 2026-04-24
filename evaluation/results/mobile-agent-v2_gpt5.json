@@ -1,0 +1,3298 @@
+{
+    "agent_name": "Mobile-Agent-v2",
+    "results": [
+        {
+            "app_tested": "douyin",
+            "task_1": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [487, 197, 487, 197],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [448, 426, 448, 426],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [260, 530, 260, 530],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [293, 1479, 293, 1479],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [613, 300, 613, 300],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 740, 360, 740],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [215, 1245, 215, 1245],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [357, 1365, 357, 1365],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [664, 107, 664, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [237, 107, 237, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [491, 197, 491, 197],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [448, 426, 448, 426],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [243, 530, 243, 530],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [293, 1479, 293, 1479],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [613, 300, 613, 300],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 760, 360, 760],
+                            "input_value": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null,
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [359, 1365, 359, 1365],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [359, 1222, 359, 1222],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [491, 197, 491, 197],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [448, 426, 448, 426],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 530, 300, 530],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [293, 1479, 293, 1479],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [613, 300, 613, 300],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [332, 666, 332, 666],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [332, 666, 332, 666],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 1365, 360, 1365],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [491, 197, 491, 197],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [448, 426, 448, 426],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [260, 520, 260, 520],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [293, 1479, 293, 1479],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [613, 300, 613, 300],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [332, 666, 332, 666],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [240, 480, 240, 480],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [357, 1365, 357, 1365],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [487, 197, 487, 197],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [560, 1030, 560, 1030],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [448, 426, 448, 426],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [250, 530, 250, 530],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [293, 1479, 293, 1479],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [615, 227, 615, 227],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 740, 360, 740],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 500, 200, 500],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 1365, 360, 1365],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_2": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [218, 698, 218, 698],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [100, 1451, 100, 1451],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [519, 122, 519, 122],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [46, 123, 46, 123],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [668, 219, 668, 219],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 297, 200, 297],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 430, 360, 430],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [104, 1452, 104, 1452],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [664, 107, 664, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [237, 107, 237, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [220, 700, 220, 700],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [120, 1452, 120, 1452],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [519, 122, 519, 122],
+                            "input_value": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null,
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [668, 219, 668, 219],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 297, 180, 297],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [670, 360, 670, 360],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [55, 107, 55, 107],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [359, 1222, 359, 1222],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [220, 690, 220, 690],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [110, 1452, 110, 1452],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [519, 122, 519, 122],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [46, 123, 46, 123],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [668, 219, 668, 219],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [163, 297, 163, 297],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 430, 360, 430],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [110, 1452, 110, 1452],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 690, 200, 690],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [519, 122, 519, 122],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [519, 122, 519, 122],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [668, 219, 668, 219],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [163, 297, 163, 297],
+                            "input_value": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null,
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [664, 109, 664, 109],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [551, 211, 551, 211],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [218, 698, 218, 698],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [120, 1452, 120, 1452],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [47, 122, 47, 122],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [519, 122, 519, 122],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [668, 219, 668, 219],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 297, 180, 297],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 410, 360, 410],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [120, 1452, 120, 1452],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_3": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [350, 197, 350, 197],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 110, 300, 110],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [196, 570, 196, 570],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [520, 122, 520, 122],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [361, 1222, 361, 1222],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [330, 197, 330, 197],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 106, 300, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [430, 524, 430, 524],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [520, 122, 520, 122],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [664, 107, 664, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [237, 107, 237, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [350, 197, 350, 197],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [320, 106, 320, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [430, 524, 430, 524],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [520, 122, 520, 122],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [590, 210, 590, 210],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [310, 197, 310, 197],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 106, 300, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [430, 524, 430, 524],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [520, 122, 520, 122],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [330, 197, 330, 197],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [330, 106, 330, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [657, 107, 657, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [520, 122, 520, 122],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 110, 385, 110],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 197, 300, 197],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 106, 300, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [656, 106, 656, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [196, 570, 196, 570],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [520, 122, 520, 122],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_4": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [668, 219, 668, 219],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [162, 401, 162, 401],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [668, 219, 668, 219],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [648, 1462, 648, 1462],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 110, 385, 110],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [361, 1222, 361, 1222],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [668, 219, 668, 219],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [240, 401, 240, 401],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [294, 107, 294, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [237, 107, 237, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [668, 219, 668, 219],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [330, 401, 330, 401],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_5": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [664, 107, 664, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 106, 300, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [656, 106, 656, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [356, 1416, 356, 1416],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [120, 330, 120, 330],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [664, 107, 664, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [150, 106, 150, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [656, 106, 656, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [356, 1416, 356, 1416],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [120, 340, 120, 340],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [664, 107, 664, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [250, 106, 250, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [656, 106, 656, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [360, 1300, 360, 400],
+                            "input_value": "up"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [71, 344, 71, 344],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [664, 107, 664, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 106, 300, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [656, 106, 656, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [360, 1200, 360, 400],
+                            "input_value": "up"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [356, 1416, 356, 1416],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [100, 344, 100, 344],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_6": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [363, 447, 363, 447],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 505, 300, 505],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [670, 482, 670, 482],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [543, 297, 543, 297],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [294, 107, 294, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [237, 107, 237, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [668, 219, 668, 219],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 505, 200, 505],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [660, 482, 660, 482],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [543, 297, 543, 297],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [361, 1050, 361, 1050],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [363, 447, 363, 447],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 505, 360, 505],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [650, 482, 650, 482],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [590, 298, 590, 298],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 107, 385, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [664, 384, 664, 384],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 505, 180, 505],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [665, 482, 665, 482],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [543, 297, 543, 297],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_7": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [382, 107, 382, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [540, 900, 540, 900],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [276, 115, 276, 115],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [382, 107, 382, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 520, 180, 520],
+                            "input_value": null
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [360, 1200, 360, 350],
+                            "input_value": "up"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 930, 180, 930],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [277, 115, 277, 115],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [382, 108, 382, 108],
+                            "input_value": null
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [360, 1200, 360, 400],
+                            "input_value": "up"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [276, 115, 276, 115],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [382, 107, 382, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null,
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [560, 780, 560, 780],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [280, 115, 280, 115],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [382, 107, 382, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [359, 1222, 359, 1222],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [540, 840, 540, 840],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [276, 115, 276, 115],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [600, 210, 600, 210],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [382, 107, 382, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [560, 800, 560, 800],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [280, 115, 280, 115],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [379, 179, 379, 179],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [540, 760, 540, 760],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [280, 115, 280, 115],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_8": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [382, 107, 382, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [638, 725, 638, 725],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [220, 390, 220, 390],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [664, 107, 664, 107],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 108, 385, 108],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [361, 1222, 361, 1222],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [638, 725, 638, 725],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [220, 410, 220, 410],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [664, 107, 664, 107],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [382, 107, 382, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [650, 641, 250, 641],
+                            "input_value": "left"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [638, 725, 638, 725],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [220, 430, 220, 430],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [664, 107, 664, 107],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 108, 385, 108],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [638, 725, 638, 725],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 360, 200, 360],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [664, 108, 664, 108],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [385, 108, 385, 108],
+                            "input_value": null
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [360, 1200, 360, 300],
+                            "input_value": "up"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [250, 400, 250, 400],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [664, 107, 664, 107],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [382, 107, 382, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [667, 199, 667, 199],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [638, 725, 638, 725],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 420, 200, 420],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [664, 107, 664, 107],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_9": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [665, 107, 665, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [225, 107, 225, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [125, 1016, 125, 1016],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [424, 1167, 424, 1167],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [665, 107, 665, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [250, 107, 250, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [360, 1350, 360, 350],
+                            "input_value": "up"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [125, 1016, 125, 1016],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [424, 1167, 424, 1167],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [683, 188, 683, 188],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [225, 107, 225, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [125, 1016, 125, 1016],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [424, 1167, 424, 1167],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [665, 107, 665, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 107, 300, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [125, 1016, 125, 1016],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [424, 1167, 424, 1167],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_10": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [665, 107, 665, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 107, 300, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [443, 381, 443, 381],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [611, 557, 611, 557],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [631, 733, 631, 733],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 1200, 180, 1200],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 600, 180, 600],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [665, 107, 665, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [225, 107, 225, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [210, 195, 210, 195],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [443, 381, 443, 381],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [611, 557, 611, 557],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [631, 733, 631, 733],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [150, 1200, 150, 1200],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 600, 180, 600],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [665, 107, 665, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [225, 107, 225, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [679, 194, 679, 194],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [611, 557, 611, 557],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [631, 733, 631, 733],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 1200, 180, 1200],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 600, 180, 600],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [665, 107, 665, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [250, 107, 250, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [679, 194, 679, 194],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [443, 381, 443, 381],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [611, 557, 611, 557],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [631, 733, 631, 733],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 1250, 180, 1250],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [170, 560, 170, 560],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [211, 74, 211, 74],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [665, 107, 665, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [225, 107, 225, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [510, 381, 510, 381],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [611, 557, 611, 557],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [631, 733, 631, 733],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [160, 1200, 160, 1200],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [170, 600, 170, 600],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_11": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [292, 107, 292, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 976, 360, 976],
+                            "input_value": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null,
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [480, 106, 480, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 976, 360, 976],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [657, 1464, 657, 1464],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [290, 170, 290, 170],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 976, 360, 976],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [657, 1464, 657, 1464],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [292, 107, 292, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [120, 300, 120, 300],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [657, 1464, 657, 1464],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_12": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [480, 107, 480, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [500, 429, 500, 429],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [220, 720, 220, 720],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [480, 107, 480, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [650, 770, 150, 770],
+                            "input_value": "left"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [500, 402, 500, 402],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [220, 820, 220, 820],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [480, 107, 480, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [54, 106, 54, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [210, 700, 210, 700],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [480, 107, 480, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [54, 106, 54, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [500, 429, 500, 429],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [183, 682, 183, 682],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [479, 156, 479, 156],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [500, 429, 500, 429],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [210, 760, 210, 760],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_13": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [359, 1462, 359, 1462],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [595, 1440, 595, 1440],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [368, 1048, 368, 1048],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [73, 1041, 73, 1041],
+                            "input_value": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null,
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [365, 1304, 365, 1304],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [360, 1462, 360, 1462],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [595, 1440, 595, 1440],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [368, 1048, 368, 1048],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [513, 933, 513, 933],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [604, 933, 604, 933],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [100, 1192, 100, 1192],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [108, 1218, 108, 1218],
+                            "input_value": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null,
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 1303, 360, 1303],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [359, 1366, 359, 1366],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [595, 1440, 595, 1440],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [368, 1048, 368, 1048],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [100, 1041, 100, 1041],
+                            "input_value": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null,
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [365, 1304, 365, 1304],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [360, 1460, 360, 1460],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [600, 1440, 600, 1440],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [368, 1048, 368, 1048],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [73, 1041, 73, 1041],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 700, 360, 700],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 1304, 360, 1304],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [359, 1462, 359, 1462],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [595, 1440, 595, 1440],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [368, 1048, 368, 1048],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [90, 1040, 90, 1040],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [359, 1303, 359, 1303],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [358, 1462, 358, 1462],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [597, 1440, 597, 1440],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [640, 1440, 640, 1440],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [368, 1048, 368, 1048],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [73, 1041, 73, 1041],
+                            "input_value": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null,
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 1304, 360, 1304],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_14": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [382, 108, 382, 108],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [100, 444, 100, 444],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [604, 100, 604, 100],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [661, 629, 661, 629],
+                            "input_value": null
+                        },
+                        {
+                            "action": "finish",
+                            "bbox": null,
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "scroll",
+                            "bbox": [620, 110, 200, 110],
+                            "input_value": "left"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [237, 107, 237, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [100, 444, 100, 444],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [604, 106, 604, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [525, 1401, 525, 1401],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [36, 106, 36, 106],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [382, 108, 382, 108],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [361, 1222, 361, 1222],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [120, 444, 120, 444],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [605, 100, 605, 100],
+                            "input_value": null
+                        },
+                        {
+                            "action": "wait",
+                            "bbox": null,
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [40, 110, 40, 110],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [382, 108, 382, 108],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [100, 444, 100, 444],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [666, 106, 666, 106],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [382, 108, 382, 108],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [54, 107, 54, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [596, 106, 596, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [661, 629, 661, 629],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [36, 106, 36, 106],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [382, 108, 382, 108],
+                            "input_value": null
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [360, 250, 360, 900],
+                            "input_value": "down"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [106, 444, 106, 444],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [610, 100, 610, 100],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [525, 1401, 525, 1401],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [30, 110, 30, 110],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_15": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [664, 107, 664, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [498, 358, 498, 358],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [656, 106, 656, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [356, 1416, 356, 1416],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [170, 350, 170, 350],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [664, 107, 664, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 106, 300, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [656, 106, 656, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [356, 1416, 356, 1416],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [280, 1170, 280, 1170],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 480, 180, 480],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [677, 178, 677, 178],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 106, 200, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [656, 106, 656, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [356, 1416, 356, 1416],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [170, 420, 170, 420],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [664, 107, 664, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [220, 106, 220, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [656, 106, 656, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [656, 106, 656, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 500, 180, 500],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [560, 210, 560, 210],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [680, 110, 680, 110],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [498, 358, 498, 358],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [656, 106, 656, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [356, 1416, 356, 1416],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [183, 489, 183, 489],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_16": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [665, 107, 665, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 107, 300, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [125, 1188, 125, 1188],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [540, 1453, 540, 1453],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [665, 107, 665, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [225, 107, 225, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [419, 1120, 419, 1120],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [434, 868, 434, 868],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [419, 1273, 419, 1273],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [540, 1453, 540, 1453],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [665, 107, 665, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 107, 300, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [660, 106, 660, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [560, 1453, 560, 1453],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [665, 107, 665, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 107, 300, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [657, 107, 657, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [130, 1188, 130, 1188],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [560, 1453, 560, 1453],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [679, 179, 679, 179],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 107, 300, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [125, 1188, 125, 1188],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [560, 1450, 560, 1450],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_17": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [480, 107, 480, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 191, 200, 191],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 503, 180, 503],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [170, 520, 170, 520],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [664, 107, 664, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [237, 107, 237, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 191, 200, 191],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 503, 200, 503],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 600, 180, 600],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [480, 107, 480, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 191, 200, 191],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [320, 191, 320, 191],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 503, 180, 503],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 840, 180, 840],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [480, 107, 480, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [250, 191, 250, 191],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [160, 505, 160, 505],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 110, 300, 110],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_18": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [480, 107, 480, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 1200, 200, 1200],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [70, 1460, 70, 1460],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [644, 282, 644, 282],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [44, 106, 44, 106],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [54, 107, 54, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [237, 107, 237, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [180, 1000, 180, 1000],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [60, 1450, 60, 1450],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [644, 282, 644, 282],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [44, 106, 44, 106],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [480, 107, 480, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [359, 1016, 359, 1016],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 950, 200, 950],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [70, 1460, 70, 1460],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [644, 282, 644, 282],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [44, 106, 44, 106],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [480, 107, 480, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 1000, 200, 1000],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [60, 1450, 60, 1450],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [44, 106, 44, 106],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [480, 107, 480, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [360, 1200, 360, 300],
+                            "input_value": "up"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [60, 1450, 60, 1450],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [644, 282, 644, 282],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [44, 106, 44, 106],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [480, 107, 480, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [360, 300, 360, 900],
+                            "input_value": "down"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 1100, 200, 1100],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [70, 1468, 70, 1468],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [644, 282, 644, 282],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [44, 106, 44, 106],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_19": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [293, 108, 293, 108],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [213, 571, 213, 571],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [455, 1072, 455, 1072],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 977, 360, 977],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [293, 108, 293, 108],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [268, 107, 268, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [213, 571, 213, 571],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 900, 360, 900],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 984, 360, 984],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [293, 159, 293, 159],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [213, 571, 213, 571],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 900, 360, 900],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 980, 360, 980],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [320, 110, 320, 110],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [585, 106, 585, 106],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [213, 571, 213, 571],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 984, 360, 984],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [309, 108, 309, 108],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [268, 107, 268, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [213, 571, 213, 571],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [110, 300, 110, 300],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 980, 360, 980],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ],
+            "task_20": [
+                {
+                    "type": "clean",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [205, 107, 205, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [406, 300, 406, 300],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [418, 644, 418, 644],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 914, 200, 914],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [350, 607, 350, 607],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [205, 107, 205, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [585, 107, 585, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [406, 319, 406, 319],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [418, 644, 418, 644],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [160, 914, 160, 914],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [312, 607, 312, 607],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [200, 157, 200, 157],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [406, 319, 406, 319],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [418, 644, 418, 644],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [170, 914, 170, 914],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [360, 600, 360, 600],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [205, 107, 205, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [406, 319, 406, 319],
+                            "input_value": null
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [360, 1300, 360, 350],
+                            "input_value": "up"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [160, 914, 160, 914],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [300, 600, 300, 600],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [205, 107, 205, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [406, 319, 406, 319],
+                            "input_value": null
+                        },
+                        {
+                            "action": "scroll",
+                            "bbox": [360, 1300, 360, 400],
+                            "input_value": "up"
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [418, 644, 418, 644],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [200, 914, 200, 914],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [312, 607, 312, 607],
+                            "input_value": null
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace_output": [
+                        {
+                            "action": "click",
+                            "bbox": [585, 210, 585, 210],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [205, 107, 205, 107],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [406, 319, 406, 319],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [418, 644, 418, 644],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [160, 915, 160, 915],
+                            "input_value": null
+                        },
+                        {
+                            "action": "click",
+                            "bbox": [312, 607, 312, 607],
+                            "input_value": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
