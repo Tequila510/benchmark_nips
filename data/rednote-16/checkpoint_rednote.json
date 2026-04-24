@@ -1,0 +1,795 @@
+{
+    "app": "rednote",
+    "testcases": [
+        {
+            "testcase_id": 1,
+            "testcase_desc": "在首页搜索“股票期权”，查看第一条笔记，先关注主播，再分享到私信好友。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./rednote_tc1_b_1.png",
+                        "xml_path": "./rednote_tc1_b_1.xml",
+                        "action": "click",
+                        "bbox": [630,72,702,144]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./rednote_tc1_b_2.png",
+                        "xml_path": "./rednote_tc1_b_2.xml",
+                        "action": "input",
+                        "bbox": [120,72,499,160],
+                        "input_value": "股票期权"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./rednote_tc1_b_3.png",
+                        "xml_path": "./rednote_tc1_b_3.xml",
+                        "action": "click",
+                        "bbox": [10,354,355,1006]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./rednote_tc1_b_4.png",
+                        "xml_path": "./rednote_tc1_b_4.xml",
+                        "action": "click",
+                        "bbox": [492,92,618,148]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./rednote_tc1_b_5.png",
+                        "xml_path": "./rednote_tc1_b_5.xml",
+                        "action": "click",
+                        "bbox": [618,76,706,164]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./rednote_tc1_b_6.png",
+                        "xml_path": "./rednote_tc1_b_6.xml",
+                        "action": "click",
+                        "bbox": [30,1106,150,1286]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 2,
+            "testcase_desc": "在首页搜索“股票期权”，筛选“最新”、“图文”等条件，再查看第一条内容。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./rednote_tc2_b_1.png",
+                        "xml_path": "./rednote_tc2_b_1.xml",
+                        "action": "click",
+                        "bbox": [630,72,702,144]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./rednote_tc2_b_2.png",
+                        "xml_path": "./rednote_tc2_b_2.xml",
+                        "action": "input",
+                        "bbox": [120,72,499,160],
+                        "input_value": "股票期权"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./rednote_tc2_b_3.png",
+                        "xml_path": "./rednote_tc2_b_3.xml",
+                        "action": "click",
+                        "bbox": [8,168,160,256]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./rednote_tc2_b_4.png",
+                        "xml_path": "./rednote_tc2_b_4.xml",
+                        "action": "click",
+                        "bbox": [200,338,352,410]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./rednote_tc2_b_5.png",
+                        "xml_path": "./rednote_tc2_b_5.xml",
+                        "action": "click",
+                        "bbox": [368,588,520,660]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./rednote_tc2_b_6.png",
+                        "xml_path": "./rednote_tc2_b_6.xml",
+                        "action": "click",
+                        "bbox": [360,1178,720,1274]
+                    },
+                    {
+                        "checkpoint_id": 7,
+                        "screenshot_path": "./rednote_tc2_b_7.png",
+                        "xml_path": "./rednote_tc2_b_7.xml",
+                        "action": "click",
+                        "bbox": [10,354,355,1006]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 3,
+            "testcase_desc": "在首页编辑频道，加入“游戏”频道，并查看该频道的第一条内容，最后点赞。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./rednote_tc3_b_1.png",
+                        "xml_path": "./rednote_tc3_b_1.xml",
+                        "action": "click",
+                        "bbox": [664,176,696,208]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./rednote_tc3_b_2.png",
+                        "xml_path": "./rednote_tc3_b_2.xml",
+                        "action": "click",
+                        "bbox": [28,1002,173,1074]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./rednote_tc3_b_3.png",
+                        "xml_path": "./rednote_tc3_b_3.xml",
+                        "action": "click",
+                        "bbox": [187,813,360,909]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./rednote_tc3_b_4.png",
+                        "xml_path": "./rednote_tc3_b_4.xml",
+                        "action": "click",
+                        "bbox": [10,232,355,876]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./rednote_tc3_b_5.png",
+                        "xml_path": "./rednote_tc3_b_5.xml",
+                        "action": "click",
+                        "bbox": [280,1400,406,1512]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 4,
+            "testcase_desc": "进入“市集”模块，在“美妙商店”中查看第一个商品的评论部分，点赞第一条评论。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./rednote_tc4_b_1.png",
+                        "xml_path": "./rednote_tc4_b_1.xml",
+                        "action": "click",
+                        "bbox": [144,1422,288,1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./rednote_tc4_b_2.png",
+                        "xml_path": "./rednote_tc4_b_2.xml",
+                        "action": "click",
+                        "bbox": [308,265,442,409]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./rednote_tc4_b_3.png",
+                        "xml_path": "./rednote_tc4_b_3.xml",
+                        "action": "click",
+                        "bbox": [13,162,355,619]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./rednote_tc4_b_4.png",
+                        "xml_path": "./rednote_tc4_b_4.xml",
+                        "action": "click",
+                        "bbox": [594,1416,690,1496]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./rednote_tc4_b_5.png",
+                        "xml_path": "./rednote_tc4_b_5.xml",
+                        "action": "click",
+                        "bbox": [563,519,614,563]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 5,
+            "testcase_desc": "进入“市集”模块，选择数码分类，查看智能手表的第一款商品，最后加入购物车。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./rednote_tc5_b_1.png",
+                        "xml_path": "./rednote_tc5_b_1.xml",
+                        "action": "click",
+                        "bbox": [144,1422,288,1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./rednote_tc5_b_2.png",
+                        "xml_path": "./rednote_tc5_b_2.xml",
+                        "action": "click",
+                        "bbox": [386,152,490,240]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./rednote_tc5_b_3.png",
+                        "xml_path": "./rednote_tc5_b_3.xml",
+                        "action": "click",
+                        "bbox": [40,585,144,729]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./rednote_tc5_b_4.png",
+                        "xml_path": "./rednote_tc5_b_4.xml",
+                        "action": "click",
+                        "bbox": [10,250,355,830]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./rednote_tc5_b_5.png",
+                        "xml_path": "./rednote_tc5_b_5.xml",
+                        "action": "click",
+                        "bbox": [304,1416,499,1496]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 6,
+            "testcase_desc": "在首页查看“同城”中查看第一条笔记内容，滑动查看地点信息，并收藏地点。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./rednote_tc6_b_1.png",
+                        "xml_path": "./rednote_tc6_b_1.xml",
+                        "action": "click",
+                        "bbox": [416,76,528,140]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./rednote_tc6_b_2.png",
+                        "xml_path": "./rednote_tc6_b_2.xml",
+                        "action": "click",
+                        "bbox": [10,152,355,795]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./rednote_tc6_b_3.png",
+                        "xml_path": "./rednote_tc6_b_3.xml",
+                        "action": "scroll",
+                        "bbox": [0,176,720,1400],
+                        "input_value": "up"
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./rednote_tc6_b_4.png",
+                        "xml_path": "./rednote_tc6_b_4.xml",
+                        "action": "click",
+                        "bbox": [32,990,688,1094]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./rednote_tc6_b_5.png",
+                        "xml_path": "./rednote_tc6_b_5.xml",
+                        "action": "click",
+                        "bbox": [494,224,688,282]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 7,
+            "testcase_desc": "在我的主页查看第一个可能感兴趣的人，关注博主，发送私信“你的作品很有意思”。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./rednote_tc7_b_1.png",
+                        "xml_path": "./rednote_tc7_b_1.xml",
+                        "action": "click",
+                        "bbox": [576,1422,720,1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./rednote_tc7_b_2.png",
+                        "xml_path": "./rednote_tc7_b_2.xml",
+                        "action": "click",
+                        "bbox": [24,637,228,934]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./rednote_tc7_b_3.png",
+                        "xml_path": "./rednote_tc7_b_3.xml",
+                        "action": "click",
+                        "bbox": [386,664,550,720]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./rednote_tc7_b_4.png",
+                        "xml_path": "./rednote_tc7_b_4.xml",
+                        "action": "click",
+                        "bbox": [570,664,690,720]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./rednote_tc7_b_5.png",
+                        "xml_path": "./rednote_tc7_b_5.xml",
+                        "action": "click",
+                        "bbox": [120,1412,524,1492]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./rednote_tc7_b_6.png",
+                        "xml_path": "./rednote_tc7_b_6.xml",
+                        "action": "input",
+                        "bbox": [120,902,524,982],
+                        "input_value": "你的作品很有意思"
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 8,
+            "testcase_desc": "在首页发现页查看第一条内容，发送“太好看了”的弹幕文字，再点赞评论部分的第一条评论。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./rednote_tc8_b_1.png",
+                        "xml_path": "./rednote_tc8_b_1.xml",
+                        "action": "click",
+                        "bbox": [10,232,355,872]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./rednote_tc8_b_2.png",
+                        "xml_path": "./rednote_tc8_b_2.xml",
+                        "action": "click",
+                        "bbox": [30,1424,252,1512]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./rednote_tc8_b_3.png",
+                        "xml_path": "./rednote_tc8_b_3.xml",
+                        "action": "input",
+                        "bbox": [60,711,660,790],
+                        "input_value": "太好看了"
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./rednote_tc8_b_4.png",
+                        "xml_path": "./rednote_tc8_b_4.xml",
+                        "action": "click",
+                        "bbox": [562,1424,710,1512]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./rednote_tc8_b_5.png",
+                        "xml_path": "./rednote_tc8_b_5.xml",
+                        "action": "click",
+                        "bbox": [533,770,614,814]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 9,
+            "testcase_desc": "在首页发现页查看“直播”频道，查看第一个直播内容，给主播送一个“人气票”礼物，最后关注主播。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./rednote_tc9_b_1.png",
+                        "xml_path": "./rednote_tc9_b_1.xml",
+                        "action": "click",
+                        "bbox": [220,152,330,232]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./rednote_tc9_b_2.png",
+                        "xml_path": "./rednote_tc9_b_2.xml",
+                        "action": "click",
+                        "bbox": [10,232,355,825]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./rednote_tc9_b_3.png",
+                        "xml_path": "./rednote_tc9_b_3.xml",
+                        "action": "click",
+                        "bbox": [432,1408,512,1488]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./rednote_tc9_b_4.png",
+                        "xml_path": "./rednote_tc9_b_4.xml",
+                        "action": "click",
+                        "bbox": [360,865,630,959]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./rednote_tc9_b_5.png",
+                        "xml_path": "./rednote_tc9_b_5.xml",
+                        "action": "click",
+                        "bbox": [283,92,363,140]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 10,
+            "testcase_desc": "进入“市集”模块，在“穿搭”分类中查看第一个商品，查看所有款式，选择“月夜黑”再立即购买。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./rednote_tc10_b_1.png",
+                        "xml_path": "./rednote_tc10_b_1.xml",
+                        "action": "click",
+                        "bbox": [144,1422,288,1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./rednote_tc10_b_2.png",
+                        "xml_path": "./rednote_tc10_b_2.xml",
+                        "action": "click",
+                        "bbox": [112,152,216,240]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./rednote_tc10_b_3.png",
+                        "xml_path": "./rednote_tc10_b_3.xml",
+                        "action": "click",
+                        "bbox": [10,262,355,956]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./rednote_tc10_b_4.png",
+                        "xml_path": "./rednote_tc10_b_4.xml",
+                        "action": "click",
+                        "bbox": [570,959,704,1079]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./rednote_tc10_b_5.png",
+                        "xml_path": "./rednote_tc10_b_5.xml",
+                        "action": "click",
+                        "bbox": [32,691,212,787]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./rednote_tc10_b_6.png",
+                        "xml_path": "./rednote_tc10_b_6.xml",
+                        "action": "click",
+                        "bbox": [360,1416,696,1496]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 11,
+            "testcase_desc": "在首页搜索“冰岛”的相关内容，选择“风景”，查看第一条内容，滑动查看前两张图片，最后收藏笔记。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./rednote_tc11_b_1.png",
+                        "xml_path": "./rednote_tc11_b_1.xml",
+                        "action": "click",
+                        "bbox": [630,72,702,144]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./rednote_tc11_b_2.png",
+                        "xml_path": "./rednote_tc11_b_2.xml",
+                        "action": "input",
+                        "bbox": [120,72,499,160],
+                        "input_value": "冰岛"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./rednote_tc11_b_3.png",
+                        "xml_path": "./rednote_tc11_b_3.xml",
+                        "action": "click",
+                        "bbox": [240,256,328,344]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./rednote_tc11_b_4.png",
+                        "xml_path": "./rednote_tc11_b_4.xml",
+                        "action": "click",
+                        "bbox": [10,354,355,976]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./rednote_tc11_b_5.png",
+                        "xml_path": "./rednote_tc11_b_5.xml",
+                        "action": "scroll",
+                        "bbox": [0,176,720,1140],
+                        "input_value": "left"
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./rednote_tc11_b_6.png",
+                        "xml_path": "./rednote_tc11_b_6.xml",
+                        "action": "click",
+                        "bbox": [467,1416,578,1496]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 12,
+            "testcase_desc": "在首页创作一条文案，文案内容为“我今天学习了Agent的知识，很开心。”，最后发布作品。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./rednote_tc12_b_1.png",
+                        "xml_path": "./rednote_tc12_b_1.xml",
+                        "action": "click",
+                        "bbox": [288,1422,432,1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./rednote_tc12_b_2.png",
+                        "xml_path": "./rednote_tc12_b_2.xml",
+                        "action": "click",
+                        "bbox": [0,1274,720,1386]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./rednote_tc12_b_3.png",
+                        "xml_path": "./rednote_tc12_b_3.xml",
+                        "action": "input",
+                        "bbox": [110,205,610,878],
+                        "input_value": "我今天学习了Agent的知识，很开心。"
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./rednote_tc12_b_4.png",
+                        "xml_path": "./rednote_tc12_b_4.xml",
+                        "action": "click",
+                        "bbox": [100,1408,620,1488]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./rednote_tc12_b_5.png",
+                        "xml_path": "./rednote_tc12_b_5.xml",
+                        "action": "click",
+                        "bbox": [508,1382,688,1468]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./rednote_tc12_b_6.png",
+                        "xml_path": "./rednote_tc12_b_6.xml",
+                        "action": "click",
+                        "bbox": [266,1378,688,1458]
+                    },
+                    {
+                        "checkpoint_id": 7,
+                        "screenshot_path": "./rednote_tc12_b_7.png",
+                        "xml_path": "./rednote_tc12_b_7.xml",
+                        "action": "click",
+                        "bbox": [276,1378,688,1458]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 13,
+            "testcase_desc": "在首页推荐页所有频道中选择“壁纸”频道，找到第一个点赞大于2000的内容查看，先收藏，再发送“真好看”的评论内容。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./rednote_tc13_b_1.png",
+                        "xml_path": "./rednote_tc13_b_1.xml",
+                        "action": "click",
+                        "bbox": [664,176,696,208]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./rednote_tc13_b_2.png",
+                        "xml_path": "./rednote_tc13_b_2.xml",
+                        "action": "click",
+                        "bbox": [14,429,187,525]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./rednote_tc13_b_3.png",
+                        "xml_path": "./rednote_tc13_b_3.xml",
+                        "action": "click",
+                        "bbox": [10,548,355,1074]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./rednote_tc13_b_4.png",
+                        "xml_path": "./rednote_tc13_b_4.xml",
+                        "action": "click",
+                        "bbox": [437,1416,563,1496]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./rednote_tc13_b_5.png",
+                        "xml_path": "./rednote_tc13_b_5.xml",
+                        "action": "click",
+                        "bbox": [30,1420,267,1492]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./rednote_tc13_b_6.png",
+                        "xml_path": "./rednote_tc13_b_6.xml",
+                        "action": "input",
+                        "bbox": [60,711,660,790],
+                        "input_value": "真好看"
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 14,
+            "testcase_desc": "在主页推荐页侧边栏进入设置，先清空应用缓存，再关闭“新增关注”的互动通知消息。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./rednote_tc14_b_1.png",
+                        "xml_path": "./rednote_tc14_b_1.xml",
+                        "action": "click",
+                        "bbox": [18,72,90,144]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./rednote_tc14_b_2.png",
+                        "xml_path": "./rednote_tc14_b_2.xml",
+                        "action": "click",
+                        "bbox": [352,1286,516,1432]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./rednote_tc14_b_3.png",
+                        "xml_path": "./rednote_tc14_b_3.xml",
+                        "action": "click",
+                        "bbox": [0,756,720,860]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./rednote_tc14_b_4.png",
+                        "xml_path": "./rednote_tc14_b_4.xml",
+                        "action": "click",
+                        "bbox": [518,782,646,890]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./rednote_tc14_b_5.png",
+                        "xml_path": "./rednote_tc14_b_5.xml",
+                        "action": "click",
+                        "bbox": [0,396,720,500]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./rednote_tc14_b_6.png",
+                        "xml_path": "./rednote_tc14_b_6.xml",
+                        "action": "click",
+                        "bbox": [0,397,720,501]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 15,
+            "testcase_desc": "在首页推荐页切换到“视频”模块，观看第一条视频，并筛选“最新”评论，点赞第一条评论。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./rednote_tc15_b_1.png",
+                        "xml_path": "./rednote_tc15_b_1.xml",
+                        "action": "click",
+                        "bbox": [110,152,220,232]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./rednote_tc15_b_2.png",
+                        "xml_path": "./rednote_tc15_b_2.xml",
+                        "action": "click",
+                        "bbox": [10,232,355,876]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./rednote_tc15_b_3.png",
+                        "xml_path": "./rednote_tc15_b_3.xml",
+                        "action": "click",
+                        "bbox": [577,1424,710,1512]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./rednote_tc15_b_4.png",
+                        "xml_path": "./rednote_tc15_b_4.xml",
+                        "action": "click",
+                        "bbox": [10,392,260,480]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./rednote_tc15_b_5.png",
+                        "xml_path": "./rednote_tc15_b_5.xml",
+                        "action": "click",
+                        "bbox": [22,548,254,636]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./rednote_tc15_b_6.png",
+                        "xml_path": "./rednote_tc15_b_6.xml",
+                        "action": "click",
+                        "bbox": [566,622,614,666]
+                    }
+                ]
+            }
+        },
+        {
+            "testcase_id": 16,
+            "testcase_desc": "在首页推荐页搜索“澳洲旅游”，查看第一条内容，进入博主主页，在Ta笔记中搜索“日本”，查看第一条笔记内容。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./rednote_tc16_b_1.png",
+                        "xml_path": "./rednote_tc16_b_1.xml",
+                        "action": "click",
+                        "bbox": [630,72,702,144]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./rednote_tc16_b_2.png",
+                        "xml_path": "./rednote_tc16_b_2.xml",
+                        "action": "input",
+                        "bbox": [120,72,499,160],
+                        "input_value": "澳洲旅游"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./rednote_tc16_b_3.png",
+                        "xml_path": "./rednote_tc16_b_3.xml",
+                        "action": "click",
+                        "bbox": [10,354,355,1006]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./rednote_tc16_b_4.png",
+                        "xml_path": "./rednote_tc16_b_4.xml",
+                        "action": "click",
+                        "bbox": [60,82,492,158]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./rednote_tc16_b_5.png",
+                        "xml_path": "./rednote_tc16_b_5.xml",
+                        "action": "click",
+                        "bbox": [624,890,712,978]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./rednote_tc16_b_6.png",
+                        "xml_path": "./rednote_tc16_b_6.xml",
+                        "action": "input",
+                        "bbox": [102,192,592,256],
+                        "input_value": "日本"
+                    },
+                    {
+                        "checkpoint_id": 7,
+                        "screenshot_path": "./rednote_tc16_b_7.png",
+                        "xml_path": "./rednote_tc16_b_7.xml",
+                        "action": "click",
+                        "bbox": [10,383,355,1027]
+                    }
+                ]
+            }
+        }
+    ]
+}
