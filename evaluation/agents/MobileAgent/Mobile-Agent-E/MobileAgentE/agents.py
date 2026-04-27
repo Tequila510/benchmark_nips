@@ -432,9 +432,7 @@ class Operator(BaseAgent):
                     action_log_str = f"Action: {act} | Description: {summ} | Outcome: Failed | Feedback: {err_des}\n"
                 prompt += action_log_str
                 action_log_strs.append(action_log_str)
-            if latest_outcomes[-1] == "C" and "Tap" in action_log_strs[-1] and "Tap" in action_log_strs[-2]:
-                prompt += "\nHINT: If multiple Tap actions failed to make changes to the screen, consider using a \"Swipe\" action to view more content or use another way to achieve the current subgoal."
-            
+
             prompt += "\n"
         else:
             prompt += "No actions have been taken yet.\n\n"
