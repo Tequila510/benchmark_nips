@@ -11,14 +11,14 @@
                         "screenshot_path": "./kugou_tc1_b_1.png",
                         "xml_path": "./kugou_tc1_b_1.xml",
                         "action": "click",
-                        "bbox": [30,181,510,247]
+                        "bbox": [30, 181, 510, 247]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./kugou_tc1_b_2.png",
                         "xml_path": "./kugou_tc1_b_2.xml",
                         "action": "input",
-                        "bbox": [80,90,600,156],
+                        "bbox": [80, 90, 600, 156],
                         "input_value": "林俊杰"
                     },
                     {
@@ -26,24 +26,190 @@
                         "screenshot_path": "./kugou_tc1_b_3.png",
                         "xml_path": "./kugou_tc1_b_3.xml",
                         "action": "click",
-                        "bbox": [264,307,332,343]
+                        "bbox": [264, 307, 332, 343]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./kugou_tc1_b_4.png",
                         "xml_path": "./kugou_tc1_b_4.xml",
                         "action": "click",
-                        "bbox": [0,829,720,972]
+                        "bbox": [0, 829, 720, 972]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./kugou_tc1_b_5.png",
                         "xml_path": "./kugou_tc1_b_5.xml",
                         "action": "click",
-                        "bbox": [384,1141,450,1199]
+                        "bbox": [384, 1141, 450, 1199]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc1_b_1.png",
+                            "xml_path": "./kugou_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [30, 181, 510, 247]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc1_b_2.png",
+                            "xml_path": "./kugou_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [80, 90, 600, 156],
+                            "input_value": "林俊杰"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc1_b_3.png",
+                            "xml_path": "./kugou_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [264, 307, 332, 343]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc1_b_4.png",
+                            "xml_path": "./kugou_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 829, 720, 972]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc1_EO_5.png",
+                            "xml_path": "./kugou_tc1_EO_5.xml",
+                            "action": "click",
+                            "bbox": [630, 717, 670, 757]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc1_b_5.png",
+                            "xml_path": "./kugou_tc1_b_5.xml",
+                            "action": "click",
+                            "bbox": [384, 1141, 450, 1199]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc1_b_1.png",
+                            "xml_path": "./kugou_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [30, 181, 510, 247]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc1_b_2.png",
+                            "xml_path": "./kugou_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [80, 90, 600, 156],
+                            "input_value": "林俊杰"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc1_b_4.png",
+                            "xml_path": "./kugou_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 829, 720, 972]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc1_b_5.png",
+                            "xml_path": "./kugou_tc1_b_5.xml",
+                            "action": "click",
+                            "bbox": [384, 1141, 450, 1199]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc1_b_1.png",
+                            "xml_path": "./kugou_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [30, 181, 510, 247]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc1_b_2.png",
+                            "xml_path": "./kugou_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [80, 90, 600, 156],
+                            "input_value": "林俊杰"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc1_VA_3.png",
+                            "xml_path": "./kugou_tc1_VA_3.xml",
+                            "action": "click",
+                            "bbox": [264, 307, 332, 343]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc1_b_4.png",
+                            "xml_path": "./kugou_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 829, 720, 972]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc1_b_5.png",
+                            "xml_path": "./kugou_tc1_b_5.xml",
+                            "action": "click",
+                            "bbox": [384, 1141, 450, 1199]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc1_b_1.png",
+                            "xml_path": "./kugou_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [30, 181, 510, 247]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc1_b_2.png",
+                            "xml_path": "./kugou_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [80, 90, 600, 156],
+                            "input_value": "林俊杰"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc1_b_3.png",
+                            "xml_path": "./kugou_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [264, 307, 332, 343]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc1_b_4.png",
+                            "xml_path": "./kugou_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 829, 720, 972]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc1_VA_5.png",
+                            "xml_path": "./kugou_tc1_VA_5.xml",
+                            "action": "click",
+                            "bbox": [384, 1141, 450, 1199]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 2,
@@ -55,31 +221,180 @@
                         "screenshot_path": "./kugou_tc2_b_1.png",
                         "xml_path": "./kugou_tc2_b_1.xml",
                         "action": "click",
-                        "bbox": [150,80,261,170]
+                        "bbox": [150, 80, 261, 170]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./kugou_tc2_b_2.png",
                         "xml_path": "./kugou_tc2_b_2.xml",
                         "action": "click",
-                        "bbox": [306,758,418,915]
+                        "bbox": [306, 758, 418, 915]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./kugou_tc2_b_3.png",
                         "xml_path": "./kugou_tc2_b_3.xml",
                         "action": "click",
-                        "bbox": [258,192,324,232]
+                        "bbox": [258, 192, 324, 232]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./kugou_tc2_b_4.png",
                         "xml_path": "./kugou_tc2_b_4.xml",
                         "action": "click",
-                        "bbox": [20,290,354,758]
+                        "bbox": [20, 290, 354, 758]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc2_b_1.png",
+                            "xml_path": "./kugou_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [150, 80, 261, 170]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc2_b_2.png",
+                            "xml_path": "./kugou_tc2_b_2.xml",
+                            "action": "click",
+                            "bbox": [306, 758, 418, 915]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc2_EO_3.png",
+                            "xml_path": "./kugou_tc2_EO_3.xml",
+                            "action": "click",
+                            "bbox": [610, 305, 674, 369]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc2_b_3.png",
+                            "xml_path": "./kugou_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [258, 192, 324, 232]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc2_b_4.png",
+                            "xml_path": "./kugou_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [20, 290, 354, 758]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc2_b_1.png",
+                            "xml_path": "./kugou_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [150, 80, 261, 170]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc2_VE_2.png",
+                            "xml_path": "./kugou_tc2_VE_2.xml",
+                            "action": "scroll",
+                            "bbox": [0, 758, 720, 930],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc2_b_2.png",
+                            "xml_path": "./kugou_tc2_b_2.xml",
+                            "action": "click",
+                            "bbox": [306, 758, 418, 915]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc2_b_3.png",
+                            "xml_path": "./kugou_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [258, 192, 324, 232]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc2_b_4.png",
+                            "xml_path": "./kugou_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [20, 290, 354, 758]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc2_ED_1.png",
+                            "xml_path": "./kugou_tc2_ED_1.xml",
+                            "action": "click",
+                            "bbox": [150, 54, 261, 102]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc2_b_2.png",
+                            "xml_path": "./kugou_tc2_b_2.xml",
+                            "action": "click",
+                            "bbox": [306, 758, 418, 915]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc2_b_3.png",
+                            "xml_path": "./kugou_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [258, 192, 324, 232]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc2_b_4.png",
+                            "xml_path": "./kugou_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [20, 290, 354, 758]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc2_b_1.png",
+                            "xml_path": "./kugou_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [150, 80, 261, 170]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc2_b_2.png",
+                            "xml_path": "./kugou_tc2_b_2.xml",
+                            "action": "click",
+                            "bbox": [306, 758, 418, 915]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc2_b_3.png",
+                            "xml_path": "./kugou_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [258, 192, 324, 232]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc2_EA_4.png",
+                            "xml_path": "./kugou_tc2_EA_4.xml",
+                            "action": "click",
+                            "bbox": [20, 290, 354, 758]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 3,
@@ -91,38 +406,206 @@
                         "screenshot_path": "./kugou_tc3_b_1.png",
                         "xml_path": "./kugou_tc3_b_1.xml",
                         "action": "click",
-                        "bbox": [290,365,534,653]
+                        "bbox": [290, 365, 534, 653]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./kugou_tc3_b_2.png",
                         "xml_path": "./kugou_tc3_b_2.xml",
                         "action": "click",
-                        "bbox": [360,692,520,780]
+                        "bbox": [360, 692, 520, 780]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./kugou_tc3_b_3.png",
                         "xml_path": "./kugou_tc3_b_3.xml",
                         "action": "click",
-                        "bbox": [0,244,720,464]
+                        "bbox": [0, 244, 720, 464]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./kugou_tc3_b_4.png",
                         "xml_path": "./kugou_tc3_b_4.xml",
                         "action": "click",
-                        "bbox": [300,320,438,374]
+                        "bbox": [300, 320, 438, 374]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./kugou_tc3_b_5.png",
                         "xml_path": "./kugou_tc3_b_5.xml",
                         "action": "click",
-                        "bbox": [0,560,720,692]
+                        "bbox": [0, 560, 720, 692]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc3_b_1.png",
+                            "xml_path": "./kugou_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [290, 365, 534, 653]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc3_VA_2.png",
+                            "xml_path": "./kugou_tc3_VA_2.xml",
+                            "action": "click",
+                            "bbox": [360, 692, 520, 780]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc3_b_3.png",
+                            "xml_path": "./kugou_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 244, 720, 464]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc3_b_4.png",
+                            "xml_path": "./kugou_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [300, 320, 438, 374]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc3_b_5.png",
+                            "xml_path": "./kugou_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 560, 720, 692]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc3_b_1.png",
+                            "xml_path": "./kugou_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [290, 365, 534, 653]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc3_b_2.png",
+                            "xml_path": "./kugou_tc3_b_2.xml",
+                            "action": "click",
+                            "bbox": [360, 692, 520, 780]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc3_EA_3.png",
+                            "xml_path": "./kugou_tc3_EA_3.xml",
+                            "action": "click",
+                            "bbox": [0, 244, 720, 464]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc3_b_4.png",
+                            "xml_path": "./kugou_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [300, 320, 438, 374]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc3_b_5.png",
+                            "xml_path": "./kugou_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 560, 720, 692]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc3_b_1.png",
+                            "xml_path": "./kugou_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [290, 365, 534, 653]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc3_b_2.png",
+                            "xml_path": "./kugou_tc3_b_2.xml",
+                            "action": "click",
+                            "bbox": [360, 692, 520, 780]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc3_EA-T_3.png",
+                            "xml_path": "./kugou_tc3_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc3_b_3.png",
+                            "xml_path": "./kugou_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 244, 720, 464]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc3_b_4.png",
+                            "xml_path": "./kugou_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [300, 320, 438, 374]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc3_b_5.png",
+                            "xml_path": "./kugou_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 560, 720, 692]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc3_b_1.png",
+                            "xml_path": "./kugou_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [290, 365, 534, 653]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc3_b_2.png",
+                            "xml_path": "./kugou_tc3_b_2.xml",
+                            "action": "click",
+                            "bbox": [360, 692, 520, 780]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc3_b_3.png",
+                            "xml_path": "./kugou_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 244, 720, 464]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc3_ED_4.png",
+                            "xml_path": "./kugou_tc3_ED_4.xml",
+                            "action": "click",
+                            "bbox": [298, 182, 442, 236]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc3_b_5.png",
+                            "xml_path": "./kugou_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 560, 720, 692]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 4,
@@ -134,31 +617,185 @@
                         "screenshot_path": "./kugou_tc4_b_1.png",
                         "xml_path": "./kugou_tc4_b_1.xml",
                         "action": "click",
-                        "bbox": [281,80,424,170]
+                        "bbox": [281, 80, 424, 170]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./kugou_tc4_b_2.png",
                         "xml_path": "./kugou_tc4_b_2.xml",
                         "action": "click",
-                        "bbox": [610,828,720,928]
+                        "bbox": [610, 828, 720, 928]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./kugou_tc4_b_3.png",
                         "xml_path": "./kugou_tc4_b_3.xml",
                         "action": "click",
-                        "bbox": [40,1050,205,1090]
+                        "bbox": [40, 1050, 205, 1090]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./kugou_tc4_b_4.png",
                         "xml_path": "./kugou_tc4_b_4.xml",
                         "action": "click",
-                        "bbox": [368,489,690,553]
+                        "bbox": [368, 489, 690, 553]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc4_b_1.png",
+                            "xml_path": "./kugou_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [281, 80, 424, 170]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc4_EO_2.png",
+                            "xml_path": "./kugou_tc4_EO_2.xml",
+                            "action": "click",
+                            "bbox": [218, 1000, 502, 1079]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc4_b_2.png",
+                            "xml_path": "./kugou_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [610, 828, 720, 928]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc4_b_3.png",
+                            "xml_path": "./kugou_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [40, 1050, 205, 1090]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc4_b_4.png",
+                            "xml_path": "./kugou_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [368, 489, 690, 553]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc4_VE_1.png",
+                            "xml_path": "./kugou_tc4_VE_1.xml",
+                            "action": "scroll",
+                            "bbox": [0, 81, 720, 154],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc4_b_1.png",
+                            "xml_path": "./kugou_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [281, 80, 424, 170]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc4_b_2.png",
+                            "xml_path": "./kugou_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [610, 828, 720, 928]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc4_b_3.png",
+                            "xml_path": "./kugou_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [40, 1050, 205, 1090]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc4_b_4.png",
+                            "xml_path": "./kugou_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [368, 489, 690, 553]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc4_b_1.png",
+                            "xml_path": "./kugou_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [281, 80, 424, 170]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc4_b_2.png",
+                            "xml_path": "./kugou_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [610, 828, 720, 928]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc4_b_3.png",
+                            "xml_path": "./kugou_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [40, 1050, 205, 1090]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc4_AC_4.png",
+                            "xml_path": "./kugou_tc4_AC_4.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc4_b_1.png",
+                            "xml_path": "./kugou_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [281, 80, 424, 170]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc4_EA-T_2.png",
+                            "xml_path": "./kugou_tc4_EA-T_2.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc4_b_2.png",
+                            "xml_path": "./kugou_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [610, 828, 720, 928]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc4_b_3.png",
+                            "xml_path": "./kugou_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [40, 1050, 205, 1090]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc4_b_4.png",
+                            "xml_path": "./kugou_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [368, 489, 690, 553]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 5,
@@ -170,52 +807,270 @@
                         "screenshot_path": "./kugou_tc5_b_1.png",
                         "xml_path": "./kugou_tc5_b_1.xml",
                         "action": "click",
-                        "bbox": [550,365,688,501]
+                        "bbox": [550, 365, 688, 501]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./kugou_tc5_b_2.png",
                         "xml_path": "./kugou_tc5_b_2.xml",
                         "action": "click",
-                        "bbox": [254,164,464,296]
+                        "bbox": [254, 164, 464, 296]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./kugou_tc5_b_3.png",
                         "xml_path": "./kugou_tc5_b_3.xml",
                         "action": "click",
-                        "bbox": [640,80,720,170]
+                        "bbox": [640, 80, 720, 170]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./kugou_tc5_b_4.png",
                         "xml_path": "./kugou_tc5_b_4.xml",
                         "action": "click",
-                        "bbox": [46,1018,188,1157]
+                        "bbox": [46, 1018, 188, 1157]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./kugou_tc5_b_5.png",
                         "xml_path": "./kugou_tc5_b_5.xml",
                         "action": "click",
-                        "bbox": [638,930,710,1010]
+                        "bbox": [638, 930, 710, 1010]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./kugou_tc5_b_6.png",
                         "xml_path": "./kugou_tc5_b_6.xml",
                         "action": "click",
-                        "bbox": [0,930,140,1010]
+                        "bbox": [0, 930, 140, 1010]
                     },
                     {
                         "checkpoint_id": 7,
                         "screenshot_path": "./kugou_tc5_b_7.png",
                         "xml_path": "./kugou_tc5_b_7.xml",
                         "action": "click",
-                        "bbox": [280,1350,440,1500]
+                        "bbox": [280, 1350, 440, 1500]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc5_TC_1.png",
+                            "xml_path": "./kugou_tc5_TC_1.xml",
+                            "action": "click",
+                            "bbox": [550, 365, 688, 501]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc5_b_2.png",
+                            "xml_path": "./kugou_tc5_b_2.xml",
+                            "action": "click",
+                            "bbox": [254, 164, 464, 296]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc5_b_3.png",
+                            "xml_path": "./kugou_tc5_b_3.xml",
+                            "action": "click",
+                            "bbox": [640, 80, 720, 170]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc5_b_4.png",
+                            "xml_path": "./kugou_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [46, 1018, 188, 1157]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc5_b_5.png",
+                            "xml_path": "./kugou_tc5_b_5.xml",
+                            "action": "click",
+                            "bbox": [638, 930, 710, 1010]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc5_b_6.png",
+                            "xml_path": "./kugou_tc5_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 930, 140, 1010]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./kugou_tc5_b_7.png",
+                            "xml_path": "./kugou_tc5_b_7.xml",
+                            "action": "click",
+                            "bbox": [280, 1350, 440, 1500]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc5_b_1.png",
+                            "xml_path": "./kugou_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [550, 365, 688, 501]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc5_b_2.png",
+                            "xml_path": "./kugou_tc5_b_2.xml",
+                            "action": "click",
+                            "bbox": [254, 164, 464, 296]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc5_VA_3.png",
+                            "xml_path": "./kugou_tc5_VA_3.xml",
+                            "action": "click",
+                            "bbox": [640, 80, 720, 170]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc5_b_4.png",
+                            "xml_path": "./kugou_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [46, 1018, 188, 1157]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc5_b_5.png",
+                            "xml_path": "./kugou_tc5_b_5.xml",
+                            "action": "click",
+                            "bbox": [638, 930, 710, 1010]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc5_b_6.png",
+                            "xml_path": "./kugou_tc5_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 930, 140, 1010]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./kugou_tc5_b_7.png",
+                            "xml_path": "./kugou_tc5_b_7.xml",
+                            "action": "click",
+                            "bbox": [280, 1350, 440, 1500]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc5_b_1.png",
+                            "xml_path": "./kugou_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [550, 365, 688, 501]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc5_b_2.png",
+                            "xml_path": "./kugou_tc5_b_2.xml",
+                            "action": "click",
+                            "bbox": [254, 164, 464, 296]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc5_b_3.png",
+                            "xml_path": "./kugou_tc5_b_3.xml",
+                            "action": "click",
+                            "bbox": [640, 80, 720, 170]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc5_b_4.png",
+                            "xml_path": "./kugou_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [46, 1018, 188, 1157]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc5_b_5.png",
+                            "xml_path": "./kugou_tc5_b_5.xml",
+                            "action": "click",
+                            "bbox": [638, 930, 710, 1010]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc5_b_6.png",
+                            "xml_path": "./kugou_tc5_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 930, 140, 1010]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./kugou_tc5_ED_7.png",
+                            "xml_path": "./kugou_tc5_ED_7.xml",
+                            "action": "click",
+                            "bbox": [633, 1375, 706, 1458]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc5_b_1.png",
+                            "xml_path": "./kugou_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [550, 365, 688, 501]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc5_b_2.png",
+                            "xml_path": "./kugou_tc5_b_2.xml",
+                            "action": "click",
+                            "bbox": [254, 164, 464, 296]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc5_b_3.png",
+                            "xml_path": "./kugou_tc5_b_3.xml",
+                            "action": "click",
+                            "bbox": [640, 80, 720, 170]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc5_b_4.png",
+                            "xml_path": "./kugou_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [46, 1018, 188, 1157]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc5_EA_5.png",
+                            "xml_path": "./kugou_tc5_EA_5.xml",
+                            "action": "click",
+                            "bbox": [638, 930, 710, 1010]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc5_b_6.png",
+                            "xml_path": "./kugou_tc5_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 930, 140, 1010]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./kugou_tc5_b_7.png",
+                            "xml_path": "./kugou_tc5_b_7.xml",
+                            "action": "click",
+                            "bbox": [280, 1350, 440, 1500]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 6,
@@ -227,45 +1082,248 @@
                         "screenshot_path": "./kugou_tc6_b_1.png",
                         "xml_path": "./kugou_tc6_b_1.xml",
                         "action": "click",
-                        "bbox": [261,80,372,170]
+                        "bbox": [261, 80, 372, 170]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./kugou_tc6_b_2.png",
                         "xml_path": "./kugou_tc6_b_2.xml",
                         "action": "click",
-                        "bbox": [570,181,690,247]
+                        "bbox": [570, 181, 690, 247]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./kugou_tc6_b_3.png",
                         "xml_path": "./kugou_tc6_b_3.xml",
                         "action": "click",
-                        "bbox": [648,258,700,348]
+                        "bbox": [648, 258, 700, 348]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./kugou_tc6_b_4.png",
                         "xml_path": "./kugou_tc6_b_4.xml",
                         "action": "click",
-                        "bbox": [222,363,318,423]
+                        "bbox": [222, 363, 318, 423]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./kugou_tc6_b_5.png",
                         "xml_path": "./kugou_tc6_b_5.xml",
                         "action": "click",
-                        "bbox": [294,453,414,513]
+                        "bbox": [294, 453, 414, 513]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./kugou_tc6_b_6.png",
                         "xml_path": "./kugou_tc6_b_6.xml",
                         "action": "click",
-                        "bbox": [0,630,720,762]
+                        "bbox": [0, 630, 720, 762]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc6_FO_1.png",
+                            "xml_path": "./kugou_tc6_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc6_b_1.png",
+                            "xml_path": "./kugou_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [261, 80, 372, 170]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc6_b_2.png",
+                            "xml_path": "./kugou_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [570, 181, 690, 247]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc6_b_3.png",
+                            "xml_path": "./kugou_tc6_b_3.xml",
+                            "action": "click",
+                            "bbox": [648, 258, 700, 348]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc6_b_4.png",
+                            "xml_path": "./kugou_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [222, 363, 318, 423]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc6_b_5.png",
+                            "xml_path": "./kugou_tc6_b_5.xml",
+                            "action": "click",
+                            "bbox": [294, 453, 414, 513]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./kugou_tc6_b_6.png",
+                            "xml_path": "./kugou_tc6_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 630, 720, 762]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc6_TC_1.png",
+                            "xml_path": "./kugou_tc6_TC_1.xml",
+                            "action": "click",
+                            "bbox": [261, 80, 372, 170]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc6_b_2.png",
+                            "xml_path": "./kugou_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [570, 181, 690, 247]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc6_b_3.png",
+                            "xml_path": "./kugou_tc6_b_3.xml",
+                            "action": "click",
+                            "bbox": [648, 258, 700, 348]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc6_b_4.png",
+                            "xml_path": "./kugou_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [222, 363, 318, 423]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc6_b_5.png",
+                            "xml_path": "./kugou_tc6_b_5.xml",
+                            "action": "click",
+                            "bbox": [294, 453, 414, 513]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc6_b_6.png",
+                            "xml_path": "./kugou_tc6_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 630, 720, 762]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc6_b_1.png",
+                            "xml_path": "./kugou_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [261, 80, 372, 170]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc6_b_2.png",
+                            "xml_path": "./kugou_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [570, 181, 690, 247]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc6_b_3.png",
+                            "xml_path": "./kugou_tc6_b_3.xml",
+                            "action": "click",
+                            "bbox": [648, 258, 700, 348]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc6_b_4.png",
+                            "xml_path": "./kugou_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [222, 363, 318, 423]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc6_b_5.png",
+                            "xml_path": "./kugou_tc6_b_5.xml",
+                            "action": "click",
+                            "bbox": [294, 453, 414, 513]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc6_EA_6.png",
+                            "xml_path": "./kugou_tc6_EA_6.xml",
+                            "action": "click",
+                            "bbox": [0, 630, 720, 762]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc6_b_1.png",
+                            "xml_path": "./kugou_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [261, 80, 372, 170]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc6_b_2.png",
+                            "xml_path": "./kugou_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [570, 181, 690, 247]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc6_b_3.png",
+                            "xml_path": "./kugou_tc6_b_3.xml",
+                            "action": "click",
+                            "bbox": [648, 258, 700, 348]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc6_b_4.png",
+                            "xml_path": "./kugou_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [222, 363, 318, 423]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc6_b_5.png",
+                            "xml_path": "./kugou_tc6_b_5.xml",
+                            "action": "click",
+                            "bbox": [294, 453, 414, 513]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc6_EA-T_6.png",
+                            "xml_path": "./kugou_tc6_EA-T_6.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./kugou_tc6_b_6.png",
+                            "xml_path": "./kugou_tc6_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 630, 720, 762]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 7,
@@ -277,38 +1335,213 @@
                         "screenshot_path": "./kugou_tc7_b_1.png",
                         "xml_path": "./kugou_tc7_b_1.xml",
                         "action": "click",
-                        "bbox": [288,1392,432,1483]
+                        "bbox": [288, 1392, 432, 1483]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./kugou_tc7_b_2.png",
                         "xml_path": "./kugou_tc7_b_2.xml",
                         "action": "click",
-                        "bbox": [118,187,315,241]
+                        "bbox": [118, 187, 315, 241]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./kugou_tc7_b_3.png",
                         "xml_path": "./kugou_tc7_b_3.xml",
                         "action": "click",
-                        "bbox": [0,259,720,391]
+                        "bbox": [0, 259, 720, 391]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./kugou_tc7_b_4.png",
                         "xml_path": "./kugou_tc7_b_4.xml",
                         "action": "click",
-                        "bbox": [180,873,360,963]
+                        "bbox": [180, 873, 360, 963]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./kugou_tc7_b_5.png",
                         "xml_path": "./kugou_tc7_b_5.xml",
                         "action": "click",
-                        "bbox": [0,1042,720,1173]
+                        "bbox": [0, 1042, 720, 1173]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc7_ED_1.png",
+                            "xml_path": "./kugou_tc7_ED_1.xml",
+                            "action": "click",
+                            "bbox": [102, 1406, 157, 1481]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc7_b_2.png",
+                            "xml_path": "./kugou_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [118, 187, 315, 241]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc7_b_3.png",
+                            "xml_path": "./kugou_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 259, 720, 391]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc7_b_4.png",
+                            "xml_path": "./kugou_tc7_b_4.xml",
+                            "action": "click",
+                            "bbox": [180, 873, 360, 963]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc7_b_5.png",
+                            "xml_path": "./kugou_tc7_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 1042, 720, 1173]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc7_FO_1.png",
+                            "xml_path": "./kugou_tc7_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc7_b_1.png",
+                            "xml_path": "./kugou_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [288, 1392, 432, 1483]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc7_b_2.png",
+                            "xml_path": "./kugou_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [118, 187, 315, 241]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc7_b_3.png",
+                            "xml_path": "./kugou_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 259, 720, 391]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc7_b_4.png",
+                            "xml_path": "./kugou_tc7_b_4.xml",
+                            "action": "click",
+                            "bbox": [180, 873, 360, 963]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc7_b_5.png",
+                            "xml_path": "./kugou_tc7_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 1042, 720, 1173]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc7_b_1.png",
+                            "xml_path": "./kugou_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [288, 1392, 432, 1483]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc7_b_2.png",
+                            "xml_path": "./kugou_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [118, 187, 315, 241]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc7_EA-T_3.png",
+                            "xml_path": "./kugou_tc7_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc7_b_3.png",
+                            "xml_path": "./kugou_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 259, 720, 391]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc7_b_4.png",
+                            "xml_path": "./kugou_tc7_b_4.xml",
+                            "action": "click",
+                            "bbox": [180, 873, 360, 963]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc7_b_5.png",
+                            "xml_path": "./kugou_tc7_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 1042, 720, 1173]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc7_b_1.png",
+                            "xml_path": "./kugou_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [288, 1392, 432, 1483]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc7_b_2.png",
+                            "xml_path": "./kugou_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [118, 187, 315, 241]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc7_b_3.png",
+                            "xml_path": "./kugou_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 259, 720, 391]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc7_b_4.png",
+                            "xml_path": "./kugou_tc7_b_4.xml",
+                            "action": "click",
+                            "bbox": [180, 873, 360, 963]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc7_TC_5.png",
+                            "xml_path": "./kugou_tc7_TC_5.xml",
+                            "action": "click",
+                            "bbox": [0, 1042, 720, 1173]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 8,
@@ -320,32 +1553,177 @@
                         "screenshot_path": "./kugou_tc8_b_1.png",
                         "xml_path": "./kugou_tc8_b_1.xml",
                         "action": "click",
-                        "bbox": [144,1392,288,1483]
+                        "bbox": [144, 1392, 288, 1483]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./kugou_tc8_b_2.png",
                         "xml_path": "./kugou_tc8_b_2.xml",
                         "action": "click",
-                        "bbox": [244,106,324,158]
+                        "bbox": [244, 106, 324, 158]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./kugou_tc8_b_3.png",
                         "xml_path": "./kugou_tc8_b_3.xml",
                         "action": "click",
-                        "bbox": [20,1404,336,1512]
+                        "bbox": [20, 1404, 336, 1512]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./kugou_tc8_b_4.png",
                         "xml_path": "./kugou_tc8_b_4.xml",
                         "action": "input",
-                        "bbox": [129,921,499,981],
+                        "bbox": [129, 921, 499, 981],
                         "input_value": "真好听"
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc8_b_1.png",
+                            "xml_path": "./kugou_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1392, 288, 1483]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc8_EO_2.png",
+                            "xml_path": "./kugou_tc8_EO_2.xml",
+                            "action": "click",
+                            "bbox": [324, 1148, 396, 1220]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc8_b_2.png",
+                            "xml_path": "./kugou_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [244, 106, 324, 158]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc8_b_3.png",
+                            "xml_path": "./kugou_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [20, 1404, 336, 1512]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc8_b_4.png",
+                            "xml_path": "./kugou_tc8_b_4.xml",
+                            "action": "input",
+                            "bbox": [129, 921, 499, 981],
+                            "input_value": "真好听"
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc8_b_1.png",
+                            "xml_path": "./kugou_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1392, 288, 1483]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc8_b_3.png",
+                            "xml_path": "./kugou_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [20, 1404, 336, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc8_b_4.png",
+                            "xml_path": "./kugou_tc8_b_4.xml",
+                            "action": "input",
+                            "bbox": [129, 921, 499, 981],
+                            "input_value": "真好听"
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc8_b_1.png",
+                            "xml_path": "./kugou_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1392, 288, 1483]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc8_ED_2.png",
+                            "xml_path": "./kugou_tc8_ED_2.xml",
+                            "action": "click",
+                            "bbox": [96, 246, 181, 301]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc8_b_3.png",
+                            "xml_path": "./kugou_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [20, 1404, 336, 1512]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc8_b_4.png",
+                            "xml_path": "./kugou_tc8_b_4.xml",
+                            "action": "input",
+                            "bbox": [129, 921, 499, 981],
+                            "input_value": "真好听"
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc8_FO_1.png",
+                            "xml_path": "./kugou_tc8_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc8_b_1.png",
+                            "xml_path": "./kugou_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1392, 288, 1483]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc8_b_2.png",
+                            "xml_path": "./kugou_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [244, 106, 324, 158]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc8_b_3.png",
+                            "xml_path": "./kugou_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [20, 1404, 336, 1512]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc8_b_4.png",
+                            "xml_path": "./kugou_tc8_b_4.xml",
+                            "action": "input",
+                            "bbox": [129, 921, 499, 981],
+                            "input_value": "真好听"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 9,
@@ -357,45 +1735,243 @@
                         "screenshot_path": "./kugou_tc9_b_1.png",
                         "xml_path": "./kugou_tc9_b_1.xml",
                         "action": "click",
-                        "bbox": [30,517,284,653]
+                        "bbox": [30, 517, 284, 653]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./kugou_tc9_b_2.png",
                         "xml_path": "./kugou_tc9_b_2.xml",
                         "action": "click",
-                        "bbox": [0,430,720,562]
+                        "bbox": [0, 430, 720, 562]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./kugou_tc9_b_3.png",
                         "xml_path": "./kugou_tc9_b_3.xml",
                         "action": "click",
-                        "bbox": [364,327,690,415]
+                        "bbox": [364, 327, 690, 415]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./kugou_tc9_b_4.png",
                         "xml_path": "./kugou_tc9_b_4.xml",
                         "action": "click",
-                        "bbox": [237,1006,376,1060]
+                        "bbox": [237, 1006, 376, 1060]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./kugou_tc9_b_5.png",
                         "xml_path": "./kugou_tc9_b_5.xml",
                         "action": "click",
-                        "bbox": [0,667,720,798]
+                        "bbox": [0, 667, 720, 798]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./kugou_tc9_b_6.png",
                         "xml_path": "./kugou_tc9_b_6.xml",
                         "action": "click",
-                        "bbox": [0,355,720,487]
+                        "bbox": [0, 355, 720, 487]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc9_b_1.png",
+                            "xml_path": "./kugou_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [30, 517, 284, 653]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc9_b_2.png",
+                            "xml_path": "./kugou_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 430, 720, 562]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc9_b_3.png",
+                            "xml_path": "./kugou_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [364, 327, 690, 415]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc9_EO_4.png",
+                            "xml_path": "./kugou_tc9_EO_4.xml",
+                            "action": "click",
+                            "bbox": [326, 1331, 394, 1399]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc9_b_4.png",
+                            "xml_path": "./kugou_tc9_b_4.xml",
+                            "action": "click",
+                            "bbox": [237, 1006, 376, 1060]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc9_b_5.png",
+                            "xml_path": "./kugou_tc9_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 667, 720, 798]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./kugou_tc9_b_6.png",
+                            "xml_path": "./kugou_tc9_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 355, 720, 487]
+                        }
+                    ]
+                },
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc9_b_1.png",
+                            "xml_path": "./kugou_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [30, 517, 284, 653]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc9_b_2.png",
+                            "xml_path": "./kugou_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 430, 720, 562]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc9_LS_3.png",
+                            "xml_path": "./kugou_tc9_LS_3.xml",
+                            "action": "click",
+                            "bbox": [364, 824, 690, 912]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc9_b_4.png",
+                            "xml_path": "./kugou_tc9_b_4.xml",
+                            "action": "click",
+                            "bbox": [237, 1006, 376, 1060]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc9_b_5.png",
+                            "xml_path": "./kugou_tc9_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 667, 720, 798]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc9_b_6.png",
+                            "xml_path": "./kugou_tc9_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 355, 720, 487]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc9_VE_1.png",
+                            "xml_path": "./kugou_tc9_VE_1.xml",
+                            "action": "scroll",
+                            "bbox": [0, 365, 720, 652],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc9_b_1.png",
+                            "xml_path": "./kugou_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [30, 517, 284, 653]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc9_b_2.png",
+                            "xml_path": "./kugou_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 430, 720, 562]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc9_b_3.png",
+                            "xml_path": "./kugou_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [364, 327, 690, 415]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc9_b_4.png",
+                            "xml_path": "./kugou_tc9_b_4.xml",
+                            "action": "click",
+                            "bbox": [237, 1006, 376, 1060]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc9_b_5.png",
+                            "xml_path": "./kugou_tc9_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 667, 720, 798]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./kugou_tc9_b_6.png",
+                            "xml_path": "./kugou_tc9_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 355, 720, 487]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc9_b_1.png",
+                            "xml_path": "./kugou_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [30, 517, 284, 653]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc9_b_2.png",
+                            "xml_path": "./kugou_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 430, 720, 562]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc9_b_4.png",
+                            "xml_path": "./kugou_tc9_b_4.xml",
+                            "action": "click",
+                            "bbox": [237, 1006, 376, 1060]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc9_b_5.png",
+                            "xml_path": "./kugou_tc9_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 667, 720, 798]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc9_b_6.png",
+                            "xml_path": "./kugou_tc9_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 355, 720, 487]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 10,
@@ -407,31 +1983,200 @@
                         "screenshot_path": "./kugou_tc10_b_1.png",
                         "xml_path": "./kugou_tc10_b_1.xml",
                         "action": "click",
-                        "bbox": [0,850,655,982]
+                        "bbox": [0, 850, 655, 982]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./kugou_tc10_b_2.png",
                         "xml_path": "./kugou_tc10_b_2.xml",
                         "action": "click",
-                        "bbox": [500,1141,600,1199]
+                        "bbox": [384, 1141, 450, 1199]
                     },
                     {
                         "checkpoint_id": 3,
-                        "screenshot_path": "./kugou_tc10_b_3.png",
-                        "xml_path": "./kugou_tc10_b_3.xml",
+                        "screenshot_path": "./kugou_tc10_AC_2.png",
+                        "xml_path": "./kugou_tc10_AC_2.xml",
                         "action": "click",
-                        "bbox": [224,374,280,464]
+                        "bbox": [500, 1141, 600, 1199]
                     },
                     {
                         "checkpoint_id": 4,
+                        "screenshot_path": "./kugou_tc10_b_3.png",
+                        "xml_path": "./kugou_tc10_b_3.xml",
+                        "action": "click",
+                        "bbox": [224, 374, 280, 464]
+                    },
+                    {
+                        "checkpoint_id": 5,
                         "screenshot_path": "./kugou_tc10_b_4.png",
                         "xml_path": "./kugou_tc10_b_4.xml",
                         "action": "click",
-                        "bbox": [510,574,570,632]
+                        "bbox": [510, 574, 570, 632]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc10_EO_1.png",
+                            "xml_path": "./kugou_tc10_EO_1.xml",
+                            "action": "click",
+                            "bbox": [636, 541, 675, 576]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc10_b_1.png",
+                            "xml_path": "./kugou_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 850, 655, 982]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc10_b_2.png",
+                            "xml_path": "./kugou_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [384, 1141, 450, 1199]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc10_AC_2.png",
+                            "xml_path": "./kugou_tc10_AC_2.xml",
+                            "action": "click",
+                            "bbox": [500, 1141, 600, 1199]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc10_b_3.png",
+                            "xml_path": "./kugou_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [224, 374, 280, 464]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc10_b_4.png",
+                            "xml_path": "./kugou_tc10_b_4.xml",
+                            "action": "click",
+                            "bbox": [510, 574, 570, 632]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc10_b_1.png",
+                            "xml_path": "./kugou_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 850, 655, 982]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc10_AC_2.png",
+                            "xml_path": "./kugou_tc10_AC_2.xml",
+                            "action": "click",
+                            "bbox": [500, 1141, 600, 1199]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc10_b_3.png",
+                            "xml_path": "./kugou_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [224, 374, 280, 464]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc10_b_4.png",
+                            "xml_path": "./kugou_tc10_b_4.xml",
+                            "action": "click",
+                            "bbox": [510, 574, 570, 632]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc10_b_1.png",
+                            "xml_path": "./kugou_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 850, 655, 982]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc10_b_2.png",
+                            "xml_path": "./kugou_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [384, 1141, 450, 1199]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc10_AC_2.png",
+                            "xml_path": "./kugou_tc10_AC_2.xml",
+                            "action": "click",
+                            "bbox": [500, 1141, 600, 1199]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc10_VA_4.png",
+                            "xml_path": "./kugou_tc10_VA_4.xml",
+                            "action": "click",
+                            "bbox": [224, 374, 280, 464]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc10_b_4.png",
+                            "xml_path": "./kugou_tc10_b_4.xml",
+                            "action": "click",
+                            "bbox": [510, 574, 570, 632]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc10_TC_1.png",
+                            "xml_path": "./kugou_tc10_TC_1.xml",
+                            "action": "click",
+                            "bbox": [0, 850, 655, 982]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc10_b_2.png",
+                            "xml_path": "./kugou_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [384, 1141, 450, 1199]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc10_AC_2.png",
+                            "xml_path": "./kugou_tc10_AC_2.xml",
+                            "action": "click",
+                            "bbox": [500, 1141, 600, 1199]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc10_b_3.png",
+                            "xml_path": "./kugou_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [224, 374, 280, 464]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc10_b_4.png",
+                            "xml_path": "./kugou_tc10_b_4.xml",
+                            "action": "click",
+                            "bbox": [510, 574, 570, 632]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 11,
@@ -443,38 +2188,213 @@
                         "screenshot_path": "./kugou_tc11_b_1.png",
                         "xml_path": "./kugou_tc11_b_1.xml",
                         "action": "click",
-                        "bbox": [150,80,261,170]
+                        "bbox": [150, 80, 261, 170]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./kugou_tc11_b_2.png",
                         "xml_path": "./kugou_tc11_b_2.xml",
                         "action": "click",
-                        "bbox": [26,174,138,308]
+                        "bbox": [26, 174, 138, 308]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./kugou_tc11_b_3.png",
                         "xml_path": "./kugou_tc11_b_3.xml",
                         "action": "click",
-                        "bbox": [290,634,534,814]
+                        "bbox": [290, 634, 534, 814]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./kugou_tc11_b_4.png",
                         "xml_path": "./kugou_tc11_b_4.xml",
                         "action": "click",
-                        "bbox": [302,174,414,308]
+                        "bbox": [302, 174, 414, 308]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./kugou_tc11_b_5.png",
                         "xml_path": "./kugou_tc11_b_5.xml",
                         "action": "click",
-                        "bbox": [30,398,274,717]
+                        "bbox": [30, 398, 274, 717]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc11_EO_1.png",
+                            "xml_path": "./kugou_tc11_EO_1.xml",
+                            "action": "click",
+                            "bbox": [636, 541, 675, 576]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc11_b_1.png",
+                            "xml_path": "./kugou_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [150, 80, 261, 170]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc11_b_2.png",
+                            "xml_path": "./kugou_tc11_b_2.xml",
+                            "action": "click",
+                            "bbox": [26, 174, 138, 308]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc11_b_3.png",
+                            "xml_path": "./kugou_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [290, 634, 534, 814]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc11_b_4.png",
+                            "xml_path": "./kugou_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [302, 174, 414, 308]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc11_b_5.png",
+                            "xml_path": "./kugou_tc11_b_5.xml",
+                            "action": "click",
+                            "bbox": [30, 398, 274, 717]
+                        }
+                    ]
+                },
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc11_b_1.png",
+                            "xml_path": "./kugou_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [150, 80, 261, 170]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc11_LS_2.png",
+                            "xml_path": "./kugou_tc11_LS_2.xml",
+                            "action": "click",
+                            "bbox": [26, 758, 138, 915]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc11_b_3.png",
+                            "xml_path": "./kugou_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [290, 634, 534, 814]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc11_b_4.png",
+                            "xml_path": "./kugou_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [302, 174, 414, 308]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc11_b_5.png",
+                            "xml_path": "./kugou_tc11_b_5.xml",
+                            "action": "click",
+                            "bbox": [30, 398, 274, 717]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc11_b_1.png",
+                            "xml_path": "./kugou_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [150, 80, 261, 170]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc11_b_2.png",
+                            "xml_path": "./kugou_tc11_b_2.xml",
+                            "action": "click",
+                            "bbox": [26, 174, 138, 308]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc11_b_3.png",
+                            "xml_path": "./kugou_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [290, 634, 534, 814]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc11_b_4.png",
+                            "xml_path": "./kugou_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [302, 174, 414, 308]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc11_EA_5.png",
+                            "xml_path": "./kugou_tc11_EA_5.xml",
+                            "action": "click",
+                            "bbox": [30, 398, 274, 717]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc11_b_1.png",
+                            "xml_path": "./kugou_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [150, 80, 261, 170]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc11_b_2.png",
+                            "xml_path": "./kugou_tc11_b_2.xml",
+                            "action": "click",
+                            "bbox": [26, 174, 138, 308]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc11_b_3.png",
+                            "xml_path": "./kugou_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [290, 634, 534, 814]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc11_b_4.png",
+                            "xml_path": "./kugou_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [302, 174, 414, 308]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc11_EA-T_5.png",
+                            "xml_path": "./kugou_tc11_EA-T_5.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc11_b_5.png",
+                            "xml_path": "./kugou_tc11_b_5.xml",
+                            "action": "click",
+                            "bbox": [30, 398, 274, 717]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 12,
@@ -486,14 +2406,14 @@
                         "screenshot_path": "./kugou_tc12_b_1.png",
                         "xml_path": "./kugou_tc12_b_1.xml",
                         "action": "click",
-                        "bbox": [30,181,510,247]
+                        "bbox": [30, 181, 510, 247]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./kugou_tc12_b_2.png",
                         "xml_path": "./kugou_tc12_b_2.xml",
                         "action": "input",
-                        "bbox": [80,90,600,156],
+                        "bbox": [80, 90, 600, 156],
                         "input_value": "BigBang"
                     },
                     {
@@ -501,31 +2421,232 @@
                         "screenshot_path": "./kugou_tc12_b_3.png",
                         "xml_path": "./kugou_tc12_b_3.xml",
                         "action": "click",
-                        "bbox": [407,777,579,821]
+                        "bbox": [407, 777, 579, 821]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./kugou_tc12_b_4.png",
                         "xml_path": "./kugou_tc12_b_4.xml",
                         "action": "click",
-                        "bbox": [0,835,720,1024]
+                        "bbox": [0, 835, 720, 1024]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./kugou_tc12_b_5.png",
                         "xml_path": "./kugou_tc12_b_5.xml",
                         "action": "click",
-                        "bbox": [321,196,459,250]
+                        "bbox": [321, 196, 459, 250]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./kugou_tc12_b_6.png",
                         "xml_path": "./kugou_tc12_b_6.xml",
                         "action": "click",
-                        "bbox": [0,268,720,399]
+                        "bbox": [0, 268, 720, 399]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc12_b_1.png",
+                            "xml_path": "./kugou_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [30, 181, 510, 247]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc12_b_2.png",
+                            "xml_path": "./kugou_tc12_b_2.xml",
+                            "action": "input",
+                            "bbox": [80, 90, 600, 156],
+                            "input_value": "BigBang"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc12_b_3.png",
+                            "xml_path": "./kugou_tc12_b_3.xml",
+                            "action": "click",
+                            "bbox": [407, 777, 579, 821]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc12_b_4.png",
+                            "xml_path": "./kugou_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 835, 720, 1024]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc12_LS_5.png",
+                            "xml_path": "./kugou_tc12_LS_5.xml",
+                            "action": "click",
+                            "bbox": [321, 1092, 459, 1146]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc12_b_6.png",
+                            "xml_path": "./kugou_tc12_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 268, 720, 399]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc12_b_1.png",
+                            "xml_path": "./kugou_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [30, 181, 510, 247]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc12_b_2.png",
+                            "xml_path": "./kugou_tc12_b_2.xml",
+                            "action": "input",
+                            "bbox": [80, 90, 600, 156],
+                            "input_value": "BigBang"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc12_ED_3.png",
+                            "xml_path": "./kugou_tc12_ED_3.xml",
+                            "action": "click",
+                            "bbox": [413, 715, 589, 740]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc12_b_4.png",
+                            "xml_path": "./kugou_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 835, 720, 1024]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc12_b_5.png",
+                            "xml_path": "./kugou_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [321, 196, 459, 250]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc12_b_6.png",
+                            "xml_path": "./kugou_tc12_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 268, 720, 399]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc12_b_1.png",
+                            "xml_path": "./kugou_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [30, 181, 510, 247]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc12_b_2.png",
+                            "xml_path": "./kugou_tc12_b_2.xml",
+                            "action": "input",
+                            "bbox": [80, 90, 600, 156],
+                            "input_value": "BigBang"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc12_b_3.png",
+                            "xml_path": "./kugou_tc12_b_3.xml",
+                            "action": "click",
+                            "bbox": [407, 777, 579, 821]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc12_b_4.png",
+                            "xml_path": "./kugou_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 835, 720, 1024]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc12_TC_5.png",
+                            "xml_path": "./kugou_tc12_TC_5.xml",
+                            "action": "click",
+                            "bbox": [321, 196, 459, 250]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc12_b_6.png",
+                            "xml_path": "./kugou_tc12_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 268, 720, 399]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc12_FO_1.png",
+                            "xml_path": "./kugou_tc12_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc12_b_1.png",
+                            "xml_path": "./kugou_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [30, 181, 510, 247]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc12_b_2.png",
+                            "xml_path": "./kugou_tc12_b_2.xml",
+                            "action": "input",
+                            "bbox": [80, 90, 600, 156],
+                            "input_value": "BigBang"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc12_b_3.png",
+                            "xml_path": "./kugou_tc12_b_3.xml",
+                            "action": "click",
+                            "bbox": [407, 777, 579, 821]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc12_b_4.png",
+                            "xml_path": "./kugou_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [0, 835, 720, 1024]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc12_b_5.png",
+                            "xml_path": "./kugou_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [321, 196, 459, 250]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./kugou_tc12_b_6.png",
+                            "xml_path": "./kugou_tc12_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 268, 720, 399]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 13,
@@ -537,45 +2658,234 @@
                         "screenshot_path": "./kugou_tc13_b_1.png",
                         "xml_path": "./kugou_tc13_b_1.xml",
                         "action": "click",
-                        "bbox": [576,1392,720,1483]
+                        "bbox": [576, 1392, 720, 1483]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./kugou_tc13_b_2.png",
                         "xml_path": "./kugou_tc13_b_2.xml",
                         "action": "click",
-                        "bbox": [564,602,700,786]
+                        "bbox": [564, 602, 700, 786]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./kugou_tc13_b_3.png",
                         "xml_path": "./kugou_tc13_b_3.xml",
                         "action": "click",
-                        "bbox": [576,182,690,238]
+                        "bbox": [576, 182, 690, 238]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./kugou_tc13_b_4.png",
                         "xml_path": "./kugou_tc13_b_4.xml",
                         "action": "click",
-                        "bbox": [30,1016,250,1100]
+                        "bbox": [30, 1016, 250, 1100]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./kugou_tc13_b_5.png",
                         "xml_path": "./kugou_tc13_b_5.xml",
                         "action": "click",
-                        "bbox": [360,1402,720,1512]
+                        "bbox": [360, 1402, 720, 1512]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./kugou_tc13_b_6.png",
                         "xml_path": "./kugou_tc13_b_6.xml",
                         "action": "click",
-                        "bbox": [120,514,720,646]
+                        "bbox": [120, 514, 720, 646]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc13_b_1.png",
+                            "xml_path": "./kugou_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1392, 720, 1483]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc13_b_2.png",
+                            "xml_path": "./kugou_tc13_b_2.xml",
+                            "action": "click",
+                            "bbox": [564, 602, 700, 786]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc13_VA_3.png",
+                            "xml_path": "./kugou_tc13_VA_3.xml",
+                            "action": "click",
+                            "bbox": [576, 182, 690, 238]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc13_b_4.png",
+                            "xml_path": "./kugou_tc13_b_4.xml",
+                            "action": "click",
+                            "bbox": [30, 1016, 250, 1100]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc13_b_5.png",
+                            "xml_path": "./kugou_tc13_b_5.xml",
+                            "action": "click",
+                            "bbox": [360, 1402, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc13_b_6.png",
+                            "xml_path": "./kugou_tc13_b_6.xml",
+                            "action": "click",
+                            "bbox": [120, 514, 720, 646]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc13_b_1.png",
+                            "xml_path": "./kugou_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1392, 720, 1483]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc13_b_2.png",
+                            "xml_path": "./kugou_tc13_b_2.xml",
+                            "action": "click",
+                            "bbox": [564, 602, 700, 786]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc13_b_3.png",
+                            "xml_path": "./kugou_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [576, 182, 690, 238]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc13_b_5.png",
+                            "xml_path": "./kugou_tc13_b_5.xml",
+                            "action": "click",
+                            "bbox": [360, 1402, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc13_b_6.png",
+                            "xml_path": "./kugou_tc13_b_6.xml",
+                            "action": "click",
+                            "bbox": [120, 514, 720, 646]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc13_b_1.png",
+                            "xml_path": "./kugou_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1392, 720, 1483]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc13_b_2.png",
+                            "xml_path": "./kugou_tc13_b_2.xml",
+                            "action": "click",
+                            "bbox": [564, 602, 700, 786]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc13_b_3.png",
+                            "xml_path": "./kugou_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [576, 182, 690, 238]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc13_b_4.png",
+                            "xml_path": "./kugou_tc13_b_4.xml",
+                            "action": "click",
+                            "bbox": [30, 1016, 250, 1100]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc13_b_5.png",
+                            "xml_path": "./kugou_tc13_b_5.xml",
+                            "action": "click",
+                            "bbox": [360, 1402, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc13_EA_6.png",
+                            "xml_path": "./kugou_tc13_EA_6.xml",
+                            "action": "click",
+                            "bbox": [120, 514, 720, 646]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc13_b_1.png",
+                            "xml_path": "./kugou_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1392, 720, 1483]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc13_b_2.png",
+                            "xml_path": "./kugou_tc13_b_2.xml",
+                            "action": "click",
+                            "bbox": [564, 602, 700, 786]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc13_b_3.png",
+                            "xml_path": "./kugou_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [576, 182, 690, 238]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc13_b_4.png",
+                            "xml_path": "./kugou_tc13_b_4.xml",
+                            "action": "click",
+                            "bbox": [30, 1016, 250, 1100]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc13_b_5.png",
+                            "xml_path": "./kugou_tc13_b_5.xml",
+                            "action": "click",
+                            "bbox": [360, 1402, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc13_EA-T_6.png",
+                            "xml_path": "./kugou_tc13_EA-T_6.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./kugou_tc13_b_6.png",
+                            "xml_path": "./kugou_tc13_b_6.xml",
+                            "action": "click",
+                            "bbox": [120, 514, 720, 646]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 14,
@@ -587,14 +2897,14 @@
                         "screenshot_path": "./kugou_tc14_b_1.png",
                         "xml_path": "./kugou_tc14_b_1.xml",
                         "action": "click",
-                        "bbox": [30,181,510,247]
+                        "bbox": [30, 181, 510, 247]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./kugou_tc14_b_2.png",
                         "xml_path": "./kugou_tc14_b_2.xml",
                         "action": "input",
-                        "bbox": [80,90,600,156],
+                        "bbox": [80, 90, 600, 156],
                         "input_value": "Alan Walker"
                     },
                     {
@@ -602,24 +2912,197 @@
                         "screenshot_path": "./kugou_tc14_b_3.png",
                         "xml_path": "./kugou_tc14_b_3.xml",
                         "action": "click",
-                        "bbox": [142,929,281,959]
+                        "bbox": [142, 929, 281, 959]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./kugou_tc14_b_4.png",
                         "xml_path": "./kugou_tc14_b_4.xml",
                         "action": "click",
-                        "bbox": [638,176,720,288]
+                        "bbox": [638, 176, 720, 288]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./kugou_tc14_b_5.png",
                         "xml_path": "./kugou_tc14_b_5.xml",
                         "action": "click",
-                        "bbox": [50,858,205,998]
+                        "bbox": [50, 858, 205, 998]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc14_b_1.png",
+                            "xml_path": "./kugou_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [30, 181, 510, 247]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc14_b_2.png",
+                            "xml_path": "./kugou_tc14_b_2.xml",
+                            "action": "input",
+                            "bbox": [80, 90, 600, 156],
+                            "input_value": "Alan Walker"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc14_b_3.png",
+                            "xml_path": "./kugou_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [142, 929, 281, 959]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc14_b_4.png",
+                            "xml_path": "./kugou_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [638, 176, 720, 288]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc14_VA_5.png",
+                            "xml_path": "./kugou_tc14_VA_5.xml",
+                            "action": "click",
+                            "bbox": [50, 858, 205, 998]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc14_b_1.png",
+                            "xml_path": "./kugou_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [30, 181, 510, 247]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc14_b_2.png",
+                            "xml_path": "./kugou_tc14_b_2.xml",
+                            "action": "input",
+                            "bbox": [80, 90, 600, 156],
+                            "input_value": "Alan Walker"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc14_TC_3.png",
+                            "xml_path": "./kugou_tc14_TC_3.xml",
+                            "action": "click",
+                            "bbox": [142, 929, 281, 959]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc14_b_4.png",
+                            "xml_path": "./kugou_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [638, 176, 720, 288]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc14_b_5.png",
+                            "xml_path": "./kugou_tc14_b_5.xml",
+                            "action": "click",
+                            "bbox": [50, 858, 205, 998]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc14_FO_1.png",
+                            "xml_path": "./kugou_tc14_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc14_b_1.png",
+                            "xml_path": "./kugou_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [30, 181, 510, 247]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc14_b_2.png",
+                            "xml_path": "./kugou_tc14_b_2.xml",
+                            "action": "input",
+                            "bbox": [80, 90, 600, 156],
+                            "input_value": "Alan Walker"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc14_b_3.png",
+                            "xml_path": "./kugou_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [142, 929, 281, 959]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc14_b_4.png",
+                            "xml_path": "./kugou_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [638, 176, 720, 288]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc14_b_5.png",
+                            "xml_path": "./kugou_tc14_b_5.xml",
+                            "action": "click",
+                            "bbox": [50, 858, 205, 998]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc14_b_1.png",
+                            "xml_path": "./kugou_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [30, 181, 510, 247]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc14_b_2.png",
+                            "xml_path": "./kugou_tc14_b_2.xml",
+                            "action": "input",
+                            "bbox": [80, 90, 600, 156],
+                            "input_value": "Alan Walker"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc14_b_3.png",
+                            "xml_path": "./kugou_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [142, 929, 281, 959]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc14_b_4.png",
+                            "xml_path": "./kugou_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [638, 176, 720, 288]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc14_ED_5.png",
+                            "xml_path": "./kugou_tc14_ED_5.xml",
+                            "action": "click",
+                            "bbox": [194, 1049, 253, 1133]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 15,
@@ -631,35 +3114,35 @@
                         "screenshot_path": "./kugou_tc15_b_1.png",
                         "xml_path": "./kugou_tc15_b_1.xml",
                         "action": "click",
-                        "bbox": [300,517,554,653]
+                        "bbox": [300, 517, 554, 653]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./kugou_tc15_b_2.png",
                         "xml_path": "./kugou_tc15_b_2.xml",
                         "action": "click",
-                        "bbox": [362,110,544,140]
+                        "bbox": [362, 110, 544, 140]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./kugou_tc15_b_3.png",
                         "xml_path": "./kugou_tc15_b_3.xml",
                         "action": "click",
-                        "bbox": [194,782,320,952]
+                        "bbox": [194, 782, 320, 952]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./kugou_tc15_b_4.png",
                         "xml_path": "./kugou_tc15_b_4.xml",
                         "action": "click",
-                        "bbox": [50,270,670,586]
+                        "bbox": [50, 270, 670, 586]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./kugou_tc15_b_5.png",
                         "xml_path": "./kugou_tc15_b_5.xml",
                         "action": "input",
-                        "bbox": [50,858,205,998],
+                        "bbox": [50, 858, 205, 998],
                         "input_value": "我错过了很多人，唯独不想错过你。"
                     },
                     {
@@ -667,10 +3150,211 @@
                         "screenshot_path": "./kugou_tc15_b_6.png",
                         "xml_path": "./kugou_tc15_b_6.xml",
                         "action": "click",
-                        "bbox": [30,1374,690,1456]
+                        "bbox": [30, 1374, 690, 1456]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc15_VE_1.png",
+                            "xml_path": "./kugou_tc15_VE_1.xml",
+                            "action": "scroll",
+                            "bbox": [0, 364, 720, 653],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc15_b_1.png",
+                            "xml_path": "./kugou_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [300, 517, 554, 653]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc15_b_2.png",
+                            "xml_path": "./kugou_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [362, 110, 544, 140]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc15_b_3.png",
+                            "xml_path": "./kugou_tc15_b_3.xml",
+                            "action": "click",
+                            "bbox": [194, 782, 320, 952]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc15_b_4.png",
+                            "xml_path": "./kugou_tc15_b_4.xml",
+                            "action": "click",
+                            "bbox": [50, 270, 670, 586]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc15_b_5.png",
+                            "xml_path": "./kugou_tc15_b_5.xml",
+                            "action": "input",
+                            "bbox": [50, 858, 205, 998],
+                            "input_value": "我错过了很多人，唯独不想错过你。"
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./kugou_tc15_b_6.png",
+                            "xml_path": "./kugou_tc15_b_6.xml",
+                            "action": "click",
+                            "bbox": [30, 1374, 690, 1456]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc15_b_1.png",
+                            "xml_path": "./kugou_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [300, 517, 554, 653]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc15_b_2.png",
+                            "xml_path": "./kugou_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [362, 110, 544, 140]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc15_b_4.png",
+                            "xml_path": "./kugou_tc15_b_4.xml",
+                            "action": "click",
+                            "bbox": [50, 270, 670, 586]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc15_b_5.png",
+                            "xml_path": "./kugou_tc15_b_5.xml",
+                            "action": "input",
+                            "bbox": [50, 858, 205, 998],
+                            "input_value": "我错过了很多人，唯独不想错过你。"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc15_b_6.png",
+                            "xml_path": "./kugou_tc15_b_6.xml",
+                            "action": "click",
+                            "bbox": [30, 1374, 690, 1456]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc15_b_1.png",
+                            "xml_path": "./kugou_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [300, 517, 554, 653]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc15_b_2.png",
+                            "xml_path": "./kugou_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [362, 110, 544, 140]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc15_EA_3.png",
+                            "xml_path": "./kugou_tc15_EA_3.xml",
+                            "action": "click",
+                            "bbox": [194, 782, 320, 952]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc15_b_4.png",
+                            "xml_path": "./kugou_tc15_b_4.xml",
+                            "action": "click",
+                            "bbox": [50, 270, 670, 586]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc15_b_5.png",
+                            "xml_path": "./kugou_tc15_b_5.xml",
+                            "action": "input",
+                            "bbox": [50, 858, 205, 998],
+                            "input_value": "我错过了很多人，唯独不想错过你。"
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc15_b_6.png",
+                            "xml_path": "./kugou_tc15_b_6.xml",
+                            "action": "click",
+                            "bbox": [30, 1374, 690, 1456]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./kugou_tc15_b_1.png",
+                            "xml_path": "./kugou_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [300, 517, 554, 653]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./kugou_tc15_b_2.png",
+                            "xml_path": "./kugou_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [362, 110, 544, 140]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./kugou_tc15_EA-T_3.png",
+                            "xml_path": "./kugou_tc15_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./kugou_tc15_b_3.png",
+                            "xml_path": "./kugou_tc15_b_3.xml",
+                            "action": "click",
+                            "bbox": [194, 782, 320, 952]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./kugou_tc15_b_4.png",
+                            "xml_path": "./kugou_tc15_b_4.xml",
+                            "action": "click",
+                            "bbox": [50, 270, 670, 586]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./kugou_tc15_b_5.png",
+                            "xml_path": "./kugou_tc15_b_5.xml",
+                            "action": "input",
+                            "bbox": [50, 858, 205, 998],
+                            "input_value": "我错过了很多人，唯独不想错过你。"
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./kugou_tc15_b_6.png",
+                            "xml_path": "./kugou_tc15_b_6.xml",
+                            "action": "click",
+                            "bbox": [30, 1374, 690, 1456]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
