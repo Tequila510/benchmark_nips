@@ -11,14 +11,14 @@
                         "screenshot_path": "./rednote_tc1_b_1.png",
                         "xml_path": "./rednote_tc1_b_1.xml",
                         "action": "click",
-                        "bbox": [630,72,702,144]
+                        "bbox": [630, 72, 702, 144]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./rednote_tc1_b_2.png",
                         "xml_path": "./rednote_tc1_b_2.xml",
                         "action": "input",
-                        "bbox": [120,72,499,160],
+                        "bbox": [120, 72, 499, 160],
                         "input_value": "股票期权"
                     },
                     {
@@ -26,31 +26,218 @@
                         "screenshot_path": "./rednote_tc1_b_3.png",
                         "xml_path": "./rednote_tc1_b_3.xml",
                         "action": "click",
-                        "bbox": [10,354,355,1006]
+                        "bbox": [10, 354, 355, 1006]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./rednote_tc1_b_4.png",
                         "xml_path": "./rednote_tc1_b_4.xml",
                         "action": "click",
-                        "bbox": [492,92,618,148]
+                        "bbox": [492, 92, 618, 148]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./rednote_tc1_b_5.png",
                         "xml_path": "./rednote_tc1_b_5.xml",
                         "action": "click",
-                        "bbox": [618,76,706,164]
+                        "bbox": [618, 76, 706, 164]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./rednote_tc1_b_6.png",
                         "xml_path": "./rednote_tc1_b_6.xml",
                         "action": "click",
-                        "bbox": [30,1106,150,1286]
+                        "bbox": [30, 1106, 150, 1286]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc1_b_1.png",
+                            "xml_path": "./rednote_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [630, 72, 702, 144]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc1_b_2.png",
+                            "xml_path": "./rednote_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [120, 72, 499, 160],
+                            "input_value": "股票期权"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc1_b_3.png",
+                            "xml_path": "./rednote_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [10, 354, 355, 1006]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc1_b_4.png",
+                            "xml_path": "./rednote_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [492, 92, 618, 148]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc1_VA_5.png",
+                            "xml_path": "./rednote_tc1_VA_5.xml",
+                            "action": "click",
+                            "bbox": [618, 76, 706, 164]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc1_b_6.png",
+                            "xml_path": "./rednote_tc1_b_6.xml",
+                            "action": "click",
+                            "bbox": [30, 1106, 150, 1286]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc1_b_1.png",
+                            "xml_path": "./rednote_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [630, 72, 702, 144]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc1_b_2.png",
+                            "xml_path": "./rednote_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [120, 72, 499, 160],
+                            "input_value": "股票期权"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc1_b_3.png",
+                            "xml_path": "./rednote_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [10, 354, 355, 1006]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc1_b_5.png",
+                            "xml_path": "./rednote_tc1_b_5.xml",
+                            "action": "click",
+                            "bbox": [618, 76, 706, 164]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc1_b_6.png",
+                            "xml_path": "./rednote_tc1_b_6.xml",
+                            "action": "click",
+                            "bbox": [30, 1106, 150, 1286]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc1_b_1.png",
+                            "xml_path": "./rednote_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [630, 72, 702, 144]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc1_b_2.png",
+                            "xml_path": "./rednote_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [120, 72, 499, 160],
+                            "input_value": "股票期权"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc1_b_3.png",
+                            "xml_path": "./rednote_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [10, 354, 355, 1006]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc1_b_4.png",
+                            "xml_path": "./rednote_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [492, 92, 618, 148]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc1_b_5.png",
+                            "xml_path": "./rednote_tc1_b_5.xml",
+                            "action": "click",
+                            "bbox": [618, 76, 706, 164]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc1_ED_6.png",
+                            "xml_path": "./rednote_tc1_ED_6.xml",
+                            "action": "click",
+                            "bbox": [570, 860, 697, 1017]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc1_b_1.png",
+                            "xml_path": "./rednote_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [630, 72, 702, 144]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc1_b_2.png",
+                            "xml_path": "./rednote_tc1_b_2.xml",
+                            "action": "input",
+                            "bbox": [120, 72, 499, 160],
+                            "input_value": "股票期权"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc1_EA_3.png",
+                            "xml_path": "./rednote_tc1_EA_3.xml",
+                            "action": "click",
+                            "bbox": [10, 354, 355, 1006]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc1_b_4.png",
+                            "xml_path": "./rednote_tc1_b_4.xml",
+                            "action": "click",
+                            "bbox": [492, 92, 618, 148]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc1_b_5.png",
+                            "xml_path": "./rednote_tc1_b_5.xml",
+                            "action": "click",
+                            "bbox": [618, 76, 706, 164]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc1_b_6.png",
+                            "xml_path": "./rednote_tc1_b_6.xml",
+                            "action": "click",
+                            "bbox": [30, 1106, 150, 1286]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 2,
@@ -62,14 +249,14 @@
                         "screenshot_path": "./rednote_tc2_b_1.png",
                         "xml_path": "./rednote_tc2_b_1.xml",
                         "action": "click",
-                        "bbox": [630,72,702,144]
+                        "bbox": [630, 72, 702, 144]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./rednote_tc2_b_2.png",
                         "xml_path": "./rednote_tc2_b_2.xml",
                         "action": "input",
-                        "bbox": [120,72,499,160],
+                        "bbox": [120, 72, 499, 160],
                         "input_value": "股票期权"
                     },
                     {
@@ -77,38 +264,266 @@
                         "screenshot_path": "./rednote_tc2_b_3.png",
                         "xml_path": "./rednote_tc2_b_3.xml",
                         "action": "click",
-                        "bbox": [8,168,160,256]
+                        "bbox": [8, 168, 160, 256]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./rednote_tc2_b_4.png",
                         "xml_path": "./rednote_tc2_b_4.xml",
                         "action": "click",
-                        "bbox": [200,338,352,410]
+                        "bbox": [200, 338, 352, 410]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./rednote_tc2_b_5.png",
                         "xml_path": "./rednote_tc2_b_5.xml",
                         "action": "click",
-                        "bbox": [368,588,520,660]
+                        "bbox": [368, 588, 520, 660]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./rednote_tc2_b_6.png",
                         "xml_path": "./rednote_tc2_b_6.xml",
                         "action": "click",
-                        "bbox": [360,1178,720,1274]
+                        "bbox": [360, 1178, 720, 1274]
                     },
                     {
                         "checkpoint_id": 7,
                         "screenshot_path": "./rednote_tc2_b_7.png",
                         "xml_path": "./rednote_tc2_b_7.xml",
                         "action": "click",
-                        "bbox": [10,354,355,1006]
+                        "bbox": [10, 354, 355, 1006]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc2_b_1.png",
+                            "xml_path": "./rednote_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [630, 72, 702, 144]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc2_b_2.png",
+                            "xml_path": "./rednote_tc2_b_2.xml",
+                            "action": "input",
+                            "bbox": [120, 72, 499, 160],
+                            "input_value": "股票期权"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc2_b_3.png",
+                            "xml_path": "./rednote_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [8, 168, 160, 256]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc2_b_4.png",
+                            "xml_path": "./rednote_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [200, 338, 352, 410]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc2_b_5.png",
+                            "xml_path": "./rednote_tc2_b_5.xml",
+                            "action": "click",
+                            "bbox": [368, 588, 520, 660]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc2_b_6.png",
+                            "xml_path": "./rednote_tc2_b_6.xml",
+                            "action": "click",
+                            "bbox": [360, 1178, 720, 1274]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc2_EA_7.png",
+                            "xml_path": "./rednote_tc2_EA_7.xml",
+                            "action": "click",
+                            "bbox": [10, 354, 355, 1006]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc2_b_1.png",
+                            "xml_path": "./rednote_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [630, 72, 702, 144]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc2_b_2.png",
+                            "xml_path": "./rednote_tc2_b_2.xml",
+                            "action": "input",
+                            "bbox": [120, 72, 499, 160],
+                            "input_value": "股票期权"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc2_b_3.png",
+                            "xml_path": "./rednote_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [8, 168, 160, 256]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc2_b_4.png",
+                            "xml_path": "./rednote_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [200, 338, 352, 410]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc2_b_5.png",
+                            "xml_path": "./rednote_tc2_b_5.xml",
+                            "action": "click",
+                            "bbox": [368, 588, 520, 660]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc2_b_6.png",
+                            "xml_path": "./rednote_tc2_b_6.xml",
+                            "action": "click",
+                            "bbox": [360, 1178, 720, 1274]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc2_EA-T_7.png",
+                            "xml_path": "./rednote_tc2_EA-T_7.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./rednote_tc2_b_7.png",
+                            "xml_path": "./rednote_tc2_b_7.xml",
+                            "action": "click",
+                            "bbox": [10, 354, 355, 1006]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc2_b_1.png",
+                            "xml_path": "./rednote_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [630, 72, 702, 144]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc2_b_2.png",
+                            "xml_path": "./rednote_tc2_b_2.xml",
+                            "action": "input",
+                            "bbox": [120, 72, 499, 160],
+                            "input_value": "股票期权"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc2_b_3.png",
+                            "xml_path": "./rednote_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [8, 168, 160, 256]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc2_ED_4.png",
+                            "xml_path": "./rednote_tc2_ED_4.xml",
+                            "action": "click",
+                            "bbox": [287, 421, 439, 490]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc2_b_5.png",
+                            "xml_path": "./rednote_tc2_b_5.xml",
+                            "action": "click",
+                            "bbox": [368, 588, 520, 660]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc2_b_6.png",
+                            "xml_path": "./rednote_tc2_b_6.xml",
+                            "action": "click",
+                            "bbox": [360, 1178, 720, 1274]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc2_b_7.png",
+                            "xml_path": "./rednote_tc2_b_7.xml",
+                            "action": "click",
+                            "bbox": [10, 354, 355, 1006]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc2_b_1.png",
+                            "xml_path": "./rednote_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [630, 72, 702, 144]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc2_b_2.png",
+                            "xml_path": "./rednote_tc2_b_2.xml",
+                            "action": "input",
+                            "bbox": [120, 72, 499, 160],
+                            "input_value": "股票期权"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc2_b_3.png",
+                            "xml_path": "./rednote_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [8, 168, 160, 256]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc2_b_4.png",
+                            "xml_path": "./rednote_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [200, 338, 352, 410]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc2_b_5.png",
+                            "xml_path": "./rednote_tc2_b_5.xml",
+                            "action": "click",
+                            "bbox": [368, 588, 520, 660]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc2_b_6.png",
+                            "xml_path": "./rednote_tc2_b_6.xml",
+                            "action": "click",
+                            "bbox": [360, 1178, 720, 1274]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc2_TC_7.png",
+                            "xml_path": "./rednote_tc2_TC_7.xml",
+                            "action": "click",
+                            "bbox": [10, 354, 355, 1006]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 3,
@@ -120,38 +535,198 @@
                         "screenshot_path": "./rednote_tc3_b_1.png",
                         "xml_path": "./rednote_tc3_b_1.xml",
                         "action": "click",
-                        "bbox": [664,176,696,208]
+                        "bbox": [664, 176, 696, 208]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./rednote_tc3_b_2.png",
                         "xml_path": "./rednote_tc3_b_2.xml",
                         "action": "click",
-                        "bbox": [28,1002,173,1074]
+                        "bbox": [28, 1002, 173, 1074]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./rednote_tc3_b_3.png",
                         "xml_path": "./rednote_tc3_b_3.xml",
                         "action": "click",
-                        "bbox": [187,813,360,909]
+                        "bbox": [187, 813, 360, 909]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./rednote_tc3_b_4.png",
                         "xml_path": "./rednote_tc3_b_4.xml",
                         "action": "click",
-                        "bbox": [10,232,355,876]
+                        "bbox": [10, 232, 355, 876]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./rednote_tc3_b_5.png",
                         "xml_path": "./rednote_tc3_b_5.xml",
                         "action": "click",
-                        "bbox": [280,1400,406,1512]
+                        "bbox": [280, 1400, 406, 1512]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc3_b_1.png",
+                            "xml_path": "./rednote_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [664, 176, 696, 208]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc3_b_2.png",
+                            "xml_path": "./rednote_tc3_b_2.xml",
+                            "action": "click",
+                            "bbox": [28, 1002, 173, 1074]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc3_b_3.png",
+                            "xml_path": "./rednote_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [187, 813, 360, 909]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc3_b_4.png",
+                            "xml_path": "./rednote_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 232, 355, 876]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc3_VA_5.png",
+                            "xml_path": "./rednote_tc3_VA_5.xml",
+                            "action": "click",
+                            "bbox": [280, 1400, 406, 1512]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc3_b_1.png",
+                            "xml_path": "./rednote_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [664, 176, 696, 208]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc3_b_3.png",
+                            "xml_path": "./rednote_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [187, 813, 360, 909]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc3_b_4.png",
+                            "xml_path": "./rednote_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 232, 355, 876]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc3_b_5.png",
+                            "xml_path": "./rednote_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [280, 1400, 406, 1512]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc3_b_1.png",
+                            "xml_path": "./rednote_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [664, 176, 696, 208]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc3_b_2.png",
+                            "xml_path": "./rednote_tc3_b_2.xml",
+                            "action": "click",
+                            "bbox": [28, 1002, 173, 1074]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc3_b_3.png",
+                            "xml_path": "./rednote_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [187, 813, 360, 909]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc3_EA-T_4.png",
+                            "xml_path": "./rednote_tc3_EA-T_4.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc3_b_4.png",
+                            "xml_path": "./rednote_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 232, 355, 876]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc3_b_5.png",
+                            "xml_path": "./rednote_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [280, 1400, 406, 1512]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc3_b_1.png",
+                            "xml_path": "./rednote_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [664, 176, 696, 208]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc3_b_2.png",
+                            "xml_path": "./rednote_tc3_b_2.xml",
+                            "action": "click",
+                            "bbox": [28, 1002, 173, 1074]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc3_b_3.png",
+                            "xml_path": "./rednote_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [187, 813, 360, 909]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc3_b_4.png",
+                            "xml_path": "./rednote_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 232, 355, 876]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc3_AC_5.png",
+                            "xml_path": "./rednote_tc3_AC_5.xml",
+                            "action": "finish"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 4,
@@ -163,38 +738,206 @@
                         "screenshot_path": "./rednote_tc4_b_1.png",
                         "xml_path": "./rednote_tc4_b_1.xml",
                         "action": "click",
-                        "bbox": [144,1422,288,1512]
+                        "bbox": [144, 1422, 288, 1512]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./rednote_tc4_b_2.png",
                         "xml_path": "./rednote_tc4_b_2.xml",
                         "action": "click",
-                        "bbox": [308,265,442,409]
+                        "bbox": [308, 265, 442, 409]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./rednote_tc4_b_3.png",
                         "xml_path": "./rednote_tc4_b_3.xml",
                         "action": "click",
-                        "bbox": [13,162,355,619]
+                        "bbox": [13, 162, 355, 619]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./rednote_tc4_b_4.png",
                         "xml_path": "./rednote_tc4_b_4.xml",
                         "action": "click",
-                        "bbox": [594,1416,690,1496]
+                        "bbox": [594, 1416, 690, 1496]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./rednote_tc4_b_5.png",
                         "xml_path": "./rednote_tc4_b_5.xml",
                         "action": "click",
-                        "bbox": [563,519,614,563]
+                        "bbox": [563, 519, 614, 563]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc4_b_1.png",
+                            "xml_path": "./rednote_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1422, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc4_b_2.png",
+                            "xml_path": "./rednote_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [308, 265, 442, 409]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc4_b_3.png",
+                            "xml_path": "./rednote_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [13, 162, 355, 619]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc4_b_4.png",
+                            "xml_path": "./rednote_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [594, 1416, 690, 1496]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc4_VA_5.png",
+                            "xml_path": "./rednote_tc4_VA_5.xml",
+                            "action": "click",
+                            "bbox": [563, 519, 614, 563]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc4_b_1.png",
+                            "xml_path": "./rednote_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1422, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc4_ED_2.png",
+                            "xml_path": "./rednote_tc4_ED_2.xml",
+                            "action": "click",
+                            "bbox": [308, 215, 442, 341]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc4_b_3.png",
+                            "xml_path": "./rednote_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [13, 162, 355, 619]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc4_b_4.png",
+                            "xml_path": "./rednote_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [594, 1416, 690, 1496]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc4_b_5.png",
+                            "xml_path": "./rednote_tc4_b_5.xml",
+                            "action": "click",
+                            "bbox": [563, 519, 614, 563]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc4_b_1.png",
+                            "xml_path": "./rednote_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1422, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc4_b_2.png",
+                            "xml_path": "./rednote_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [308, 265, 442, 409]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc4_EA_3.png",
+                            "xml_path": "./rednote_tc4_EA_3.xml",
+                            "action": "click",
+                            "bbox": [13, 162, 355, 619]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc4_b_4.png",
+                            "xml_path": "./rednote_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [594, 1416, 690, 1496]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc4_b_5.png",
+                            "xml_path": "./rednote_tc4_b_5.xml",
+                            "action": "click",
+                            "bbox": [563, 519, 614, 563]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc4_b_1.png",
+                            "xml_path": "./rednote_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1422, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc4_b_2.png",
+                            "xml_path": "./rednote_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [308, 265, 442, 409]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc4_EA-T_3.png",
+                            "xml_path": "./rednote_tc4_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc4_b_3.png",
+                            "xml_path": "./rednote_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [13, 162, 355, 619]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc4_b_4.png",
+                            "xml_path": "./rednote_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [594, 1416, 690, 1496]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc4_b_5.png",
+                            "xml_path": "./rednote_tc4_b_5.xml",
+                            "action": "click",
+                            "bbox": [563, 519, 614, 563]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 5,
@@ -206,38 +949,215 @@
                         "screenshot_path": "./rednote_tc5_b_1.png",
                         "xml_path": "./rednote_tc5_b_1.xml",
                         "action": "click",
-                        "bbox": [144,1422,288,1512]
+                        "bbox": [144, 1422, 288, 1512]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./rednote_tc5_b_2.png",
                         "xml_path": "./rednote_tc5_b_2.xml",
                         "action": "click",
-                        "bbox": [386,152,490,240]
+                        "bbox": [386, 152, 490, 240]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./rednote_tc5_b_3.png",
                         "xml_path": "./rednote_tc5_b_3.xml",
                         "action": "click",
-                        "bbox": [40,585,144,729]
+                        "bbox": [40, 585, 144, 729]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./rednote_tc5_b_4.png",
                         "xml_path": "./rednote_tc5_b_4.xml",
                         "action": "click",
-                        "bbox": [10,250,355,830]
+                        "bbox": [10, 250, 355, 830]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./rednote_tc5_b_5.png",
                         "xml_path": "./rednote_tc5_b_5.xml",
                         "action": "click",
-                        "bbox": [304,1416,499,1496]
+                        "bbox": [304, 1416, 499, 1496]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc5_b_1.png",
+                            "xml_path": "./rednote_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1422, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc5_b_2.png",
+                            "xml_path": "./rednote_tc5_b_2.xml",
+                            "action": "click",
+                            "bbox": [386, 152, 490, 240]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc5_b_3.png",
+                            "xml_path": "./rednote_tc5_b_3.xml",
+                            "action": "click",
+                            "bbox": [40, 585, 144, 729]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc5_b_4.png",
+                            "xml_path": "./rednote_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 250, 355, 830]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc5_LS_5.png",
+                            "xml_path": "./rednote_tc5_LS_5.xml",
+                            "action": "click",
+                            "bbox": [304, 1416, 499, 1496]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc5_b_1.png",
+                            "xml_path": "./rednote_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1422, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc5_VE_2.png",
+                            "xml_path": "./rednote_tc5_VE_2.xml",
+                            "action": "scroll",
+                            "bbox": [0, 150, 720, 240],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc5_b_2.png",
+                            "xml_path": "./rednote_tc5_b_2.xml",
+                            "action": "click",
+                            "bbox": [386, 152, 490, 240]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc5_b_3.png",
+                            "xml_path": "./rednote_tc5_b_3.xml",
+                            "action": "click",
+                            "bbox": [40, 585, 144, 729]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc5_b_4.png",
+                            "xml_path": "./rednote_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 250, 355, 830]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc5_b_5.png",
+                            "xml_path": "./rednote_tc5_b_5.xml",
+                            "action": "click",
+                            "bbox": [304, 1416, 499, 1496]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc5_b_1.png",
+                            "xml_path": "./rednote_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1422, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc5_b_2.png",
+                            "xml_path": "./rednote_tc5_b_2.xml",
+                            "action": "click",
+                            "bbox": [386, 152, 490, 240]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc5_VA_3.png",
+                            "xml_path": "./rednote_tc5_VA_3.xml",
+                            "action": "click",
+                            "bbox": [40, 585, 144, 729]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc5_b_4.png",
+                            "xml_path": "./rednote_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 250, 355, 830]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc5_b_5.png",
+                            "xml_path": "./rednote_tc5_b_5.xml",
+                            "action": "click",
+                            "bbox": [304, 1416, 499, 1496]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc5_FO_1.png",
+                            "xml_path": "./rednote_tc5_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc5_b_1.png",
+                            "xml_path": "./rednote_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1422, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc5_b_2.png",
+                            "xml_path": "./rednote_tc5_b_2.xml",
+                            "action": "click",
+                            "bbox": [386, 152, 490, 240]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc5_b_3.png",
+                            "xml_path": "./rednote_tc5_b_3.xml",
+                            "action": "click",
+                            "bbox": [40, 585, 144, 729]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc5_b_4.png",
+                            "xml_path": "./rednote_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 250, 355, 830]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc5_b_5.png",
+                            "xml_path": "./rednote_tc5_b_5.xml",
+                            "action": "click",
+                            "bbox": [304, 1416, 499, 1496]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 6,
@@ -249,21 +1169,21 @@
                         "screenshot_path": "./rednote_tc6_b_1.png",
                         "xml_path": "./rednote_tc6_b_1.xml",
                         "action": "click",
-                        "bbox": [416,76,528,140]
+                        "bbox": [416, 76, 528, 140]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./rednote_tc6_b_2.png",
                         "xml_path": "./rednote_tc6_b_2.xml",
                         "action": "click",
-                        "bbox": [10,152,355,795]
+                        "bbox": [10, 152, 355, 795]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./rednote_tc6_b_3.png",
                         "xml_path": "./rednote_tc6_b_3.xml",
                         "action": "scroll",
-                        "bbox": [0,176,720,1400],
+                        "bbox": [0, 176, 720, 1400],
                         "input_value": "up"
                     },
                     {
@@ -271,17 +1191,203 @@
                         "screenshot_path": "./rednote_tc6_b_4.png",
                         "xml_path": "./rednote_tc6_b_4.xml",
                         "action": "click",
-                        "bbox": [32,990,688,1094]
+                        "bbox": [32, 990, 688, 1094]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./rednote_tc6_b_5.png",
                         "xml_path": "./rednote_tc6_b_5.xml",
                         "action": "click",
-                        "bbox": [494,224,688,282]
+                        "bbox": [494, 224, 688, 282]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc6_b_1.png",
+                            "xml_path": "./rednote_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [416, 76, 528, 140]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc6_FO_2.png",
+                            "xml_path": "./rednote_tc6_FO_2.xml",
+                            "action": "click",
+                            "bbox": [40, 744, 680, 840]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc6_b_2.png",
+                            "xml_path": "./rednote_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [10, 152, 355, 795]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc6_b_3.png",
+                            "xml_path": "./rednote_tc6_b_3.xml",
+                            "action": "scroll",
+                            "bbox": [0, 176, 720, 1400],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc6_b_4.png",
+                            "xml_path": "./rednote_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [32, 990, 688, 1094]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc6_b_5.png",
+                            "xml_path": "./rednote_tc6_b_5.xml",
+                            "action": "click",
+                            "bbox": [494, 224, 688, 282]
+                        }
+                    ]
+                },
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc6_LS_1.png",
+                            "xml_path": "./rednote_tc6_LS_1.xml",
+                            "action": "click",
+                            "bbox": [540, 0, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc6_b_1.png",
+                            "xml_path": "./rednote_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [416, 76, 528, 140]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc6_b_2.png",
+                            "xml_path": "./rednote_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [10, 152, 355, 795]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc6_b_3.png",
+                            "xml_path": "./rednote_tc6_b_3.xml",
+                            "action": "scroll",
+                            "bbox": [0, 176, 720, 1400],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc6_b_4.png",
+                            "xml_path": "./rednote_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [32, 990, 688, 1094]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc6_b_5.png",
+                            "xml_path": "./rednote_tc6_b_5.xml",
+                            "action": "click",
+                            "bbox": [494, 224, 688, 282]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc6_b_1.png",
+                            "xml_path": "./rednote_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [416, 76, 528, 140]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc6_b_2.png",
+                            "xml_path": "./rednote_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [10, 152, 355, 795]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc6_b_3.png",
+                            "xml_path": "./rednote_tc6_b_3.xml",
+                            "action": "scroll",
+                            "bbox": [0, 176, 720, 1400],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc6_b_4.png",
+                            "xml_path": "./rednote_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [32, 990, 688, 1094]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc6_AC_5.png",
+                            "xml_path": "./rednote_tc6_AC_5.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc6_ED_1.png",
+                            "xml_path": "./rednote_tc6_ED_1.xml",
+                            "action": "click",
+                            "bbox": [562, 92, 628, 123]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc6_b_1.png",
+                            "xml_path": "./rednote_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [416, 76, 528, 140]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc6_b_2.png",
+                            "xml_path": "./rednote_tc6_b_2.xml",
+                            "action": "click",
+                            "bbox": [10, 152, 355, 795]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc6_b_3.png",
+                            "xml_path": "./rednote_tc6_b_3.xml",
+                            "action": "scroll",
+                            "bbox": [0, 176, 720, 1400],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc6_b_4.png",
+                            "xml_path": "./rednote_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [32, 990, 688, 1094]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc6_b_5.png",
+                            "xml_path": "./rednote_tc6_b_5.xml",
+                            "action": "click",
+                            "bbox": [494, 224, 688, 282]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 7,
@@ -293,46 +1399,247 @@
                         "screenshot_path": "./rednote_tc7_b_1.png",
                         "xml_path": "./rednote_tc7_b_1.xml",
                         "action": "click",
-                        "bbox": [576,1422,720,1512]
+                        "bbox": [576, 1422, 720, 1512]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./rednote_tc7_b_2.png",
                         "xml_path": "./rednote_tc7_b_2.xml",
                         "action": "click",
-                        "bbox": [24,637,228,934]
+                        "bbox": [24, 637, 228, 934]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./rednote_tc7_b_3.png",
                         "xml_path": "./rednote_tc7_b_3.xml",
                         "action": "click",
-                        "bbox": [386,664,550,720]
+                        "bbox": [386, 664, 550, 720]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./rednote_tc7_b_4.png",
                         "xml_path": "./rednote_tc7_b_4.xml",
                         "action": "click",
-                        "bbox": [570,664,690,720]
+                        "bbox": [570, 664, 690, 720]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./rednote_tc7_b_5.png",
                         "xml_path": "./rednote_tc7_b_5.xml",
                         "action": "click",
-                        "bbox": [120,1412,524,1492]
+                        "bbox": [120, 1412, 524, 1492]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./rednote_tc7_b_6.png",
                         "xml_path": "./rednote_tc7_b_6.xml",
                         "action": "input",
-                        "bbox": [120,902,524,982],
+                        "bbox": [120, 902, 524, 982],
                         "input_value": "你的作品很有意思"
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc7_LS_1.png",
+                            "xml_path": "./rednote_tc7_LS_1.xml",
+                            "action": "click",
+                            "bbox": [540, 0, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc7_b_1.png",
+                            "xml_path": "./rednote_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1422, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc7_b_2.png",
+                            "xml_path": "./rednote_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [24, 637, 228, 934]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc7_b_3.png",
+                            "xml_path": "./rednote_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [386, 664, 550, 720]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc7_b_4.png",
+                            "xml_path": "./rednote_tc7_b_4.xml",
+                            "action": "click",
+                            "bbox": [570, 664, 690, 720]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc7_b_5.png",
+                            "xml_path": "./rednote_tc7_b_5.xml",
+                            "action": "click",
+                            "bbox": [120, 1412, 524, 1492]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc7_b_6.png",
+                            "xml_path": "./rednote_tc7_b_6.xml",
+                            "action": "input",
+                            "bbox": [120, 902, 524, 982],
+                            "input_value": "你的作品很有意思"
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc7_b_1.png",
+                            "xml_path": "./rednote_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1422, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc7_b_2.png",
+                            "xml_path": "./rednote_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [24, 637, 228, 934]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc7_b_3.png",
+                            "xml_path": "./rednote_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [386, 664, 550, 720]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc7_EO_4.png",
+                            "xml_path": "./rednote_tc7_EO_4.xml",
+                            "action": "click",
+                            "bbox": [646, 812, 686, 852]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc7_b_4.png",
+                            "xml_path": "./rednote_tc7_b_4.xml",
+                            "action": "click",
+                            "bbox": [570, 664, 690, 720]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc7_b_5.png",
+                            "xml_path": "./rednote_tc7_b_5.xml",
+                            "action": "click",
+                            "bbox": [120, 1412, 524, 1492]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc7_b_6.png",
+                            "xml_path": "./rednote_tc7_b_6.xml",
+                            "action": "input",
+                            "bbox": [120, 902, 524, 982],
+                            "input_value": "你的作品很有意思"
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc7_b_1.png",
+                            "xml_path": "./rednote_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1422, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc7_b_2.png",
+                            "xml_path": "./rednote_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [24, 637, 228, 934]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc7_b_4.png",
+                            "xml_path": "./rednote_tc7_b_4.xml",
+                            "action": "click",
+                            "bbox": [570, 664, 690, 720]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc7_b_5.png",
+                            "xml_path": "./rednote_tc7_b_5.xml",
+                            "action": "click",
+                            "bbox": [120, 1412, 524, 1492]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc7_b_6.png",
+                            "xml_path": "./rednote_tc7_b_6.xml",
+                            "action": "input",
+                            "bbox": [120, 902, 524, 982],
+                            "input_value": "你的作品很有意思"
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc7_b_1.png",
+                            "xml_path": "./rednote_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1422, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc7_TC_2.png",
+                            "xml_path": "./rednote_tc7_TC_2.xml",
+                            "action": "click",
+                            "bbox": [24, 637, 228, 934]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc7_b_3.png",
+                            "xml_path": "./rednote_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [386, 664, 550, 720]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc7_b_4.png",
+                            "xml_path": "./rednote_tc7_b_4.xml",
+                            "action": "click",
+                            "bbox": [570, 664, 690, 720]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc7_b_5.png",
+                            "xml_path": "./rednote_tc7_b_5.xml",
+                            "action": "click",
+                            "bbox": [120, 1412, 524, 1492]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc7_b_6.png",
+                            "xml_path": "./rednote_tc7_b_6.xml",
+                            "action": "input",
+                            "bbox": [120, 902, 524, 982],
+                            "input_value": "你的作品很有意思"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 8,
@@ -344,21 +1651,21 @@
                         "screenshot_path": "./rednote_tc8_b_1.png",
                         "xml_path": "./rednote_tc8_b_1.xml",
                         "action": "click",
-                        "bbox": [10,232,355,872]
+                        "bbox": [10, 232, 355, 872]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./rednote_tc8_b_2.png",
                         "xml_path": "./rednote_tc8_b_2.xml",
                         "action": "click",
-                        "bbox": [30,1424,252,1512]
+                        "bbox": [30, 1424, 252, 1512]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./rednote_tc8_b_3.png",
                         "xml_path": "./rednote_tc8_b_3.xml",
                         "action": "input",
-                        "bbox": [60,711,660,790],
+                        "bbox": [60, 711, 660, 790],
                         "input_value": "太好看了"
                     },
                     {
@@ -366,17 +1673,182 @@
                         "screenshot_path": "./rednote_tc8_b_4.png",
                         "xml_path": "./rednote_tc8_b_4.xml",
                         "action": "click",
-                        "bbox": [562,1424,710,1512]
+                        "bbox": [562, 1424, 710, 1512]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./rednote_tc8_b_5.png",
                         "xml_path": "./rednote_tc8_b_5.xml",
                         "action": "click",
-                        "bbox": [533,770,614,814]
+                        "bbox": [533, 770, 614, 814]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc8_b_1.png",
+                            "xml_path": "./rednote_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [10, 232, 355, 872]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc8_b_2.png",
+                            "xml_path": "./rednote_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [30, 1424, 252, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc8_b_3.png",
+                            "xml_path": "./rednote_tc8_b_3.xml",
+                            "action": "input",
+                            "bbox": [60, 711, 660, 790],
+                            "input_value": "太好看了"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc8_VA_4.png",
+                            "xml_path": "./rednote_tc8_VA_4.xml",
+                            "action": "click",
+                            "bbox": [562, 1424, 710, 1512]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc8_b_5.png",
+                            "xml_path": "./rednote_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [533, 770, 614, 814]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc8_b_1.png",
+                            "xml_path": "./rednote_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [10, 232, 355, 872]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc8_b_2.png",
+                            "xml_path": "./rednote_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [30, 1424, 252, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc8_b_3.png",
+                            "xml_path": "./rednote_tc8_b_3.xml",
+                            "action": "input",
+                            "bbox": [60, 711, 660, 790],
+                            "input_value": "太好看了"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc8_b_4.png",
+                            "xml_path": "./rednote_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [562, 1424, 710, 1512]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc8_AC_5.png",
+                            "xml_path": "./rednote_tc8_AC_5.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc8_b_1.png",
+                            "xml_path": "./rednote_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [10, 232, 355, 872]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc8_ED_2.png",
+                            "xml_path": "./rednote_tc8_ED_2.xml",
+                            "action": "click",
+                            "bbox": [653, 1097, 753, 1151]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc8_b_3.png",
+                            "xml_path": "./rednote_tc8_b_3.xml",
+                            "action": "input",
+                            "bbox": [60, 711, 660, 790],
+                            "input_value": "太好看了"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc8_b_4.png",
+                            "xml_path": "./rednote_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [562, 1424, 710, 1512]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc8_b_5.png",
+                            "xml_path": "./rednote_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [533, 770, 614, 814]
+                        }
+                    ]
+                },
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc8_LS_1.png",
+                            "xml_path": "./rednote_tc8_LS_1.xml",
+                            "action": "click",
+                            "bbox": [540, 0, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc8_b_2.png",
+                            "xml_path": "./rednote_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [30, 1424, 252, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc8_b_3.png",
+                            "xml_path": "./rednote_tc8_b_3.xml",
+                            "action": "input",
+                            "bbox": [60, 711, 660, 790],
+                            "input_value": "太好看了"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc8_b_4.png",
+                            "xml_path": "./rednote_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [562, 1424, 710, 1512]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc8_b_5.png",
+                            "xml_path": "./rednote_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [533, 770, 614, 814]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 9,
@@ -388,38 +1860,212 @@
                         "screenshot_path": "./rednote_tc9_b_1.png",
                         "xml_path": "./rednote_tc9_b_1.xml",
                         "action": "click",
-                        "bbox": [220,152,330,232]
+                        "bbox": [220, 152, 330, 232]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./rednote_tc9_b_2.png",
                         "xml_path": "./rednote_tc9_b_2.xml",
                         "action": "click",
-                        "bbox": [10,232,355,825]
+                        "bbox": [10, 232, 355, 825]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./rednote_tc9_b_3.png",
                         "xml_path": "./rednote_tc9_b_3.xml",
                         "action": "click",
-                        "bbox": [432,1408,512,1488]
+                        "bbox": [432, 1408, 512, 1488]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./rednote_tc9_b_4.png",
                         "xml_path": "./rednote_tc9_b_4.xml",
                         "action": "click",
-                        "bbox": [360,865,630,959]
+                        "bbox": [360, 865, 630, 959]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./rednote_tc9_b_5.png",
                         "xml_path": "./rednote_tc9_b_5.xml",
                         "action": "click",
-                        "bbox": [283,92,363,140]
+                        "bbox": [283, 92, 363, 140]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc9_b_1.png",
+                            "xml_path": "./rednote_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [220, 152, 330, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc9_b_2.png",
+                            "xml_path": "./rednote_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [10, 232, 355, 825]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc9_b_3.png",
+                            "xml_path": "./rednote_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [432, 1408, 512, 1488]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc9_b_4.png",
+                            "xml_path": "./rednote_tc9_b_4.xml",
+                            "action": "click",
+                            "bbox": [360, 865, 630, 959]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc9_AC_5.png",
+                            "xml_path": "./rednote_tc9_AC_5.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc9_FO_1.png",
+                            "xml_path": "./rednote_tc9_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc9_b_1.png",
+                            "xml_path": "./rednote_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [220, 152, 330, 232]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc9_b_2.png",
+                            "xml_path": "./rednote_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [10, 232, 355, 825]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc9_b_3.png",
+                            "xml_path": "./rednote_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [432, 1408, 512, 1488]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc9_b_4.png",
+                            "xml_path": "./rednote_tc9_b_4.xml",
+                            "action": "click",
+                            "bbox": [360, 865, 630, 959]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc9_b_5.png",
+                            "xml_path": "./rednote_tc9_b_5.xml",
+                            "action": "click",
+                            "bbox": [283, 92, 363, 140]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc9_b_1.png",
+                            "xml_path": "./rednote_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [220, 152, 330, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc9_EA_2.png",
+                            "xml_path": "./rednote_tc9_EA_2.xml",
+                            "action": "click",
+                            "bbox": [10, 232, 355, 825]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc9_b_3.png",
+                            "xml_path": "./rednote_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [432, 1408, 512, 1488]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc9_b_4.png",
+                            "xml_path": "./rednote_tc9_b_4.xml",
+                            "action": "click",
+                            "bbox": [360, 865, 630, 959]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc9_b_5.png",
+                            "xml_path": "./rednote_tc9_b_5.xml",
+                            "action": "click",
+                            "bbox": [283, 92, 363, 140]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc9_b_1.png",
+                            "xml_path": "./rednote_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [220, 152, 330, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc9_EA-T_2.png",
+                            "xml_path": "./rednote_tc9_EA-T_2.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc9_b_2.png",
+                            "xml_path": "./rednote_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [10, 232, 355, 825]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc9_b_3.png",
+                            "xml_path": "./rednote_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [432, 1408, 512, 1488]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc9_b_4.png",
+                            "xml_path": "./rednote_tc9_b_4.xml",
+                            "action": "click",
+                            "bbox": [360, 865, 630, 959]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc9_b_5.png",
+                            "xml_path": "./rednote_tc9_b_5.xml",
+                            "action": "click",
+                            "bbox": [283, 92, 363, 140]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 10,
@@ -431,45 +2077,241 @@
                         "screenshot_path": "./rednote_tc10_b_1.png",
                         "xml_path": "./rednote_tc10_b_1.xml",
                         "action": "click",
-                        "bbox": [144,1422,288,1512]
+                        "bbox": [144, 1422, 288, 1512]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./rednote_tc10_b_2.png",
                         "xml_path": "./rednote_tc10_b_2.xml",
                         "action": "click",
-                        "bbox": [112,152,216,240]
+                        "bbox": [112, 152, 216, 240]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./rednote_tc10_b_3.png",
                         "xml_path": "./rednote_tc10_b_3.xml",
                         "action": "click",
-                        "bbox": [10,262,355,956]
+                        "bbox": [10, 262, 355, 956]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./rednote_tc10_b_4.png",
                         "xml_path": "./rednote_tc10_b_4.xml",
                         "action": "click",
-                        "bbox": [570,959,704,1079]
+                        "bbox": [570, 959, 704, 1079]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./rednote_tc10_b_5.png",
                         "xml_path": "./rednote_tc10_b_5.xml",
                         "action": "click",
-                        "bbox": [32,691,212,787]
+                        "bbox": [32, 691, 212, 787]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./rednote_tc10_b_6.png",
                         "xml_path": "./rednote_tc10_b_6.xml",
                         "action": "click",
-                        "bbox": [360,1416,696,1496]
+                        "bbox": [360, 1416, 696, 1496]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc10_b_1.png",
+                            "xml_path": "./rednote_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1422, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc10_b_2.png",
+                            "xml_path": "./rednote_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [112, 152, 216, 240]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc10_LS_3.png",
+                            "xml_path": "./rednote_tc10_LS_3.xml",
+                            "action": "click",
+                            "bbox": [10, 764, 355, 1422]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc10_b_4.png",
+                            "xml_path": "./rednote_tc10_b_4.xml",
+                            "action": "click",
+                            "bbox": [570, 959, 704, 1079]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc10_b_5.png",
+                            "xml_path": "./rednote_tc10_b_5.xml",
+                            "action": "click",
+                            "bbox": [32, 691, 212, 787]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc10_b_6.png",
+                            "xml_path": "./rednote_tc10_b_6.xml",
+                            "action": "click",
+                            "bbox": [360, 1416, 696, 1496]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc10_b_1.png",
+                            "xml_path": "./rednote_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1422, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc10_b_2.png",
+                            "xml_path": "./rednote_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [112, 152, 216, 240]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc10_b_3.png",
+                            "xml_path": "./rednote_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [10, 262, 355, 956]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc10_b_4.png",
+                            "xml_path": "./rednote_tc10_b_4.xml",
+                            "action": "click",
+                            "bbox": [570, 959, 704, 1079]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc10_VA_5.png",
+                            "xml_path": "./rednote_tc10_VA_5.xml",
+                            "action": "click",
+                            "bbox": [32, 691, 212, 787]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc10_b_6.png",
+                            "xml_path": "./rednote_tc10_b_6.xml",
+                            "action": "click",
+                            "bbox": [360, 1416, 696, 1496]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc10_b_1.png",
+                            "xml_path": "./rednote_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1422, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc10_b_2.png",
+                            "xml_path": "./rednote_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [112, 152, 216, 240]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc10_EA_3.png",
+                            "xml_path": "./rednote_tc10_EA_3.xml",
+                            "action": "click",
+                            "bbox": [10, 262, 355, 956]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc10_b_4.png",
+                            "xml_path": "./rednote_tc10_b_4.xml",
+                            "action": "click",
+                            "bbox": [570, 959, 704, 1079]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc10_b_5.png",
+                            "xml_path": "./rednote_tc10_b_5.xml",
+                            "action": "click",
+                            "bbox": [32, 691, 212, 787]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc10_b_6.png",
+                            "xml_path": "./rednote_tc10_b_6.xml",
+                            "action": "click",
+                            "bbox": [360, 1416, 696, 1496]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc10_b_1.png",
+                            "xml_path": "./rednote_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1422, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc10_b_2.png",
+                            "xml_path": "./rednote_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [112, 152, 216, 240]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc10_EA-T_3.png",
+                            "xml_path": "./rednote_tc10_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc10_b_3.png",
+                            "xml_path": "./rednote_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [10, 262, 355, 956]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc10_b_4.png",
+                            "xml_path": "./rednote_tc10_b_4.xml",
+                            "action": "click",
+                            "bbox": [570, 959, 704, 1079]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc10_b_5.png",
+                            "xml_path": "./rednote_tc10_b_5.xml",
+                            "action": "click",
+                            "bbox": [32, 691, 212, 787]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc10_b_6.png",
+                            "xml_path": "./rednote_tc10_b_6.xml",
+                            "action": "click",
+                            "bbox": [360, 1416, 696, 1496]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 11,
@@ -481,14 +2323,14 @@
                         "screenshot_path": "./rednote_tc11_b_1.png",
                         "xml_path": "./rednote_tc11_b_1.xml",
                         "action": "click",
-                        "bbox": [630,72,702,144]
+                        "bbox": [630, 72, 702, 144]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./rednote_tc11_b_2.png",
                         "xml_path": "./rednote_tc11_b_2.xml",
                         "action": "input",
-                        "bbox": [120,72,499,160],
+                        "bbox": [120, 72, 499, 160],
                         "input_value": "冰岛"
                     },
                     {
@@ -496,21 +2338,21 @@
                         "screenshot_path": "./rednote_tc11_b_3.png",
                         "xml_path": "./rednote_tc11_b_3.xml",
                         "action": "click",
-                        "bbox": [240,256,328,344]
+                        "bbox": [240, 256, 328, 344]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./rednote_tc11_b_4.png",
                         "xml_path": "./rednote_tc11_b_4.xml",
                         "action": "click",
-                        "bbox": [10,354,355,976]
+                        "bbox": [10, 354, 355, 976]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./rednote_tc11_b_5.png",
                         "xml_path": "./rednote_tc11_b_5.xml",
                         "action": "scroll",
-                        "bbox": [0,176,720,1140],
+                        "bbox": [0, 176, 720, 1140],
                         "input_value": "left"
                     },
                     {
@@ -518,10 +2360,222 @@
                         "screenshot_path": "./rednote_tc11_b_6.png",
                         "xml_path": "./rednote_tc11_b_6.xml",
                         "action": "click",
-                        "bbox": [467,1416,578,1496]
+                        "bbox": [467, 1416, 578, 1496]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc11_b_1.png",
+                            "xml_path": "./rednote_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [630, 72, 702, 144]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc11_b_2.png",
+                            "xml_path": "./rednote_tc11_b_2.xml",
+                            "action": "input",
+                            "bbox": [120, 72, 499, 160],
+                            "input_value": "冰岛"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc11_ED_3.png",
+                            "xml_path": "./rednote_tc11_ED_3.xml",
+                            "action": "click",
+                            "bbox": [236, 232, 326, 286]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc11_b_4.png",
+                            "xml_path": "./rednote_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 354, 355, 976]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc11_b_5.png",
+                            "xml_path": "./rednote_tc11_b_5.xml",
+                            "action": "scroll",
+                            "bbox": [0, 176, 720, 1140],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc11_b_6.png",
+                            "xml_path": "./rednote_tc11_b_6.xml",
+                            "action": "click",
+                            "bbox": [467, 1416, 578, 1496]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc11_b_1.png",
+                            "xml_path": "./rednote_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [630, 72, 702, 144]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc11_b_2.png",
+                            "xml_path": "./rednote_tc11_b_2.xml",
+                            "action": "input",
+                            "bbox": [120, 72, 499, 160],
+                            "input_value": "冰岛"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc11_b_3.png",
+                            "xml_path": "./rednote_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [240, 256, 328, 344]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc11_b_4.png",
+                            "xml_path": "./rednote_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 354, 355, 976]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc11_b_5.png",
+                            "xml_path": "./rednote_tc11_b_5.xml",
+                            "action": "scroll",
+                            "bbox": [0, 176, 720, 1140],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc11_VA_6.png",
+                            "xml_path": "./rednote_tc11_VA_6.xml",
+                            "action": "click",
+                            "bbox": [467, 1416, 578, 1496]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc11_FO_1.png",
+                            "xml_path": "./rednote_tc11_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc11_b_1.png",
+                            "xml_path": "./rednote_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [630, 72, 702, 144]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc11_b_2.png",
+                            "xml_path": "./rednote_tc11_b_2.xml",
+                            "action": "input",
+                            "bbox": [120, 72, 499, 160],
+                            "input_value": "冰岛"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc11_b_3.png",
+                            "xml_path": "./rednote_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [240, 256, 328, 344]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc11_b_4.png",
+                            "xml_path": "./rednote_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 354, 355, 976]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc11_b_5.png",
+                            "xml_path": "./rednote_tc11_b_5.xml",
+                            "action": "scroll",
+                            "bbox": [0, 176, 720, 1140],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc11_b_6.png",
+                            "xml_path": "./rednote_tc11_b_6.xml",
+                            "action": "click",
+                            "bbox": [467, 1416, 578, 1496]
+                        }
+                    ]
+                },
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc11_LS_1.png",
+                            "xml_path": "./rednote_tc11_LS_1.xml",
+                            "action": "click",
+                            "bbox": [540, 0, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc11_b_1.png",
+                            "xml_path": "./rednote_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [630, 72, 702, 144]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc11_b_2.png",
+                            "xml_path": "./rednote_tc11_b_2.xml",
+                            "action": "input",
+                            "bbox": [120, 72, 499, 160],
+                            "input_value": "冰岛"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc11_b_3.png",
+                            "xml_path": "./rednote_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [240, 256, 328, 344]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc11_b_4.png",
+                            "xml_path": "./rednote_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 354, 355, 976]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc11_b_5.png",
+                            "xml_path": "./rednote_tc11_b_5.xml",
+                            "action": "scroll",
+                            "bbox": [0, 176, 720, 1140],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc11_b_6.png",
+                            "xml_path": "./rednote_tc11_b_6.xml",
+                            "action": "click",
+                            "bbox": [467, 1416, 578, 1496]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 12,
@@ -533,21 +2587,21 @@
                         "screenshot_path": "./rednote_tc12_b_1.png",
                         "xml_path": "./rednote_tc12_b_1.xml",
                         "action": "click",
-                        "bbox": [288,1422,432,1512]
+                        "bbox": [288, 1422, 432, 1512]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./rednote_tc12_b_2.png",
                         "xml_path": "./rednote_tc12_b_2.xml",
                         "action": "click",
-                        "bbox": [0,1274,720,1386]
+                        "bbox": [0, 1274, 720, 1386]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./rednote_tc12_b_3.png",
                         "xml_path": "./rednote_tc12_b_3.xml",
                         "action": "input",
-                        "bbox": [110,205,610,878],
+                        "bbox": [110, 205, 610, 878],
                         "input_value": "我今天学习了Agent的知识，很开心。"
                     },
                     {
@@ -555,31 +2609,266 @@
                         "screenshot_path": "./rednote_tc12_b_4.png",
                         "xml_path": "./rednote_tc12_b_4.xml",
                         "action": "click",
-                        "bbox": [100,1408,620,1488]
+                        "bbox": [100, 1408, 620, 1488]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./rednote_tc12_b_5.png",
                         "xml_path": "./rednote_tc12_b_5.xml",
                         "action": "click",
-                        "bbox": [508,1382,688,1468]
+                        "bbox": [508, 1382, 688, 1468]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./rednote_tc12_b_6.png",
                         "xml_path": "./rednote_tc12_b_6.xml",
                         "action": "click",
-                        "bbox": [266,1378,688,1458]
+                        "bbox": [266, 1378, 688, 1458]
                     },
                     {
                         "checkpoint_id": 7,
                         "screenshot_path": "./rednote_tc12_b_7.png",
                         "xml_path": "./rednote_tc12_b_7.xml",
                         "action": "click",
-                        "bbox": [276,1378,688,1458]
+                        "bbox": [276, 1378, 688, 1458]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc12_b_1.png",
+                            "xml_path": "./rednote_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [288, 1422, 432, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc12_b_2.png",
+                            "xml_path": "./rednote_tc12_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 1274, 720, 1386]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc12_b_3.png",
+                            "xml_path": "./rednote_tc12_b_3.xml",
+                            "action": "input",
+                            "bbox": [110, 205, 610, 878],
+                            "input_value": "我今天学习了Agent的知识，很开心。"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc12_b_4.png",
+                            "xml_path": "./rednote_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [100, 1408, 620, 1488]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc12_b_5.png",
+                            "xml_path": "./rednote_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [508, 1382, 688, 1468]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc12_EO_6.png",
+                            "xml_path": "./rednote_tc12_EO_6.xml",
+                            "action": "click",
+                            "bbox": [508, 1382, 688, 1468]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc12_b_6.png",
+                            "xml_path": "./rednote_tc12_b_6.xml",
+                            "action": "click",
+                            "bbox": [266, 1378, 688, 1458]
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./rednote_tc12_b_7.png",
+                            "xml_path": "./rednote_tc12_b_7.xml",
+                            "action": "click",
+                            "bbox": [276, 1378, 688, 1458]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc12_b_1.png",
+                            "xml_path": "./rednote_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [288, 1422, 432, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc12_b_2.png",
+                            "xml_path": "./rednote_tc12_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 1274, 720, 1386]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc12_b_3.png",
+                            "xml_path": "./rednote_tc12_b_3.xml",
+                            "action": "input",
+                            "bbox": [110, 205, 610, 878],
+                            "input_value": "我今天学习了Agent的知识，很开心。"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc12_b_4.png",
+                            "xml_path": "./rednote_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [100, 1408, 620, 1488]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc12_EA_5.png",
+                            "xml_path": "./rednote_tc12_EA_5.xml",
+                            "action": "click",
+                            "bbox": [508, 1382, 688, 1468]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc12_b_6.png",
+                            "xml_path": "./rednote_tc12_b_6.xml",
+                            "action": "click",
+                            "bbox": [266, 1378, 688, 1458]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc12_b_7.png",
+                            "xml_path": "./rednote_tc12_b_7.xml",
+                            "action": "click",
+                            "bbox": [276, 1378, 688, 1458]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc12_b_1.png",
+                            "xml_path": "./rednote_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [288, 1422, 432, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc12_b_2.png",
+                            "xml_path": "./rednote_tc12_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 1274, 720, 1386]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc12_b_3.png",
+                            "xml_path": "./rednote_tc12_b_3.xml",
+                            "action": "input",
+                            "bbox": [110, 205, 610, 878],
+                            "input_value": "我今天学习了Agent的知识，很开心。"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc12_b_4.png",
+                            "xml_path": "./rednote_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [100, 1408, 620, 1488]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc12_EA-T_5.png",
+                            "xml_path": "./rednote_tc12_EA-T_5.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc12_b_5.png",
+                            "xml_path": "./rednote_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [508, 1382, 688, 1468]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc12_b_6.png",
+                            "xml_path": "./rednote_tc12_b_6.xml",
+                            "action": "click",
+                            "bbox": [266, 1378, 688, 1458]
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./rednote_tc12_b_7.png",
+                            "xml_path": "./rednote_tc12_b_7.xml",
+                            "action": "click",
+                            "bbox": [276, 1378, 688, 1458]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc12_b_1.png",
+                            "xml_path": "./rednote_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [288, 1422, 432, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc12_b_2.png",
+                            "xml_path": "./rednote_tc12_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 1274, 720, 1386]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc12_b_3.png",
+                            "xml_path": "./rednote_tc12_b_3.xml",
+                            "action": "input",
+                            "bbox": [110, 205, 610, 878],
+                            "input_value": "我今天学习了Agent的知识，很开心。"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc12_b_4.png",
+                            "xml_path": "./rednote_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [100, 1408, 620, 1488]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc12_b_5.png",
+                            "xml_path": "./rednote_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [508, 1382, 688, 1468]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc12_ED_6.png",
+                            "xml_path": "./rednote_tc12_ED_6.xml",
+                            "action": "click",
+                            "bbox": [289, 96, 713, 171]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc12_b_7.png",
+                            "xml_path": "./rednote_tc12_b_7.xml",
+                            "action": "click",
+                            "bbox": [276, 1378, 688, 1458]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 13,
@@ -591,46 +2880,255 @@
                         "screenshot_path": "./rednote_tc13_b_1.png",
                         "xml_path": "./rednote_tc13_b_1.xml",
                         "action": "click",
-                        "bbox": [664,176,696,208]
+                        "bbox": [664, 176, 696, 208]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./rednote_tc13_b_2.png",
                         "xml_path": "./rednote_tc13_b_2.xml",
                         "action": "click",
-                        "bbox": [14,429,187,525]
+                        "bbox": [14, 429, 187, 525]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./rednote_tc13_b_3.png",
                         "xml_path": "./rednote_tc13_b_3.xml",
                         "action": "click",
-                        "bbox": [10,548,355,1074]
+                        "bbox": [10, 548, 355, 1074]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./rednote_tc13_b_4.png",
                         "xml_path": "./rednote_tc13_b_4.xml",
                         "action": "click",
-                        "bbox": [437,1416,563,1496]
+                        "bbox": [437, 1416, 563, 1496]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./rednote_tc13_b_5.png",
                         "xml_path": "./rednote_tc13_b_5.xml",
                         "action": "click",
-                        "bbox": [30,1420,267,1492]
+                        "bbox": [30, 1420, 267, 1492]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./rednote_tc13_b_6.png",
                         "xml_path": "./rednote_tc13_b_6.xml",
                         "action": "input",
-                        "bbox": [60,711,660,790],
+                        "bbox": [60, 711, 660, 790],
                         "input_value": "真好看"
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc13_b_1.png",
+                            "xml_path": "./rednote_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [664, 176, 696, 208]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc13_b_2.png",
+                            "xml_path": "./rednote_tc13_b_2.xml",
+                            "action": "click",
+                            "bbox": [14, 429, 187, 525]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc13_VE_3.png",
+                            "xml_path": "./rednote_tc13_VE_3.xml",
+                            "action": "scroll",
+                            "bbox": [0, 220, 720, 1422],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc13_b_3.png",
+                            "xml_path": "./rednote_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [10, 548, 355, 1074]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc13_b_4.png",
+                            "xml_path": "./rednote_tc13_b_4.xml",
+                            "action": "click",
+                            "bbox": [437, 1416, 563, 1496]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc13_b_5.png",
+                            "xml_path": "./rednote_tc13_b_5.xml",
+                            "action": "click",
+                            "bbox": [30, 1420, 267, 1492]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc13_b_6.png",
+                            "xml_path": "./rednote_tc13_b_6.xml",
+                            "action": "input",
+                            "bbox": [60, 711, 660, 790],
+                            "input_value": "真好看"
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc13_b_1.png",
+                            "xml_path": "./rednote_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [664, 176, 696, 208]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc13_b_2.png",
+                            "xml_path": "./rednote_tc13_b_2.xml",
+                            "action": "click",
+                            "bbox": [14, 429, 187, 525]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc13_b_3.png",
+                            "xml_path": "./rednote_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [10, 548, 355, 1074]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc13_AC_4.png",
+                            "xml_path": "./rednote_tc13_AC_4.xml",
+                            "action": "click",
+                            "bbox": [437, 1416, 563, 1496]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc13_b_5.png",
+                            "xml_path": "./rednote_tc13_b_5.xml",
+                            "action": "click",
+                            "bbox": [30, 1420, 267, 1492]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc13_b_6.png",
+                            "xml_path": "./rednote_tc13_b_6.xml",
+                            "action": "input",
+                            "bbox": [60, 711, 660, 790],
+                            "input_value": "真好看"
+                        }
+                    ]
+                },
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc13_LS_1.png",
+                            "xml_path": "./rednote_tc13_LS_1.xml",
+                            "action": "click",
+                            "bbox": [540, 0, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc13_b_1.png",
+                            "xml_path": "./rednote_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [664, 176, 696, 208]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc13_b_2.png",
+                            "xml_path": "./rednote_tc13_b_2.xml",
+                            "action": "click",
+                            "bbox": [14, 429, 187, 525]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc13_b_3.png",
+                            "xml_path": "./rednote_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [10, 548, 355, 1074]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc13_b_4.png",
+                            "xml_path": "./rednote_tc13_b_4.xml",
+                            "action": "click",
+                            "bbox": [437, 1416, 563, 1496]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc13_b_5.png",
+                            "xml_path": "./rednote_tc13_b_5.xml",
+                            "action": "click",
+                            "bbox": [30, 1420, 267, 1492]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc13_b_6.png",
+                            "xml_path": "./rednote_tc13_b_6.xml",
+                            "action": "input",
+                            "bbox": [60, 711, 660, 790],
+                            "input_value": "真好看"
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc13_b_1.png",
+                            "xml_path": "./rednote_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [664, 176, 696, 208]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc13_b_2.png",
+                            "xml_path": "./rednote_tc13_b_2.xml",
+                            "action": "click",
+                            "bbox": [14, 429, 187, 525]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc13_EA_3.png",
+                            "xml_path": "./rednote_tc13_EA_3.xml",
+                            "action": "click",
+                            "bbox": [10, 548, 355, 1074]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc13_b_4.png",
+                            "xml_path": "./rednote_tc13_b_4.xml",
+                            "action": "click",
+                            "bbox": [437, 1416, 563, 1496]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc13_b_5.png",
+                            "xml_path": "./rednote_tc13_b_5.xml",
+                            "action": "click",
+                            "bbox": [30, 1420, 267, 1492]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc13_b_6.png",
+                            "xml_path": "./rednote_tc13_b_6.xml",
+                            "action": "input",
+                            "bbox": [60, 711, 660, 790],
+                            "input_value": "真好看"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 14,
@@ -642,45 +3140,242 @@
                         "screenshot_path": "./rednote_tc14_b_1.png",
                         "xml_path": "./rednote_tc14_b_1.xml",
                         "action": "click",
-                        "bbox": [18,72,90,144]
+                        "bbox": [18, 72, 90, 144]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./rednote_tc14_b_2.png",
                         "xml_path": "./rednote_tc14_b_2.xml",
                         "action": "click",
-                        "bbox": [352,1286,516,1432]
+                        "bbox": [352, 1286, 516, 1432]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./rednote_tc14_b_3.png",
                         "xml_path": "./rednote_tc14_b_3.xml",
                         "action": "click",
-                        "bbox": [0,756,720,860]
+                        "bbox": [0, 756, 720, 860]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./rednote_tc14_b_4.png",
                         "xml_path": "./rednote_tc14_b_4.xml",
                         "action": "click",
-                        "bbox": [518,782,646,890]
+                        "bbox": [518, 782, 646, 890]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./rednote_tc14_b_5.png",
                         "xml_path": "./rednote_tc14_b_5.xml",
                         "action": "click",
-                        "bbox": [0,396,720,500]
+                        "bbox": [0, 396, 720, 500]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./rednote_tc14_b_6.png",
                         "xml_path": "./rednote_tc14_b_6.xml",
                         "action": "click",
-                        "bbox": [0,397,720,501]
+                        "bbox": [0, 397, 720, 501]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc14_TC_1.png",
+                            "xml_path": "./rednote_tc14_TC_1.xml",
+                            "action": "click",
+                            "bbox": [18, 72, 90, 144]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc14_b_2.png",
+                            "xml_path": "./rednote_tc14_b_2.xml",
+                            "action": "click",
+                            "bbox": [352, 1286, 516, 1432]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc14_b_3.png",
+                            "xml_path": "./rednote_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 756, 720, 860]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc14_b_4.png",
+                            "xml_path": "./rednote_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [518, 782, 646, 890]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc14_b_5.png",
+                            "xml_path": "./rednote_tc14_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 396, 720, 500]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc14_b_6.png",
+                            "xml_path": "./rednote_tc14_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 397, 720, 501]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc14_b_1.png",
+                            "xml_path": "./rednote_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [18, 72, 90, 144]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc14_VA_2.png",
+                            "xml_path": "./rednote_tc14_VA_2.xml",
+                            "action": "click",
+                            "bbox": [352, 1286, 516, 1432]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc14_b_3.png",
+                            "xml_path": "./rednote_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 756, 720, 860]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc14_b_4.png",
+                            "xml_path": "./rednote_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [518, 782, 646, 890]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc14_b_5.png",
+                            "xml_path": "./rednote_tc14_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 396, 720, 500]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc14_b_6.png",
+                            "xml_path": "./rednote_tc14_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 397, 720, 501]
+                        }
+                    ]
+                },
+                {
+                    "type": "ED",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc14_b_1.png",
+                            "xml_path": "./rednote_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [18, 72, 90, 144]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc14_b_2.png",
+                            "xml_path": "./rednote_tc14_b_2.xml",
+                            "action": "click",
+                            "bbox": [352, 1286, 516, 1432]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc14_b_3.png",
+                            "xml_path": "./rednote_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 756, 720, 860]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc14_b_4.png",
+                            "xml_path": "./rednote_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [518, 782, 646, 890]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc14_b_5.png",
+                            "xml_path": "./rednote_tc14_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 396, 720, 500]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc14_ED_6.png",
+                            "xml_path": "./rednote_tc14_ED_6.xml",
+                            "action": "click",
+                            "bbox": [212, 431, 307, 470]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc14_FO_1.png",
+                            "xml_path": "./rednote_tc14_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc14_b_1.png",
+                            "xml_path": "./rednote_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [18, 72, 90, 144]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc14_b_2.png",
+                            "xml_path": "./rednote_tc14_b_2.xml",
+                            "action": "click",
+                            "bbox": [352, 1286, 516, 1432]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc14_b_3.png",
+                            "xml_path": "./rednote_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 756, 720, 860]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc14_b_4.png",
+                            "xml_path": "./rednote_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [518, 782, 646, 890]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc14_b_5.png",
+                            "xml_path": "./rednote_tc14_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 396, 720, 500]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc14_b_6.png",
+                            "xml_path": "./rednote_tc14_b_6.xml",
+                            "action": "click",
+                            "bbox": [0, 397, 720, 501]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 15,
@@ -692,45 +3387,248 @@
                         "screenshot_path": "./rednote_tc15_b_1.png",
                         "xml_path": "./rednote_tc15_b_1.xml",
                         "action": "click",
-                        "bbox": [110,152,220,232]
+                        "bbox": [110, 152, 220, 232]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./rednote_tc15_b_2.png",
                         "xml_path": "./rednote_tc15_b_2.xml",
                         "action": "click",
-                        "bbox": [10,232,355,876]
+                        "bbox": [10, 232, 355, 876]
                     },
                     {
                         "checkpoint_id": 3,
                         "screenshot_path": "./rednote_tc15_b_3.png",
                         "xml_path": "./rednote_tc15_b_3.xml",
                         "action": "click",
-                        "bbox": [577,1424,710,1512]
+                        "bbox": [577, 1424, 710, 1512]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./rednote_tc15_b_4.png",
                         "xml_path": "./rednote_tc15_b_4.xml",
                         "action": "click",
-                        "bbox": [10,392,260,480]
+                        "bbox": [10, 392, 260, 480]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./rednote_tc15_b_5.png",
                         "xml_path": "./rednote_tc15_b_5.xml",
                         "action": "click",
-                        "bbox": [22,548,254,636]
+                        "bbox": [22, 548, 254, 636]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./rednote_tc15_b_6.png",
                         "xml_path": "./rednote_tc15_b_6.xml",
                         "action": "click",
-                        "bbox": [566,622,614,666]
+                        "bbox": [566, 622, 614, 666]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc15_TC_1.png",
+                            "xml_path": "./rednote_tc15_TC_1.xml",
+                            "action": "click",
+                            "bbox": [110, 152, 220, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc15_b_2.png",
+                            "xml_path": "./rednote_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [10, 232, 355, 876]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc15_b_3.png",
+                            "xml_path": "./rednote_tc15_b_3.xml",
+                            "action": "click",
+                            "bbox": [577, 1424, 710, 1512]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc15_b_4.png",
+                            "xml_path": "./rednote_tc15_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 392, 260, 480]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc15_b_5.png",
+                            "xml_path": "./rednote_tc15_b_5.xml",
+                            "action": "click",
+                            "bbox": [22, 548, 254, 636]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc15_b_6.png",
+                            "xml_path": "./rednote_tc15_b_6.xml",
+                            "action": "click",
+                            "bbox": [566, 622, 614, 666]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc15_b_1.png",
+                            "xml_path": "./rednote_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [110, 152, 220, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc15_EA_2.png",
+                            "xml_path": "./rednote_tc15_EA_2.xml",
+                            "action": "click",
+                            "bbox": [10, 232, 355, 876]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc15_b_3.png",
+                            "xml_path": "./rednote_tc15_b_3.xml",
+                            "action": "click",
+                            "bbox": [577, 1424, 710, 1512]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc15_b_4.png",
+                            "xml_path": "./rednote_tc15_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 392, 260, 480]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc15_b_5.png",
+                            "xml_path": "./rednote_tc15_b_5.xml",
+                            "action": "click",
+                            "bbox": [22, 548, 254, 636]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc15_b_6.png",
+                            "xml_path": "./rednote_tc15_b_6.xml",
+                            "action": "click",
+                            "bbox": [566, 622, 614, 666]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc15_b_1.png",
+                            "xml_path": "./rednote_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [110, 152, 220, 232]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc15_EA-T_2.png",
+                            "xml_path": "./rednote_tc15_EA-T_2.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc15_b_2.png",
+                            "xml_path": "./rednote_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [10, 232, 355, 876]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc15_b_3.png",
+                            "xml_path": "./rednote_tc15_b_3.xml",
+                            "action": "click",
+                            "bbox": [577, 1424, 710, 1512]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc15_b_4.png",
+                            "xml_path": "./rednote_tc15_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 392, 260, 480]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc15_b_5.png",
+                            "xml_path": "./rednote_tc15_b_5.xml",
+                            "action": "click",
+                            "bbox": [22, 548, 254, 636]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc15_b_6.png",
+                            "xml_path": "./rednote_tc15_b_6.xml",
+                            "action": "click",
+                            "bbox": [566, 622, 614, 666]
+                        }
+                    ]
+                },
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc15_LS_1.png",
+                            "xml_path": "./rednote_tc15_LS_1.xml",
+                            "action": "click",
+                            "bbox": [540, 0, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc15_b_1.png",
+                            "xml_path": "./rednote_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [110, 152, 220, 232]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc15_b_2.png",
+                            "xml_path": "./rednote_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [10, 232, 355, 876]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc15_b_3.png",
+                            "xml_path": "./rednote_tc15_b_3.xml",
+                            "action": "click",
+                            "bbox": [577, 1424, 710, 1512]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc15_b_4.png",
+                            "xml_path": "./rednote_tc15_b_4.xml",
+                            "action": "click",
+                            "bbox": [10, 392, 260, 480]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc15_b_5.png",
+                            "xml_path": "./rednote_tc15_b_5.xml",
+                            "action": "click",
+                            "bbox": [22, 548, 254, 636]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc15_b_6.png",
+                            "xml_path": "./rednote_tc15_b_6.xml",
+                            "action": "click",
+                            "bbox": [566, 622, 614, 666]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "testcase_id": 16,
@@ -742,14 +3640,14 @@
                         "screenshot_path": "./rednote_tc16_b_1.png",
                         "xml_path": "./rednote_tc16_b_1.xml",
                         "action": "click",
-                        "bbox": [630,72,702,144]
+                        "bbox": [630, 72, 702, 144]
                     },
                     {
                         "checkpoint_id": 2,
                         "screenshot_path": "./rednote_tc16_b_2.png",
                         "xml_path": "./rednote_tc16_b_2.xml",
                         "action": "input",
-                        "bbox": [120,72,499,160],
+                        "bbox": [120, 72, 499, 160],
                         "input_value": "澳洲旅游"
                     },
                     {
@@ -757,28 +3655,28 @@
                         "screenshot_path": "./rednote_tc16_b_3.png",
                         "xml_path": "./rednote_tc16_b_3.xml",
                         "action": "click",
-                        "bbox": [10,354,355,1006]
+                        "bbox": [10, 354, 355, 1006]
                     },
                     {
                         "checkpoint_id": 4,
                         "screenshot_path": "./rednote_tc16_b_4.png",
                         "xml_path": "./rednote_tc16_b_4.xml",
                         "action": "click",
-                        "bbox": [60,82,492,158]
+                        "bbox": [60, 82, 492, 158]
                     },
                     {
                         "checkpoint_id": 5,
                         "screenshot_path": "./rednote_tc16_b_5.png",
                         "xml_path": "./rednote_tc16_b_5.xml",
                         "action": "click",
-                        "bbox": [624,890,712,978]
+                        "bbox": [624, 890, 712, 978]
                     },
                     {
                         "checkpoint_id": 6,
                         "screenshot_path": "./rednote_tc16_b_6.png",
                         "xml_path": "./rednote_tc16_b_6.xml",
                         "action": "input",
-                        "bbox": [102,192,592,256],
+                        "bbox": [102, 192, 592, 256],
                         "input_value": "日本"
                     },
                     {
@@ -786,10 +3684,249 @@
                         "screenshot_path": "./rednote_tc16_b_7.png",
                         "xml_path": "./rednote_tc16_b_7.xml",
                         "action": "click",
-                        "bbox": [10,383,355,1027]
+                        "bbox": [10, 383, 355, 1027]
                     }
                 ]
-            }
+            },
+            "noise": [
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc16_FO_1.png",
+                            "xml_path": "./rednote_tc16_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc16_b_1.png",
+                            "xml_path": "./rednote_tc16_b_1.xml",
+                            "action": "click",
+                            "bbox": [630, 72, 702, 144]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc16_b_2.png",
+                            "xml_path": "./rednote_tc16_b_2.xml",
+                            "action": "input",
+                            "bbox": [120, 72, 499, 160],
+                            "input_value": "澳洲旅游"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc16_b_3.png",
+                            "xml_path": "./rednote_tc16_b_3.xml",
+                            "action": "click",
+                            "bbox": [10, 354, 355, 1006]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc16_b_4.png",
+                            "xml_path": "./rednote_tc16_b_4.xml",
+                            "action": "click",
+                            "bbox": [60, 82, 492, 158]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc16_b_5.png",
+                            "xml_path": "./rednote_tc16_b_5.xml",
+                            "action": "click",
+                            "bbox": [624, 890, 712, 978]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc16_b_6.png",
+                            "xml_path": "./rednote_tc16_b_6.xml",
+                            "action": "input",
+                            "bbox": [102, 192, 592, 256],
+                            "input_value": "日本"
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./rednote_tc16_b_7.png",
+                            "xml_path": "./rednote_tc16_b_7.xml",
+                            "action": "click",
+                            "bbox": [10, 383, 355, 1027]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc16_b_1.png",
+                            "xml_path": "./rednote_tc16_b_1.xml",
+                            "action": "click",
+                            "bbox": [630, 72, 702, 144]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc16_b_2.png",
+                            "xml_path": "./rednote_tc16_b_2.xml",
+                            "action": "input",
+                            "bbox": [120, 72, 499, 160],
+                            "input_value": "澳洲旅游"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc16_TC_3.png",
+                            "xml_path": "./rednote_tc16_TC_3.xml",
+                            "action": "click",
+                            "bbox": [10, 354, 355, 1006]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc16_b_4.png",
+                            "xml_path": "./rednote_tc16_b_4.xml",
+                            "action": "click",
+                            "bbox": [60, 82, 492, 158]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc16_b_5.png",
+                            "xml_path": "./rednote_tc16_b_5.xml",
+                            "action": "click",
+                            "bbox": [624, 890, 712, 978]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc16_b_6.png",
+                            "xml_path": "./rednote_tc16_b_6.xml",
+                            "action": "input",
+                            "bbox": [102, 192, 592, 256],
+                            "input_value": "日本"
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc16_b_7.png",
+                            "xml_path": "./rednote_tc16_b_7.xml",
+                            "action": "click",
+                            "bbox": [10, 383, 355, 1027]
+                        }
+                    ]
+                },
+                {
+                    "type": "VA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc16_b_1.png",
+                            "xml_path": "./rednote_tc16_b_1.xml",
+                            "action": "click",
+                            "bbox": [630, 72, 702, 144]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc16_b_2.png",
+                            "xml_path": "./rednote_tc16_b_2.xml",
+                            "action": "input",
+                            "bbox": [120, 72, 499, 160],
+                            "input_value": "澳洲旅游"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc16_b_3.png",
+                            "xml_path": "./rednote_tc16_b_3.xml",
+                            "action": "click",
+                            "bbox": [10, 354, 355, 1006]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc16_b_4.png",
+                            "xml_path": "./rednote_tc16_b_4.xml",
+                            "action": "click",
+                            "bbox": [60, 82, 492, 158]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc16_VA_5.png",
+                            "xml_path": "./rednote_tc16_VA_5.xml",
+                            "action": "click",
+                            "bbox": [624, 890, 712, 978]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc16_b_6.png",
+                            "xml_path": "./rednote_tc16_b_6.xml",
+                            "action": "input",
+                            "bbox": [102, 192, 592, 256],
+                            "input_value": "日本"
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc16_b_7.png",
+                            "xml_path": "./rednote_tc16_b_7.xml",
+                            "action": "click",
+                            "bbox": [10, 383, 355, 1027]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./rednote_tc16_b_1.png",
+                            "xml_path": "./rednote_tc16_b_1.xml",
+                            "action": "click",
+                            "bbox": [630, 72, 702, 144]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./rednote_tc16_b_2.png",
+                            "xml_path": "./rednote_tc16_b_2.xml",
+                            "action": "input",
+                            "bbox": [120, 72, 499, 160],
+                            "input_value": "澳洲旅游"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./rednote_tc16_b_3.png",
+                            "xml_path": "./rednote_tc16_b_3.xml",
+                            "action": "click",
+                            "bbox": [10, 354, 355, 1006]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./rednote_tc16_b_4.png",
+                            "xml_path": "./rednote_tc16_b_4.xml",
+                            "action": "click",
+                            "bbox": [60, 82, 492, 158]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./rednote_tc16_b_5.png",
+                            "xml_path": "./rednote_tc16_b_5.xml",
+                            "action": "click",
+                            "bbox": [624, 890, 712, 978]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./rednote_tc16_b_6.png",
+                            "xml_path": "./rednote_tc16_b_6.xml",
+                            "action": "input",
+                            "bbox": [102, 192, 592, 256],
+                            "input_value": "日本"
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./rednote_tc16_EA-T_7.png",
+                            "xml_path": "./rednote_tc16_EA-T_7.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./rednote_tc16_b_7.png",
+                            "xml_path": "./rednote_tc16_b_7.xml",
+                            "action": "click",
+                            "bbox": [10, 383, 355, 1027]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
