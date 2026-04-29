@@ -1,0 +1,3061 @@
+{
+    "app": "hupu",
+    "testcases": [
+        {
+            "testcase_id": 1,
+            "testcase_desc": "在首页推荐页查看第一条帖子，并回复评论中第一条评论“确实”。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./hupu_tc1_b_1.png",
+                        "xml_path": "./hupu_tc1_b_1.xml",
+                        "action": "click",
+                        "bbox": [0, 224, 720, 560]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./hupu_tc1_b_2.png",
+                        "xml_path": "./hupu_tc1_b_2.xml",
+                        "action": "click",
+                        "bbox": [544, 1416, 656, 1512]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./hupu_tc1_b_3.png",
+                        "xml_path": "./hupu_tc1_b_3.xml",
+                        "action": "click",
+                        "bbox": [0, 368, 720, 796]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./hupu_tc1_b_4.png",
+                        "xml_path": "./hupu_tc1_b_4.xml",
+                        "action": "input",
+                        "bbox": [32, 657, 688, 744],
+                        "input_value": "确实"
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc1_EO_1.png",
+                            "xml_path": "./hupu_tc1_EO_1.xml",
+                            "action": "click",
+                            "bbox": [360, 989, 605, 1069]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc1_b_1.png",
+                            "xml_path": "./hupu_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 224, 720, 560]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc1_b_2.png",
+                            "xml_path": "./hupu_tc1_b_2.xml",
+                            "action": "click",
+                            "bbox": [544, 1416, 656, 1512]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc1_b_3.png",
+                            "xml_path": "./hupu_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 368, 720, 796]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc1_b_4.png",
+                            "xml_path": "./hupu_tc1_b_4.xml",
+                            "action": "input",
+                            "bbox": [32, 657, 688, 744],
+                            "input_value": "确实"
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc1_b_1.png",
+                            "xml_path": "./hupu_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 224, 720, 560]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc1_TC_2.png",
+                            "xml_path": "./hupu_tc1_TC_2.xml",
+                            "action": "click",
+                            "bbox": [544, 1416, 656, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc1_b_3.png",
+                            "xml_path": "./hupu_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 368, 720, 796]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc1_b_4.png",
+                            "xml_path": "./hupu_tc1_b_4.xml",
+                            "action": "input",
+                            "bbox": [32, 657, 688, 744],
+                            "input_value": "确实"
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc1_b_1.png",
+                            "xml_path": "./hupu_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 224, 720, 560]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc1_b_2.png",
+                            "xml_path": "./hupu_tc1_b_2.xml",
+                            "action": "click",
+                            "bbox": [544, 1416, 656, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc1_EA-T_3.png",
+                            "xml_path": "./hupu_tc1_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc1_b_3.png",
+                            "xml_path": "./hupu_tc1_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 368, 720, 796]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc1_b_4.png",
+                            "xml_path": "./hupu_tc1_b_4.xml",
+                            "action": "input",
+                            "bbox": [32, 657, 688, 744],
+                            "input_value": "确实"
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc1_b_1.png",
+                            "xml_path": "./hupu_tc1_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 224, 720, 560]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc1_b_2.png",
+                            "xml_path": "./hupu_tc1_b_2.xml",
+                            "action": "click",
+                            "bbox": [544, 1416, 656, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc1_EA_3.png",
+                            "xml_path": "./hupu_tc1_EA_3.xml",
+                            "action": "click",
+                            "bbox": [0, 368, 720, 796]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc1_b_4.png",
+                            "xml_path": "./hupu_tc1_b_4.xml",
+                            "action": "input",
+                            "bbox": [32, 657, 688, 744],
+                            "input_value": "确实"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 2,
+            "testcase_desc": "在首页推荐页搜索“英雄联盟”，查看“帖子”中最新部分的第一条帖子，并分享到微信好友。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./hupu_tc2_b_1.png",
+                        "xml_path": "./hupu_tc2_b_1.xml",
+                        "action": "click",
+                        "bbox": [124, 65, 684, 135]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./hupu_tc2_b_2.png",
+                        "xml_path": "./hupu_tc2_b_2.xml",
+                        "action": "input",
+                        "bbox": [178, 103, 648, 141],
+                        "input_value": "英雄联盟"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./hupu_tc2_b_3.png",
+                        "xml_path": "./hupu_tc2_b_3.xml",
+                        "action": "click",
+                        "bbox": [144, 184, 288, 272]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./hupu_tc2_b_4.png",
+                        "xml_path": "./hupu_tc2_b_4.xml",
+                        "action": "click",
+                        "bbox": [120, 289, 216, 330]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./hupu_tc2_b_5.png",
+                        "xml_path": "./hupu_tc2_b_5.xml",
+                        "action": "click",
+                        "bbox": [0, 346, 720, 563]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./hupu_tc2_b_6.png",
+                        "xml_path": "./hupu_tc2_b_6.xml",
+                        "action": "click",
+                        "bbox": [656, 1416, 720, 1512]
+                    },
+                    {
+                        "checkpoint_id": 7,
+                        "screenshot_path": "./hupu_tc2_b_7.png",
+                        "xml_path": "./hupu_tc2_b_7.xml",
+                        "action": "click",
+                        "bbox": [16, 1089, 146, 1230]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc2_b_1.png",
+                            "xml_path": "./hupu_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [124, 65, 684, 135]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc2_b_2.png",
+                            "xml_path": "./hupu_tc2_b_2.xml",
+                            "action": "input",
+                            "bbox": [178, 103, 648, 141],
+                            "input_value": "英雄联盟"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc2_b_3.png",
+                            "xml_path": "./hupu_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [144, 184, 288, 272]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc2_TC_4.png",
+                            "xml_path": "./hupu_tc2_TC_4.xml",
+                            "action": "click",
+                            "bbox": [120, 289, 216, 330]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc2_b_5.png",
+                            "xml_path": "./hupu_tc2_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 346, 720, 563]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc2_b_6.png",
+                            "xml_path": "./hupu_tc2_b_6.xml",
+                            "action": "click",
+                            "bbox": [656, 1416, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./hupu_tc2_b_7.png",
+                            "xml_path": "./hupu_tc2_b_7.xml",
+                            "action": "click",
+                            "bbox": [16, 1089, 146, 1230]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc2_EO_1.png",
+                            "xml_path": "./hupu_tc2_EO_1.xml",
+                            "action": "click",
+                            "bbox": [360, 989, 605, 1069]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc2_b_1.png",
+                            "xml_path": "./hupu_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [124, 65, 684, 135]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc2_b_2.png",
+                            "xml_path": "./hupu_tc2_b_2.xml",
+                            "action": "input",
+                            "bbox": [178, 103, 648, 141],
+                            "input_value": "英雄联盟"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc2_b_3.png",
+                            "xml_path": "./hupu_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [144, 184, 288, 272]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc2_b_4.png",
+                            "xml_path": "./hupu_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [120, 289, 216, 330]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc2_b_5.png",
+                            "xml_path": "./hupu_tc2_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 346, 720, 563]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./hupu_tc2_b_6.png",
+                            "xml_path": "./hupu_tc2_b_6.xml",
+                            "action": "click",
+                            "bbox": [656, 1416, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./hupu_tc2_b_7.png",
+                            "xml_path": "./hupu_tc2_b_7.xml",
+                            "action": "click",
+                            "bbox": [16, 1089, 146, 1230]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc2_b_1.png",
+                            "xml_path": "./hupu_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [124, 65, 684, 135]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc2_b_2.png",
+                            "xml_path": "./hupu_tc2_b_2.xml",
+                            "action": "input",
+                            "bbox": [178, 103, 648, 141],
+                            "input_value": "英雄联盟"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc2_b_3.png",
+                            "xml_path": "./hupu_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [144, 184, 288, 272]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc2_b_4.png",
+                            "xml_path": "./hupu_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [120, 289, 216, 330]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc2_EA_5.png",
+                            "xml_path": "./hupu_tc2_EA_5.xml",
+                            "action": "click",
+                            "bbox": [0, 346, 720, 563]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc2_b_6.png",
+                            "xml_path": "./hupu_tc2_b_6.xml",
+                            "action": "click",
+                            "bbox": [656, 1416, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./hupu_tc2_b_7.png",
+                            "xml_path": "./hupu_tc2_b_7.xml",
+                            "action": "click",
+                            "bbox": [16, 1089, 146, 1230]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc2_b_1.png",
+                            "xml_path": "./hupu_tc2_b_1.xml",
+                            "action": "click",
+                            "bbox": [124, 65, 684, 135]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc2_b_2.png",
+                            "xml_path": "./hupu_tc2_b_2.xml",
+                            "action": "input",
+                            "bbox": [178, 103, 648, 141],
+                            "input_value": "英雄联盟"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc2_b_3.png",
+                            "xml_path": "./hupu_tc2_b_3.xml",
+                            "action": "click",
+                            "bbox": [144, 184, 288, 272]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc2_b_4.png",
+                            "xml_path": "./hupu_tc2_b_4.xml",
+                            "action": "click",
+                            "bbox": [120, 289, 216, 330]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc2_EA-T_5.png",
+                            "xml_path": "./hupu_tc2_EA-T_5.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc2_b_5.png",
+                            "xml_path": "./hupu_tc2_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 346, 720, 563]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./hupu_tc2_b_6.png",
+                            "xml_path": "./hupu_tc2_b_6.xml",
+                            "action": "click",
+                            "bbox": [656, 1416, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 8,
+                            "screenshot_path": "./hupu_tc2_b_7.png",
+                            "xml_path": "./hupu_tc2_b_7.xml",
+                            "action": "click",
+                            "bbox": [16, 1089, 146, 1230]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 3,
+            "testcase_desc": "在专区中选择“CBA”分类，进入“CBA专区”，加入专区，并且查看“24小时榜”的第一条资讯。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./hupu_tc3_b_1.png",
+                        "xml_path": "./hupu_tc3_b_1.xml",
+                        "action": "click",
+                        "bbox": [144, 1412, 288, 1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./hupu_tc3_b_2.png",
+                        "xml_path": "./hupu_tc3_b_2.xml",
+                        "action": "click",
+                        "bbox": [0, 729, 152, 821]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./hupu_tc3_b_3.png",
+                        "xml_path": "./hupu_tc3_b_3.xml",
+                        "action": "click",
+                        "bbox": [176, 548, 349, 723]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./hupu_tc3_b_4.png",
+                        "xml_path": "./hupu_tc3_b_4.xml",
+                        "action": "click",
+                        "bbox": [120, 784, 308, 852]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./hupu_tc3_b_5.png",
+                        "xml_path": "./hupu_tc3_b_5.xml",
+                        "action": "click",
+                        "bbox": [0, 855, 720, 1111]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc3_b_1.png",
+                            "xml_path": "./hupu_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1412, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc3_EA-T_2.png",
+                            "xml_path": "./hupu_tc3_EA-T_2.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc3_b_2.png",
+                            "xml_path": "./hupu_tc3_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 729, 152, 821]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc3_b_3.png",
+                            "xml_path": "./hupu_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [176, 548, 349, 723]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc3_b_4.png",
+                            "xml_path": "./hupu_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [120, 784, 308, 852]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc3_b_5.png",
+                            "xml_path": "./hupu_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 855, 720, 1111]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc3_b_1.png",
+                            "xml_path": "./hupu_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1412, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc3_EA_2.png",
+                            "xml_path": "./hupu_tc3_EA_2.xml",
+                            "action": "click",
+                            "bbox": [0, 729, 152, 821]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc3_b_3.png",
+                            "xml_path": "./hupu_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [176, 548, 349, 723]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc3_b_4.png",
+                            "xml_path": "./hupu_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [120, 784, 308, 852]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc3_b_5.png",
+                            "xml_path": "./hupu_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 855, 720, 1111]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc3_EO_1.png",
+                            "xml_path": "./hupu_tc3_EO_1.xml",
+                            "action": "click",
+                            "bbox": [360, 989, 605, 1069]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc3_b_1.png",
+                            "xml_path": "./hupu_tc3_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1412, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc3_b_2.png",
+                            "xml_path": "./hupu_tc3_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 729, 152, 821]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc3_b_3.png",
+                            "xml_path": "./hupu_tc3_b_3.xml",
+                            "action": "click",
+                            "bbox": [176, 548, 349, 723]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc3_b_4.png",
+                            "xml_path": "./hupu_tc3_b_4.xml",
+                            "action": "click",
+                            "bbox": [120, 784, 308, 852]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc3_b_5.png",
+                            "xml_path": "./hupu_tc3_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 855, 720, 1111]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 4,
+            "testcase_desc": "在首页推荐页切换到“热榜”，查看全部榜单中的影视榜，查看第一条内容中的第一个相关角色。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./hupu_tc4_b_1.png",
+                        "xml_path": "./hupu_tc4_b_1.xml",
+                        "action": "click",
+                        "bbox": [14, 136, 114, 224]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./hupu_tc4_b_2.png",
+                        "xml_path": "./hupu_tc4_b_2.xml",
+                        "action": "click",
+                        "bbox": [568, 256, 688, 289]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./hupu_tc4_b_3.png",
+                        "xml_path": "./hupu_tc4_b_3.xml",
+                        "action": "click",
+                        "bbox": [168, 168, 304, 216]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./hupu_tc4_b_4.png",
+                        "xml_path": "./hupu_tc4_b_4.xml",
+                        "action": "click",
+                        "bbox": [32, 232, 688, 459]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./hupu_tc4_b_5.png",
+                        "xml_path": "./hupu_tc4_b_5.xml",
+                        "action": "click",
+                        "bbox": [32, 581, 352, 852]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc4_b_1.png",
+                            "xml_path": "./hupu_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [14, 136, 114, 224]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc4_b_2.png",
+                            "xml_path": "./hupu_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [568, 256, 688, 289]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc4_LS_3.png",
+                            "xml_path": "./hupu_tc4_LS_3.xml",
+                            "action": "click",
+                            "bbox": [168, 342, 304, 390]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc4_b_4.png",
+                            "xml_path": "./hupu_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [32, 232, 688, 459]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc4_b_5.png",
+                            "xml_path": "./hupu_tc4_b_5.xml",
+                            "action": "click",
+                            "bbox": [32, 581, 352, 852]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc4_EO_1.png",
+                            "xml_path": "./hupu_tc4_EO_1.xml",
+                            "action": "click",
+                            "bbox": [360, 989, 605, 1069]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc4_b_1.png",
+                            "xml_path": "./hupu_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [14, 136, 114, 224]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc4_b_2.png",
+                            "xml_path": "./hupu_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [568, 256, 688, 289]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc4_b_3.png",
+                            "xml_path": "./hupu_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [168, 168, 304, 216]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc4_b_4.png",
+                            "xml_path": "./hupu_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [32, 232, 688, 459]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc4_b_5.png",
+                            "xml_path": "./hupu_tc4_b_5.xml",
+                            "action": "click",
+                            "bbox": [32, 581, 352, 852]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc4_b_1.png",
+                            "xml_path": "./hupu_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [14, 136, 114, 224]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc4_b_2.png",
+                            "xml_path": "./hupu_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [568, 256, 688, 289]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc4_b_3.png",
+                            "xml_path": "./hupu_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [168, 168, 304, 216]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc4_EA-T_4.png",
+                            "xml_path": "./hupu_tc4_EA-T_4.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc4_b_4.png",
+                            "xml_path": "./hupu_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [32, 232, 688, 459]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc4_b_5.png",
+                            "xml_path": "./hupu_tc4_b_5.xml",
+                            "action": "click",
+                            "bbox": [32, 581, 352, 852]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc4_FO_1.png",
+                            "xml_path": "./hupu_tc4_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc4_b_1.png",
+                            "xml_path": "./hupu_tc4_b_1.xml",
+                            "action": "click",
+                            "bbox": [14, 136, 114, 224]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc4_b_2.png",
+                            "xml_path": "./hupu_tc4_b_2.xml",
+                            "action": "click",
+                            "bbox": [568, 256, 688, 289]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc4_b_3.png",
+                            "xml_path": "./hupu_tc4_b_3.xml",
+                            "action": "click",
+                            "bbox": [168, 168, 304, 216]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc4_b_4.png",
+                            "xml_path": "./hupu_tc4_b_4.xml",
+                            "action": "click",
+                            "bbox": [32, 232, 688, 459]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc4_b_5.png",
+                            "xml_path": "./hupu_tc4_b_5.xml",
+                            "action": "click",
+                            "bbox": [32, 581, 352, 852]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 5,
+            "testcase_desc": "在评分模块中搜索“爱情公寓”，查看评分部分中的“爱情公寓3”，查看相关评分中的第一个人物。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./hupu_tc5_b_1.png",
+                        "xml_path": "./hupu_tc5_b_1.xml",
+                        "action": "click",
+                        "bbox": [432, 1412, 576, 1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./hupu_tc5_b_2.png",
+                        "xml_path": "./hupu_tc5_b_2.xml",
+                        "action": "click",
+                        "bbox": [136, 77, 612, 141]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./hupu_tc5_b_3.png",
+                        "xml_path": "./hupu_tc5_b_3.xml",
+                        "action": "input",
+                        "bbox": [178, 103, 648, 141],
+                        "input_text": "爱情公寓"
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./hupu_tc5_b_4.png",
+                        "xml_path": "./hupu_tc5_b_4.xml",
+                        "action": "click",
+                        "bbox": [288, 184, 432, 272]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./hupu_tc5_b_5.png",
+                        "xml_path": "./hupu_tc5_b_5.xml",
+                        "action": "click",
+                        "bbox": [0, 305, 720, 615]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./hupu_tc5_b_6.png",
+                        "xml_path": "./hupu_tc5_b_6.xml",
+                        "action": "click",
+                        "bbox": [32, 340, 352, 611]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc5_b_1.png",
+                            "xml_path": "./hupu_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1412, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc5_b_2.png",
+                            "xml_path": "./hupu_tc5_b_2.xml",
+                            "action": "click",
+                            "bbox": [136, 77, 612, 141]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc5_b_3.png",
+                            "xml_path": "./hupu_tc5_b_3.xml",
+                            "action": "input",
+                            "bbox": [178, 103, 648, 141],
+                            "input_text": "爱情公寓"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc5_b_4.png",
+                            "xml_path": "./hupu_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [288, 184, 432, 272]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc5_b_5.png",
+                            "xml_path": "./hupu_tc5_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 305, 720, 615]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc5_LS_6.png",
+                            "xml_path": "./hupu_tc5_LS_6.xml",
+                            "action": "click",
+                            "bbox": [32, 1022, 352, 1293]
+                        }
+                    ]
+                },
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc5_FO_1.png",
+                            "xml_path": "./hupu_tc5_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc5_b_1.png",
+                            "xml_path": "./hupu_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1412, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc5_b_2.png",
+                            "xml_path": "./hupu_tc5_b_2.xml",
+                            "action": "click",
+                            "bbox": [136, 77, 612, 141]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc5_b_3.png",
+                            "xml_path": "./hupu_tc5_b_3.xml",
+                            "action": "input",
+                            "bbox": [178, 103, 648, 141],
+                            "input_text": "爱情公寓"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc5_b_4.png",
+                            "xml_path": "./hupu_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [288, 184, 432, 272]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc5_b_5.png",
+                            "xml_path": "./hupu_tc5_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 305, 720, 615]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./hupu_tc5_b_6.png",
+                            "xml_path": "./hupu_tc5_b_6.xml",
+                            "action": "click",
+                            "bbox": [32, 340, 352, 611]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc5_b_1.png",
+                            "xml_path": "./hupu_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1412, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc5_b_2.png",
+                            "xml_path": "./hupu_tc5_b_2.xml",
+                            "action": "click",
+                            "bbox": [136, 77, 612, 141]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc5_b_3.png",
+                            "xml_path": "./hupu_tc5_b_3.xml",
+                            "action": "input",
+                            "bbox": [178, 103, 648, 141],
+                            "input_text": "爱情公寓"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc5_b_4.png",
+                            "xml_path": "./hupu_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [288, 184, 432, 272]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc5_EA_5.png",
+                            "xml_path": "./hupu_tc5_EA_5.xml",
+                            "action": "click",
+                            "bbox": [0, 305, 720, 615]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc5_b_6.png",
+                            "xml_path": "./hupu_tc5_b_6.xml",
+                            "action": "click",
+                            "bbox": [32, 340, 352, 611]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc5_b_1.png",
+                            "xml_path": "./hupu_tc5_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1412, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc5_b_2.png",
+                            "xml_path": "./hupu_tc5_b_2.xml",
+                            "action": "click",
+                            "bbox": [136, 77, 612, 141]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc5_b_3.png",
+                            "xml_path": "./hupu_tc5_b_3.xml",
+                            "action": "input",
+                            "bbox": [178, 103, 648, 141],
+                            "input_text": "爱情公寓"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc5_b_4.png",
+                            "xml_path": "./hupu_tc5_b_4.xml",
+                            "action": "click",
+                            "bbox": [288, 184, 432, 272]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc5_EA-T_5.png",
+                            "xml_path": "./hupu_tc5_EA-T_5.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc5_b_5.png",
+                            "xml_path": "./hupu_tc5_b_5.xml",
+                            "action": "click",
+                            "bbox": [0, 305, 720, 615]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./hupu_tc5_b_6.png",
+                            "xml_path": "./hupu_tc5_b_6.xml",
+                            "action": "click",
+                            "bbox": [32, 340, 352, 611]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 6,
+            "testcase_desc": "在首页搜索“欧洲旅游”，查看第一条内容，按评分从高到低查看第一条内容，并给出5颗星的评分。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./hupu_tc6_b_1.png",
+                        "xml_path": "./hupu_tc6_b_1.xml",
+                        "action": "click",
+                        "bbox": [124, 65, 684, 135]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./hupu_tc6_b_2.png",
+                        "xml_path": "./hupu_tc6_b_2.xml",
+                        "action": "input",
+                        "bbox": [178, 103, 648, 141],
+                        "input_text": "欧洲旅游"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./hupu_tc6_b_3.png",
+                        "xml_path": "./hupu_tc6_b_3.xml",
+                        "action": "click",
+                        "bbox": [0, 305, 720, 574]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./hupu_tc6_b_4.png",
+                        "xml_path": "./hupu_tc6_b_4.xml",
+                        "action": "click",
+                        "bbox": [526, 406, 606, 450]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./hupu_tc6_b_5.png",
+                        "xml_path": "./hupu_tc6_b_5.xml",
+                        "action": "click",
+                        "bbox": [32, 484, 688, 727]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./hupu_tc6_b_6.png",
+                        "xml_path": "./hupu_tc6_b_6.xml",
+                        "action": "click",
+                        "bbox": [352, 587, 656, 635]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc6_b_1.png",
+                            "xml_path": "./hupu_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [124, 65, 684, 135]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc6_b_2.png",
+                            "xml_path": "./hupu_tc6_b_2.xml",
+                            "action": "input",
+                            "bbox": [178, 103, 648, 141],
+                            "input_text": "欧洲旅游"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc6_b_3.png",
+                            "xml_path": "./hupu_tc6_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 305, 720, 574]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc6_b_4.png",
+                            "xml_path": "./hupu_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [526, 406, 606, 450]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc6_b_5.png",
+                            "xml_path": "./hupu_tc6_b_5.xml",
+                            "action": "click",
+                            "bbox": [32, 484, 688, 727]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc6_AC_6.png",
+                            "xml_path": "./hupu_tc6_AC_6.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc6_b_1.png",
+                            "xml_path": "./hupu_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [124, 65, 684, 135]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc6_b_2.png",
+                            "xml_path": "./hupu_tc6_b_2.xml",
+                            "action": "input",
+                            "bbox": [178, 103, 648, 141],
+                            "input_text": "欧洲旅游"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc6_EA-T_3.png",
+                            "xml_path": "./hupu_tc6_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc6_b_3.png",
+                            "xml_path": "./hupu_tc6_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 305, 720, 574]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc6_b_4.png",
+                            "xml_path": "./hupu_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [526, 406, 606, 450]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc6_b_5.png",
+                            "xml_path": "./hupu_tc6_b_5.xml",
+                            "action": "click",
+                            "bbox": [32, 484, 688, 727]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./hupu_tc6_b_6.png",
+                            "xml_path": "./hupu_tc6_b_6.xml",
+                            "action": "click",
+                            "bbox": [352, 587, 656, 635]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc6_b_1.png",
+                            "xml_path": "./hupu_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [124, 65, 684, 135]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc6_b_2.png",
+                            "xml_path": "./hupu_tc6_b_2.xml",
+                            "action": "input",
+                            "bbox": [178, 103, 648, 141],
+                            "input_text": "欧洲旅游"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc6_EA_3.png",
+                            "xml_path": "./hupu_tc6_EA_3.xml",
+                            "action": "click",
+                            "bbox": [0, 305, 720, 574]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc6_b_4.png",
+                            "xml_path": "./hupu_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [526, 406, 606, 450]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc6_b_5.png",
+                            "xml_path": "./hupu_tc6_b_5.xml",
+                            "action": "click",
+                            "bbox": [32, 484, 688, 727]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc6_b_6.png",
+                            "xml_path": "./hupu_tc6_b_6.xml",
+                            "action": "click",
+                            "bbox": [352, 587, 656, 635]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc6_EO_1.png",
+                            "xml_path": "./hupu_tc6_EO_1.xml",
+                            "action": "click",
+                            "bbox": [360, 989, 605, 1069]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc6_b_1.png",
+                            "xml_path": "./hupu_tc6_b_1.xml",
+                            "action": "click",
+                            "bbox": [124, 65, 684, 135]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc6_b_2.png",
+                            "xml_path": "./hupu_tc6_b_2.xml",
+                            "action": "input",
+                            "bbox": [178, 103, 648, 141],
+                            "input_text": "欧洲旅游"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc6_b_3.png",
+                            "xml_path": "./hupu_tc6_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 305, 720, 574]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc6_b_4.png",
+                            "xml_path": "./hupu_tc6_b_4.xml",
+                            "action": "click",
+                            "bbox": [526, 406, 606, 450]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc6_b_5.png",
+                            "xml_path": "./hupu_tc6_b_5.xml",
+                            "action": "click",
+                            "bbox": [32, 484, 688, 727]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./hupu_tc6_b_6.png",
+                            "xml_path": "./hupu_tc6_b_6.xml",
+                            "action": "click",
+                            "bbox": [352, 587, 656, 635]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 7,
+            "testcase_desc": "在首页推荐页编辑“所有频道”，先移除“无畏契约”频道，再加入“英超”频道。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./hupu_tc7_b_1.png",
+                        "xml_path": "./hupu_tc7_b_1.xml",
+                        "action": "click",
+                        "bbox": [652, 136, 720, 224]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./hupu_tc7_b_2.png",
+                        "xml_path": "./hupu_tc7_b_2.xml",
+                        "action": "click",
+                        "bbox": [592, 171, 688, 220]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./hupu_tc7_b_3.png",
+                        "xml_path": "./hupu_tc7_b_3.xml",
+                        "action": "click",
+                        "bbox": [672, 758, 688, 775]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./hupu_tc7_b_4.png",
+                        "xml_path": "./hupu_tc7_b_4.xml",
+                        "action": "click",
+                        "bbox": [492, 1160, 688, 1240]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc7_b_1.png",
+                            "xml_path": "./hupu_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [652, 136, 720, 224]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc7_AC_2.png",
+                            "xml_path": "./hupu_tc7_AC_2.xml",
+                            "action": "click",
+                            "bbox": [592, 171, 688, 220]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc7_AC_3.png",
+                            "xml_path": "./hupu_tc7_AC_3.xml",
+                            "action": "click",
+                            "bbox": [492, 1160, 688, 1240]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc7_EO_1.png",
+                            "xml_path": "./hupu_tc7_EO_1.xml",
+                            "action": "click",
+                            "bbox": [360, 989, 605, 1069]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc7_b_1.png",
+                            "xml_path": "./hupu_tc7_b_1.xml",
+                            "action": "click",
+                            "bbox": [652, 136, 720, 224]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc7_b_2.png",
+                            "xml_path": "./hupu_tc7_b_2.xml",
+                            "action": "click",
+                            "bbox": [592, 171, 688, 220]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc7_b_3.png",
+                            "xml_path": "./hupu_tc7_b_3.xml",
+                            "action": "click",
+                            "bbox": [672, 758, 688, 775]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc7_b_4.png",
+                            "xml_path": "./hupu_tc7_b_4.xml",
+                            "action": "click",
+                            "bbox": [492, 1160, 688, 1240]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 8,
+            "testcase_desc": "在首页推荐页进入“国际足球”频道，查看“AC米兰”的比赛内容，在“比赛预测”中查看“赛事命中率”的第一条内容。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./hupu_tc8_b_1.png",
+                        "xml_path": "./hupu_tc8_b_1.xml",
+                        "action": "click",
+                        "bbox": [256, 136, 420, 224]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./hupu_tc8_b_2.png",
+                        "xml_path": "./hupu_tc8_b_2.xml",
+                        "action": "click",
+                        "bbox": [48, 558, 672, 716]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./hupu_tc8_b_3.png",
+                        "xml_path": "./hupu_tc8_b_3.xml",
+                        "action": "click",
+                        "bbox": [382, 448, 570, 536]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./hupu_tc8_b_4.png",
+                        "xml_path": "./hupu_tc8_b_4.xml",
+                        "action": "click",
+                        "bbox": [422, 993, 604, 1041]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./hupu_tc8_b_5.png",
+                        "xml_path": "./hupu_tc8_b_5.xml",
+                        "action": "click",
+                        "bbox": [30, 1055, 690, 1369]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc8_VE_1.png",
+                            "xml_path": "./hupu_tc8_VE_1.xml",
+                            "action": "scroll",
+                            "bbox": [0, 136, 720, 224],
+                            "input_value": "left"
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc8_b_1.png",
+                            "xml_path": "./hupu_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [256, 136, 420, 224]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc8_b_2.png",
+                            "xml_path": "./hupu_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [48, 558, 672, 716]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc8_b_3.png",
+                            "xml_path": "./hupu_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [382, 448, 570, 536]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc8_b_4.png",
+                            "xml_path": "./hupu_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [422, 993, 604, 1041]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc8_b_5.png",
+                            "xml_path": "./hupu_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [30, 1055, 690, 1369]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc8_EO_1.png",
+                            "xml_path": "./hupu_tc8_EO_1.xml",
+                            "action": "click",
+                            "bbox": [360, 989, 605, 1069]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc8_b_1.png",
+                            "xml_path": "./hupu_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [256, 136, 420, 224]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc8_b_2.png",
+                            "xml_path": "./hupu_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [48, 558, 672, 716]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc8_b_3.png",
+                            "xml_path": "./hupu_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [382, 448, 570, 536]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc8_b_4.png",
+                            "xml_path": "./hupu_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [422, 993, 604, 1041]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc8_b_5.png",
+                            "xml_path": "./hupu_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [30, 1055, 690, 1369]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc8_b_1.png",
+                            "xml_path": "./hupu_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [256, 136, 420, 224]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc8_TC_2.png",
+                            "xml_path": "./hupu_tc8_TC_2.xml",
+                            "action": "click",
+                            "bbox": [48, 558, 672, 716]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc8_b_3.png",
+                            "xml_path": "./hupu_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [382, 448, 570, 536]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc8_b_4.png",
+                            "xml_path": "./hupu_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [422, 993, 604, 1041]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc8_b_5.png",
+                            "xml_path": "./hupu_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [30, 1055, 690, 1369]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc8_b_1.png",
+                            "xml_path": "./hupu_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [256, 136, 420, 224]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc8_b_2.png",
+                            "xml_path": "./hupu_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [48, 558, 672, 716]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc8_b_3.png",
+                            "xml_path": "./hupu_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [382, 448, 570, 536]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc8_EA_4.png",
+                            "xml_path": "./hupu_tc8_EA_4.xml",
+                            "action": "click",
+                            "bbox": [422, 993, 604, 1041]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc8_b_5.png",
+                            "xml_path": "./hupu_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [30, 1055, 690, 1369]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc8_b_1.png",
+                            "xml_path": "./hupu_tc8_b_1.xml",
+                            "action": "click",
+                            "bbox": [256, 136, 420, 224]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc8_b_2.png",
+                            "xml_path": "./hupu_tc8_b_2.xml",
+                            "action": "click",
+                            "bbox": [48, 558, 672, 716]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc8_b_3.png",
+                            "xml_path": "./hupu_tc8_b_3.xml",
+                            "action": "click",
+                            "bbox": [382, 448, 570, 536]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc8_EA-T_4.png",
+                            "xml_path": "./hupu_tc8_EA-T_4.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc8_b_4.png",
+                            "xml_path": "./hupu_tc8_b_4.xml",
+                            "action": "click",
+                            "bbox": [422, 993, 604, 1041]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc8_b_5.png",
+                            "xml_path": "./hupu_tc8_b_5.xml",
+                            "action": "click",
+                            "bbox": [30, 1055, 690, 1369]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 9,
+            "testcase_desc": "在设置中关闭赛事内容推荐的通知设置。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./hupu_tc9_b_1.png",
+                        "xml_path": "./hupu_tc9_b_1.xml",
+                        "action": "click",
+                        "bbox": [576, 1412, 720, 1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./hupu_tc9_b_2.png",
+                        "xml_path": "./hupu_tc9_b_2.xml",
+                        "action": "click",
+                        "bbox": [644, 96, 688, 140]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./hupu_tc9_b_3.png",
+                        "xml_path": "./hupu_tc9_b_3.xml",
+                        "action": "click",
+                        "bbox": [0, 568, 720, 664]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./hupu_tc9_b_4.png",
+                        "xml_path": "./hupu_tc9_b_4.xml",
+                        "action": "click",
+                        "bbox": [594, 358, 688, 412]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc9_b_1.png",
+                            "xml_path": "./hupu_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1412, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc9_b_2.png",
+                            "xml_path": "./hupu_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [644, 96, 688, 140]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc9_EO_3.png",
+                            "xml_path": "./hupu_tc9_EO_3.xml",
+                            "action": "click",
+                            "bbox": [360, 989, 605, 1069]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc9_b_3.png",
+                            "xml_path": "./hupu_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 568, 720, 664]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc9_b_4.png",
+                            "xml_path": "./hupu_tc9_b_4.xml",
+                            "action": "click",
+                            "bbox": [594, 358, 688, 412]
+                        }
+                    ]
+                },
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc9_b_1.png",
+                            "xml_path": "./hupu_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1412, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc9_b_2.png",
+                            "xml_path": "./hupu_tc9_b_2.xml",
+                            "action": "click",
+                            "bbox": [644, 96, 688, 140]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc9_b_3.png",
+                            "xml_path": "./hupu_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 568, 720, 664]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc9_AC_4.png",
+                            "xml_path": "./hupu_tc9_AC_4.xml",
+                            "action": "finish"
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc9_b_1.png",
+                            "xml_path": "./hupu_tc9_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1412, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc9_TC_2.png",
+                            "xml_path": "./hupu_tc9_TC_2.xml",
+                            "action": "click",
+                            "bbox": [644, 96, 688, 140]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc9_b_3.png",
+                            "xml_path": "./hupu_tc9_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 568, 720, 664]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc9_b_4.png",
+                            "xml_path": "./hupu_tc9_b_4.xml",
+                            "action": "click",
+                            "bbox": [594, 358, 688, 412]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 10,
+            "testcase_desc": "在首页推荐页查看第一条内容的视频，发送“WoW”的评论文字。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./hupu_tc10_b_1.png",
+                        "xml_path": "./hupu_tc10_b_1.xml",
+                        "action": "click",
+                        "bbox": [0, 224, 720, 1170]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./hupu_tc10_b_2.png",
+                        "xml_path": "./hupu_tc10_b_2.xml",
+                        "action": "click",
+                        "bbox": [32, 1430, 324, 1494]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./hupu_tc10_b_3.png",
+                        "xml_path": "./hupu_tc10_b_3.xml",
+                        "action": "click",
+                        "bbox": [120, 1432, 454, 1496]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./hupu_tc10_b_4.png",
+                        "xml_path": "./hupu_tc10_b_4.xml",
+                        "action": "input",
+                        "bbox": [32, 657, 688, 744],
+                        "input_value": "WoW"
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "FO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc10_FO_1.png",
+                            "xml_path": "./hupu_tc10_FO_1.xml",
+                            "action": "click",
+                            "bbox": [420, 140, 690, 270]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc10_b_1.png",
+                            "xml_path": "./hupu_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 224, 720, 1170]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc10_b_2.png",
+                            "xml_path": "./hupu_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 1430, 324, 1494]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc10_b_3.png",
+                            "xml_path": "./hupu_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [120, 1432, 454, 1496]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc10_b_4.png",
+                            "xml_path": "./hupu_tc10_b_4.xml",
+                            "action": "input",
+                            "bbox": [32, 657, 688, 744],
+                            "input_value": "WoW"
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc10_EO_1.png",
+                            "xml_path": "./hupu_tc10_EO_1.xml",
+                            "action": "click",
+                            "bbox": [360, 989, 605, 1069]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc10_b_1.png",
+                            "xml_path": "./hupu_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 224, 720, 1170]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc10_b_2.png",
+                            "xml_path": "./hupu_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 1430, 324, 1494]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc10_b_3.png",
+                            "xml_path": "./hupu_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [120, 1432, 454, 1496]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc10_b_4.png",
+                            "xml_path": "./hupu_tc10_b_4.xml",
+                            "action": "input",
+                            "bbox": [32, 657, 688, 744],
+                            "input_value": "WoW"
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc10_b_1.png",
+                            "xml_path": "./hupu_tc10_b_1.xml",
+                            "action": "click",
+                            "bbox": [0, 224, 720, 1170]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc10_b_2.png",
+                            "xml_path": "./hupu_tc10_b_2.xml",
+                            "action": "click",
+                            "bbox": [32, 1430, 324, 1494]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc10_EA-T_3.png",
+                            "xml_path": "./hupu_tc10_EA-T_3.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc10_b_3.png",
+                            "xml_path": "./hupu_tc10_b_3.xml",
+                            "action": "click",
+                            "bbox": [120, 1432, 454, 1496]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc10_b_4.png",
+                            "xml_path": "./hupu_tc10_b_4.xml",
+                            "action": "input",
+                            "bbox": [32, 657, 688, 744],
+                            "input_value": "WoW"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 11,
+            "testcase_desc": "在“评分”专区查看评分榜中的“网红榜”的第一个人物内容，点亮第一条回复后分享到微信好友。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./hupu_tc11_b_1.png",
+                        "xml_path": "./hupu_tc11_b_1.xml",
+                        "action": "click",
+                        "bbox": [432, 1412, 576, 1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./hupu_tc11_b_2.png",
+                        "xml_path": "./hupu_tc11_b_2.xml",
+                        "action": "click",
+                        "bbox": [428, 754, 552, 820]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./hupu_tc11_b_3.png",
+                        "xml_path": "./hupu_tc11_b_3.xml",
+                        "action": "click",
+                        "bbox": [56, 824, 664, 940]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./hupu_tc11_b_4.png",
+                        "xml_path": "./hupu_tc11_b_4.xml",
+                        "action": "click",
+                        "bbox": [488, 760, 600, 800]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./hupu_tc11_b_5.png",
+                        "xml_path": "./hupu_tc11_b_5.xml",
+                        "action": "click",
+                        "bbox": [644, 1413, 688, 1483]
+                    },
+                    {
+                        "checkpoint_id": 6,
+                        "screenshot_path": "./hupu_tc11_b_6.png",
+                        "xml_path": "./hupu_tc11_b_6.xml",
+                        "action": "click",
+                        "bbox": [16, 1089, 146, 1230]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "AC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc11_b_1.png",
+                            "xml_path": "./hupu_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1412, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc11_b_2.png",
+                            "xml_path": "./hupu_tc11_b_2.xml",
+                            "action": "click",
+                            "bbox": [428, 754, 552, 820]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc11_b_3.png",
+                            "xml_path": "./hupu_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [56, 824, 664, 940]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc11_AC_4.png",
+                            "xml_path": "./hupu_tc11_AC_4.xml",
+                            "action": "click",
+                            "bbox": [644, 1413, 688, 1483]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc11_b_6.png",
+                            "xml_path": "./hupu_tc11_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 1089, 146, 1230]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc11_EO_1.png",
+                            "xml_path": "./hupu_tc11_EO_1.xml",
+                            "action": "click",
+                            "bbox": [360, 989, 605, 1069]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc11_b_1.png",
+                            "xml_path": "./hupu_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1412, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc11_b_2.png",
+                            "xml_path": "./hupu_tc11_b_2.xml",
+                            "action": "click",
+                            "bbox": [428, 754, 552, 820]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc11_b_3.png",
+                            "xml_path": "./hupu_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [56, 824, 664, 940]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc11_b_4.png",
+                            "xml_path": "./hupu_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [488, 760, 600, 800]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc11_b_5.png",
+                            "xml_path": "./hupu_tc11_b_5.xml",
+                            "action": "click",
+                            "bbox": [644, 1413, 688, 1483]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./hupu_tc11_b_6.png",
+                            "xml_path": "./hupu_tc11_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 1089, 146, 1230]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc11_b_1.png",
+                            "xml_path": "./hupu_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1412, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc11_b_2.png",
+                            "xml_path": "./hupu_tc11_b_2.xml",
+                            "action": "click",
+                            "bbox": [428, 754, 552, 820]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc11_b_3.png",
+                            "xml_path": "./hupu_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [56, 824, 664, 940]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc11_EA_4.png",
+                            "xml_path": "./hupu_tc11_EA_4.xml",
+                            "action": "click",
+                            "bbox": [488, 760, 600, 800]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc11_b_5.png",
+                            "xml_path": "./hupu_tc11_b_5.xml",
+                            "action": "click",
+                            "bbox": [644, 1413, 688, 1483]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc11_b_6.png",
+                            "xml_path": "./hupu_tc11_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 1089, 146, 1230]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc11_b_1.png",
+                            "xml_path": "./hupu_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1412, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc11_b_2.png",
+                            "xml_path": "./hupu_tc11_b_2.xml",
+                            "action": "click",
+                            "bbox": [428, 754, 552, 820]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc11_b_3.png",
+                            "xml_path": "./hupu_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [56, 824, 664, 940]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc11_EA-T_4.png",
+                            "xml_path": "./hupu_tc11_EA-T_4.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc11_b_4.png",
+                            "xml_path": "./hupu_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [488, 760, 600, 800]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc11_b_5.png",
+                            "xml_path": "./hupu_tc11_b_5.xml",
+                            "action": "click",
+                            "bbox": [644, 1413, 688, 1483]
+                        },
+                        {
+                            "checkpoint_id": 7,
+                            "screenshot_path": "./hupu_tc11_b_6.png",
+                            "xml_path": "./hupu_tc11_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 1089, 146, 1230]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc11_b_1.png",
+                            "xml_path": "./hupu_tc11_b_1.xml",
+                            "action": "click",
+                            "bbox": [432, 1412, 576, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc11_b_2.png",
+                            "xml_path": "./hupu_tc11_b_2.xml",
+                            "action": "click",
+                            "bbox": [428, 754, 552, 820]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc11_b_3.png",
+                            "xml_path": "./hupu_tc11_b_3.xml",
+                            "action": "click",
+                            "bbox": [56, 824, 664, 940]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc11_b_4.png",
+                            "xml_path": "./hupu_tc11_b_4.xml",
+                            "action": "click",
+                            "bbox": [488, 760, 600, 800]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc11_TC_5.png",
+                            "xml_path": "./hupu_tc11_TC_5.xml",
+                            "action": "click",
+                            "bbox": [644, 1413, 688, 1483]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc11_b_6.png",
+                            "xml_path": "./hupu_tc11_b_6.xml",
+                            "action": "click",
+                            "bbox": [16, 1089, 146, 1230]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 12,
+            "testcase_desc": "在主页推荐页切换到“播客”，进入“节目广场”选择“电竞”分类，订阅第一条内容。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./hupu_tc12_b_1.png",
+                        "xml_path": "./hupu_tc12_b_1.xml",
+                        "action": "click",
+                        "bbox": [114, 136, 214, 224]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./hupu_tc12_b_2.png",
+                        "xml_path": "./hupu_tc12_b_2.xml",
+                        "action": "click",
+                        "bbox": [0, 347, 720, 443]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./hupu_tc12_b_3.png",
+                        "xml_path": "./hupu_tc12_b_3.xml",
+                        "action": "click",
+                        "bbox": [636, 176, 688, 228]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./hupu_tc12_b_4.png",
+                        "xml_path": "./hupu_tc12_b_4.xml",
+                        "action": "click",
+                        "bbox": [216, 404, 328, 456]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./hupu_tc12_b_5.png",
+                        "xml_path": "./hupu_tc12_b_5.xml",
+                        "action": "click",
+                        "bbox": [576, 337, 688, 391]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc12_b_1.png",
+                            "xml_path": "./hupu_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [114, 136, 214, 224]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc12_EA_2.png",
+                            "xml_path": "./hupu_tc12_EA_2.xml",
+                            "action": "click",
+                            "bbox": [0, 347, 720, 443]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc12_b_3.png",
+                            "xml_path": "./hupu_tc12_b_3.xml",
+                            "action": "click",
+                            "bbox": [636, 176, 688, 228]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc12_b_4.png",
+                            "xml_path": "./hupu_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [216, 404, 328, 456]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc12_b_5.png",
+                            "xml_path": "./hupu_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [576, 337, 688, 391]
+                        }
+                    ]
+                },
+                {
+                    "type": "EA-T",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc12_b_1.png",
+                            "xml_path": "./hupu_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [114, 136, 214, 224]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc12_EA-T_2.png",
+                            "xml_path": "./hupu_tc12_EA-T_2.xml",
+                            "action": "wait"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc12_b_2.png",
+                            "xml_path": "./hupu_tc12_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 347, 720, 443]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc12_b_3.png",
+                            "xml_path": "./hupu_tc12_b_3.xml",
+                            "action": "click",
+                            "bbox": [636, 176, 688, 228]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc12_b_4.png",
+                            "xml_path": "./hupu_tc12_b_4.xml",
+                            "action": "click",
+                            "bbox": [216, 404, 328, 456]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc12_b_5.png",
+                            "xml_path": "./hupu_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [576, 337, 688, 391]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc12_b_1.png",
+                            "xml_path": "./hupu_tc12_b_1.xml",
+                            "action": "click",
+                            "bbox": [114, 136, 214, 224]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc12_b_2.png",
+                            "xml_path": "./hupu_tc12_b_2.xml",
+                            "action": "click",
+                            "bbox": [0, 347, 720, 443]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc12_b_3.png",
+                            "xml_path": "./hupu_tc12_b_3.xml",
+                            "action": "click",
+                            "bbox": [636, 176, 688, 228]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc12_TC_4.png",
+                            "xml_path": "./hupu_tc12_TC_4.xml",
+                            "action": "click",
+                            "bbox": [216, 404, 328, 456]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc12_b_5.png",
+                            "xml_path": "./hupu_tc12_b_5.xml",
+                            "action": "click",
+                            "bbox": [576, 337, 688, 391]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 13,
+            "testcase_desc": "在主页推荐页搜索“狂飙”并查看资料，点赞社区中第一条内容。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./hupu_tc13_b_1.png",
+                        "xml_path": "./hupu_tc13_b_1.xml",
+                        "action": "click",
+                        "bbox": [124, 65, 684, 135]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./hupu_tc13_b_2.png",
+                        "xml_path": "./hupu_tc13_b_2.xml",
+                        "action": "input",
+                        "bbox": [178, 103, 648, 141],
+                        "input_value": "狂飙"
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./hupu_tc13_b_3.png",
+                        "xml_path": "./hupu_tc13_b_3.xml",
+                        "action": "click",
+                        "bbox": [0, 774, 720, 1029]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./hupu_tc13_b_4.png",
+                        "xml_path": "./hupu_tc13_b_4.xml",
+                        "action": "click",
+                        "bbox": [480, 520, 720, 608]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./hupu_tc13_b_5.png",
+                        "xml_path": "./hupu_tc13_b_5.xml",
+                        "action": "click",
+                        "bbox": [352, 731, 437, 779]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc13_EO_1.png",
+                            "xml_path": "./hupu_tc13_EO_1.xml",
+                            "action": "click",
+                            "bbox": [360, 989, 605, 1069]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc13_b_1.png",
+                            "xml_path": "./hupu_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [124, 65, 684, 135]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc13_b_2.png",
+                            "xml_path": "./hupu_tc13_b_2.xml",
+                            "action": "input",
+                            "bbox": [178, 103, 648, 141],
+                            "input_value": "狂飙"
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc13_b_3.png",
+                            "xml_path": "./hupu_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 774, 720, 1029]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc13_b_4.png",
+                            "xml_path": "./hupu_tc13_b_4.xml",
+                            "action": "click",
+                            "bbox": [480, 520, 720, 608]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc13_b_5.png",
+                            "xml_path": "./hupu_tc13_b_5.xml",
+                            "action": "click",
+                            "bbox": [352, 731, 437, 779]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc13_b_1.png",
+                            "xml_path": "./hupu_tc13_b_1.xml",
+                            "action": "click",
+                            "bbox": [124, 65, 684, 135]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc13_b_2.png",
+                            "xml_path": "./hupu_tc13_b_2.xml",
+                            "action": "input",
+                            "bbox": [178, 103, 648, 141],
+                            "input_value": "狂飙"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc13_b_3.png",
+                            "xml_path": "./hupu_tc13_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 774, 720, 1029]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc13_TC_4.png",
+                            "xml_path": "./hupu_tc13_TC_4.xml",
+                            "action": "click",
+                            "bbox": [480, 520, 720, 608]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc13_b_5.png",
+                            "xml_path": "./hupu_tc13_b_5.xml",
+                            "action": "click",
+                            "bbox": [352, 731, 437, 779]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 14,
+            "testcase_desc": "从首页推荐页进入“专区”模块，查看关注中第一条帖子，点亮最晚回复的第一条内容。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./hupu_tc14_b_1.png",
+                        "xml_path": "./hupu_tc14_b_1.xml",
+                        "action": "click",
+                        "bbox": [144, 1412, 288, 1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./hupu_tc14_b_2.png",
+                        "xml_path": "./hupu_tc14_b_2.xml",
+                        "action": "click",
+                        "bbox": [360, 64, 472, 152]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./hupu_tc14_b_3.png",
+                        "xml_path": "./hupu_tc14_b_3.xml",
+                        "action": "click",
+                        "bbox": [0, 153, 720, 358]
+                    },
+                    {
+                        "checkpoint_id": 4,
+                        "screenshot_path": "./hupu_tc14_b_4.png",
+                        "xml_path": "./hupu_tc14_b_4.xml",
+                        "action": "click",
+                        "bbox": [502, 206, 594, 250]
+                    },
+                    {
+                        "checkpoint_id": 5,
+                        "screenshot_path": "./hupu_tc14_b_5.png",
+                        "xml_path": "./hupu_tc14_b_5.xml",
+                        "action": "click",
+                        "bbox": [120, 620, 216, 660]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "EA",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc14_b_1.png",
+                            "xml_path": "./hupu_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1412, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc14_b_2.png",
+                            "xml_path": "./hupu_tc14_b_2.xml",
+                            "action": "click",
+                            "bbox": [360, 64, 472, 152]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc14_b_3.png",
+                            "xml_path": "./hupu_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 153, 720, 358]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc14_EA_4.png",
+                            "xml_path": "./hupu_tc14_EA_4.xml",
+                            "action": "click",
+                            "bbox": [502, 206, 594, 250]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc14_b_5.png",
+                            "xml_path": "./hupu_tc14_b_5.xml",
+                            "action": "click",
+                            "bbox": [120, 620, 216, 660]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc14_EO_1.png",
+                            "xml_path": "./hupu_tc14_EO_1.xml",
+                            "action": "click",
+                            "bbox": [360, 989, 605, 1069]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc14_b_1.png",
+                            "xml_path": "./hupu_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1412, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc14_b_2.png",
+                            "xml_path": "./hupu_tc14_b_2.xml",
+                            "action": "click",
+                            "bbox": [360, 64, 472, 152]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc14_b_3.png",
+                            "xml_path": "./hupu_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 153, 720, 358]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc14_b_4.png",
+                            "xml_path": "./hupu_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [502, 206, 594, 250]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc14_b_5.png",
+                            "xml_path": "./hupu_tc14_b_5.xml",
+                            "action": "click",
+                            "bbox": [120, 620, 216, 660]
+                        }
+                    ]
+                },
+                {
+                    "type": "LS",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc14_b_1.png",
+                            "xml_path": "./hupu_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1412, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc14_LS_2.png",
+                            "xml_path": "./hupu_tc14_LS_2.xml",
+                            "action": "click",
+                            "bbox": [360, 64, 472, 152]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc14_b_3.png",
+                            "xml_path": "./hupu_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 153, 720, 358]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc14_b_4.png",
+                            "xml_path": "./hupu_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [502, 206, 594, 250]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc14_b_5.png",
+                            "xml_path": "./hupu_tc14_b_5.xml",
+                            "action": "click",
+                            "bbox": [120, 620, 216, 660]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc14_TC_1.png",
+                            "xml_path": "./hupu_tc14_TC_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1412, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc14_b_2.png",
+                            "xml_path": "./hupu_tc14_b_2.xml",
+                            "action": "click",
+                            "bbox": [360, 64, 472, 152]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc14_b_3.png",
+                            "xml_path": "./hupu_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 153, 720, 358]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc14_b_4.png",
+                            "xml_path": "./hupu_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [502, 206, 594, 250]
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc14_b_5.png",
+                            "xml_path": "./hupu_tc14_b_5.xml",
+                            "action": "click",
+                            "bbox": [120, 620, 216, 660]
+                        }
+                    ]
+                },
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc14_b_1.png",
+                            "xml_path": "./hupu_tc14_b_1.xml",
+                            "action": "click",
+                            "bbox": [144, 1412, 288, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc14_b_2.png",
+                            "xml_path": "./hupu_tc14_b_2.xml",
+                            "action": "click",
+                            "bbox": [360, 64, 472, 152]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc14_b_3.png",
+                            "xml_path": "./hupu_tc14_b_3.xml",
+                            "action": "click",
+                            "bbox": [0, 153, 720, 358]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc14_VE_4.png",
+                            "xml_path": "./hupu_tc14_VE_4.xml",
+                            "action": "scroll",
+                            "bbox": [0, 153, 720, 1416],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 5,
+                            "screenshot_path": "./hupu_tc14_b_4.png",
+                            "xml_path": "./hupu_tc14_b_4.xml",
+                            "action": "click",
+                            "bbox": [502, 206, 594, 250]
+                        },
+                        {
+                            "checkpoint_id": 6,
+                            "screenshot_path": "./hupu_tc14_b_5.png",
+                            "xml_path": "./hupu_tc14_b_5.xml",
+                            "action": "click",
+                            "bbox": [120, 620, 216, 660]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "testcase_id": 15,
+            "testcase_desc": "在我的应用中进入创作者中心，查看数据中心。",
+            "clean": {
+                "trace": [
+                    {
+                        "checkpoint_id": 1,
+                        "screenshot_path": "./hupu_tc15_b_1.png",
+                        "xml_path": "./hupu_tc15_b_1.xml",
+                        "action": "click",
+                        "bbox": [576, 1412, 720, 1512]
+                    },
+                    {
+                        "checkpoint_id": 2,
+                        "screenshot_path": "./hupu_tc15_b_2.png",
+                        "xml_path": "./hupu_tc15_b_2.xml",
+                        "action": "click",
+                        "bbox": [196, 1086, 360, 1223]
+                    },
+                    {
+                        "checkpoint_id": 3,
+                        "screenshot_path": "./hupu_tc15_b_3.png",
+                        "xml_path": "./hupu_tc15_b_3.xml",
+                        "action": "click",
+                        "bbox": [60, 762, 154, 864]
+                    }
+                ]
+            },
+            "noise": [
+                {
+                    "type": "VE",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc15_b_1.png",
+                            "xml_path": "./hupu_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1412, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc15_VE_2.png",
+                            "xml_path": "./hupu_tc15_VE_2.xml",
+                            "action": "scroll",
+                            "bbox": [0, 0, 720, 1600],
+                            "input_value": "up"
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc15_b_2.png",
+                            "xml_path": "./hupu_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [196, 1086, 360, 1223]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc15_b_3.png",
+                            "xml_path": "./hupu_tc15_b_3.xml",
+                            "action": "click",
+                            "bbox": [60, 762, 154, 864]
+                        }
+                    ]
+                },
+                {
+                    "type": "EO",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc15_EO_1.png",
+                            "xml_path": "./hupu_tc15_EO_1.xml",
+                            "action": "click",
+                            "bbox": [360, 989, 605, 1069]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc15_b_1.png",
+                            "xml_path": "./hupu_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1412, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc15_b_2.png",
+                            "xml_path": "./hupu_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [196, 1086, 360, 1223]
+                        },
+                        {
+                            "checkpoint_id": 4,
+                            "screenshot_path": "./hupu_tc15_b_3.png",
+                            "xml_path": "./hupu_tc15_b_3.xml",
+                            "action": "click",
+                            "bbox": [60, 762, 154, 864]
+                        }
+                    ]
+                },
+                {
+                    "type": "TC",
+                    "trace": [
+                        {
+                            "checkpoint_id": 1,
+                            "screenshot_path": "./hupu_tc15_b_1.png",
+                            "xml_path": "./hupu_tc15_b_1.xml",
+                            "action": "click",
+                            "bbox": [576, 1412, 720, 1512]
+                        },
+                        {
+                            "checkpoint_id": 2,
+                            "screenshot_path": "./hupu_tc15_b_2.png",
+                            "xml_path": "./hupu_tc15_b_2.xml",
+                            "action": "click",
+                            "bbox": [196, 1086, 360, 1223]
+                        },
+                        {
+                            "checkpoint_id": 3,
+                            "screenshot_path": "./hupu_tc15_TC_3.png",
+                            "xml_path": "./hupu_tc15_TC_3.xml",
+                            "action": "click",
+                            "bbox": [60, 762, 154, 864]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
