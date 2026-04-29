@@ -5,6 +5,13 @@
 
 用法:
 python task_executor_offline.py --dataset 数据集.json --output 结果.json
+
+GT动作格式:
+- click: {"action": "click", "bbox": [x1,y1,x2,y2]}
+- scroll: {"action": "scroll", "bbox": [x1,y1,x2,y2], "input_value": "up/down/left/right"}
+- input: {"action": "input", "bbox": [x1,y1,x2,y2], "input_value": "content"}
+- wait: {"action": "wait"}
+- finish: {"action": "finish"}
 """
 
 import argparse
@@ -170,6 +177,8 @@ def process_trace(trace: list, task_desc: str, mllm, configs: dict, dataset_dir:
             }
 
             debug_resp = requests.post(configs["OPENAI_API_BASE"], headers=debug_headers, json=debug_payload)
+            print(f"[DEBUG] HTTP Status: {debug_resp.status_code}")
+            # print(f"[DEBUG] Response text: {debug_resp.text}")
             debug_json = debug_resp.json()
 
             print_with_color(f"    [DEBUG] HTTP Status: {debug_resp.status_code}", "yellow")
@@ -233,8 +242,10 @@ def process_trace(trace: list, task_desc: str, mllm, configs: dict, dataset_dir:
                 "bbox": None
             }
 
-            # 获取bbox
+            # 根据动作类型获取bbox和input_value
             if act_name == "tap" or act_name == "long_press":
+                # tap(element) 或 long_press(element)
+                # res: [act_name, element, summary]
                 if len(res) > 1:
                     area = res[1]
                     if area <= len(elem_list):
@@ -242,15 +253,36 @@ def process_trace(trace: list, task_desc: str, mllm, configs: dict, dataset_dir:
                         prediction["bbox"] = [tl[0], tl[1], br[0], br[1]]
 
             elif act_name == "swipe":
+                # swipe(element, direction, dist)
+                # res: [act_name, element, direction, dist, summary]
                 if len(res) > 1:
                     area = res[1]
                     if area <= len(elem_list):
                         tl, br = elem_list[area - 1].bbox
                         prediction["bbox"] = [tl[0], tl[1], br[0], br[1]]
+                # 提取滑动方向
+                if len(res) > 2:
+                    direction = res[2]
+                    if direction in ["up", "down", "left", "right"]:
+                        prediction["input_value"] = direction
 
-            # 如果是input，记录文本
-            if act_name == "text" and len(res) > 1:
-                prediction["input_value"] = res[1]
+            elif act_name == "text":
+                # text(text_input)
+                # res: [act_name, text_input, summary]
+                # 输入动作：bbox设为null，input_value为文本内容
+                prediction["bbox"] = None
+                if len(res) > 1:
+                    prediction["input_value"] = res[1]
+
+            elif act_name == "FINISH":
+                # 任务完成
+                prediction["action"] = "finish"
+                prediction["bbox"] = None
+
+            elif act_name == "grid":
+                # grid模式，映射为wait
+                prediction["action"] = "wait"
+                prediction["bbox"] = None
 
             predictions.append(prediction)
 
@@ -258,7 +290,17 @@ def process_trace(trace: list, task_desc: str, mllm, configs: dict, dataset_dir:
             if len(res) > 2:
                 last_act = res[-1]
 
-            print_with_color(f"    Pred: {action_mapped}", "magenta")
+            # 打印预测结果
+            if action_mapped == "scroll":
+                dir_str = f' "{prediction.get("input_value", "")}"' if prediction.get("input_value") else ""
+                print_with_color(f"    Pred: {action_mapped}{dir_str}", "magenta")
+            elif action_mapped == "input":
+                text_str = f' "{prediction.get("input_value", "")[:20]}..."' if prediction.get("input_value") else ""
+                print_with_color(f"    Pred: {action_mapped}{text_str}", "magenta")
+            elif prediction.get("bbox"):
+                print_with_color(f"    Pred: {action_mapped} {prediction['bbox']}", "magenta")
+            else:
+                print_with_color(f"    Pred: {action_mapped}", "magenta")
 
             # 清理临时文件
             if os.path.exists(labeled_path):
@@ -358,6 +400,8 @@ def main():
 
     # ===== 核心修改7：处理每个testcase =====
     for testcase in testcases:
+        # if testcase["testcase_id"] <= 10 :
+        #     continue
         testcase_id = testcase["testcase_id"]
         task_desc = testcase["testcase_desc"]
 
